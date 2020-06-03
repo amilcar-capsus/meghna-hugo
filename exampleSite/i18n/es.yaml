@@ -28,3 +28,5 @@
   translation: Blog
 - id: contact
   translation: Contacto
+- id: specialties
+  translation: Especialidades
