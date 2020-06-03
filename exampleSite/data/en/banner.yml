@@ -4,9 +4,9 @@ banner:
   bg_image_webp: images/backgrounds/hero-area.webp
   bg_image: images/backgrounds/hero-area.jpg
   icon: ''
-  title: Experience the new reality
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
-    At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
+  title: ACCIONES SUSTENTABLES PARA UN MEJOR FUTURO
+  content: TRANSFORMAMOS IDEAS, POLÍTICAS Y PROYECTOS EN BENEFICIOS SOCIALES, AMBIENTALES
+    Y ECONÓMICOS
   button:
     enable: true
     label: Test
