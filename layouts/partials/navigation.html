@@ -22,7 +22,7 @@
 					{{ end }}
 
 					{{ else }}
-					{{ $jobs := 'jobs' }}
+					{{ $jobs := "jobs" }}
 					{{ range .Site.Menus.main }}
 					{{ if eq .Name $jobs }}
 					<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}{{ .URL }}">{{ i18n .Name }}</a>
