@@ -76,7 +76,7 @@ weight = 4
 #    URL = "specialties/specialty4"
 #    name = "specialty4"
 [[menu.main]]
-URL = "./jobs"
+URL = "/jobs"
 name = "jobs"
 weight = 5
 [[menu.static]]
