@@ -30,3 +30,11 @@
   translation: Contacto
 - id: specialties
   translation: Especialidades
+- id: specialty1
+  translation: Especialidad 1
+- id: specialty2
+  translation: Especialidad 2
+- id: specialty3
+  translation: Especialidad 3
+- id: specialty4
+  translation: Especialidad 4
