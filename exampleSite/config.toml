@@ -1,4 +1,4 @@
-baseURL = "https://capsus-test.netlify.app"
+baseURL = "https://capsus-test.netlify.com"
 disableLanguages = []
 disqusShortname = ""
 paginate = "6"
