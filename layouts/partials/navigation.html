@@ -24,20 +24,6 @@
 					{{ else }}
 
 					{{ range .Site.Menus.main }}
-					{{ if .HasChildren }}
-					<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="{{.URL}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-						aria-expanded="false">
-						{{ .Pre }}
-						<span>{{ .Name }}</span>
-							</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						{{ range .Children }}
-						<a class="dropdown-item" href="{{.URL}}">{{.Name}}</a>
-						{{ end }}
-					</div>
-					</li>
-					{{else}}
 					<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ i18n .Name }}</a>
 					</li>
 					{{ end }}
