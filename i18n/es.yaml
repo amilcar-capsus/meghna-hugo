@@ -1,0 +1,40 @@
+- id: blogTitle
+  translation: Última publicación
+- id: readMore
+  translation: Leer más...
+- id: viewAllPost
+  translation: Ver todas las publicaciones
+- id: share
+  translation: Compartir
+- id: aboutAuthor
+  translation: Sobre el autór
+- id: authorsPosts
+  translation: Publicaciones del autór
+- id: submit
+  translation: Enviar
+- id: all
+  translation: Todos
+- id: about
+  translation: Quienes somos
+- id: services
+  translation: Nuestro trabajo
+- id: portfolio
+  translation: Portafolio
+- id: team
+  translation: Nuestro equipo
+- id: pricing
+  translation: Precios
+- id: blog
+  translation: Blog
+- id: contact
+  translation: Contacto
+- id: specialties
+  translation: Especialidades
+- id: specialty1
+  translation: Especialidad 1
+- id: specialty2
+  translation: Especialidad 2
+- id: specialty3
+  translation: Especialidad 3
+- id: specialty4
+  translation: Especialidad 4
