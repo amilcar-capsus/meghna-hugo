@@ -12,19 +12,19 @@ home = "Home"
 languageCode = "en-us"
 languageName = "English"
 weight = 1
-[Languages.fr]
-contentDir = "content/french"
-copyright = "copyright et copie; 2019 [gethugothemes] (https://gethugothemes.com) tous droits réservés"
-home = "Accueil"
-languageCode = "fr-fr"
-languageName = "Fr"
-weight = 2
 [Languages.es]
 contentDir = "content/spanish"
 copyright = "copyright &copy; 2019 [gethugothemes] (https://gethugothemes.com) todos los derechos reservados"
 home = "Principal"
 languageCode = "es-es"
 languageName = "Español"
+weight = "1"
+[Languages.fr]
+contentDir = "content/french"
+copyright = "copyright et copie; 2019 [gethugothemes] (https://gethugothemes.com) tous droits réservés"
+home = "Accueil"
+languageCode = "fr-fr"
+languageName = "Fr"
 weight = 2
 [[menu.main]]
 URL = "about"
