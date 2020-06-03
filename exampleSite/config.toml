@@ -7,7 +7,7 @@ theme = "meghna-hugo"
 title = "CAPSUS - Capital Sustentable"
 [Languages.es]
 contentDir = "content/spanish"
-copyright = "copyright &copy; 2019 [gethugothemes] (https://gethugothemes.com) todos los derechos reservados"
+copyright = "copyright &copy; 2019 [gethugothemes](https://gethugothemes.com) todos los derechos reservados"
 home = "Principal"
 languageCode = "es-es"
 languageName = "Español"
@@ -21,11 +21,11 @@ languageName = "English"
 weight = "2"
 [Languages.fr]
 contentDir = "content/french"
-copyright = "copyright et copie; 2019 [gethugothemes] (https://gethugothemes.com) tous droits réservés"
+copyright = "copyright et copie; 2019 [gethugothemes](https://gethugothemes.com) tous droits réservés"
 home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
-weight = 2
+weight = "2"
 [[menu.main]]
 URL = "about"
 name = "about"
@@ -34,22 +34,22 @@ weight = 1
 URL = "services"
 name = "services"
 weight = 2
-[[menu.main]]
-URL = "portfolio"
-name = "portfolio"
-weight = 3
+# [menu.main]]
+# URL = "portfolio"
+# name = "portfolio"
+# weight = 3
 [[menu.main]]
 URL = "team"
 name = "team"
 weight = 4
-[[menu.main]]
-URL = "pricing"
-name = "pricing"
-weight = 5
-[[menu.main]]
-URL = "blog"
-name = "blog"
-weight = 6
+# [[menu.main]]
+# URL = "pricing"
+# name = "pricing"
+# weight = 5
+# [[menu.main]]
+# URL = "blog"
+# name = "blog"
+# weight = 6
 [[menu.main]]
 URL = "contact"
 name = "contact"
