@@ -28,6 +28,8 @@
   translation: Blog
 - id: contact
   translation: Contacto
+- id: jobs
+  translation: Únete
 - id: specialties
   translation: Especialidades
 - id: specialty1
