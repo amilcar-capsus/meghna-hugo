@@ -5,6 +5,7 @@ paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
 title = "CAPSUS - Capital Sustentable"
+DefaultContentLanguage = "es"
 [Languages.es]
 contentDir = "content/spanish"
 copyright = "copyright &copy; 2019 [gethugothemes](https://gethugothemes.com) todos los derechos reservados"
@@ -56,6 +57,7 @@ name = "contact"
 weight = 7
 [[menu.main]]
 name = "specialties"
+weight = 8
 hasChildren = true
     [[menu.main]]
     parent = "specialties"
@@ -73,7 +75,6 @@ hasChildren = true
     parent = "specialties"
     URL = "specialties/specialty4"
     name = "specialty4"
-weight = 8
 [[menu.static]]
 URL = "https://themefisher.com/"
 name = "Themefisher"
