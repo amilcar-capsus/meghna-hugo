@@ -11,7 +11,7 @@ copyright = "copyright &copy; 2019 [gethugothemes](https://gethugothemes.com) al
 home = "Home"
 languageCode = "en-us"
 languageName = "English"
-weight = 1
+weight = "2"
 [Languages.es]
 contentDir = "content/spanish"
 copyright = "copyright &copy; 2019 [gethugothemes] (https://gethugothemes.com) todos los derechos reservados"
