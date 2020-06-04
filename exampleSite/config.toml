@@ -28,8 +28,8 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = "2"
 [[menu.main]]
-URL = "about"
-name = "about"
+URL = "who"
+name = "who"
 weight = 1
 [[menu.main]]
 name = "specialties"
@@ -52,16 +52,16 @@ hasChildren = true
     URL = "specialties/specialty4"
     name = "specialty4"
 [[menu.main]]
-URL = "services"
-name = "services"
+URL = "about"
+name = "about"
 weight = 3
 # [menu.main]]
 # URL = "portfolio"
 # name = "portfolio"
 # weight = 3
 [[menu.main]]
-URL = "team"
-name = "team"
+URL = "portfolio"
+name = "portfolio"
 weight = 4
 # [[menu.main]]
 # URL = "pricing"

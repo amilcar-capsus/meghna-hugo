@@ -15,11 +15,13 @@
 - id: all
   translation: Todos
 - id: about
+  translation: Nuestro trabajo
+- id: who
   translation: Quienes somos
 - id: services
   translation: Nuestro trabajo
 - id: portfolio
-  translation: Portafolio
+  translation: Nuestro equipo
 - id: team
   translation: Nuestro equipo
 - id: pricing

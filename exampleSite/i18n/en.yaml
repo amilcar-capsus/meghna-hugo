@@ -15,11 +15,13 @@
 - id: all
   translation: All
 - id: about
+  translation: Our services
+- id: who
   translation: About Us
 - id: services
   translation: Service
 - id: portfolio
-  translation: Portfolio
+  translation: Our team
 - id: team
   translation: Team
 - id: pricing
