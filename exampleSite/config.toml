@@ -55,31 +55,31 @@ weight = 3
 URL = "contact"
 name = "contact"
 weight = 4
-#[[menu.main]]
-#name = "specialties"
-#weight = 8
-#hasChildren = true
-#    [[menu.main]]
-#    parent = "specialties"
-#    URL = "specialties/specialty1"
-#    name = "specialty1"
-#    [[menu.main]]
-#    parent = "specialties"
-#    URL = "specialties/specialty2"
-#    name = "specialty2"
-#    [[menu.main]]
-#    parent = "specialties"
-#    URL = "specialties/specialty3"
-#    name = "specialty3"
-#    [[menu.main]]
-#    parent = "specialties"
-#    URL = "specialties/specialty4"
-#    name = "specialty4"
 [[menu.main]]
 identifier = "jobs"
 URL = "/jobs/"
 name = "jobs"
 weight = 5
+[[menu.main]]
+name = "specialties"
+weight = 6
+hasChildren = true
+    [[menu.main]]
+    parent = "specialties"
+    URL = "specialties/specialty1"
+    name = "specialty1"
+    [[menu.main]]
+    parent = "specialties"
+    URL = "specialties/specialty2"
+    name = "specialty2"
+    [[menu.main]]
+    parent = "specialties"
+    URL = "specialties/specialty3"
+    name = "specialty3"
+    [[menu.main]]
+    parent = "specialties"
+    URL = "specialties/specialty4"
+    name = "specialty4"
 [[menu.static]]
 URL = "https://themefisher.com/"
 name = "Themefisher"
