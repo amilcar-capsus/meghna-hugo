@@ -32,37 +32,8 @@ URL = "about"
 name = "about"
 weight = 1
 [[menu.main]]
-URL = "services"
-name = "services"
-weight = 2
-# [menu.main]]
-# URL = "portfolio"
-# name = "portfolio"
-# weight = 3
-[[menu.main]]
-URL = "team"
-name = "team"
-weight = 3
-# [[menu.main]]
-# URL = "pricing"
-# name = "pricing"
-# weight = 5
-# [[menu.main]]
-# URL = "blog"
-# name = "blog"
-# weight = 6
-[[menu.main]]
-URL = "contact"
-name = "contact"
-weight = 4
-[[menu.main]]
-identifier = "jobs"
-URL = "jobs"
-name = "jobs"
-weight = 5
-[[menu.main]]
 name = "specialties"
-weight = 6
+weight = 2
 hasChildren = true
     [[menu.main]]
     parent = "specialties"
@@ -80,6 +51,35 @@ hasChildren = true
     parent = "specialties"
     URL = "specialties/specialty4"
     name = "specialty4"
+[[menu.main]]
+URL = "services"
+name = "services"
+weight = 3
+# [menu.main]]
+# URL = "portfolio"
+# name = "portfolio"
+# weight = 3
+[[menu.main]]
+URL = "team"
+name = "team"
+weight = 4
+# [[menu.main]]
+# URL = "pricing"
+# name = "pricing"
+# weight = 5
+# [[menu.main]]
+# URL = "blog"
+# name = "blog"
+# weight = 6
+[[menu.main]]
+URL = "contact"
+name = "contact"
+weight = 5
+[[menu.main]]
+identifier = "jobs"
+URL = "jobs"
+name = "jobs"
+weight = 6
 [[menu.static]]
 URL = "https://themefisher.com/"
 name = "Themefisher"

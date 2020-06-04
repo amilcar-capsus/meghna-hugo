@@ -15,7 +15,7 @@
 			{{ $jobs := "jobs" }}
 			<div class="collapse navbar-collapse" id="navigation">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#body">{{ .Site.Params.home }}</a></li>
+					<li class="nav-item home-link"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#body"><i class="ti-home"></i></a></li>
 					{{ if .IsHome }}
 					{{ range .Site.Menus.main }}
 					{{ if not (eq .Name $jobs) }}
