@@ -24,8 +24,8 @@
 					{{ else }}
 					{{ $jobs := "jobs" }}
 					{{ range .Site.Menus.main }}
-					{{ .Identifier }}
-					{{ if eq .Identifier $jobs }}
+					{{ .Name }}
+					{{ if contains .Identifier $jobs }}
 					<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}{{ .URL }}">{{ i18n .Name }}</a>
 					</li>
 					{{ else }}
