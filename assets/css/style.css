@@ -434,6 +434,20 @@ a:hover {
   background-attachment: fixed;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+}
+
+.dropdown:focus .dropdown-menu {
+  display: block;
+}
+
 .hero-area {
   background-size: cover;
   height: 100vh;
