@@ -34,6 +34,7 @@ weight = 1
 [[menu.main]]
 name = "specialties"
 weight = 2
+URL = "specialties"
 hasChildren = true
     [[menu.main]]
     parent = "specialties"
