@@ -57,7 +57,7 @@ name = "contact"
 weight = 4
 [[menu.main]]
 identifier = "jobs"
-URL = "/jobs/"
+URL = "jobs"
 name = "jobs"
 weight = 5
 [[menu.main]]
