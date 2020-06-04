@@ -1,76 +1,164 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Our Works
+  title : Our Team
   portfolio_item :
     # portfolio item loop
-    - name : Tag Design
+    - name : Guillermo Velasco
       image : images/portfolio/portfolio-1.jpg
       image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
+      categories : ["partners"]
+      content : Public Policy, Sustainable Development
+      link : "#"
       
     # portfolio item loop
-    - name : Sound system
+    - name : Ricardo Ochoa
       image : images/portfolio/portfolio-2.jpg
       image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : ""
+      categories : ["partners"]
+      content : Energy, Housing and urban planning
+      link : "#"
       
     # portfolio item loop
-    - name : Clock Product
+    - name : Daniela Evia
       image : images/portfolio/portfolio-3.jpg
       image_webp : images/portfolio/portfolio-3.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : ["coordinators"]
+      content : Education and social processes
       link : "#"
       
     # portfolio item loop
-    - name : Bottol Label
+    - name : Leticia Galindo
       image : images/portfolio/portfolio-4.jpg
       image_webp : images/portfolio/portfolio-4.webp
-      categories : ["photography", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : ["coordinators"]
+      content : Administration
       link : "#"
       
     # portfolio item loop
-    - name : Shopping Bag
+    - name : Carmen Valdez
       image : images/portfolio/portfolio-5.jpg
       image_webp : images/portfolio/portfolio-5.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : ["coordinators"]
+      content : Urban Development and bioclimatic design
       link : "#"
       
     # portfolio item loop
-    - name : Tag Design
+    - name : Tania Guerrero
       image : images/portfolio/portfolio-6.jpg
       image_webp : images/portfolio/portfolio-6.webp
-      categories : ["photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : ["coordinators"]
+      content : Urban Development and Housing
       link : "#"
       
     # portfolio item loop
-    - name : Business Card
+    - name : Amílcar González
       image : images/portfolio/portfolio-7.jpg
       image_webp : images/portfolio/portfolio-7.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : ["consultants"]
+      content : Software Development
       link : "#"
       
     # portfolio item loop
-    - name : Stationary Design
+    - name : Antares Velázquez
       image : images/portfolio/portfolio-8.jpg
       image_webp : images/portfolio/portfolio-8.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : ["consultants"]
+      content : Information and effective communication designer
       link : "#"
       
     # portfolio item loop
-    - name : Tag Design
+    - name : Dante Zayas
       image : images/portfolio/portfolio-2.jpg
       image_webp : images/portfolio/portfolio-2.webp
-      categories : ["design", "photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : ["consultants"]
+      content : Sustainable Development
+      link : "#"
+
+    # portfolio item loop
+    - name : José Díaz
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["consultants"]
+      content : Sustainable Development
+      link : "#"
+
+    # portfolio item loop
+    - name : Judá García
+      image : images/portfolio/portfolio-7.jpg
+      image_webp : images/portfolio/portfolio-7.webp
+      categories : ["consultants"]
+      content : Urban Planning and Geographical Information Systems
+      link : "#"
+      
+    # portfolio item loop
+    - name : Luis Alfredo García
+      image : images/portfolio/portfolio-8.jpg
+      image_webp : images/portfolio/portfolio-8.webp
+      categories : ["consultants"]
+      content : Software Development
+      link : "#"
+      
+    # portfolio item loop
+    - name : María Blanco
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["consultants"]
+      content : Sustainable Development
+      link : "#"
+
+    # portfolio item loop
+    - name : Ricardo García
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["consultants"]
+      content : Sustainable Development
+      link : "#"
+
+    # portfolio item loop
+    - name : Sebastián Reyes
+      image : images/portfolio/portfolio-8.jpg
+      image_webp : images/portfolio/portfolio-8.webp
+      categories : ["consultants"]
+      content : Sustainable Development
+      link : "#"
+      
+    # portfolio item loop
+    - name : Socorro Román
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["consultants"]
+      content : Urban Planning and Geographical Information Systems
+      link : "#"
+
+    # portfolio item loop
+    - name : Gerardo Escalona
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["consultants"]
+      content : Analyst and socio-environmental psychologist
+      link : "#"
+
+    # portfolio item loop
+    - name : Raúl Saucedo
+      image : images/portfolio/portfolio-8.jpg
+      image_webp : images/portfolio/portfolio-8.webp
+      categories : ["associates"]
+      content : International Relations and Sustainability
+      link : "#"
+      
+    # portfolio item loop
+    - name : Juan Manuel Gómez
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["associates"]
+      content : Mathematics and Software Development
+      link : "#"
+
+    # portfolio item loop
+    - name : Tommaso Bassetti
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["consultants"]
+      content : Urban Environmental Planning
       link : "#"
