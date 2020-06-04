@@ -442,6 +442,8 @@ a:hover {
 .dropdown-menu {
   display: none;
   position: absolute;
+  background-color: #1d2024;
+  color: #737f8a;
 }
 
 .dropdown:hover .dropdown-menu {
