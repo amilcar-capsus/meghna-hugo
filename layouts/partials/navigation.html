@@ -21,7 +21,7 @@
 					{{ if not (eq .Name $jobs) }}
 					<li class="nav-item"><a class="nav-link" href="#{{ .URL }}">{{ i18n .Name }}</a></li>
 					{{ else }}
-					<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}{{ .URL }}">{{ i18n .Name }}</a>
+					<li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ i18n .Name }}</a>
 					</li>
 					{{ end }}
 					{{ end }}
