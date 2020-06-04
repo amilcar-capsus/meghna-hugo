@@ -444,7 +444,7 @@ a:hover {
   position: absolute;
 }
 
-.dropdown:focus .dropdown-menu {
+.dropdown:hover .dropdown-menu {
   display: block;
 }
 
