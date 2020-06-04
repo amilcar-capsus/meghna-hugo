@@ -14,6 +14,14 @@
   translation: Submit
 - id: all
   translation: All
+- id: partners
+  translation: Partners
+- id: coordinators
+  translation: Coordinators
+- id: consultants
+  translation: Consultants
+- id: associates
+  translation: Associates
 - id: about
   translation: Our services
 - id: who

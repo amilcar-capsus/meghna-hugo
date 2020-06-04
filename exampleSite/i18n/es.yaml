@@ -14,6 +14,14 @@
   translation: Enviar
 - id: all
   translation: Todos
+- id: partners
+  translation: Socios
+- id: coordinators
+  translation: Coordinadores
+- id: consultants
+  translation: Consultores
+- id: associates
+  translation: Asociados
 - id: about
   translation: Nuestro trabajo
 - id: who
