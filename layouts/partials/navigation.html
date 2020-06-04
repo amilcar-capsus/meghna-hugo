@@ -25,13 +25,7 @@
 					{{ $jobs := "jobs" }}
 					{{ range .Site.Menus.main }}
 					<li class="nav-item"><a class="nav-link" href="">{{ .Identifier }}</a></li>
-					<!--{{ if contains .Identifier $jobs }}
-					<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}{{ .URL }}">{{ i18n .Name }}</a>
-					</li>
-					{{ else }}
-					<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ i18n .Name }}</a>
-					</li>
-					{{ end }}-->
+					
 					{{ end }}
 					{{ end }}
 					
