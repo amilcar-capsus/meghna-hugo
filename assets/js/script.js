@@ -150,15 +150,15 @@ jQuery(function ($) {
 	$('#modalTeam').on('show.bs.modal', function (event) {
 		var button = $(event.relatedTarget) // Button that triggered the modal
 		var name = button.data('name') // Extract info from data-* attributes
-		console.log('name')
-		console.log(decodeURIComponent(name))
 		var picture = button.data('image') // Extract info from data-* attributes
 		var profile = button.data('profile') // Extract info from data-* attributes
+		console.log(profile)
+		console.log(decodeURIComponent(profile))
 		// If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
 		// Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
 		var modal = $(this)
-		modal.find('.modal-title').text(decodeURIComponent(name))
+		modal.find('.modal-title').text()
 		modal.find('.modal-body #member-picture').attr('alt',name).attr('src', picture)
-		modal.find('.modal-body #member-profile').text(profile)
+		modal.find('.modal-body #member-profile').text(decodeURIComponent(profile))
 	  })
 });
