@@ -52,7 +52,7 @@
 					<div class="mask">
 						<ul class="list-inline">
 							<button class="btn btn-transparent page-scroll" data-toggle="modal" data-target="#modalTeam" data-effect="mfp-with-zoom" data-name="{{ .name }}"
-							data-imagewebp="{{ .image_webp }}" data-profile="{{ .member_profile }}">{{ $profile }}</button>
+							data-image="{{ .image | absURL }}" data-imagewebp="{{ .image_webp | absURL }}" data-profile="{{ .member_profile }}">{{ $profile }}</button>
 						</ul>
 					</div>
 				</div>
@@ -80,7 +80,7 @@
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-lg-3">
-								<img src="" alt="" id="member-picture">
+								<img src="" alt="" id="member-picture" data-src="" onerror="" class="img-fluid">
 							</div>
 							<div class="col-lg-9" id="member-profile">
 
