@@ -12,15 +12,15 @@ portfolio:
       content : Public Policy, Sustainable Development
       link : "#"
       member_profile: Engineer in Physics with a master’s degree in
-Public Policy from Harvard University's school of government. Guillermo
-has more than 20 years of experience in the environmental and urban
-sectors. As a public official he was Chief of Staff in the Mexican Senate,
-Federal and Local Congressman for the State of Mexico, as well as
-Minister of the Environment for the Government of the State of Mexico. He
-later served for six years as Program Coordinator of the Sustainable Cities
-Program at the Nobel Laurate Mario Molina Center for Strategic Studies on
-Energy and Environment. He is currently the founding partner of CAPSUS
-S.C., an international sustainability consulting firm.
+                      Public Policy from Harvard University's school of government. Guillermo
+                      has more than 20 years of experience in the environmental and urban
+                      sectors. As a public official he was Chief of Staff in the Mexican Senate,
+                      Federal and Local Congressman for the State of Mexico, as well as
+                      Minister of the Environment for the Government of the State of Mexico. He
+                      later served for six years as Program Coordinator of the Sustainable Cities
+                      Program at the Nobel Laurate Mario Molina Center for Strategic Studies on
+                      Energy and Environment. He is currently the founding partner of CAPSUS
+                      S.C., an international sustainability consulting firm.
       
     # portfolio item loop
     - name : Ricardo Ochoa
@@ -30,10 +30,10 @@ S.C., an international sustainability consulting firm.
       content : Energy, Housing and urban planning
       link : "#"
       member_profile: Mechanical Engineer with a Master of Science in
-Renewable Energy and PhD candidate in energy in bioclimatic design of
-buildings. Ricardo has experience in the area of energy simulation in
-buildings and has specialized in strategies of energy efficiency, adaptation
-and mitigation to climate change in the built environment and city planning.
+                      Renewable Energy and PhD candidate in energy in bioclimatic design of
+                      buildings. Ricardo has experience in the area of energy simulation in
+                      buildings and has specialized in strategies of energy efficiency, adaptation
+                      and mitigation to climate change in the built environment and city planning.
       
     # portfolio item loop
     - name : Daniela Evia
@@ -43,12 +43,12 @@ and mitigation to climate change in the built environment and city planning.
       content : Education and social processes
       link : "#"
       member_profile: Historian and Teacher in Educational Innovation. She
-has experience as a university professor and as an academic coordinator
-at the Yucatan School of Arts and the National Center for the Arts. Daniela
-has worked on the design and development of programs and educational
-materials on climate change, as well as in the drafting and editing of
-scientific dissemination documents. She has vast experience in the design
-and coordination of workshops and training courses around the world.
+                      has experience as a university professor and as an academic coordinator
+                      at the Yucatan School of Arts and the National Center for the Arts. Daniela
+                      has worked on the design and development of programs and educational
+                      materials on climate change, as well as in the drafting and editing of
+                      scientific dissemination documents. She has vast experience in the design
+                      and coordination of workshops and training courses around the world.
 
     # portfolio item loop
     - name : Carmen Valdez
@@ -58,12 +58,12 @@ and coordination of workshops and training courses around the world.
       content : Urban Development and bioclimatic design
       link : "#"
       member_profile: Historian and Teacher in Educational Innovation. She
-has experience as a university professor and as an academic coordinator
-at the Yucatan School of Arts and the National Center for the Arts. Daniela
-has worked on the design and development of programs and educational
-materials on climate change, as well as in the drafting and editing of
-scientific dissemination documents. She has vast experience in the design
-and coordination of workshops and training courses around the world.
+                      has experience as a university professor and as an academic coordinator
+                      at the Yucatan School of Arts and the National Center for the Arts. Daniela
+                      has worked on the design and development of programs and educational
+                      materials on climate change, as well as in the drafting and editing of
+                      scientific dissemination documents. She has vast experience in the design
+                      and coordination of workshops and training courses around the world.
 
     # portfolio item loop
     - name : Leticia Galindo
@@ -73,8 +73,8 @@ and coordination of workshops and training courses around the world.
       content : Administration
       link : "#"
       member_profile: She has more than 20 years of experience in the private
-sector focused on administrative, finance, human resources and fiscal
-compliance.
+                      sector focused on administrative, finance, human resources and fiscal
+                      compliance.
       
     # portfolio item loop
     - name : Tania Guerrero
@@ -84,10 +84,10 @@ compliance.
       content : Urban Development and Housing
       link : "#"
       member_profile: Architect with a master's degree in Science in
-Architecture, Urbanism and Construction from Delft University of
-Technology, and a PhD candidate in Human Geography from
-University College London. Tania has worked as an architect and urban
-planner in Mexico and the Netherlands.
+                      Architecture, Urbanism and Construction from Delft University of
+                      Technology, and a PhD candidate in Human Geography from
+                      University College London. Tania has worked as an architect and urban
+                      planner in Mexico and the Netherlands.
       
     # portfolio item loop
     - name : Amílcar González
@@ -97,11 +97,11 @@ planner in Mexico and the Netherlands.
       content : Software Development
       link : "#"
       member_profile: Engineer in computer systems. He has worked
-in the public sector to adapt web accessibility tools to Mexico City ́s
-portals. He has experience in web development using JavaScript/jQuery,
-CSS, Java and angular framework management. He has used the
-Bootstrap and Primefaces (Angular version) libraries to develop user
-interfaces.
+                      in the public sector to adapt web accessibility tools to Mexico City ́s
+                      portals. He has experience in web development using JavaScript/jQuery,
+                      CSS, Java and angular framework management. He has used the
+                      Bootstrap and Primefaces (Angular version) libraries to develop user
+                      interfaces.
       
     # portfolio item loop
     - name : Antares Velázquez
@@ -111,15 +111,15 @@ interfaces.
       content : Information and effective communication designer
       link : "#"
       member_profile: Information and Graphic Designer from the
-Universidad Autónoma Metropolitana at Azcapotzalco. She has
-experience in the information and graphic communication design to
-conceptualize technical messages in specialized graphics. She has
-worked in the health sector developing communication and education
-campaigns. Her training focuses on the world of communication, strategic
-planning and visual arts. Prior to CAPSUS she worked in Llorente y
-Cuenca with various brands on aspects related to reputation and public
-relations. In addition, she has worked in editorial design, digital design,
-animation, corporate identity, among others.
+                      Universidad Autónoma Metropolitana at Azcapotzalco. She has
+                      experience in the information and graphic communication design to
+                      conceptualize technical messages in specialized graphics. She has
+                      worked in the health sector developing communication and education
+                      campaigns. Her training focuses on the world of communication, strategic
+                      planning and visual arts. Prior to CAPSUS she worked in Llorente y
+                      Cuenca with various brands on aspects related to reputation and public
+                      relations. In addition, she has worked in editorial design, digital design,
+                      animation, corporate identity, among others.
       
     # portfolio item loop
     - name : Dante Zayas
@@ -129,12 +129,12 @@ animation, corporate identity, among others.
       content : Sustainable Development
       link : "#"
       member_profile: Engineer in Sustainable Development by the
-Tecnológico de Monterrey. He specializes in developing strategies that
-integrate sustainability pillars and resource management. Prior to
-CAPSUS he worked in Unilever's environmental department, in research
-centers in Japan and Canada on water and energy issues and with the
-Ministry for Sustainable Development of the State of Morelos, Mexico. His
-work there focused in the rescue of urban ravines.
+                      Tecnológico de Monterrey. He specializes in developing strategies that
+                      integrate sustainability pillars and resource management. Prior to
+                      CAPSUS he worked in Unilever's environmental department, in research
+                      centers in Japan and Canada on water and energy issues and with the
+                      Ministry for Sustainable Development of the State of Morelos, Mexico. His
+                      work there focused in the rescue of urban ravines.
 
     # portfolio item loop
     - name : José Díaz
@@ -144,12 +144,12 @@ work there focused in the rescue of urban ravines.
       content : Sustainable Development
       link : "#"
       member_profile: Chemical Engineer from the Universidad
-Iberoamericana. He has experience in areas such as data analysis and
-sustainable development. He has worked on projects for the private
-sector, the public sector and non-governmental organizations. Among his
-projects are the development and implementation of a recycling program
-in social housing, as well as the analysis of urban growth scenarios for
-cities.
+                      Iberoamericana. He has experience in areas such as data analysis and
+                      sustainable development. He has worked on projects for the private
+                      sector, the public sector and non-governmental organizations. Among his
+                      projects are the development and implementation of a recycling program
+                      in social housing, as well as the analysis of urban growth scenarios for
+                      cities.
 
     # portfolio item loop
     - name : Judá García
@@ -159,8 +159,8 @@ cities.
       content : Urban Planning and Geographical Information Systems
       link : "#"
       member_profile: He has worked in the private sector as a GIS Analyst in
-the real estate sector, as well as collaborating in the development of the
-Territorial Strategy of the National Crime Prevention Program.
+                      the real estate sector, as well as collaborating in the development of the
+                      Territorial Strategy of the National Crime Prevention Program.
       
     # portfolio item loop
     - name : Luis Alfredo García
@@ -170,11 +170,11 @@ Territorial Strategy of the National Crime Prevention Program.
       content : Software Development
       link : "#"
       member_profile: Software engineer form the Universidad
-Veracruzana. He has experience in ERP development in web
-environments developed in PHP, Jquery and MySQL database. In
-addition, he also has experience in managing Polycom video conferencing
-equipment and user support. He has worked with languages such as
-Python, C and C++ and used the MySQL Workbench environment.
+                      Veracruzana. He has experience in ERP development in web
+                      environments developed in PHP, Jquery and MySQL database. In
+                      addition, he also has experience in managing Polycom video conferencing
+                      equipment and user support. He has worked with languages such as
+                      Python, C and C++ and used the MySQL Workbench environment.
       
     # portfolio item loop
     - name : María Blanco
@@ -184,13 +184,13 @@ Python, C and C++ and used the MySQL Workbench environment.
       content : Sustainable Development
       link : "#"
       member_profile: Chemical Engineer from the Universidad
-Iberoamericana. She has worked professionally in Mexico and has
-experience in the academic and private sector specifically in the
-environmental area. Among its projects stands out the advice to cities
-for the development of their emissions inventories, analysis of risks and
-climate vulnerabilities and development of climate action plans. In addition,
-she has carried out research on the use of organic residues, eco-materials
-and ecotechnologies.
+                      Iberoamericana. She has worked professionally in Mexico and has
+                      experience in the academic and private sector specifically in the
+                      environmental area. Among its projects stands out the advice to cities
+                      for the development of their emissions inventories, analysis of risks and
+                      climate vulnerabilities and development of climate action plans. In addition,
+                      she has carried out research on the use of organic residues, eco-materials
+                      and ecotechnologies.
 
     # portfolio item loop
     - name : Ricardo García
@@ -200,11 +200,11 @@ and ecotechnologies.
       content : Sustainable Development
       link : "#"
       member_profile: Environmental Engineer. He has experience in
-issues of sustainable development, climate change and energy efficiency.
-Ricardo has worked on projects for the private sector, the public sector and
-non-governmental organizations. Among its projects is the evaluation of
-efficient technologies that help improve energy and environmental
-performance of buildings and cities.
+                      issues of sustainable development, climate change and energy efficiency.
+                      Ricardo has worked on projects for the private sector, the public sector and
+                      non-governmental organizations. Among its projects is the evaluation of
+                      efficient technologies that help improve energy and environmental
+                      performance of buildings and cities.
 
     # portfolio item loop
     - name : Sebastián Reyes
@@ -214,15 +214,15 @@ performance of buildings and cities.
       content : Sustainable Development
       link : "#"
       member_profile: Environmental Chemical Engineer from the
-Autonomous University of Querétaro. He has vast experience in the
-development and analysis of emissions inventories, analysis and
-implementation of environmental public policy, climate change, and air
-quality programs. He has collaborated in the Air Quality Program of the
-State of Mexico (2018-2030) and Mexico City (2021-2030), where he
-collaborated in the diagnosis of air quality, the development of the
-emissions inventory, the analysis of the relationship public health - air
-quality, and the design of strategies to reduce the emissions of local air
-pollutants.
+                      Autonomous University of Querétaro. He has vast experience in the
+                      development and analysis of emissions inventories, analysis and
+                      implementation of environmental public policy, climate change, and air
+                      quality programs. He has collaborated in the Air Quality Program of the
+                      State of Mexico (2018-2030) and Mexico City (2021-2030), where he
+                      collaborated in the diagnosis of air quality, the development of the
+                      emissions inventory, the analysis of the relationship public health - air
+                      quality, and the design of strategies to reduce the emissions of local air
+                      pollutants.
       
     # portfolio item loop
     - name : Socorro Román
@@ -232,8 +232,8 @@ pollutants.
       content : Urban Planning and Geographical Information Systems
       link : "#"
       member_profile: Urban planner from the Benemérita Universidad de
-Puebla. She has worked in the private sector in urban planning projects
-and has experience in urban design and territorial studies.
+                      Puebla. She has worked in the private sector in urban planning projects
+                      and has experience in urban design and territorial studies.
 
     # portfolio item loop
     - name : Gerardo Escalona
@@ -243,15 +243,15 @@ and has experience in urban design and territorial studies.
       content : Analyst and socio-environmental psychologist
       link : "#"
       member_profile: Social Analyst and Socio-environmental
-Psychologist. He has 6 years of experience in the sustainable urban
-transport sector, designing and implementing survey strategies and
-interviews with key actors. He has collaborated with Non-Governmental
-Organizations, Private Initiative, Multilateral Organizations (IDB), Local,
-State and Federal Governments (Secretariat of Agrarian, Territorial and
-Urban Development, SEDATU) in the promotion, development and
-implementation of street design for sustainable transport and institutional
-communication tools. He has experience in creating dissemination
-materials and promoting bicycle use in Mexico City and Sinaloa.
+                      Psychologist. He has 6 years of experience in the sustainable urban
+                      transport sector, designing and implementing survey strategies and
+                      interviews with key actors. He has collaborated with Non-Governmental
+                      Organizations, Private Initiative, Multilateral Organizations (IDB), Local,
+                      State and Federal Governments (Secretariat of Agrarian, Territorial and
+                      Urban Development, SEDATU) in the promotion, development and
+                      implementation of street design for sustainable transport and institutional
+                      communication tools. He has experience in creating dissemination
+                      materials and promoting bicycle use in Mexico City and Sinaloa.
 
     # portfolio item loop
     - name : Raúl Saucedo
@@ -261,11 +261,11 @@ materials and promoting bicycle use in Mexico City and Sinaloa.
       content : International Relations and Sustainability
       link : "#"
       member_profile: Degree in International Relations. He is currently
-studying a Master's Degree in Innovation, Human Development and
-Sustainability at the University of Geneva, Switzerland. Raúl has
-experience in multilateral negotiation spaces such as the United Nations and
-has worked for the private sector in business development for North
-America.
+                      studying a Master's Degree in Innovation, Human Development and
+                      Sustainability at the University of Geneva, Switzerland. Raúl has
+                      experience in multilateral negotiation spaces such as the United Nations and
+                      has worked for the private sector in business development for North
+                      America.
       
     # portfolio item loop
     - name : Juan Manuel Gómez
@@ -275,19 +275,19 @@ America.
       content : Mathematics and Software Development
       link : "#"
       member_profile: He studied applied mathematics at the
-National Autonomous University of Mexico. Juan Manuel has been
-working on the design and development of systems since 2007, he has
-collaborated in the development of information platforms for the National
-Autonomous University of Mexico in the project 'Informed Vote' and
-'National Diagnosis with Gender perspective on all forms of violence against
-women and girls and preliminary draft of the comprehensive program to
-prevent, protect, sanction and eradicate violence against women'. He also
-participated in the development team of the Information System of the
-Agenda of the Special Climate Change Program (SIAT-PECC), collaborated
-in the programming of the Monitoring System of the Climate Action Program
-of Mexico City (SS-PACCM) and in the Monitoring System of PROAIRE of
-Mexico City (SS-PROAIRE). He also assisted the development of the
-National Air Quality Information System (SINAICA) for THE INECC.
+                      National Autonomous University of Mexico. Juan Manuel has been
+                      working on the design and development of systems since 2007, he has
+                      collaborated in the development of information platforms for the National
+                      Autonomous University of Mexico in the project "Informed Vote" and
+                      "National Diagnosis with Gender perspective on all forms of violence against
+                      women and girls and preliminary draft of the comprehensive program to
+                      prevent, protect, sanction and eradicate violence against women". He also
+                      participated in the development team of the Information System of the
+                      Agenda of the Special Climate Change Program (SIAT-PECC), collaborated
+                      in the programming of the Monitoring System of the Climate Action Program
+                      of Mexico City (SS-PACCM) and in the Monitoring System of PROAIRE of
+                      Mexico City (SS-PROAIRE). He also assisted the development of the
+                      National Air Quality Information System (SINAICA) for THE INECC.
 
     # portfolio item loop
     - name : Tommaso Bassetti
@@ -297,10 +297,10 @@ National Air Quality Information System (SINAICA) for THE INECC.
       content : Urban Environmental Planning
       link : "#"
       member_profile: He holds an interdisciplinary degree in the
-Netherlands with a focus on public policy and human geography. His
-final thesis was on housing finance in China and its economic and social
-effects during the transition. After that, Tommaso completed a master's
-degree in "Urban and Environmental Planning" in Cambridge, England.
-During his master's degree he specialized in the relationship city-climate
-change. Before arriving at CAPSUS he worked for a year at the United
-Nations on affordable housing projects and energy efficiency.
+                      Netherlands with a focus on public policy and human geography. His
+                      final thesis was on housing finance in China and its economic and social
+                      effects during the transition. After that, Tommaso completed a master's
+                      degree in "Urban and Environmental Planning" in Cambridge, England.
+                      During his master's degree he specialized in the relationship city-climate
+                      change. Before arriving at CAPSUS he worked for a year at the United
+                      Nations on affordable housing projects and energy efficiency.
