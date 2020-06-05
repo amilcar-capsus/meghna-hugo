@@ -2,6 +2,7 @@
 portfolio:
   enable : true
   title : Our Team
+  profile: Profile
   portfolio_item :
     # portfolio item loop
     - name : Guillermo Velasco
