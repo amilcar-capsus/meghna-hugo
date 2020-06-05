@@ -52,7 +52,7 @@
 					<div class="mask">
 						<ul class="list-inline">
 							<button class="btn btn-transparent page-scroll" data-toggle="modal" data-target="#modalTeam" data-effect="mfp-with-zoom" data-name="{{ .name }}"
-							data-image="{{ .image | absURL }}" data-profile="{{ .member_profile | markdownify }}">{{ $profile }}</button>
+							data-image="{{ .image | absURL }}" data-profile="{{ humanize .member_profile }}">{{ $profile }}</button>
 						</ul>
 					</div>
 				</div>
