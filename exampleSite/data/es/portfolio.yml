@@ -6,17 +6,27 @@ portfolio:
   portfolio_item :
     # portfolio item loop
     - name : Guillermo Velasco
-      image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
+      image : images/portfolio/GV.jpg
+      image_webp : images/portfolio/GV.webp
       categories : ["partners"]
       content : Política pública y desarrollo sustentable
       link : "#"
-      member_profile: Es Ingeniero Físico. Tiene una Maestría en Políticas Públicas por la escuela de gobierno de la Universidad de Harvard. Guillermo tiene más de 20 años de trayectoria en el sector ambiental y el sector urbano. Como funcionario público fue Coordinador de Asesores en el Senado de la República, Diputado Federal y Local por el Estado de México, así como Secretario de Medio Ambiente para el Gobierno del Estado de México. Posteriormente fungió por seis años como Coordinador del Programa de Ciudades Sustentables del Centro Mario Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, donde llevó esa línea de investigación aplicada para el Premio Nobel de Química de 1995. Actualmente es socio fundador de CAPSUS S.C. empresa internacional de consultoría en sustentabilidad.
+      member_profile: Es Ingeniero Físico. Tiene una Maestría en Políticas Públicas por la escuela de gobierno de la Universidad de
+                      Harvard. Guillermo tiene más de 20 años de trayectoria en el sector
+                      ambiental y el sector urbano. Como funcionario público fue Coordinador
+                      de Asesores en el Senado de la República, Diputado Federal y Local por
+                      el Estado de México, así como Secretario de Medio Ambiente para el
+                      Gobierno del Estado de México. Posteriormente fungió por seis años como
+                      Coordinador del Programa de Ciudades Sustentables del Centro Mario
+                      Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, donde
+                      llevó esa línea de investigación aplicada para el Premio Nobel de Química
+                      de 1995. Actualmente es socio fundador de CAPSUS S.C. empresa
+                      internacional de consultoría en sustentabilidad.
       
     # portfolio item loop
     - name : Ricardo Ochoa
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/RO.jpg
+      image_webp : images/portfolio/RO.webp
       categories : ["partners"]
       content : Energía y edificación
       link : "#"
@@ -29,8 +39,8 @@ portfolio:
       
     # portfolio item loop
     - name : Daniela Evia
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
+      image : images/portfolio/DE.jpg
+      image_webp : images/portfolio/DE.webp
       categories : ["coordinators"]
       content : Educación y procesos participativos
       link : "#"
@@ -45,8 +55,8 @@ portfolio:
 
     # portfolio item loop
     - name : Carmen Valdez
-      image : images/portfolio/portfolio-5.jpg
-      image_webp : images/portfolio/portfolio-5.webp
+      image : images/portfolio/CV.jpg
+      image_webp : images/portfolio/CV.webp
       categories : ["coordinators"]
       content : Desarrollo urbano y diseño bioclimático
       link : "#"
@@ -59,8 +69,8 @@ portfolio:
 
     # portfolio item loop
     - name : Leticia Galindo
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
+      image : images/portfolio/CV.jpg
+      image_webp : images/portfolio/CV.webp
       categories : ["coordinators"]
       content : Administración y finanzas
       link : "#"
@@ -72,8 +82,8 @@ portfolio:
       
     # portfolio item loop
     - name : Tania Guerrero
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
+      image : images/portfolio/TG.jpg
+      image_webp : images/portfolio/TG.webp
       categories : ["coordinators"]
       content : Desarrollo urbano y vivienda
       link : "#"
@@ -85,8 +95,8 @@ portfolio:
       
     # portfolio item loop
     - name : Amílcar González
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
+      image : images/portfolio/RO.jpg
+      image_webp : images/portfolio/RO.webp
       categories : ["consultants"]
       content : Tecnologías de la información
       link : "#"
@@ -99,8 +109,8 @@ portfolio:
       
     # portfolio item loop
     - name : Antares Velázquez
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/portfolio/AV.jpg
+      image_webp : images/portfolio/AV.webp
       categories : ["consultants"]
       content : Diseño de la Comunicación Gráfica e Información
       link : "#"
@@ -118,8 +128,8 @@ portfolio:
       
     # portfolio item loop
     - name : Dante Zayas
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/LA.jpg
+      image_webp : images/portfolio/LA.webp
       categories : ["consultants"]
       content : Desarrollo sustentable
       link : "#"
@@ -133,8 +143,8 @@ portfolio:
 
     # portfolio item loop
     - name : José Díaz
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/JD.jpg
+      image_webp : images/portfolio/JD.webp
       categories : ["consultants"]
       content : Desarrollo sustentable
       link : "#"
@@ -147,8 +157,8 @@ portfolio:
 
     # portfolio item loop
     - name : Judá García
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
+      image : images/portfolio/JG.jpg
+      image_webp : images/portfolio/JG.webp
       categories : ["consultants"]
       content : Desarrollo Urbano y sistemas de información geográfica
       link : "#"
@@ -160,8 +170,8 @@ portfolio:
       
     # portfolio item loop
     - name : Luis Alfredo García
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/portfolio/LA.jpg
+      image_webp : images/portfolio/LA.webp
       categories : ["consultants"]
       content : Tecnologías de la información
       link : "#"
@@ -174,8 +184,8 @@ portfolio:
       
     # portfolio item loop
     - name : María Blanco
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/AV.jpg
+      image_webp : images/portfolio/AV.webp
       categories : ["consultants"]
       content : Desarrollo sustentable
       link : "#"
@@ -190,8 +200,8 @@ portfolio:
 
     # portfolio item loop
     - name : Ricardo García
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/RG.jpg
+      image_webp : images/portfolio/RG.webp
       categories : ["consultants"]
       content : Desarrollo sustentable
       link : "#"
@@ -204,8 +214,8 @@ portfolio:
 
     # portfolio item loop
     - name : Sebastián Reyes
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/portfolio/SR.jpg
+      image_webp : images/portfolio/SR.webp
       categories : ["consultants"]
       content : Desarrollo Sustentable
       link : "#"
@@ -221,8 +231,8 @@ portfolio:
       
     # portfolio item loop
     - name : Socorro Román
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/SM.jpg
+      image_webp : images/portfolio/SM.webp
       categories : ["consultants"]
       content : Desarrollo Urbano y Sistemas de información geográfica
       link : "#"
@@ -233,8 +243,8 @@ portfolio:
 
     # portfolio item loop
     - name : Gerardo Escalona
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/RO.jpg
+      image_webp : images/portfolio/RO.webp
       categories : ["consultants"]
       content : Analista y psicólogo socio-ambiental
       link : "#"
@@ -255,8 +265,8 @@ portfolio:
 
     # portfolio item loop
     - name : Raúl Saucedo
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/portfolio/GV.jpg
+      image_webp : images/portfolio/GV.webp
       categories : ["associates"]
       content : Relaciones Internacionales y Sustentabilidad
       link : "#"
@@ -269,8 +279,8 @@ portfolio:
       
     # portfolio item loop
     - name : Juan Manuel Gómez
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/RO.jpg
+      image_webp : images/portfolio/RO.webp
       categories : ["associates"]
       content : Matemático y tecnologías de la información
       link : "#"
@@ -301,8 +311,8 @@ portfolio:
 
     # portfolio item loop
     - name : Tommaso Bassetti
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/GV.jpg
+      image_webp : images/portfolio/GV.webp
       categories : ["associates"]
       content : Planeación urbana y medio ambiente
       link : "#"
