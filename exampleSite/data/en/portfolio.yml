@@ -24,8 +24,8 @@ portfolio:
       
     # portfolio item loop
     - name : Ricardo Ochoa
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/RO.jpg
+      image_webp : images/portfolio/RO.webp
       categories : ["partners"]
       content : Energy, Housing and urban planning
       link : "#"
@@ -37,8 +37,8 @@ portfolio:
       
     # portfolio item loop
     - name : Daniela Evia
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
+      image : images/portfolio/DE.jpg
+      image_webp : images/portfolio/DE.webp
       categories : ["coordinators"]
       content : Education and social processes
       link : "#"
@@ -52,8 +52,8 @@ portfolio:
 
     # portfolio item loop
     - name : Carmen Valdez
-      image : images/portfolio/portfolio-5.jpg
-      image_webp : images/portfolio/portfolio-5.webp
+      image : images/portfolio/CV.jpg
+      image_webp : images/portfolio/CV.webp
       categories : ["coordinators"]
       content : Urban Development and bioclimatic design
       link : "#"
@@ -67,8 +67,8 @@ portfolio:
 
     # portfolio item loop
     - name : Leticia Galindo
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
+      image : images/portfolio/CV.jpg
+      image_webp : images/portfolio/CV.webp
       categories : ["coordinators"]
       content : Administration
       link : "#"
@@ -78,8 +78,8 @@ portfolio:
       
     # portfolio item loop
     - name : Tania Guerrero
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
+      image : images/portfolio/TG.jpg
+      image_webp : images/portfolio/TG.webp
       categories : ["coordinators"]
       content : Urban Development and Housing
       link : "#"
@@ -91,8 +91,8 @@ portfolio:
       
     # portfolio item loop
     - name : Amílcar González
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
+      image : images/portfolio/RO.jpg
+      image_webp : images/portfolio/RO.webp
       categories : ["consultants"]
       content : Software Development
       link : "#"
@@ -105,8 +105,8 @@ portfolio:
       
     # portfolio item loop
     - name : Antares Velázquez
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/portfolio/AV.jpg
+      image_webp : images/portfolio/AV.webp
       categories : ["consultants"]
       content : Information and effective communication designer
       link : "#"
@@ -123,8 +123,8 @@ portfolio:
       
     # portfolio item loop
     - name : Dante Zayas
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/LA.jpg
+      image_webp : images/portfolio/LA.webp
       categories : ["consultants"]
       content : Sustainable Development
       link : "#"
@@ -138,8 +138,8 @@ portfolio:
 
     # portfolio item loop
     - name : José Díaz
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/JD.jpg
+      image_webp : images/portfolio/JD.webp
       categories : ["consultants"]
       content : Sustainable Development
       link : "#"
@@ -153,8 +153,8 @@ portfolio:
 
     # portfolio item loop
     - name : Judá García
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
+      image : images/portfolio/JG.jpg
+      image_webp : images/portfolio/JG.webp
       categories : ["consultants"]
       content : Urban Planning and Geographical Information Systems
       link : "#"
@@ -164,8 +164,8 @@ portfolio:
       
     # portfolio item loop
     - name : Luis Alfredo García
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/portfolio/LA.jpg
+      image_webp : images/portfolio/LA.webp
       categories : ["consultants"]
       content : Software Development
       link : "#"
@@ -178,8 +178,8 @@ portfolio:
       
     # portfolio item loop
     - name : María Blanco
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/AV.jpg
+      image_webp : images/portfolio/AV.webp
       categories : ["consultants"]
       content : Sustainable Development
       link : "#"
@@ -194,8 +194,8 @@ portfolio:
 
     # portfolio item loop
     - name : Ricardo García
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/RG.jpg
+      image_webp : images/portfolio/RG.webp
       categories : ["consultants"]
       content : Sustainable Development
       link : "#"
@@ -208,8 +208,8 @@ portfolio:
 
     # portfolio item loop
     - name : Sebastián Reyes
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/portfolio/SR.jpg
+      image_webp : images/portfolio/SR.webp
       categories : ["consultants"]
       content : Sustainable Development
       link : "#"
@@ -226,8 +226,8 @@ portfolio:
       
     # portfolio item loop
     - name : Socorro Román
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/SM.jpg
+      image_webp : images/portfolio/SM.webp
       categories : ["consultants"]
       content : Urban Planning and Geographical Information Systems
       link : "#"
@@ -237,8 +237,8 @@ portfolio:
 
     # portfolio item loop
     - name : Gerardo Escalona
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/RO.jpg
+      image_webp : images/portfolio/RO.webp
       categories : ["consultants"]
       content : Analyst and socio-environmental psychologist
       link : "#"
@@ -255,8 +255,8 @@ portfolio:
 
     # portfolio item loop
     - name : Raúl Saucedo
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/portfolio/GV.jpg
+      image_webp : images/portfolio/GV.webp
       categories : ["associates"]
       content : International Relations and Sustainability
       link : "#"
@@ -269,8 +269,8 @@ portfolio:
       
     # portfolio item loop
     - name : Juan Manuel Gómez
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/RO.jpg
+      image_webp : images/portfolio/RO.webp
       categories : ["associates"]
       content : Mathematics and Software Development
       link : "#"
@@ -291,8 +291,8 @@ portfolio:
 
     # portfolio item loop
     - name : Tommaso Bassetti
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/portfolio/GV.jpg
+      image_webp : images/portfolio/GV.webp
       categories : ["associates"]
       content : Urban Environmental Planning
       link : "#"
