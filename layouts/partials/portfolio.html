@@ -51,8 +51,8 @@
 					{{"<!-- member social profile -->" | safeHTML}}
 					<div class="mask">
 						<ul class="list-inline">
-							<a class="btn btn-transparent page-scroll image-popup" data-effect="mfp-with-zoom" href="{{ .image | relURL }}"
-							data-lightbox="image-1">{{ $profile }}</a>
+							<button class="btn btn-transparent page-scroll" data-toggle="modal" data-target="#modalTeam" data-effect="mfp-with-zoom" data-name="{{ .name }}"
+							data-imagewebp="{{ .image_webp }}" data-profile="{{ .member_profile }}">{{ $profile }}</button>
 						</ul>
 					</div>
 				</div>
@@ -67,6 +67,30 @@
 			{{"<!-- end team member -->" | safeHTML}}
 			{{ end }}
 		</div>
+		<div class="modal fade" id="modalTeam" tabindex="-1" role="dialog" aria-labelledby="modalTeamLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="modalTeamLabel"></h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-3">
+								<img src="" alt="" id="member-picture">
+							</div>
+							<div class="col-lg-9" id="member-profile">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			  </div>
+			</div>
+		  </div>
 	</div>
 </section>
 {{"<!-- /Portfolio -->" | safeHTML}}
