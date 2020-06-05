@@ -152,8 +152,6 @@ jQuery(function ($) {
 		var name = button.data('name') // Extract info from data-* attributes
 		var picture = button.data('image') // Extract info from data-* attributes
 		var profile = button.data('profile') // Extract info from data-* attributes
-		console.log(profile)
-		console.log(decodeURIComponent(profile))
 		// If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
 		// Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
 		var modal = $(this)

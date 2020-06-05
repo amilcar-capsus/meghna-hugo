@@ -1035,7 +1035,7 @@ a:hover {
 .team-member {
   background-color: #292F36;
   margin-bottom: 10px;
-  min-height: 318px;
+  min-height: 382px;
 }
 
 .team-member:hover .mask {
