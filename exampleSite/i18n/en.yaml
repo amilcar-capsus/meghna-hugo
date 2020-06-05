@@ -43,10 +43,10 @@
 - id: specialties
   translation: Specialties
 - id: specialty1
-  translation: Specialty 1
+  translation: Planning and Building
 - id: specialty2
-  translation: Specialty 2
+  translation: Evaluations and Studies
 - id: specialty3
-  translation: Specialty 3
+  translation: Diffusion and Development
 - id: specialty4
-  translation: Specialty 4
+  translation: Public Policies

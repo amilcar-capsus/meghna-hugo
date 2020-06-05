@@ -38,19 +38,19 @@ URL = "specialties"
 hasChildren = true
     [[menu.main]]
     parent = "specialties"
-    URL = "specialties/specialty1"
+    URL = "specialties/planning-building"
     name = "specialty1"
     [[menu.main]]
     parent = "specialties"
-    URL = "specialties/specialty2"
+    URL = "specialties/evaluations-studies"
     name = "specialty2"
     [[menu.main]]
     parent = "specialties"
-    URL = "specialties/specialty3"
+    URL = "specialties/diffusion-development"
     name = "specialty3"
     [[menu.main]]
     parent = "specialties"
-    URL = "specialties/specialty4"
+    URL = "specialties/public-policies"
     name = "specialty4"
 [[menu.main]]
 URL = "about"
