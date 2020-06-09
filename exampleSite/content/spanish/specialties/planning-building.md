@@ -11,7 +11,7 @@ specialty:
     casestudy_item:
         # casestudy item loop
       - name: "Soluciones para ciudades y edificaciones"
-        case_id: solutions
+        case_id: 1
         case_content: "Creamos soluciones para ciudades y edificaciones que reduzcan los costos de inversión y mantenimiento, mejoren la calidad de vida de sus habitantes y tengan un buen desempeño ambiental y energético."
         tab_image: images/specialties/placeholder1.jpg
         tab_image_webp: images/specialties/placeholder1.webp
