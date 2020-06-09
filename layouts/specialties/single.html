@@ -18,8 +18,8 @@
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="content-block">
-                      <h2>{{ .subtitle | markdownify }}</h2>
-                      <p>{{ .content | markdownify }}</p>
+                      <h2>{{ .Subtitle | markdownify }}</h2>
+                      <p>{{ .Text | markdownify }}</p>
                     </div>
                   </div>
                   <div class="col-lg-6 padding-0" style="background-image: url('{{ .image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
@@ -41,7 +41,7 @@
       </div>
     </div>
     <div class="row">
-      
+
     </div>
   </div>
 </section>
