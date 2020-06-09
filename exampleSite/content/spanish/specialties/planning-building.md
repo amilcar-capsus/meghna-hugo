@@ -1,7 +1,8 @@
 ---
+title: "Planificación Urbana y Edificación Sustentable"
 specialty: 
     enable : true
-    title: "Planificación Urbana y Edificación Sustentable"
+    main_title: "Planificación Urbana y Edificación Sustentable"
     image_webp: images/blog/meghna.webp
     image: images/blog/meghna.jpg
     description : "This is meta description"
