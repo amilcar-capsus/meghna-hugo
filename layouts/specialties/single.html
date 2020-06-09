@@ -2,7 +2,7 @@
 
 {{ partial "navigation.html" . }}
 
-{{ $data := .Params }}
+{{ $data := .Params.specialty }}
 <div class="container-fluid">{{ $data }}</div>
 {{ with $data.specialty }}
 <section class="section">
