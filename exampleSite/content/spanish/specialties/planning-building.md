@@ -35,5 +35,3 @@ specialty:
         case_image: images/specialities/placeholder3.jpg
         case_image_webp: images/specialties/placeholder3.webp
 ---
-
-Content testing.
