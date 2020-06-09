@@ -3,10 +3,9 @@
 {{ partial "navigation.html" . }}
 
 {{ $data := .Params.specialty }}
-<div class="container-fluid">{{ $data }}</div>
+<div class="container-fluid">{{ $data.subtitle | markdownify }}</div>
 {{ with $data }}
 <section class="section">
-  {{ $}}
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
