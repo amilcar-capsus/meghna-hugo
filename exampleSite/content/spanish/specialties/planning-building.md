@@ -12,7 +12,7 @@ specialty:
     casestudy_item:
       # casestudy item loop
       - name: "Soluciones para ciudades y edificaciones"
-        case_id: 1
+        case_id: ph1
         case_content: "Creamos soluciones para ciudades y edificaciones que reduzcan los costos de inversión y mantenimiento, mejoren la calidad de vida de sus habitantes y tengan un buen desempeño ambiental y energético."
         tab_image: images/specialties/placeholder1.jpg
         tab_image_webp: images/specialties/placeholder1.webp
@@ -20,7 +20,7 @@ specialty:
         case_image_webp: images/specialties/placeholder1.webp
       # casestudy item loop
       - name: "Placeholder 2"
-        case_id: 2
+        case_id: ph2
         case_content: "Creamos soluciones para ciudades y edificaciones que reduzcan los costos de inversión y mantenimiento, mejoren la calidad de vida de sus habitantes y tengan un buen desempeño ambiental y energético."
         tab_image: images/specialties/placeholder2.jpg
         tab_image_webp: images/specialties/placeholder2.webp
@@ -28,7 +28,7 @@ specialty:
         case_image_webp: images/specialties/placeholder2.webp
       # casestudy item loop
       - name: "Placeholder 3"
-        case_id: 3
+        case_id: ph3
         case_content: "Creamos soluciones para ciudades y edificaciones que reduzcan los costos de inversión y mantenimiento, mejoren la calidad de vida de sus habitantes y tengan un buen desempeño ambiental y energético."
         tab_image: images/specialties/placeholder3.jpg
         tab_image_webp: images/specialties/placeholder3.webp

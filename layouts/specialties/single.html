@@ -39,7 +39,7 @@
           <ul class="nav nav-pills nav-justified mb-3" id="pills-specialties" role="tablist">
             {{ range .casestudy_item }}
             <li class="nav-item">
-              <a class="nav-link active" id="pills-{{ .case_id }}" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+              <a class="nav-link" id="pills-{{ .case_id }}" data-toggle="pill" href="#{{ .case_id }}" role="tab" aria-controls="{{ .case_id }}" aria-selected="false">
                 <img class="img-fluid lozad" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
               </a>
             </li>
@@ -51,11 +51,20 @@
             </li>-->
             {{ end }}
           </ul>
-          <!--<div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-          </div>-->
+          <div class="tab-content" id="pills-specContent">
+            {{ range .casestudy_item }}
+            <div class="tab-pane fade" id="{{ .case_id }}" role="tabpanel" aria-labelledby="{{ .case_id }}-tab">
+              <div class="col-lg-8">
+                {{ .text }}
+              </div>
+              <div class="col-lg-4">
+                <img class="img-fluid lozad" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
+              </div>
+            </div>
+            <!--<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>-->
+            {{ end }}
+          </div>
         </div>
         {{ if .Site.Params.post_share }}
         {{ partial "post-share.html" . }}
