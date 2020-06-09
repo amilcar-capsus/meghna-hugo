@@ -178,8 +178,8 @@ portfolio:
       
     # portfolio item loop
     - name : María Blanco
-      image : images/portfolio/AV.jpg
-      image_webp : images/portfolio/AV.webp
+      image : images/portfolio/MB.jpg
+      image_webp : images/portfolio/MB.webp
       categories : ["consultants"]
       content : Sustainable Development
       link : "#"

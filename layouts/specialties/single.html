@@ -15,7 +15,7 @@
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
             This is in the specialties folder  
-            
+          {{ partial 'specialty.html'}}  
           {{ .Content }}
         </div>
         {{ if .Site.Params.post_share }}
