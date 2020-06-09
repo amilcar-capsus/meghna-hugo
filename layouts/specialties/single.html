@@ -39,7 +39,7 @@
           <ul class="nav nav-pills nav-justified mb-3" id="pills-specialties" role="tablist">
             {{ range .casestudy_item }}
             <li class="nav-item">
-              <a class="nav-link active" id="pills-{{ .id }}" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+              <a class="nav-link active" id="pills-{{ .case_id }}" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
                 <img alt="{{ .name }}" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
               </a>
             </li>
