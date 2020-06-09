@@ -44,17 +44,19 @@
             </li>
             {{ end }}
           </ul>
-          <div class="tab-content row" id="pills-specContent">
-            {{ range .casestudy_item }}
-            <div class="tab-pane fade" id="{{ .case_id }}" role="tabpanel" aria-labelledby="{{ .case_id }}-tab">
-              <div class="col-lg-8">
-                {{ .case_content | markdownify }}
+          <div class="tab-content content-fluid" id="pills-specContent">
+            <div class="row">
+              {{ range .casestudy_item }}
+              <div class="tab-pane fade" id="{{ .case_id }}" role="tabpanel" aria-labelledby="{{ .case_id }}-tab">
+                <div class="col-lg-8">
+                  {{ .case_content | markdownify }}
+                </div>
+                <div class="col-lg-4">
+                  <img class="img-fluid lozad" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
+                </div>
               </div>
-              <div class="col-lg-4">
-                <img class="img-fluid lozad" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
-              </div>
+              {{ end }}
             </div>
-            {{ end }}
           </div>
         </div>
         {{ if .Site.Params.post_share }}
