@@ -3,7 +3,7 @@
 {{ partial "navigation.html" . }}
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
-<div class="container-fluid">{{ $data.specialty }}</div>
+<div class="container-fluid">{{ $data }}</div>
 {{ with $data.specialty.specialty }}
 <section class="section">
   {{ $}}
