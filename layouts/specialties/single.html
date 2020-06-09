@@ -40,7 +40,7 @@
             {{ range .casestudy_item }}
             <li class="nav-item">
               <a class="nav-link active" id="pills-{{ .case_id }}" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
-                <img alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
+                <img class="img-fluid lozad" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
               </a>
             </li>
             <!--<li class="nav-item">
