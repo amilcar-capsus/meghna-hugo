@@ -71,8 +71,8 @@ jobs:
               Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."
           info4:
             - info4_title: ¿Qué ofrecemos?
-              info4_image: images/specialties/placeholder2.jpg
-              info4_image_webp: images/specialties/placeholder2.webp
+              info4_image: images/about/about-business-man.jpg
+              info4_image_webp: images/about/about-business-man.webp
               info4_item:
                 - info4_content: Te integramos al equipo como un miembro más y tendrás una experiencia profesional real equivalente en responsabilidades y actividades al resto de los miembros del equipo permanente de CAPSUS. 
                 - info4_content: Te integraremos de lleno a nuestras plataformas tecnológicas. 
