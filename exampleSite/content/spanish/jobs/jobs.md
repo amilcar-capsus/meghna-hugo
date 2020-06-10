@@ -47,7 +47,6 @@ jobs:
                   info4_item_content: Ipsum mollit qui eiusmod nostrud culpa. Dolore veniam ipsum dolor fugiat cillum. Mollit minim laborum proident consequat.
                   info4_id: vac-3
                   info4_item_name: Vacante 3
-    job_item:
         - name: Programa de Becarios
           title: Programa de Becarios
           job_id: internships
