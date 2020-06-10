@@ -45,6 +45,6 @@ jobs:
                   info4_image_webp: images/specialties/placeholder3.webp
                   info4_item_title: Vacante 3
                   info4_item_content: Ipsum mollit qui eiusmod nostrud culpa. Dolore veniam ipsum dolor fugiat cillum. Mollit minim laborum proident consequat.
-                  info4_id: vac-1
+                  info4_id: vac-3
                   info4_item_name: Vacante 3
 ---
