@@ -6,6 +6,7 @@ jobs:
     description : "This is meta description"
     job_item:
         - name: Bolsa de trabajo
+          title: ¿Quieres trabajar con nosotros?
           job_id: jobs
           job_image: images/specialties/placeholder1.jpg
           job_image_webp: images/specialties/placeholder1.jpg
@@ -24,5 +25,5 @@ jobs:
             - info3_title: "¿Cumples con los requisitos? Escríbenos:"
               info3_content: "Enviar por correo electrónico a: ideas@capsus.mx tu CV, una carta de motivos en español sobre porqué te interesa trabajar en CAPSUS y qué te motiva a perseguir una carrera profesional en el área de sustentabilidad y una carta en inglés donde nos cuentes: ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o). 
 
-              Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros. "
+              Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."
 ---
