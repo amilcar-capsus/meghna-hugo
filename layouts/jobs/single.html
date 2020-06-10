@@ -22,25 +22,7 @@
         </ul>
       </div>
       <div class="col-lg-12 padding-0">
-        <div class="post-single-content">
-            <section class="section section-bg about-2 padding-0" id="who">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="content-block">
-                      <h2>{{ .subtitle | markdownify }}</h2>
-                      <p>{{ .text | markdownify }}</p>
-                    </div>
-                  </div>
-                  <div class="col-lg-6" style="background-image: url('{{ .image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
-                    <!-- this image is for trigger this section fallback background image -->
-                    <img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
-                    </div>
-                </div>
-              </div>
-            </section>
-        </div>
-        <div class="col-lg-8 offset-lg-2 p-2">
+        <div class="col-lg-12 padding-0">
           <div class="tab-content" id="pills-jobsContent">
             {{ range .job_item }}
             <div class="tab-pane fade content-fluid" id="{{ .job_id }}" role="tabpanel" aria-labelledby="{{ .job_id }}-tab">
@@ -52,7 +34,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row m-5">
+              <div class="row col-lg-8 offset-lg-2 m-5">
                 <div class="col-lg-6">
                   <h2>
                     {{ range .info1 }}
@@ -99,6 +81,65 @@
                   </span>
                 </div>
               </div>
+              {{ if eq .job_id "jobs" }}
+              {{ range .info4 }}
+              <section class="section section-bg about-2 padding-0" id="who">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-8 offset-lg-2 p-2">
+                      <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                        <h1 class="text-center">{{ .title }}</h1>
+                        <div class="border-meghna"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <ul class="nav nav-pills nav-justified mb-3" id="pills-vacancies" role="tablist">
+                      {{ range .info4_item }}
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-{{ .info4_id }}" data-toggle="pill" href="#{{ .info4_id }}" role="tab" aria-controls="{{ .info4_id }}" aria-selected="false">
+                          <img class="img-fluid lozad" alt="{{ .info4_item_name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .info4_image | absURL }})'" src="{{ .info4_image_webp | absURL }}" />
+                        </a>
+                      </li>
+                      {{ end }}
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <div class="tab-content" id="pills-specContent">
+                      {{ range .info4_item }}
+                      <div class="tab-pane fade content-fluid" id="{{ .info4_id }}" role="tabpanel" aria-labelledby="{{ .info4_id }}-tab">
+                          <div class="col-lg-8 offset-lg-2 p-2">
+                            <h2>{{ .info4_item_title }}</h2>
+                            <span>
+                              {{ .info4_item_content }}
+                            </span>
+                          </div>
+                      </div>
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+              </section>
+              {{ end }}
+              {{ end }}
+              {{ if eq .job_id "internships" }}
+              <section class="section section-bg about-2 padding-0" id="who">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="content-block">
+                        <h2>{{ .subtitle | markdownify }}</h2>
+                        <p>{{ .text | markdownify }}</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6" style="background-image: url('{{ .image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
+                      <!-- this image is for trigger this section fallback background image -->
+                      <img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
+                    </div>
+                  </div>
+                </div>
+              </section>
+              {{ end }}
             </div>
             {{ end }}
           </div>

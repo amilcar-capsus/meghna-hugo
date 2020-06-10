@@ -26,4 +26,25 @@ jobs:
               info3_content: "Enviar por correo electrónico a: ideas@capsus.mx tu CV, una carta de motivos en español sobre porqué te interesa trabajar en CAPSUS y qué te motiva a perseguir una carrera profesional en el área de sustentabilidad y una carta en inglés donde nos cuentes: ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o). 
 
               Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."
+          info4:
+            - info4_title: Vacantes
+              info4_item:
+                - info4_image: images/specialties/placeholder1.jpg
+                  info4_image_webp: images/specialties/placeholder1.webp
+                  info4_item_title: Vacante 1
+                  info4_item_content: Ipsum mollit qui eiusmod nostrud culpa. Dolore veniam ipsum dolor fugiat cillum. Mollit minim laborum proident consequat.
+                  info4_id: vac-1
+                  info4_item_name: Vacante 1
+                - info4_image: images/specialties/placeholder2.jpg
+                  info4_image_webp: images/specialties/placeholder2.webp
+                  info4_item_title: Vacante 2
+                  info4_item_content: Ipsum mollit qui eiusmod nostrud culpa. Dolore veniam ipsum dolor fugiat cillum. Mollit minim laborum proident consequat.
+                  info4_id: vac-2
+                  info4_item_name: Vacante 2
+                - info4_image: images/specialties/placeholder3.jpg
+                  info4_image_webp: images/specialties/placeholder3.webp
+                  info4_item_title: Vacante 3
+                  info4_item_content: Ipsum mollit qui eiusmod nostrud culpa. Dolore veniam ipsum dolor fugiat cillum. Mollit minim laborum proident consequat.
+                  info4_id: vac-1
+                  info4_item_name: Vacante 3
 ---
