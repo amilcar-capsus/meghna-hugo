@@ -110,7 +110,7 @@
                     <div class="tab-content" id="pills-specContent">
                       {{ range .info4_item }}
                       <div class="tab-pane fade content-fluid" id="{{ .info4_id }}" role="tabpanel" aria-labelledby="{{ .info4_id }}-tab">
-                          <div class="col-lg-8 offset-lg-2 p-2">
+                          <div>
                             <h2>{{ .info4_item_title | markdownify }}</h2>
                             <span>
                               {{ .info4_item_content | markdownify }}
