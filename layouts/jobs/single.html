@@ -45,9 +45,11 @@
             {{ range .job_item }}
             <div class="tab-pane fade content-fluid" id="{{ .job_id }}" role="tabpanel" aria-labelledby="{{ .job_id }}-tab">
               <div class="row">
-                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-                  <h1 class="text-center">{{ .title }}</h1>
-                  <div class="border-meghna"></div>
+                <div class="col-lg-8 offset-lg-2 p-2">
+                  <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                    <h1 class="text-center">{{ .title }}</h1>
+                    <div class="border-meghna"></div>
+                  </div>
                 </div>
               </div>
               <div class="row">
@@ -65,6 +67,36 @@
                 </div>
                 <div class="col-lg-6">
                   <img class="img-fluid lozad" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <h2>
+                    {{ range .info2 }}
+                      {{ .info2_title | markdownify }}
+                    {{ end }}
+                  </h2>
+                  <ol>
+                    {{ range .info2 }}
+                      {{ range .info2_item }}
+                        <li>
+                          {{ .info2_content | markdownify }}
+                        </li>
+                      {{ end }}
+                    {{ end }}
+                  </ol>
+                </div>
+                <div class="col-lg-6">
+                  <h2>
+                    {{ range .info1 }}
+                      {{ .info1_title | markdownify }}
+                    {{ end }}
+                  </h2>
+                  <span>
+                    {{ range .info1 }}
+                      {{ .info1_content | markdownify }}
+                    {{ end }}
+                  </span>
                 </div>
               </div>
             </div>
