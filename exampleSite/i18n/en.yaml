@@ -56,3 +56,11 @@
   translation: Join Our Team
 - id: vacancy
   translation: Vacancies
+- id: name
+  translation: Name
+- id: email
+  translation: E-mail
+- id: subject
+  translation: Subject
+- id: message
+  translation: Message

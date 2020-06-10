@@ -56,3 +56,11 @@
   translation: Únete a Nuestro Equipo
 - id: vacancy
   translation: Vacantes
+- id: name
+  translation: Nombre
+- id: email
+  translation: Correo
+- id: subject
+  translation: Asunto
+- id: message
+  translation: Mensaje
