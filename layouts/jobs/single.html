@@ -53,10 +53,14 @@
               <div class="row">
                 <div class="col-lg-6">
                   <h2>
-                    {{ .info1.info1_title | markdownify }}
+                    {{ range .info1 }}
+                      {{ .info1_title | markdownify }}
+                    {{ end }}
                   </h2>
                   <span>
-                    {{ .info1.info1_content | markdownify}}
+                    {{ range .info1 }}
+                      {{ .info1_content | markdownify }}
+                    {{ end }}
                   </span>
                 </div>
                 <div class="col-lg-6">
