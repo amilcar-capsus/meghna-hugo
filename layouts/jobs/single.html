@@ -2,14 +2,31 @@
 
 {{ partial "navigation.html" . }}
 
-{{ $data := .Params.specialty }}
+{{ $data := .Params.jobs }}
 {{ with $data }}
 <section class="section">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
-        <h1>{{ .main_title }}</h1>
+        <h1>{{ i18n "employment" }}</h1>
       </div>
+      <section class="section" id="portfolio">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 offset-lg-2 p-2">
+              <ul class="nav nav-pills nav-justified mb-3" id="pills-specialties" role="tablist">
+                {{ range .job_item }}
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-{{ .job_id }}" data-toggle="pill" href="#{{ .job_id }}" role="tab" aria-controls="{{ .job_id }}" aria-selected="false">
+                    {{ .name }}
+                  </a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
       <div class="col-lg-12 padding-0">
         <div class="post-single-content">
             <section class="section section-bg about-2 padding-0" id="who">
