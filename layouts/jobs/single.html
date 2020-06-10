@@ -34,7 +34,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row m-5">
+              <div class="row m-5 p-5">
                 <div class="col-lg-6">
                   <h2>
                     {{ range .info1 }}
@@ -51,7 +51,7 @@
                   <img class="img-fluid lozad" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
                 </div>
               </div>
-              <div class="row m-5">
+              <div class="row m-5 p-5">
                 <div class="col-lg-6">
                   <h2>
                     {{ range .info2 }}
@@ -86,7 +86,7 @@
               <section class="section section-bg about-2 padding-0" id="who">
                 <div class="container">
                   <div class="row">
-                    <div class="col-lg-8 offset-lg-2 p-2">
+                    <div class="col-lg-12 p-2">
                       <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
                         <h1 class="text-center">{{ .info4_title }}</h1>
                         <div class="border-meghna"></div>
@@ -126,15 +126,15 @@
               <section class="section section-bg about-2 padding-0" id="who">
                 <div class="container">
                   <div class="row">
+                    <div class="col-lg-6" style="background-image: url('{{ .info4_image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
+                      <!-- this image is for trigger this section fallback background image -->
+                      <img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .info4_image | absURL }})'" src="{{ .info4_image_webp | absURL }}" />
+                    </div>
                     <div class="col-lg-6">
                       <div class="content-block">
                         <h2>{{ .subtitle | markdownify }}</h2>
                         <p>{{ .text | markdownify }}</p>
                       </div>
-                    </div>
-                    <div class="col-lg-6" style="background-image: url('{{ .image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
-                      <!-- this image is for trigger this section fallback background image -->
-                      <img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
                     </div>
                   </div>
                 </div>

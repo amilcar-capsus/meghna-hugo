@@ -47,4 +47,36 @@ jobs:
                   info4_item_content: Ipsum mollit qui eiusmod nostrud culpa. Dolore veniam ipsum dolor fugiat cillum. Mollit minim laborum proident consequat.
                   info4_id: vac-3
                   info4_item_name: Vacante 3
+    job_item:
+        - name: Programa de Becarios
+          title: Programa de Becarios
+          job_id: internships
+          job_image: images/specialties/placeholder2.jpg
+          job_image_webp: images/specialties/placeholder2.webp
+          info1:
+            - info1_content: "Por ello, tenemos un programa de becarios para apoyar a los jóvenes profesionistas y fomentar el desarrollo de las nuevas generaciones en profesiones dirigidas a la sustentabilidad, materia que consideramos primordial para el mundo.
+            
+            Mediante este programa conocemos a personas que en un futuro pueden formar parte del equipo permanente de CAPSUS."
+              info1_title: Creemos que las primeras experiencias laborales son parte esencial del aprendizaje.
+          info2: 
+            - info2_title: ¿Qué pedimos a los interesados?
+              info2_item: 
+                - info2_content: Que te hayas graduado recientemente o estés por terminar (último semestre o año) tus estudios de licenciatura o de posgrado.
+                - info2_content: Ser 100% bilingüe (español, inglés). Al trabajar en proyectos nacionales e internacionales, ambos idiomas son fundamentales.
+                - info2_content: Que tus estudios, como tus intereses profesionales estén ligados al desarrollo sustentable en el ámbito urbano.
+                - info2_content: Que tengas un compromiso con nosotros de cuando menos 2 meses de tiempo completo. Si sigues estudiando y tu carga académica es muy baja, podríamos acordar un horario reducido y un periodo de tiempo más largo.
+          info3:
+            - info3_title: "¿Cumples con los requisitos? Escríbenos:"
+              info3_content: "Enviar por correo electrónico a: ideas@capsus.mx tu CV, una carta de motivos en español sobre porqué te interesa trabajar en CAPSUS y qué te motiva a perseguir una carrera profesional en el área de sustentabilidad y una carta en inglés donde nos cuentes: ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o).
+              
+              Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."
+          info4:
+            - info4_title: ¿Qué ofrecemos?
+              info4_image: images/specialties/placeholder2.jpg
+              info4_image_webp: images/specialties/placeholder2.webp
+              info4_item:
+                - info4_content: Te integramos al equipo como un miembro más y tendrás una experiencia profesional real equivalente en responsabilidades y actividades al resto de los miembros del equipo permanente de CAPSUS. 
+                - info4_content: Te integraremos de lleno a nuestras plataformas tecnológicas. 
+                - info4_content: Podrás participar de manera directa en proyectos que se desarrollan en México o en algún otro país.
+                - info4_content: Ofrecemos un apoyo de transporte de $3,200 pesos mexicanos al mes.  
 ---
