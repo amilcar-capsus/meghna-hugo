@@ -18,15 +18,16 @@
 		</div>
 		<div class="row justify-content-center">
 			{{ range .button_item }}
+			{{ if eq .enable true }}
 			{{"<!-- About item -->" | safeHTML}}
 			<div class="col-lg-6 text-center wow fadeInUp" data-wow-duration="500ms">
-				{{ if eq .enable true }}
 				<button class="btn-transparent">
 					<a href="{{ $.Site.BaseURL | relLangURL }}{{ .link }}">
 						{{ .label | markdownify }}
 					</a>
 				</button>
 			</div>
+			{{ end }}
 			{{ end }}
 		</div>
 	</div>
