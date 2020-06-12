@@ -1,27 +1,44 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index .Site.Data .Site.Language.Lang }} {{ if
+$data.banner.banner.enable }} {{ with $data.banner.banner }} {{"<!-- Welcome Slider-->"
+| safeHTML}}
+<section
+  class="hero-area"
+  style='background-image: url("{{ .bg_image_webp | absURL }}")'
+>
+  <!-- this image is for trigger this section fallback background image -->
+  <img
+    style="display: none;"
+    onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"
+    src="{{ .bg_image_webp | absURL }}"
+  />
 
-{{ if $data.banner.banner.enable }}
-{{ with $data.banner.banner }}
-{{"<!-- Welcome Slider-->" | safeHTML}}
-<section class="hero-area" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
-	<!-- this image is for trigger this section fallback background image -->
-	<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" src="{{ .bg_image_webp | absURL }}" />
-
-	<div class="block">
-		{{ if .icon }}
-		<div class="video-button">
-			<i class="{{ .icon }}"></i>
-		</div>
-		{{ end }}
-		<h1>{{ .title | markdownify }}</h1>
-		<p>{{ .content | markdownify }}</p>
-		{{ if .button.enable }}
-		{{ with .button }}
-		<a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>
-		{{ end }}
-		{{ end }}
-	</div>
+  <div class="block">
+    {{ if .icon }}
+    <div class="video-button">
+      <i class="{{ .icon }}"></i>
+    </div>
+    {{ end }} {{"<!-- testimonial wrapper -->" | safeHTML}}
+    <div
+      id="capsus-intro"
+      class="wow fadeInUp"
+      data-wow-duration="500ms"
+      data-wow-delay="100ms"
+    >
+      {{ range .banner_item }} {{"<!-- testimonial single -->" | safeHTML}}
+      <div class="item text-center">
+        {{"<!-- client info -->" | safeHTML}}
+        <div class="client-info">
+          <div class="client-meta">
+            <h1>{{ .banner_title }}</h1>
+            <p>{{ .banner_content }}</p>
+          </div>
+          <div class="client-comment">
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {{"<!-- /testimonial single -->" | safeHTML}} {{ end }}
+    </div>
+  </div>
 </section>
-{{"<!-- /Welcome Slider-->" | safeHTML}}
-{{end}}
-{{end}}
+{{"<!-- /Welcome Slider-->" | safeHTML}} {{end}} {{end}}
