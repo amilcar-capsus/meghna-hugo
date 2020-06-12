@@ -175,10 +175,28 @@ jQuery(function ($) {
 	/* ========================================================================= */
 	/*	Scrolling text
 	/* ========================================================================= */
-	$('.scroll-titles').scrollText({
+	/* $('.scroll-titles').scrollText({
 		'container': '.scroll-titles',
 		'direction': 'down',
 		'loop': true,
 		'duration': 4000
-	});
+	});*/
+
+	$(function(){
+		var tickerLength = $('.scroll-titles ul li').length;
+		var tickerHeight = $('.cscroll-titles ul li').outerHeight();
+		$('.scroll-titles ul li:last-child').prependTo('.scroll-titles ul');
+		$('.scroll-titles ul').css('marginTop',-tickerHeight);
+		function moveTop(){
+		  $('.scroll-titles ul').animate({
+			top : -tickerHeight
+		  },600, function(){
+		   $('.scroll-titles ul li:first-child').appendTo('.scroll-titles ul');
+			$('.scroll-titles ul').css('top','');
+		  });
+		 }
+		setInterval( function(){
+		  moveTop();
+		}, 3000);
+		});
 });
