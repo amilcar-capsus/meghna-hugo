@@ -86,7 +86,11 @@ jQuery(function ($) {
 		infinite: true,
 		arrows: false,
 		autoplay: true,
-		autoplaySpeed: 4000
+		autoplaySpeed: 300,
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		centerMode: true,
+		variableWidth: true
 	});
 
 	/* ========================================================================= */
