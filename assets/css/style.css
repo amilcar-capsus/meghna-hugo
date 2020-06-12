@@ -2300,11 +2300,11 @@ figcaption {
 }
 
 .scroll-titles ul {
+  list-style: none;
   position: relative;
 }
 
 .scroll-titles li {
-  list-style: none;
   height: 50px;
 }
 
