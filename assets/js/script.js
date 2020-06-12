@@ -176,7 +176,7 @@ jQuery(function ($) {
 	/*	Scrolling text
 	/* ========================================================================= */
 	$('.scroll-titles').scrollText({
-		'container': '.scroll-titles'
+		'container': '.scroll-titles',
 		'direction': 4000,
 		'loop': true,
 		'direction': 'down'
