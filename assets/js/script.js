@@ -83,7 +83,7 @@ jQuery(function ($) {
 	/* =========================================================================  */
 
 	$("#clients").slick({
-		infinite: true,
+		infinite: false,
 		arrows: false,
 		autoplay: true,
 		autoplaySpeed: 600,
