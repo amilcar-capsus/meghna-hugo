@@ -177,8 +177,8 @@ jQuery(function ($) {
 	/* ========================================================================= */
 	$('.scroll-titles').scrollText({
 		'container': '.scroll-titles',
-		'direction': 4000,
+		'direction': 'down',
 		'loop': true,
-		'direction': 'down'
+		'duration': 1000
 	});
 });
