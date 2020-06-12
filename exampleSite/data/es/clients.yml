@@ -55,7 +55,7 @@ clients:
     
     # testimonial item loop
     - name : Lemos Kail
-      image : images/portfolio/DZ.jpg
+      image : images/portfolio/LA.jpg
       image_webp : images/portfolio/DZ.webp
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!

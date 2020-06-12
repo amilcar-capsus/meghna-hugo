@@ -86,7 +86,7 @@ jQuery(function ($) {
 		infinite: true,
 		arrows: false,
 		autoplay: true,
-		autoplaySpeed: 300,
+		autoplaySpeed: 600,
 		slidesToShow: 5,
 		slidesToScroll: 1,
 		centerMode: true,
