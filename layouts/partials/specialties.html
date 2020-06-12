@@ -1,7 +1,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-{{ if $data.about.about.enable }}
-{{ with $data.about.about }}
+{{ if $data.specialties.specialties.enable }}
+{{ with $data.specialties.specialties }}
 {{"<!-- Start About Section -->" | safeHTML}}
 <section class="bg-one about section" id="specialties">
 	<div class="container">
@@ -16,9 +16,9 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range .about_item }}
+			{{ range .specialty_item }}
 			{{"<!-- About item -->" | safeHTML}}
-			<div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
+			<div class="col-lg-3 text-center wow fadeInUp" data-wow-duration="500ms">
 				<div class="block">
 					<div class="icon-box">
 						{{with .icon}}<i class="{{ . }}"></i>{{ end }}

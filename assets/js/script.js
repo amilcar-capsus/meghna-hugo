@@ -190,7 +190,7 @@ jQuery(function ($) {
 		function moveTop(){
 		  $('.scroll-titles ul').animate({
 			top : -tickerHeight
-		  },300, function(){
+		  },1000, function(){
 		   $('.scroll-titles ul li:first-child').appendTo('.scroll-titles ul');
 			$('.scroll-titles ul').css('top','');
 		  });

@@ -1,0 +1,20 @@
+############################# About ###################################
+specialties:
+  enable : true
+  title : Nuestras Especialidades
+  specialty_item :
+  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
+    title : PLANIFICACIÓN URBANA Y EDIFICACIÓN SUSTENTABLE
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+    title : EVALUACIONES Y ESTUDIOS SUSTENTABLES
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+    title : DIFUSIÓN Y DESARROLLO DE CAPACIDADES SOBRE SUSTENTABILIDAD
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+    title : DISEÑO Y EVALUACIÓN DE POLÍTICAS PÚBLICAS
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
