@@ -175,5 +175,10 @@ jQuery(function ($) {
 	/* ========================================================================= */
 	/*	Scrolling text
 	/* ========================================================================= */
-	$('.scroll-titles').scrollText();
+	$('.scroll-titles').scrollText({
+		'container': '.scroll-titles',
+		'direction': 'down',
+		'loop': true,
+		'duration': 4000
+	});
 });
