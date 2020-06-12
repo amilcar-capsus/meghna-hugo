@@ -34,8 +34,8 @@ clients:
 
     # testimonial item loop
     - name : Jonathon Andrew
-      image : images/portfolio/LG.jpg
-      image_webp : images/portfolio/LG.webp
+      image : images/portfolio/SM.jpg
+      image_webp : images/portfolio/SM.webp
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
       
