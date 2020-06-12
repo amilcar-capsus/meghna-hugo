@@ -2299,6 +2299,10 @@ figcaption {
   overflow: hidden;
 }
 
+.scroll-titles ul {
+  position: relative;
+}
+
 .scroll-titles li {
   list-style: none;
   height: 50px;
