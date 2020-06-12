@@ -1,34 +1,34 @@
 ################################# Service #################################
 service:
   enable : true
-  title : Our Services
+  title : ¿Qué ofrecemos?
   service_item :
     # service item loop
-    - name : WordPress Theme
+    - name : EXPERIENCIA INTERNACIONAL
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Siempre que un proyecto involucra una nueva ubicación, aprendemos de su contrato y enriquecemos nuestro trabajo.
       
     # service item loop
-    - name : Responsive Design
+    - name : EXPERIENCIA Y ESPECIALIZACIÓN
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Nuestro equipo se capacita constantemente para estar a la vanguardia en los temas de sustentabilidad.
       
     # service item loop
-    - name : Media &amp; Advertisement
+    - name : DISEÑO E INFORMACIÓN
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Entregamos mensajes claros y efectivos que nuestros receptores pueden adaptar exitosamente.
       
     # service item loop
-    - name : Graphic Design
+    - name : DESARROLLO DE SOFTWARE
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Integramos innovaciones tecnológicas en nuestros proyectos y desarrollamos herramientas para simplificar el análisis de datos en la planifiación urbana.
       
     # service item loop
-    - name : Apps Development
+    - name : INVESTIGACIÓN DE CALIDAD
       icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Utilizamos tecnología de punta y prácticas vanguardistas para desarrollar aplicaciones y soluciones prácticas.
       
     # service item loop
-    - name : Networking
+    - name : CULTURA DE TRABAJO
       icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Promovemos trabajo colaborativo, creativo e innovador. Estamos comprometidos con los objetivos de nuestros clientes.
