@@ -95,10 +95,10 @@
     content: '→';
 }
 
-/*.slick-next
+.slick-next
 {
     right: -25px;
-}*/
+}
 [dir='rtl'] .slick-next
 {
     right: auto;
