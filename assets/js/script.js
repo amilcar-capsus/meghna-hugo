@@ -178,7 +178,6 @@ jQuery(function ($) {
 	$('.scroll-titles').scrollText({
 		'container': '.scroll-titles',
 		'direction': 'down',
-		'loop': true,
-		'duration': 1000
+		'duration': 4000
 	});
 });
