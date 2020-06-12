@@ -14,6 +14,7 @@
 				<div id="clients" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
 					{{ range .client_item }}
 					{{"<!-- testimonial single -->" | safeHTML}}
+					<div class="item text-center">
 						{{"<!-- client photo -->" | safeHTML}}
 							<img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
 					</div>
