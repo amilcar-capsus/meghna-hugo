@@ -6,9 +6,9 @@ cta:
   title : "NUESTRO EQUIPO ES TRANSDISCIPLINARIO"
   content : "Somos "
   career_item : 
-    - carrer_title : Ingenieros
-    - carrer_title : Placeholder 2
-    - carrer_title : Placeholder 3
+    - career_title : Ingenieros
+    - career_title : Placeholder 2
+    - career_title : Placeholder 3
   button:
     enable : true
     label : "Start a project with us"
