@@ -2294,4 +2294,10 @@ figcaption {
   display: block;
 }
 
+.scroll-titles {
+  height: 100px;
+  line-height: 30px;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

@@ -170,5 +170,14 @@ jQuery(function ($) {
 		modal.find('.modal-title').text(name)
 		modal.find('.modal-body #member-picture').attr('alt',name).attr('src', picture)
 		modal.find('.modal-body #member-profile').text(decodeURIComponent(profile))
-	  })
+	  });
+
+	/* ========================================================================= */
+	/*	Scrolling text
+	/* ========================================================================= */
+	$('.scroll-titles').scrollText({
+		'direction': 2000,
+		'loop': true,
+		'direction': 'down'
+	});
 });
