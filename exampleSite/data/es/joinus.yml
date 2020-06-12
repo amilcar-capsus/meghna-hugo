@@ -1,0 +1,16 @@
+---
+banner:
+  enable: true
+  bg_image_webp: images/backgrounds/hero-area.webp
+  bg_image: images/backgrounds/hero-area.jpg
+  icon: ''
+  title: ¿Quieres trabajar con nosotros?
+  content: TRANSFORMAMOS IDEAS, POLÍTICAS Y PROYECTOS EN BENEFICIOS SOCIALES, AMBIENTALES
+    Y ECONÓMICOS
+  button_item:
+    - enable: true
+      label: Bolsa de Trabajo
+      link: "jobs/jobs#jobs"
+    - enable: true
+      label: Programa de Becarios
+      link: "jobs/jobs#internships"
