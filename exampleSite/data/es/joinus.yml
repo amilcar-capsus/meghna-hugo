@@ -9,8 +9,5 @@ joinus:
     Y ECONÓMICOS
   button_item:
     - enable: true
-      label: Bolsa de Trabajo
-      link: "jobs/jobs#jobs"
-    - enable: true
-      label: Programa de Becarios
-      link: "jobs/jobs#internships"
+      label: ÚNETE
+      link: "jobs/jobs"
