@@ -184,7 +184,7 @@ jQuery(function ($) {
 
 	$(function(){
 		var tickerLength = $('.scroll-titles ul li').length;
-		var tickerHeight = $('.cscroll-titles ul li').outerHeight();
+		var tickerHeight = $('.scroll-titles ul li').outerHeight();
 		$('.scroll-titles ul li:last-child').prependTo('.scroll-titles ul');
 		$('.scroll-titles ul').css('marginTop',-tickerHeight);
 		function moveTop(){
