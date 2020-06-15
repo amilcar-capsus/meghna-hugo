@@ -39,6 +39,9 @@
             <li class="nav-item">
               <a class="nav-link" id="pills-{{ .case_id }}" data-toggle="pill" href="#{{ .case_id }}" role="tab" aria-controls="{{ .case_id }}" aria-selected="false">
                 <img class="img-fluid lozad" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
+                <h3 class="justify-content-center">
+                  {{ .name }}
+                </h3>
               </a>
             </li>
             {{ end }}
