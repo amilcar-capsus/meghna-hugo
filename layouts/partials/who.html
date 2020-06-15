@@ -16,7 +16,6 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 		</div>
-		
 		<div id="capsus-who" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
 			{{ range .who_item }}
 			{{"<!-- testimonial single -->" | safeHTML}}
@@ -49,6 +48,19 @@
 			</div>
 			{{"<!-- /testimonial single -->" | safeHTML}}
 			{{ end }}
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-lg-6 text-center wow fadeInUp" data-wow-duration="500ms">
+				{{ with .button_item }}
+				<button class="btn btn-transparent">
+					<a href="{{ $.Site.BaseURL | relLangURL }}{{ .link }}">
+						<h3>
+							{{ .label | markdownify }}
+						</h3>
+					</a>
+				</button>
+				{{ end }}
+			</div>
 		</div>
 	</div>
 </section>

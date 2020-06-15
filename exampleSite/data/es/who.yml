@@ -4,6 +4,10 @@ who:
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
   title : ¿Quienes Somos?
+  button_item:
+    - enable: true
+      label: Descargar brochure
+      link: "#"
   content : "Asesoramos a entes públicos y privados internacionales, analizamos datos espaciales, generamos indicadores de desempeño y desarrollamos herramientas para facilitar la toma de decisiones informadas que incentiven el desarrollo económico, la inclusión social y la conversación del medio ambiente."
   who_item : 
       # feature item loop
