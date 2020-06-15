@@ -5,6 +5,8 @@ specialty:
     main_title: "Evaluciones y Estudios sustentables"
     image_webp: images/blog/meghna.webp
     image: images/blog/meghna.jpg
+    extra_title : Más de 20 proyectos similares
+    extra_content : sobre evaluaciones y estudios sustentables en el ámbito nacional e internacional
     description : "This is meta description"
     subtitle: "Soluciones para ciudades y edificaciones"
     text: "Creamos soluciones para ciudades y edificaciones que reduzcan los costos de inversión y mantenimiento, mejoren la calidad de vida de sus habitantes y tengan un buen desempeño ambiental y energético."
