@@ -30,7 +30,7 @@
 							<span>{{ .who_content | markdownify }}</span>
 						</div>
 						<div class="col-lg-1">
-							<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
+							<img class="img-fluid lozad" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
 						</div>
 						<div class="col-lg-5">
 							<h2>
