@@ -73,13 +73,13 @@ weight = 4
 # name = "blog"
 # weight = 6
 [[menu.main]]
-URL = "contact"
-name = "contact"
-weight = 5
-[[menu.main]]
 identifier = "jobs"
 URL = "jobs/jobs"
 name = "jobs"
+weight = 5
+[[menu.main]]
+URL = "contact"
+name = "contact"
 weight = 6
 [[menu.static]]
 URL = "https://themefisher.com/"

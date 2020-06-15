@@ -7,8 +7,13 @@ cta:
   content : "Somos "
   career_item : 
     - career_title : Ingenieros
-    - career_title : Placeholder 2
-    - career_title : Placeholder 3
+    - career_title : Arquitectos
+    - career_title : Diseñadores
+    - career_title : Urbanistas
+    - career_title : Programadores
+    - career_title : Analistas
+    - career_title : Sociólogos
+    - career_title : Educadores
   button:
     enable : true
     label : "Start a project with us"
