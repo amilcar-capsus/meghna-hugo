@@ -18,7 +18,8 @@
 
 			{{"<!-- Contact Details -->" | safeHTML}}
 			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-				<h3>{{ .subtitle | markdownify }}</h3>
+				<h3>{{ .main_title | markdownify }}</h3>
+				<h4>{{ .subtitle | markdownify }}</h4>
 				<p> {{ .content | markdownify }} </p>
 				<div class="contact-details">
 					{{ range .contact_details }}
