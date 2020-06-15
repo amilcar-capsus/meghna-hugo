@@ -1,0 +1,48 @@
+############################# feature ###################################
+who:
+  enable : true
+  image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
+  title : ¿Quienes Somos?
+  content : "Asesoramos a entes públicos y privados internacionales, analizamos datos espaciales, generamos indicadores de desempeño y desarrollamos herramientas para facilitar la toma de decisiones informadas que incentiven el desarrollo económico, la inclusión social y la conversación del medio ambiente."
+  who_item : 
+      # feature item loop
+    - who_title : Somos una empresa internacional con sede en México
+      who_content : "Nuestro equipo transdisciplinario cuenta con amplia experiencia en sustentabilidad. Nos caracterizamos por proponer soluciones innovadoras, que esten respaldadas por información técnica sólida, incorparando nuestros valores, el estado del arte y las mejores prácticas en la metaria que trabajemos.
+      
+      Consideramos a nuestros clientes como socios en un esfuerzo común por mejorar el desempeño ambiental, el rendimiento económico y la responsabilidad social."
+      image : images/about/about-business-man.jpg
+      image_webp : images/about/about-business-man.webp
+      list_title : "CAPSUS es:"
+      list_item : 
+        - list_content : Corresponsabilidad
+        - list_content : Compromiso
+        - list_content : Crecimiento
+        - list_content : Creatividad
+        - list_content : Credibilidad
+      
+    - who_title : Misión
+      who_content : "Nuestro equipo transdisciplinario cuenta con amplia experiencia en sustentabilidad. Nos caracterizamos por proponer soluciones innovadoras, que esten respaldadas por información técnica sólida, incorparando nuestros valores, el estado del arte y las mejores prácticas en la metaria que trabajemos.
+      
+      Consideramos a nuestros clientes como socios en un esfuerzo común por mejorar el desempeño ambiental, el rendimiento económico y la responsabilidad social."
+      image : images/about/about-business-man.jpg
+      image_webp : images/about/about-business-man.webp
+      list_item : 
+        - list_content : Corresponsabilidad
+        - list_content : Compromiso
+        - list_content : Crecimiento
+        - list_content : Creatividad
+        - list_content : Credibilidad
+    
+    - who_title : Visión
+      who_content : "Nuestro equipo transdisciplinario cuenta con amplia experiencia en sustentabilidad. Nos caracterizamos por proponer soluciones innovadoras, que esten respaldadas por información técnica sólida, incorparando nuestros valores, el estado del arte y las mejores prácticas en la metaria que trabajemos.
+      
+      Consideramos a nuestros clientes como socios en un esfuerzo común por mejorar el desempeño ambiental, el rendimiento económico y la responsabilidad social."
+      image : images/about/about-business-man.jpg
+      image_webp : images/about/about-business-man.webp
+      list_item : 
+        - list_content : Corresponsabilidad
+        - list_content : Compromiso
+        - list_content : Crecimiento
+        - list_content : Creatividad
+        - list_content : Credibilidad
