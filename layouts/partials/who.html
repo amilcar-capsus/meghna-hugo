@@ -3,8 +3,8 @@
 {{ if $data.who.who.enable }}
 {{ with $data.who.who }}
 {{"<!-- feature -->" | safeHTML}}
-<section class="section section-bg about-2 padding-0" id="who">
-	<div class="container-fluid">
+<section class="section section-bg about-2" id="who">
+	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-12">
 				{{"<!-- section title -->" | safeHTML}}
@@ -22,7 +22,7 @@
 			{{"<!-- testimonial single -->" | safeHTML}}
 			<div class="item text-center">
 				<div class="container">
-					<div class="row justify-text text-left">
+					<div class="row justify-text text-left m-4">
 						<div class="col-lg-6">
 							<h2>
 								{{ .who_title | markdownify}}
