@@ -4,7 +4,7 @@ feature:
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
   title : Enfocados al sector público, nacional e internacional
-  content : "Asesoramos a entes públicos y privados internacionales, analizamos datos espaciales, generamos indicadores de desempeño y desarrollamos herramientas para facilitar la toma de decisiones informadas que incentiven el desarrollo económico, la inclusión social y la conversación del medio ambiente."
+  content : "Asesoramos a entes públicos y privados internacionales, analizamos datos espaciales, generamos indicadores de desempeño y desarrollamos herramientas para facilitar la toma de decisiones informadas que incentiven el desarrollo económico, la inclusión social y la conservación del medio ambiente."
   feature_item : 
       # feature item loop
     - title : Ciudades y Gobiernos

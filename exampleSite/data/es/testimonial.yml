@@ -5,22 +5,25 @@ testimonial:
   bg_image_webp : images/backgrounds/bg-testimonial.webp
   testimonial_item :
     # testimonial item loop
-    - name : Jonathon Andrew
+    - name : Doctora Beatríz Martínez Sánchez 
+      title : Directora General del Instituto Municipal de Planeación de Bahía de Banderas, Nayarit.
       image : images/client/client-1.jpg
       image_webp : images/client/client-1.webp
       date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      content : '“Concretar un instrumento como el Plan de Acción Climática Municipal, en coordinación la IUC que asignó a CAPSUS, ha enriquecido la capacidad del equipo local, para estructurar, definir y proyectar acciones de mitigación y adaptación esenciales en distintos plazos”'
       
     # testimonial item loop
-    - name : Mark Dinn
+    - name : Emad AlRashed
+      title : Ministerio de Planificación y Cooperación Internacional, Jordania.
       image : images/client/client-2.jpg
       image_webp : images/client/client-2.webp
       date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      content : '"... there are many challenges these cities are facing in economic and social aspects and this project will provide them how they can improve services for the citizens and provide new investment in spatial analysis."'
       
     # testimonial item loop
-    - name : Lemos Kail
+    - name : Mohammed Zawahreh
+      title : Jefe de Desarrollo Local, Unidad del Municipio de Zarqa, Jordania.
       image : images/client/client-1.jpg
       image_webp : images/client/client-1.webp
       date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      content : '"This project made some kind of mind-shifting for me... I think in this project we have moved from the traditional urban planning which depends on efficiency and some benefits to balance urban planning taking into consideration the environmental aspect, social, economic, etc"'
