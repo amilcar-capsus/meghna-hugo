@@ -21,26 +21,28 @@
 				{{ range .who_item }}
 				{{"<!-- testimonial single -->" | safeHTML}}
 				<div class="item text-center">
-					<div class="col-lg-6">
-						<h2>
-							{{ .who_title | markdownify}}
-						</h2>
-						<span>{{ .who_content | markdownify }}</span>
-					</div>
-					<div class="col-lg-1">
-						<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
-					</div>
-					<div class="col-lg-5">
-						<h2>
-							{{ .list_title | markdownify }}
-						</h2>
-						<ul>
-							{{ range .list_item }}
-							<li>
-								{{ .list_content | markdownify }}
-							</li>
-							{{ end }}
-						</ul>
+					<div class="row">
+						<div class="col-lg-6">
+							<h2>
+								{{ .who_title | markdownify}}
+							</h2>
+							<span>{{ .who_content | markdownify }}</span>
+						</div>
+						<div class="col-lg-1">
+							<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
+						</div>
+						<div class="col-lg-5">
+							<h2>
+								{{ .list_title | markdownify }}
+							</h2>
+							<ul>
+								{{ range .list_item }}
+								<li>
+									{{ .list_content | markdownify }}
+								</li>
+								{{ end }}
+							</ul>
+						</div>
 					</div>
 				</div>
 				{{"<!-- /testimonial single -->" | safeHTML}}
