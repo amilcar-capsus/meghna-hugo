@@ -1,8 +1,8 @@
 ############################# call to action ##############################
 cta:
   enable : true
-  bg_image : "images/backgrounds/bg-white-wall.jpg"
-  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  bg_image : "images/backgrounds/Background-blanco-2.jpg"
+  bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
   title : "NUESTRO EQUIPO ES TRANSDISCIPLINARIO"
   content : "Somos "
   career_item : 

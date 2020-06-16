@@ -1,8 +1,8 @@
 ################################# Testimonial #########################
 testimonial:
   enable : true
-  bg_image : images/backgrounds/bg-testimonial.jpg
-  bg_image_webp : images/backgrounds/bg-testimonial.webp
+  bg_image : images/backgrounds/Background-blanco-2.jpg
+  bg_image_webp : images/backgrounds/Background-blanco-2.jpg
   testimonial_item :
     # testimonial item loop
     - name : Doctora Beatríz Martínez Sánchez 

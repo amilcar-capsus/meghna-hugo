@@ -1,8 +1,8 @@
 ################################# funfacts ##################################
 funfacts:
   enable : true
-  bg_image : "images/backgrounds/bg-white-wall.jpg"
-  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  bg_image : "images/backgrounds/Background-blanco-3.jpg"
+  bg_image_webp : "images/backgrounds/Background-blanco-3.jpg"
   counter_item:
     # counter item loop
     - title : "PROYECTOS EN"

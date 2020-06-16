@@ -665,6 +665,11 @@ a:hover {
   background-attachment: fixed;
 }
 
+.call-to-action h1 {
+  font-weight: 700;
+  color: #00495a;
+}
+
 .call-to-action h2 {
   font-weight: 700;
   color: #444;
@@ -2301,9 +2306,13 @@ figcaption {
   display: block;
 }
 
-.scroll-titles {
+.call-to-action .scroll-titles {
   height: 50px;
   overflow: hidden;
+}
+
+.call-to-action .scroll-titles ul {
+  color: #28c5b9;
 }
 
 .scroll-titles ul {
