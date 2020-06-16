@@ -1076,7 +1076,7 @@ a:hover {
   Our Team
 ==================================================================*/
 .team-member {
-  background-color: #28c5b9;
+  background-color: transparent;
   margin-bottom: 10px;
   min-height: 382px;
 }
@@ -1173,7 +1173,7 @@ a:hover {
 
 .member-meta h4 {
   margin: 0 0 5px;
-  color: #28c5b9;
+  color: white;
 }
 
 .member-meta span {
