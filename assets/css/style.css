@@ -2319,7 +2319,10 @@ figcaption {
 
 .scroll-titles li {
   height: 50px;
-  color: #28c5b9 !important;
+}
+
+.scroll-titles li h1 {
+  color: #28c5b9!important;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
