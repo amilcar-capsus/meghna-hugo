@@ -407,9 +407,10 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: #00495a;
   width: 100%;
   margin-bottom: 0;
+  color:white;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link,
@@ -442,8 +443,8 @@ a:hover {
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #1d2024;
-  color: #737f8a;
+  background-color: #00495a;
+  color: white;
 }
 
 .dropdown:hover .dropdown-menu {
