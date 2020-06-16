@@ -12,8 +12,7 @@ portfolio:
       title : Socio
       content : Política pública y desarrollo sustentable
       link : "#"
-      profile_intro: Es Ingeniero Físico. Tiene una Maestría en Políticas Públicas
-      member_profile: por la escuela de gobierno de la Universidad de
+      member_profile: Es Ingeniero Físico. Tiene una Maestría en Políticas Públicas por la escuela de gobierno de la Universidad de
                       Harvard. Guillermo tiene más de 20 años de trayectoria en el sector
                       ambiental y el sector urbano. Como funcionario público fue Coordinador
                       de Asesores en el Senado de la República, Diputado Federal y Local por
@@ -33,13 +32,12 @@ portfolio:
       title : Socio
       content : Energía y edificación
       link : "#"
-      profile_intro: Es Ingeniero Mecánico y tiene una Maestría en
-                      Ciencias en Energía Renovable
-      member_profile: ", actualmente es estudiante del
+      member_profile: Es Ingeniero Mecánico y tiene una Maestría en
+                      Ciencias en Energía Renovable, actualmente es estudiante del
                       doctorado en energía en diseño bioclimático de edificaciones. Ricardo
                       cuenta con experiencia en el área de simulación energética en
                       edificaciones y se ha especializado en estrategias de eficiencia energética,
-                      adaptación y mitigación al cambio climático en el entorno construido."
+                      adaptación y mitigación al cambio climático en el entorno construido.
       
     # portfolio item loop
     - name : Daniela Evia
