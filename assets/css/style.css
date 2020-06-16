@@ -490,8 +490,8 @@ a:hover {
 }
 
 .hero-area .block h1 {
-  font-size: 90px;
-  color: #fff;
+  font-size: 50px;
+  color: rgb(53, 50, 50);
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 20px;

@@ -27,7 +27,7 @@
 									{{ else }}
 									<div class="col-lg-7">
 										<h1>
-											<span>{{ .banner_title | markdownify }}</span> <span style="color: '{{ .color }}'">{{ .banner_content | markdownify }}</span>
+											<span>{{ .banner_title | markdownify }}</span> <span style="color: {{ .color }}">{{ .banner_content | markdownify }}</span>
 										</h1>
 									</div>
 									{{ end }}
