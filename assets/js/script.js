@@ -94,7 +94,7 @@ jQuery(function ($) {
 	/* =========================================================================  */
 
 	$("#clients").slick({
-		infinite: false,
+		infinite: true,
 		arrows: false,
 		autoplay: true,
 		autoplaySpeed: 600,
@@ -183,6 +183,8 @@ jQuery(function ($) {
 		var modal = $(this)
 		modal.find('.modal-title').text(name)
 		modal.find('.modal-body #member-picture').attr('alt',name).attr('src', picture)
+		console.log(modal.find('.modal-body #member-profile').text(profile))
+		console.log(modal.find('.modal-body #member-profile').text(decodeURIComponent(profile)))
 		modal.find('.modal-body #member-profile').text(decodeURIComponent(profile))
 	  });
 
