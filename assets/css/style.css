@@ -106,7 +106,7 @@ a:hover {
 }
 
 .btn:focus {
-  color: #ddd;
+  color: #00495a;
 }
 
 .btn-transparent {
@@ -421,7 +421,7 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-  color: #57cbcc;
+  color: #00495a;
 }
 
 .navbar-toggler:focus {
