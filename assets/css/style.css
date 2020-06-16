@@ -915,7 +915,7 @@ a:hover {
 }
 
 .portfolio-filter .btn.active {
-  border-color: #57cbcc;
+  border-color: #28c5b9;
 }
 
 .portfolio-block {
@@ -1112,7 +1112,7 @@ a:hover {
 }
 
 .member-photo .mask {
-  background-color: rgba(87, 203, 204, 0.7);
+  background-color: rgba(40, 197, 185, 0.7);
   position: absolute;
   text-align: center;
   height: 100%;

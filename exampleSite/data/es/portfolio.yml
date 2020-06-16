@@ -9,9 +9,11 @@ portfolio:
       image : images/portfolio/GV.jpg
       image_webp : images/portfolio/GV.webp
       categories : ["partners"]
+      title : Socio
       content : Política pública y desarrollo sustentable
       link : "#"
-      member_profile: Es Ingeniero Físico. Tiene una Maestría en Políticas Públicas por la escuela de gobierno de la Universidad de
+      profile_intro: Es Ingeniero Físico. Tiene una Maestría en Políticas Públicas
+      member_profile: por la escuela de gobierno de la Universidad de
                       Harvard. Guillermo tiene más de 20 años de trayectoria en el sector
                       ambiental y el sector urbano. Como funcionario público fue Coordinador
                       de Asesores en el Senado de la República, Diputado Federal y Local por
@@ -28,20 +30,23 @@ portfolio:
       image : images/portfolio/RO.jpg
       image_webp : images/portfolio/RO.webp
       categories : ["partners"]
+      title : Socio
       content : Energía y edificación
       link : "#"
-      member_profile: Es Ingeniero Mecánico y tiene una Maestría en
-                      Ciencias en Energía Renovable, actualmente es estudiante del
+      profile_intro: Es Ingeniero Mecánico y tiene una Maestría en
+                      Ciencias en Energía Renovable
+      member_profile: ", actualmente es estudiante del
                       doctorado en energía en diseño bioclimático de edificaciones. Ricardo
                       cuenta con experiencia en el área de simulación energética en
                       edificaciones y se ha especializado en estrategias de eficiencia energética,
-                      adaptación y mitigación al cambio climático en el entorno construido.
+                      adaptación y mitigación al cambio climático en el entorno construido."
       
     # portfolio item loop
     - name : Daniela Evia
       image : images/portfolio/DE.jpg
       image_webp : images/portfolio/DE.webp
       categories : ["coordinators"]
+      title : Coordinadora
       content : Educación y procesos participativos
       link : "#"
       member_profile: Es Historiadora y Maestra en Innovación Educativa.
@@ -58,6 +63,7 @@ portfolio:
       image : images/portfolio/CV.jpg
       image_webp : images/portfolio/CV.webp
       categories : ["coordinators"]
+      title : Coordinadora
       content : Desarrollo urbano y diseño bioclimático
       link : "#"
       member_profile: Es Arquitecta, tiene una Maestría en Ingeniería en
@@ -72,6 +78,7 @@ portfolio:
       image : images/portfolio/CV.jpg
       image_webp : images/portfolio/CV.webp
       categories : ["coordinators"]
+      title : Coordinador
       content : Administración y finanzas
       link : "#"
       member_profile: Es contadora pública más de 20 años de experiencia
@@ -85,6 +92,7 @@ portfolio:
       image : images/portfolio/TG.jpg
       image_webp : images/portfolio/TG.webp
       categories : ["coordinators"]
+      title : Coordinador
       content : Desarrollo urbano y vivienda
       link : "#"
       member_profile: Es Arquitecta y tiene una Maestría en Ciencias en
@@ -98,6 +106,7 @@ portfolio:
       image : images/portfolio/RO.jpg
       image_webp : images/portfolio/RO.webp
       categories : ["consultants"]
+      title : Consultor
       content : Tecnologías de la información
       link : "#"
       member_profile: Es ingeniero en sistemas computacionales. Ha
@@ -112,6 +121,7 @@ portfolio:
       image : images/portfolio/AV.jpg
       image_webp : images/portfolio/AV.webp
       categories : ["consultants"]
+      title : Consultora
       content : Diseño de la Comunicación Gráfica e Información
       link : "#"
       member_profile: Es Diseñadora de la Comunicación Gráfica
@@ -131,6 +141,7 @@ portfolio:
       image : images/portfolio/LA.jpg
       image_webp : images/portfolio/LA.webp
       categories : ["consultants"]
+      title : Consultor
       content : Desarrollo sustentable
       link : "#"
       member_profile: Es Ingeniero en Desarrollo Sustentable por el
@@ -146,6 +157,7 @@ portfolio:
       image : images/portfolio/JD.jpg
       image_webp : images/portfolio/JD.webp
       categories : ["consultants"]
+      title : Consultor
       content : Desarrollo sustentable
       link : "#"
       member_profile: Es Ingeniero Químico. Cuenta con experiencia
@@ -160,6 +172,7 @@ portfolio:
       image : images/portfolio/JG.jpg
       image_webp : images/portfolio/JG.webp
       categories : ["consultants"]
+      title : Consultor
       content : Desarrollo Urbano y sistemas de información geográfica
       link : "#"
       member_profile: Estudió Urbanismo por parte de la Universidad Nacional
@@ -173,6 +186,7 @@ portfolio:
       image : images/portfolio/LA.jpg
       image_webp : images/portfolio/LA.webp
       categories : ["consultants"]
+      title : Consultor
       content : Tecnologías de la información
       link : "#"
       member_profile: Es ingeniero en informática por la Universidad
@@ -187,6 +201,7 @@ portfolio:
       image : images/portfolio/MB.jpg
       image_webp : images/portfolio/MB.webp
       categories : ["consultants"]
+      title : Consultora
       content : Desarrollo sustentable
       link : "#"
       member_profile: Es Ingeniera Química. Se ha desempeñado
@@ -203,6 +218,7 @@ portfolio:
       image : images/portfolio/RG.jpg
       image_webp : images/portfolio/RG.webp
       categories : ["consultants"]
+      title : Consultor
       content : Desarrollo sustentable
       link : "#"
       member_profile: Es Ingeniero Ambiental. Tiene experiencia en temas
@@ -217,6 +233,7 @@ portfolio:
       image : images/portfolio/SR.jpg
       image_webp : images/portfolio/SR.webp
       categories : ["consultants"]
+      title : Consultor
       content : Desarrollo Sustentable
       link : "#"
       member_profile: Es Ingeniero Químico Ambiental por la
@@ -234,6 +251,7 @@ portfolio:
       image : images/portfolio/SM.jpg
       image_webp : images/portfolio/SM.webp
       categories : ["consultants"]
+      title : Consultora
       content : Desarrollo Urbano y Sistemas de información geográfica
       link : "#"
       member_profile: Es urbanista por la Benemérita Universidad de
@@ -246,6 +264,7 @@ portfolio:
       image : images/portfolio/RO.jpg
       image_webp : images/portfolio/RO.webp
       categories : ["consultants"]
+      title : Consultor
       content : Analista y psicólogo socio-ambiental
       link : "#"
       member_profile: Es Analista Social y Psicólogo Socio-ambiental.
@@ -268,6 +287,7 @@ portfolio:
       image : images/portfolio/GV.jpg
       image_webp : images/portfolio/GV.webp
       categories : ["associates"]
+      title : Asociado
       content : Relaciones Internacionales y Sustentabilidad
       link : "#"
       member_profile: Es licenciado en Relaciones Internacionales.
@@ -282,6 +302,7 @@ portfolio:
       image : images/portfolio/RO.jpg
       image_webp : images/portfolio/RO.webp
       categories : ["associates"]
+      title : Asociado
       content : Matemático y tecnologías de la información
       link : "#"
       member_profile: Estudió matemáticas aplicadas en la
@@ -314,6 +335,7 @@ portfolio:
       image : images/portfolio/GV.jpg
       image_webp : images/portfolio/GV.webp
       categories : ["associates"]
+      title : Asociado
       content : Planeación urbana y medio ambiente
       link : "#"
       member_profile: Cuenta con una licenciatura interdisciplinaria en
