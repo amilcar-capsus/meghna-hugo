@@ -1132,6 +1132,18 @@ a:hover {
   top: 125px;
 }
 
+.member-photo .mask ul li h3 {
+  color: #00495a;
+}
+
+.member-photo .mask .btn {
+  color: #00495a;
+}
+
+.member-photo .mask .btn.btn-transparent {
+  border: 1px solid #00495a;
+}
+
 .member-photo .mask ul li a {
   border: 1px solid #fff;
   color: #fff;
@@ -1159,6 +1171,10 @@ a:hover {
 
 .member-meta span {
   font-size: 12px;
+}
+
+.member-meta p {
+  color: #00495a;
 }
 
 /*=================================================================
