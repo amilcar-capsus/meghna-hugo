@@ -336,6 +336,10 @@ a:hover {
 }
 
 .section-bg h2 {
+  font-weight: 1000;
+}
+
+.section-bg h2 {
   color: #28c5b9 !important;
 }
 
@@ -2337,6 +2341,15 @@ figcaption {
 
 .scroll-titles li h1 {
   color: #28c5b9!important;
+}
+
+.five-c {
+  font-size: 30px;
+  list-style-type: decimal-leading-zero;
+}
+
+.five-c li:before {
+  color: #28c5b9;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
