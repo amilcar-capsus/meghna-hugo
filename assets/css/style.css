@@ -2311,10 +2311,6 @@ figcaption {
   overflow: hidden;
 }
 
-.call-to-action .scroll-titles ul {
-  color: #28c5b9 !important;
-}
-
 .scroll-titles ul {
   list-style: none;
   position: relative;
@@ -2322,6 +2318,7 @@ figcaption {
 
 .scroll-titles li {
   height: 50px;
+  color: #28c5b9 !important;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
