@@ -49,7 +49,7 @@
                     </span>
                   </div>
                   <div class="col-lg-6">
-                    <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
+                    <img class="img-fluid lozad" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
                   </div>
                 </div>
                 <div class="row m-5">
@@ -100,7 +100,7 @@
                       {{ range .info4_item }}
                       <li class="nav-item">
                         <a class="nav-link" id="pills-{{ .info4_id }}" data-toggle="pill" href="#{{ .info4_id }}" role="tab" aria-controls="{{ .info4_id }}" aria-selected="false">
-                          <img class="img-fluid" alt="{{ .info4_item_name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .info4_image | absURL }})'" src="{{ .info4_image_webp | absURL }}" />
+                          <img class="img-fluid lozad" alt="{{ .info4_item_name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .info4_image | absURL }})'" src="{{ .info4_image_webp | absURL }}" />
                         </a>
                       </li>
                       {{ end }}
