@@ -454,7 +454,7 @@ a:hover {
   background-size: cover;
   height: 100vh;
   position: relative;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -490,7 +490,7 @@ a:hover {
 }
 
 .hero-area .block h1 {
-  font-size: 80;
+  font-size: 80px;
   color: white;
   text-transform: capitalize;
   font-weight: 700;
