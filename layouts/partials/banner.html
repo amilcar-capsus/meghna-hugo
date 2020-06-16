@@ -25,14 +25,14 @@
 										<p style="color: '{{ .color }}'">{{ .banner_content | markdownify }}</p>
 									</div>
 									{{ else }}
-									<div class="col-lg-7">
+									<div class="col-lg-7 align-middle justify-text text-left">
 										<h1>
 											<span>{{ .banner_title | markdownify }}</span> <span style="color: {{ .color }}">{{ .banner_content | markdownify }}</span>
 										</h1>
 									</div>
 									{{ end }}
 									<div class="col-lg-5">
-										<img class="img-fluid lozad" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .banner_image | absURL }})'" src="{{ .banner_image_webp | absURL }}" />
+										<img class="img-fluid lozad h-75 d-inline-block" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .banner_image | absURL }})'" src="{{ .banner_image_webp | absURL }}" />
 									</div>
 								</div>
 							</div>
