@@ -18,32 +18,32 @@ banner:
       banner_image: images/banner/Banner-1_Icon1.png
       banner_image_webp: images/banner/Banner-1_Icon1.png
       color: "#b2d912"
-    - banner_title: PLACEHOLDER 2
-      banner_content: "Labore laboris anim irure veniam nisi. Ea qui non irure Lorem laboris consectetur adipisicing nulla sint adipisicing cupidatat id."
+    - banner_title: Tecnología para el análisis de datos en
+      banner_content: planificación urbana
       banner_id: other
       banner_image: images/banner/Banner-1_Icon2.png
       banner_image_webp: images/banner/Banner-1_Icon2.png
       color: "#bad332"
-    - banner_title: PLACEHOLDER 3
-      banner_content: "That is a remarkable achievement taking into account this month's financial state of things! If all of this comes off as mixed-up to you, that's because it is!"
+    - banner_title: Ciudades con mejor calidad y nivel de vida a un
+      banner_content: menor impacto ambiental
       banner_id: other
       banner_image: images/banner/Banner-1_Icon3.png
       banner_image_webp: images/banner/Banner-1_Icon3.png
       color: "#58cdd9"
-    - banner_title: PLACEHOLDER 4
-      banner_content: "Vom Rechte, das mit Recht; denn alles, was ihr Sünde, Zerstörung, kurz das Böse will und stets das Gute schafft."
+    - banner_title: Concientización y entrenamiento en temas
+      banner_content: ambientales y sociales
       banner_id: other
       banner_image: images/banner/Banner-1_Icon4.png
       banner_image_webp: images/banner/Banner-1_Icon4.png
       color: "#ffa100"
-    - banner_title: PLACEHOLDER 5
-      banner_content: "Ist der Gesamtbetrag der erwarteten Verluste geringer als der Gesamtbetrag der anerkennungsfähigen Wertberichtigungen, die entsprechend den geltenden Rechnungslegungsstandards vom harten Kernkapital abgezogen)."
+    - banner_title: Diseño de estrategias que promueven la
+      banner_content: sustentabilidad urbana
       banner_id: other
       banner_image: images/banner/Banner-1_Icon5.png
       banner_image_webp: images/banner/Banner-1_Icon5.png
       color: "#17c9b8"
-    - banner_title: PLACEHOLDER 6
-      banner_content: "The privilege of the Members present. New States may be necessary except on a question of Adjournment shall be presented to the United States."
+    - banner_title: Colaboración, creatividad e innovación de manera
+      banner_content: sustentable
       banner_id: other
       banner_image: images/banner/Banner-1_Icon6.png
       banner_image_webp: images/banner/Banner-1_Icon6.png
