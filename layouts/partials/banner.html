@@ -22,7 +22,7 @@
 									{{ if eq .banner_id "main" }}
 									<div class="col-lg-7 align-middle justify-text text-left">
 										<h1>{{ .banner_title | markdownify }}</h1>
-										<p style="color: '{{ .color }}'">{{ .banner_content | markdownify }}</p>
+										<h2 style="color: '{{ .color }}'">{{ .banner_content | markdownify }}</h2>
 									</div>
 									{{ else }}
 									<div class="col-lg-7 align-middle justify-text text-left">
