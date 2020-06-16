@@ -2,11 +2,11 @@
 {{ if $data.banner.banner.enable }}
 {{ with $data.banner.banner }}
 {{"<!-- Welcome Slider-->" | safeHTML}}
-<section class="hero-area" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+<section class="hero-area" style='background-image: url("{{ .bg_image | absURL }}")'>
 	<!-- this image is for trigger this section fallback background image -->
 	<img style="display: none;"
 		onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"
-		src="{{ .bg_image_webp | absURL }}" />
+		src="{{ .bg_image | absURL }}" />
 
 	<div class="container-fluid">
 		<div class="row justify-text text-left">
@@ -17,6 +17,25 @@
 						{{ range .banner_item }}
 						{{"<!-- testimonial single -->" | safeHTML}}
 						<div class="item text-center">
+							<div class="container">
+								<div class="row">
+									{{ if eq .banner_id "main" }}
+									<div class="col-lg-7">
+										<h1>{{ .banner_title | markdownify }}</h1>
+										<p style="color: '{{ .color }}'">{{ .banner_content | markdownify }}</p>
+									</div>
+									{{ else }}
+									<div class="col-lg-7">
+										<h1>
+											<span>{{ .banner_title | markdownify }}</span> <span style="color: '{{ .color }}'">{{ .banner_content | markdownify }}</span>
+										</h1>
+									</div>
+									{{ end }}
+									<div class="col-lg-5">
+										<img class="img-fluid lozad" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
+									</div>
+								</div>
+							</div>
 							{{"<!-- client info -->" | safeHTML}}
 							<div class="client-info">
 								<div class="client-meta">
