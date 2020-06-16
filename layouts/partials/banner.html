@@ -20,18 +20,18 @@
 							<div class="container-fluid">
 								<div class="row align-middle justify-text pt-5 mt-5">
 									{{ if eq .banner_id "main" }}
-									<div class="col-lg-7 text-left">
+									<div class="col-lg-8 text-left">
 										<h1>{{ .banner_title | markdownify }}</h1>
-										<h2 style="color: '{{ .color }}'">{{ .banner_content | markdownify }}</h2>
+										<h2 style="color: {{ .color }}">{{ .banner_content | markdownify }}</h2>
 									</div>
 									{{ else }}
-									<div class="col-lg-7 text-left">
+									<div class="col-lg-8 text-left">
 										<h1>
 											<span>{{ .banner_title | markdownify }}</span> <span style="color: {{ .color }}">{{ .banner_content | markdownify }}</span>
 										</h1>
 									</div>
 									{{ end }}
-									<div class="col-lg-5">
+									<div class="col-lg-4">
 										<img class="img-fluid lozad" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .banner_image | absURL }})'" src="{{ .banner_image_webp | absURL }}" />
 									</div>
 								</div>
