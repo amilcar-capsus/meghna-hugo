@@ -323,7 +323,11 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+  background: #00495a;
+}
+
+.section-bg h2 {
+  color: #28c5b9 !important;
 }
 
 .overly {
