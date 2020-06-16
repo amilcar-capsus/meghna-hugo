@@ -7,23 +7,23 @@ testimonial:
     # testimonial item loop
     - name : Doctora Beatríz Martínez Sánchez 
       title : Directora General del Instituto Municipal de Planeación de Bahía de Banderas, Nayarit.
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
+      image : images/client/Bandera-Mexico.png
+      image_webp : images/client/Bandera-Mexico.png
       date : Dec 26, 2018
       content : '“Concretar un instrumento como el Plan de Acción Climática Municipal, en coordinación la IUC que asignó a CAPSUS, ha enriquecido la capacidad del equipo local, para estructurar, definir y proyectar acciones de mitigación y adaptación esenciales en distintos plazos”'
       
     # testimonial item loop
     - name : Emad AlRashed
       title : Ministerio de Planificación y Cooperación Internacional, Jordania.
-      image : images/client/client-2.jpg
-      image_webp : images/client/client-2.webp
+      image : images/client/Bandera-Jordania.png
+      image_webp : images/client/Bandera-Jordania.png
       date : Dec 26, 2018
       content : '"... there are many challenges these cities are facing in economic and social aspects and this project will provide them how they can improve services for the citizens and provide new investment in spatial analysis."'
       
     # testimonial item loop
     - name : Mohammed Zawahreh
       title : Jefe de Desarrollo Local, Unidad del Municipio de Zarqa, Jordania.
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
+      image : images/client/Bandera-Jordania.png
+      image_webp : images/client/Bandera-Jordania.png
       date : Dec 26, 2018
       content : '"This project made some kind of mind-shifting for me... I think in this project we have moved from the traditional urban planning which depends on efficiency and some benefits to balance urban planning taking into consideration the environmental aspect, social, economic, etc"'

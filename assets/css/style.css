@@ -597,7 +597,7 @@ a:hover {
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #b2d912;
+  border-bottom: 5px solid #b2d912;
 }
 
 .about .block:hover .icon-box {

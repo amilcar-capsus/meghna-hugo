@@ -8,20 +8,20 @@ feature:
   feature_item : 
       # feature item loop
     - title : Ciudades y Gobiernos
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      icon : fas fa-flag-checkered # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
       
       # feature item loop
     - title : Empresas e Industrias
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      icon : fas fa-building # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
 
       # feature item loop
     - title : Servicios Ambientales 
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      icon : fas fa-leaf # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
       
       # feature item loop
     - title : Servicios Urbanos y Territoriales
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+      icon : fas fa-globe-americas # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
