@@ -100,7 +100,6 @@ jQuery(function ($) {
 		autoplaySpeed: 600,
 		slidesToShow: 5,
 		slidesToScroll: 1,
-		centerMode: true,
 		variableWidth: true
 	});
 
