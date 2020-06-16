@@ -908,18 +908,19 @@ a:hover {
 
 .portfolio-filter .btn {
   outline: 0;
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 1px solid white;
   background: transparent;
   display: inline-block;
   font-size: 16px;
   padding: 6px 20px;
   font-weight: 700;
-  color: #737f8a;
+  color: white;
   transition: 0.3s all;
 }
 
 .portfolio-filter .btn.active {
   border-color: #28c5b9;
+  color: #28c5b9;
 }
 
 .portfolio-block {
