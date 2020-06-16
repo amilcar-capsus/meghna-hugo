@@ -99,7 +99,7 @@ a:hover {
 
 .btn {
   background-color: transparent;
-  color: #fff;
+  color: #28c5b9;
   padding: 10px 30px;
   border-radius: 0;
   transition: all .3s ease-in 0s;
@@ -110,14 +110,14 @@ a:hover {
 }
 
 .btn-transparent {
-  border: 1px solid #4e595f;
+  border: 1px solid #28c5b9;
 }
 
 .btn-transparent:hover,
 .btn-transparent:focus {
-  background-color: #57cbcc;
+  background-color: #28c5b9;
   border: 1px solid transparent;
-  color: #fff;
+  color: #00495a;
 }
 
 .border-meghna {
