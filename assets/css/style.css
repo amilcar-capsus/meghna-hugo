@@ -489,7 +489,7 @@ a:hover {
 }
 
 .hero-area .block h1 {
-  font-size: 80px;
+  font-size: 100px;
   color: white;
   text-transform: capitalize;
   font-weight: 700;
@@ -497,7 +497,7 @@ a:hover {
 }
 
 .hero-area .block h2 {
-  font-size: 60px;
+  font-size: 75px;
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 20px;
