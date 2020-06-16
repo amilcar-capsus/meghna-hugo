@@ -207,7 +207,7 @@ jQuery(function ($) {
 			top : -tickerHeight
 		  },1000, function(){
 		   $('.scroll-titles ul li:first-child').appendTo('.scroll-titles ul');
-			$('.scroll-titles ul').css('top','');
+			$('.scroll-titles ul').css('top','').css('color','#28c5b9 !important');
 		  });
 		 }
 		setInterval( function(){
