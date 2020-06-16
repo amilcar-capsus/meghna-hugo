@@ -153,6 +153,10 @@ a:hover {
   color: #28c5b9;
 }
 
+.color-2 {
+  color: #00495a;
+}
+
 .sub-title {
   padding: 0 0 50px;
 }
@@ -1072,10 +1076,12 @@ a:hover {
   Our Team
 ==================================================================*/
 .team-member {
-  background-color: #292f36;
+  background-color: #28c5b9;
   margin-bottom: 10px;
   min-height: 382px;
 }
+
+.team-member 
 
 .team-member:hover .mask {
   cursor: pointer;
@@ -1167,6 +1173,7 @@ a:hover {
 
 .member-meta h4 {
   margin: 0 0 5px;
+  color: #28c5b9;
 }
 
 .member-meta span {
@@ -1174,7 +1181,7 @@ a:hover {
 }
 
 .member-meta p {
-  color: #00495a;
+  color: #28c5b9;
 }
 
 /*=================================================================
