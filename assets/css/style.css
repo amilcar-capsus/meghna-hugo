@@ -802,7 +802,7 @@ a:hover {
 .counters-item {
   padding: 25px 0;
   margin-bottom: 10px;
-  background: #292F36;
+  background: #00495a;
 }
 
 .counters-item i {
@@ -813,9 +813,10 @@ a:hover {
 
 .counters-item span {
   display: block;
-  font-weight: bold;
-  font-size: 35px;
-  line-height: 50px;
+  font-weight: 1000;
+  font-size: 90px;
+  line-height: 100px;
+  color: white;
 }
 
 .counters-item h3 {

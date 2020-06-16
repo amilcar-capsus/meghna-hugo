@@ -9,15 +9,18 @@ funfacts:
       subtitle : "PAISES"
       icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
       count : "9"
+      color : '#bad332'
     
     # counter item loop
     - title : "CLIENTES EN"
       subtitle : "CONTINENTES"
       icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
       count : "4"
+      color : '#28c5b9'
     
     # counter item loop
     - title : "TRABAJO EN MÁS DE"
       subtitle : "CIUDADES"
       icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
       count : "50"
+      color : '#ffa100'
