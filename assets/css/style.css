@@ -672,7 +672,7 @@ a:hover {
 
 .call-to-action h2 {
   font-weight: 700;
-  color: #444;
+  color: #00495a;
 }
 
 .call-to-action p {
@@ -2312,7 +2312,7 @@ figcaption {
 }
 
 .call-to-action .scroll-titles ul {
-  color: #28c5b9;
+  color: #28c5b9 !important;
 }
 
 .scroll-titles ul {
