@@ -183,8 +183,8 @@ jQuery(function ($) {
 		var modal = $(this)
 		modal.find('.modal-title').text(name)
 		modal.find('.modal-body #member-picture').attr('alt',name).attr('src', picture)
-		console.log(modal.find('.modal-body #member-profile').text(profile))
-		console.log(modal.find('.modal-body #member-profile').text(decodeURIComponent(profile)))
+		console.log(profile)
+		console.log(decodeURIComponent(profile))
 		modal.find('.modal-body #member-profile').text(decodeURIComponent(profile))
 	  });
 
