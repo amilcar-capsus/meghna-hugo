@@ -15,7 +15,7 @@ html {
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: white;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -107,6 +107,10 @@ a:hover {
 
 .btn:focus {
   color: #00495a;
+}
+
+.btn h3 {
+  color: #28c5b9;
 }
 
 .btn-transparent {
