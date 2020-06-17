@@ -23,7 +23,7 @@
 					{{ range .contact_details }}
 					<div class="con-info clearfix">
 						<i class="{{ .icon }} color"></i>
-						{{ if eq .icon "as fa-map-marker-alt" }}
+						{{ if eq .icon "fas fa-map-marker-alt" }}
 						<h4>{{ .subtitle | markdownify }}</h4>
 						{{ end }}
 						<span>{{ .info }}</span>
