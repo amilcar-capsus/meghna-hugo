@@ -30,7 +30,7 @@
 							<span>{{ .who_content | markdownify }}</span>
 						</div>
 						<div class="col-lg-1">
-							<img class="img-fluid lozad" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
+							<img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
 						</div>
 						<div class="col-lg-5">
 							<h2>
@@ -54,7 +54,7 @@
 							{{ end }}
 						</div>
 						<div class="col-lg-6">
-							<img class="img-fluid lozad" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
+							<img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
 						</div>
 						{{ else }}
 						<div class="col-lg-6">
@@ -64,7 +64,7 @@
 							<span>{{ .who_content | markdownify }}</span>
 						</div>
 						<div class="col-lg-6">
-							<img class="img-fluid lozad" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
+							<img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
 						</div>
 						{{ end }}
 					</div>

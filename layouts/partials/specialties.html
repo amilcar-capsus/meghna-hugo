@@ -22,7 +22,7 @@
 				<a href="{{ $.Site.BaseURL | relLangURL }}{{ .link }}">
 					<div class="block">
 						<div class="icon-box">
-							<img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .title }}">
+							<img class="img-fluid" data-src="{{ .image_webp | absURL }}" src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .title }}">
 						</div>
 						{{"<!-- Express About Yourself -->" | safeHTML}}
 						<div class="content text-center">
