@@ -89,7 +89,7 @@ function initialize() {
   map = new google.maps.Map(document.getElementById("map"), mapOptions);
   /* var mapType = new google.maps.StyledMapType(style, { name: "Grayscale" });
   map.mapTypes.set("grey", mapType);
-  map.setMapTypeId("grey");
+  map.setMapTypeId("grey");*/
   var marker_image = mapMarker;
   var pinIcon = new google.maps.MarkerImage(
     marker_image,
@@ -103,7 +103,7 @@ function initialize() {
     map: map,
     icon: pinIcon,
     title: mapMarkerName,
-  });*/
+  });
 }
 var map = document.getElementById("map");
 if (map != null) {
