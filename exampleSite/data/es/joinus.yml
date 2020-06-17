@@ -9,5 +9,5 @@ joinus:
     Y ECONÓMICOS
   button_item:
     - enable: true
-      label: ÚNETE
+      label: Únete
       link: "jobs/jobs"

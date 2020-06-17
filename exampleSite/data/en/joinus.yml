@@ -4,7 +4,8 @@ joinus:
   bg_image_webp: images/backgrounds/hero-area.webp
   bg_image: images/backgrounds/hero-area.jpg
   icon: ''
-  title: ¿Quieres trabajar con nosotros?
+  title: ¿Quieres trabajar
+  second_title: con nosotros?
   content: TRANSFORMAMOS IDEAS, POLÍTICAS Y PROYECTOS EN BENEFICIOS SOCIALES, AMBIENTALES
     Y ECONÓMICOS
   button_item:
