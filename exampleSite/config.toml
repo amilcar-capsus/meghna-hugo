@@ -130,7 +130,7 @@ link = "plugins/google-map/map.js"
 link = "https://kit.fontawesome.com/c3acc1648f.js"
 [params.preloader]
 enable = true
-preloader = "images/logo.png"
+preloader = "images/Menu-Logo-Capsus.png"
 [[params.social]]
 icon = "ti-twitter-alt"
 link = "#"
