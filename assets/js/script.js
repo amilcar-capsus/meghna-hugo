@@ -100,7 +100,9 @@ jQuery(function ($) {
 		autoplaySpeed: 600,
 		slidesToShow: 5,
 		slidesToScroll: 1,
-		variableWidth: true
+		variableWidth: true,
+		centerMode: true,
+  		centerPadding: '60px'
 	});
 
 	/* ========================================================================= */
