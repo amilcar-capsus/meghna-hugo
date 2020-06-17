@@ -773,6 +773,7 @@ a:hover {
   padding: 12px 0;
   width: 100%;
   margin: 0;
+  color: #00495a;
 }
 
 .google-map #map-canvas {
@@ -1221,6 +1222,16 @@ a:hover {
 
 .client-meta h3 {
   margin: 15px 0 5px 0;
+  color: #bad332;
+}
+
+.client-meta h4 {
+  margin: 15px 0 5px 0;
+  color: #10a2bc;
+}
+
+.client-meta p {
+  color: #00495a;
 }
 
 .client-meta span {
