@@ -157,6 +157,10 @@ a:hover {
   color: #00495a;
 }
 
+.color-3 {
+  color: white;
+}
+
 .sub-title {
   padding: 0 0 50px;
 }
@@ -345,6 +349,10 @@ a:hover {
 
 .section-bg h2 {
   color: #28c5b9 !important;
+}
+
+#contact.section-bg h2 {
+  color: white !important;
 }
 
 .overly {
@@ -734,7 +742,7 @@ a:hover {
   padding-top: 50px;
 }
 
-#contact h3 {
+#contact .contact-info h3 {
   color: #28c5b9;
   font-weight: 1000;
 }
