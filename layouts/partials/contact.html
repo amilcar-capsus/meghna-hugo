@@ -24,7 +24,8 @@
 					{{ range .contact_details }}
 					<div class="con-info clearfix">
 						{{ if eq .icon "fas fa-map-marker-alt" }}
-						<h4><i class="{{ .icon }} color"></i>{{ $subtitle | markdownify }}</h4>
+						<h4 class="color"><i class="{{ .icon }} color"></i>{{ $subtitle | markdownify }}</h4>
+						<span>{{ .info }}</span>
 						{{ else }}
 						<i class="{{ .icon }} color"></i>
 						<span>{{ .info }}</span>
