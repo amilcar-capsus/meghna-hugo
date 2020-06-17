@@ -734,8 +734,13 @@ a:hover {
   padding-top: 50px;
 }
 
-#contact h3, #contact h4 {
+#contact h3 {
   color: #28c5b9;
+  font-weight: 1000;
+}
+
+#contact h4 {
+  color: white;
   font-weight: 1000;
 }
 
@@ -785,8 +790,8 @@ a:hover {
   height: 400px;
 }
 
-.contact-info p {
-  margin-bottom: 25px;
+.contact-info h3 p {
+  margin-bottom: 0px;
 }
 
 .con-info {
