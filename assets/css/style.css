@@ -734,6 +734,11 @@ a:hover {
   padding-top: 50px;
 }
 
+#contact h3, #contact h4 {
+  color: #28c5b9;
+  font-weight: 1000;
+}
+
 @media (max-width: 768px) {
   .contact-us {
     padding-top: 80px;
@@ -760,7 +765,7 @@ a:hover {
 .form-meghna input:hover,
 .form-meghna textarea:hover,
 #contact-submit:hover {
-  border-color: #57cbcc;
+  border-color: #28c5b9;
 }
 
 .form-meghna ::placeholder {
@@ -769,7 +774,7 @@ a:hover {
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #28c5b9;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -1230,7 +1235,7 @@ a:hover {
   color: #10a2bc;
 }
 
-.client-meta p {
+.client-comment p {
   color: #00495a;
 }
 
