@@ -2415,6 +2415,15 @@ figcaption {
 
 .big-title {
   font-size: 4.5rem;
+  font-weight: 1000;
+}
+
+.modal-content {
+  background-color: #fbfafa !important;
+}
+
+.modal-header {
+  border-bottom: 2px solid #28c5b9 !important ;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
