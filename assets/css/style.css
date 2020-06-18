@@ -1014,7 +1014,7 @@ a:hover {
   border: 1px solid #28c5b9;
   margin-bottom: 40px;
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 #28c5b9;
-  min-height: 390px;
+  min-height: 416px;
 }
 
 .service-block .service-icon {
@@ -1183,6 +1183,7 @@ a:hover {
   border-bottom: #28c5b9 1px solid;
   border-right: #28c5b9 1px solid;
   border-left: #28c5b9 1px solid;
+  min-height: 130px;
 }
 
 .member-meta h4 {
