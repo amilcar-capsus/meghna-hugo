@@ -1235,11 +1235,13 @@ a:hover {
 .client-meta h3 {
   margin: 15px 0 5px 0;
   color: #bad332;
+  font-weight: 800;
 }
 
 .client-meta h4 {
   margin: 15px 0 5px 0;
   color: #10a2bc;
+  font-weight: 600;
 }
 
 .client-comment p {
