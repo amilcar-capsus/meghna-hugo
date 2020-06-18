@@ -4,12 +4,16 @@
 
 {{ $data := .Params.specialty }}
 {{ with $data }}
-<section class="section">
-  <div class="container-fluid">
+<section id="specialties">
+  <div class="container">
     <div class="row">
-      <div class="col-lg-8 offset-lg-2 text-center bg-img" style='background-image: url("{{ .main_bg_image | absURL }}"'>
+      <div class="bg-img" style='background-image: url("{{ .main_bg_image | absURL }}"'>
         <h1>{{ .main_title }}</h1>
       </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
       <div class="col-lg-12 padding-0">
         <div class="post-single-content">
             <section class="section section-bg about-2 padding-0" id="who">
