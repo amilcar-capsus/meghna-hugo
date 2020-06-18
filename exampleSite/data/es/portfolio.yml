@@ -176,7 +176,7 @@ portfolio:
 
     # portfolio item loop
     - name : Judá García
-      member_title : Urbanista
+      member_title : Urbanismo
       image : images/portfolio/JG.jpg
       image_webp : images/portfolio/JG.webp
       categories : ["consultants"]

@@ -485,7 +485,6 @@ a:hover {
 
 .hero-area:before {
   content: "";
-  background: rgba(0, 0, 0, 0.63);
   position: absolute;
   top: 0;
   right: 0;
@@ -675,7 +674,7 @@ a:hover {
 
 .about-2 .content-block .media i {
   font-size: 30px;
-  color: #57cbcc;
+  color: #28c5b9;
 }
 
 .about-2 .content-block .media h4 {
