@@ -3,6 +3,8 @@ title: "Diseño y Evaluación de políticas públicas"
 specialty: 
     enable : true
     main_title: "Diseño y Evaluación de políticas públicas"
+    main_bg_image_webp: images/backgrounds/Banner-1.webp
+    main_bg_image: images/backgrounds/Banner-1.jpg
     image_webp: images/blog/meghna.webp
     image: images/blog/meghna.jpg
     extra_title : Más de 20 proyectos similares

@@ -2405,4 +2405,12 @@ figcaption {
   color: #28c5b9;
 }
 
+.bg-img {
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
