@@ -2434,7 +2434,9 @@ figcaption {
 }
 
 .close {
-  color: #00495a;
+  color: #00495a !important;
+  opacity: 1 !important;
+  font-size: 2rem !important;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
