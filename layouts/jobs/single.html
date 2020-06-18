@@ -5,11 +5,9 @@
 {{ $data := .Params.jobs }}
 {{ with $data }}
 <section id="specialties">
-  <div class="container">
+  <div class="container text-center bg-img" style='background-image: url("{{ .main_bg_image | absURL }}"'>
     <div class="row">
-      <div class="text-center bg-img" style='background-image: url("{{ .main_bg_image | absURL }}"'>
-        <h1>{{ i18n "employment" }}</h1>
-      </div>
+      <h1 class="m-5">{{ i18n "employment" }}</h1>
     </div>
   </div>
   <div class="container-fluid">
