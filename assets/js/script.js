@@ -189,7 +189,7 @@ jQuery(function ($) {
 		modal.find('.modal-body #member-specialty').text(specialty);
 		modal.find('.modal-body #member-title').text(title);
 		modal.find('.modal-body #member-picture').attr('alt',name).attr('src', picture);
-		modal.find('.modal-body #member-profile').text(decodeURIComponent(profile));
+		modal.find('.modal-body #member-profile').html(decodeURIComponent(profile));
 	  });
 
 	/* ========================================================================= */

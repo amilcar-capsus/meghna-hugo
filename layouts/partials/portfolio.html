@@ -58,7 +58,7 @@
 							</li>
 							<li>
 								<button class="btn btn-transparent page-scroll" data-toggle="modal" data-target="#modalTeam" data-effect="mfp-with-zoom" data-name="{{ .name }}"
-							data-image="{{ .image | absURL }}" data-profile="{{ .member_profile }}" data-specialty="{{ .content }}" data-title="{{ .member_title }}">{{ $profile }}</button>
+							data-image="{{ .image | absURL }}" data-profile="{{ .member_profile | markdownify }}" data-specialty="{{ .content }}" data-title="{{ .member_title }}">{{ $profile }}</button>
 							</li>
 						</ul>
 					</div>
@@ -90,18 +90,18 @@
 									<img src="" alt="" id="member-picture" src="" class="img-fluid">
 								</div>
 								<div>
-									<h2 id="member-name" class="m-2 color-2">
+									<h2 id="member-name text-justify" class="m-2 color-2">
 
 									</h2>
 								</div>
 								<div>
-									<h3 id="member-specialty" class="m-2 color text-uppercase">
+									<h3 id="member-specialty text-justify" class="m-2 color text-uppercase">
 
 									</h3>
 								</div>
 								<hr class="color-2">
 								<div>
-									<h4 id="member-title" class="m-2 color-2 font-italic">
+									<h4 id="member-title text-justify" class="m-2 color-2 font-italic">
 
 									</h4>
 								</div>
