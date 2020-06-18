@@ -2426,4 +2426,11 @@ figcaption {
   border-bottom: 2px solid #28c5b9 !important ;
 }
 
+.profile-hr {
+  border-top: 3px solid #00495a;
+  width: 5rem;
+  margin-left: 0.7rem;
+  margin-right: 0px;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
