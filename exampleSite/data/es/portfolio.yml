@@ -11,7 +11,7 @@ portfolio:
       image_webp : images/portfolio/GV.webp
       categories : ["partners"]
       title : Socio
-      content : Política pública y desarrollo sustentable
+      content : Política Pública y Desarrollo Sustentable
       link : "#"
       member_profile: "Tiene una Maestría en Políticas Públicas por la escuela de gobierno de la Universidad de
                       Harvard. Guillermo tiene más de 20 años de trayectoria en el sector
@@ -32,7 +32,7 @@ portfolio:
       image_webp : images/portfolio/RO.webp
       categories : ["partners"]
       title : Socio
-      content : Energía y edificación
+      content : Energía y Edificación
       link : "#"
       member_profile: "Tiene una Maestría en 
                       Ciencias en Energía Renovable, actualmente es estudiante del
@@ -48,7 +48,7 @@ portfolio:
       image_webp : images/portfolio/DE.webp
       categories : ["coordinators"]
       title : Coordinadora
-      content : Educación y procesos participativos
+      content : Educación y Procesos Participativos
       link : "#"
       member_profile: "Tiene experiencia como profesora universitaria y como coordinadora 
                       académica en la Escuela Superior de Artes de Yucatán y en el Centro
@@ -65,7 +65,7 @@ portfolio:
       image_webp : images/portfolio/CV.webp
       categories : ["coordinators"]
       title : Coordinadora
-      content : Desarrollo urbano y diseño bioclimático
+      content : Desarrollo Urbano y Diseño Bioclimático
       link : "#"
       member_profile: "Tiene una Maestría en Ingeniería en 
                       Sistemas Ambientales en la University College London y un Máster
@@ -81,7 +81,7 @@ portfolio:
       image_webp : images/portfolio/CV.webp
       categories : ["coordinators"]
       title : Coordinador
-      content : Administración y finanzas
+      content : Administración y Finanzas
       link : "#"
       member_profile: "Cuenta con más de 20 años de experiencia 
                       en el sector privado enfocada en el área administrativa, finanzas, recursos
@@ -96,7 +96,7 @@ portfolio:
       image_webp : images/portfolio/TG.webp
       categories : ["coordinators"]
       title : Coordinador
-      content : Desarrollo urbano y vivienda
+      content : Desarrollo Urbano y Vivienda
       link : "#"
       member_profile: "Tiene una Maestría en Ciencias en 
                       Arquitectura, Urbanismo y Construcción de la Universidad de
@@ -111,7 +111,7 @@ portfolio:
       image_webp : images/portfolio/RO.webp
       categories : ["consultants"]
       title : Consultor
-      content : Tecnologías de la información
+      content : Tecnologías de la Información
       link : "#"
       member_profile: "Ha 
                       trabajado en el sector público para adaptar herramientas de accesibilidad
@@ -148,7 +148,7 @@ portfolio:
       image_webp : images/portfolio/LA.webp
       categories : ["consultants"]
       title : Consultor
-      content : Desarrollo sustentable
+      content : Desarrollo Sustentable
       link : "#"
       member_profile: "Egresado del 
                       Tecnológico de Monterrey. Se especializa en el desarrollo de estrategias
@@ -165,7 +165,7 @@ portfolio:
       image_webp : images/portfolio/JD.webp
       categories : ["consultants"]
       title : Consultor
-      content : Desarrollo sustentable
+      content : Desarrollo Sustentable
       link : "#"
       member_profile: "Cuenta con experiencia
                       en áreas como análisis de datos y desarrollo sustentable. Ha trabajado en
@@ -181,7 +181,7 @@ portfolio:
       image_webp : images/portfolio/JG.webp
       categories : ["consultants"]
       title : Consultor
-      content : Desarrollo Urbano y sistemas de información geográfica
+      content : Desarrollo Urbano y Sistemas de Información Geográfica
       link : "#"
       member_profile: "Estudió Urbanismo por parte de la Universidad Nacional
                       Autónoma de México. Ha trabajado en el sector privado como Analista SIG
@@ -196,7 +196,7 @@ portfolio:
       image_webp : images/portfolio/LA.webp
       categories : ["consultants"]
       title : Consultor
-      content : Tecnologías de la información
+      content : Tecnologías de la Información
       link : "#"
       member_profile: "Egresado de la Universidad
                       Veracruzana. Tiene experiencia en desarrollo de ERP en entornos web
@@ -212,7 +212,7 @@ portfolio:
       image_webp : images/portfolio/MB.webp
       categories : ["consultants"]
       title : Consultora
-      content : Desarrollo sustentable
+      content : Desarrollo Sustentable
       link : "#"
       member_profile: "Se ha desempeñado
                       profesionalmente en México y cuenta con experiencia en el sector
@@ -230,7 +230,7 @@ portfolio:
       image_webp : images/portfolio/RG.webp
       categories : ["consultants"]
       title : Consultor
-      content : Desarrollo sustentable
+      content : Desarrollo Sustentable
       link : "#"
       member_profile: "Tiene experiencia en temas
                       de desarrollo sustentable, cambio climático y eficiencia energética. Ricardo
@@ -265,7 +265,7 @@ portfolio:
       image_webp : images/portfolio/SM.webp
       categories : ["consultants"]
       title : Consultora
-      content : Desarrollo Urbano y Sistemas de información geográfica
+      content : Desarrollo Urbano y Sistemas de Información Geográfica
       link : "#"
       member_profile: "Egresada de la Benemérita Universidad de
                       Puebla. Se ha desempeñado en el sector privado en proyectos catastrales
@@ -279,7 +279,7 @@ portfolio:
       image_webp : images/portfolio/RO.webp
       categories : ["consultants"]
       title : Consultor
-      content : Psicología Socio-Ambiental
+      content : Psicología Socio-ambiental
       link : "#"
       member_profile: "Cuenta con 6 años de trayectoria en el sector de transporte urbano
                       sustentable diseñando e implementando estrategias de encuestas y
@@ -317,7 +317,7 @@ portfolio:
       image_webp : images/portfolio/RO.webp
       categories : ["associates"]
       title : Asociado
-      content : Matemático y tecnologías de la información
+      content : Matemático y Tecnologías de la Información
       link : "#"
       member_profile: "Egresado de la
                       Universidad Nacional Autónoma de México. Juan Manuel trabaja en el
@@ -351,7 +351,7 @@ portfolio:
       image_webp : images/portfolio/GV.webp
       categories : ["associates"]
       title : Asociado
-      content : Planeación urbana y medio ambiente
+      content : Planeación Urbana y Medio Ambiente
       link : "#"
       member_profile: "Cuenta con una licenciatura interdisciplinaria en
                       los Países Bajos con un enfoque en políticas públicas y geografía
