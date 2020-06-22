@@ -130,7 +130,7 @@ a:hover {
 }
 
 .border-meghna {
-  border-top: 2px solid rgba(236, 239, 241, 0.07);
+  border-top: 2px solid rgba(0, 73, 90, 0.07);
   height: 1px;
   margin: 15px auto 0;
   position: relative;
@@ -1612,7 +1612,7 @@ input#e-mail,
   Footer section
 ==================================================================*/
 .social-icon {
-  padding: 60px 0 35px;
+  padding: 60px 0 10px;
 }
 
 .social-icon ul {
@@ -1658,6 +1658,7 @@ input#e-mail,
 
 .copyright img {
   margin-bottom: 15px;
+  height: 7rem;
 }
 
 .copyright p {
