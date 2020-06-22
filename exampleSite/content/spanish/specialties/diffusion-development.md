@@ -20,6 +20,9 @@ specialty:
     casestudy_item:
       # casestudy item loop
       - name: "Placeholder 1"
+        case_locations: Amman, Russeifa, Zarqa, Irbid y Mafraq, Jordania
+        case_years: 2017-2018
+        case_clients: Grupo Banco Mundial y Korean Green Growth Fund
         case_id: ph1
         case_content: "Creamos soluciones para ciudades y edificaciones que reduzcan los costos de inversión y mantenimiento, mejoren la calidad de vida de sus habitantes y tengan un buen desempeño ambiental y energético."
         tab_image: images/specialties/placeholder1.jpg
