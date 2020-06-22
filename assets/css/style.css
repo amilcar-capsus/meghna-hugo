@@ -130,7 +130,15 @@ a:hover {
 }
 
 .border-meghna {
-  border-top: 2px solid rgba(0, 73, 90, 0.07);
+  border-top: 2px solid rgba(0, 73, 90, 0.2);
+  height: 1px;
+  margin: 15px auto 0;
+  position: relative;
+  width: 30%;
+}
+
+.border-meghna-gray {
+  border-top: 2px solid rgba(128, 128, 128, 0.2);
   height: 1px;
   margin: 15px auto 0;
   position: relative;
