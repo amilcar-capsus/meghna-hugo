@@ -45,7 +45,7 @@
 							</ol>
 						</div>
 						{{ else if eq .who_id "mission" }}
-						<div class="col-lg-6">
+						<div class="col-lg-6 my-auto">
 							<h2>
 								{{ .who_title | markdownify}}
 							</h2>
@@ -53,17 +53,17 @@
 							<p>{{ .list_content | markdownify }}</p>
 							{{ end }}
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6 my-auto">
 							<img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
 						</div>
 						{{ else }}
-						<div class="col-lg-6">
+						<div class="col-lg-6 my-auto">
 							<h2>
 								{{ .who_title | markdownify}}
 							</h2>
 							<span>{{ .who_content | markdownify }}</span>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6 my-auto">
 							<img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
 						</div>
 						{{ end }}
