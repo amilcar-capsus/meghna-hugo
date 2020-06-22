@@ -20,6 +20,9 @@ specialty:
     casestudy_item:
       # casestudy item loop
       - name: "Soluciones para ciudades y edificaciones"
+        case_locations: Amman, Russeifa, Zarqa, Irbid y Mafraq, Jordania
+        case_years: 2017-2018
+        case_clients: Grupo Banco Mundial y Korean Green Growth Trust Fund
         case_id: ph1
         case_content: "Creamos soluciones para ciudades y edificaciones que reduzcan los costos de inversión y mantenimiento, mejoren la calidad de vida de sus habitantes y tengan un buen desempeño ambiental y energético."
         tab_image: images/specialties/placeholder1.jpg
@@ -28,6 +31,9 @@ specialty:
         case_image_webp: images/specialties/placeholder1.webp
       # casestudy item loop
       - name: "Placeholder 2"
+        case_locations: Amman, Russeifa, Zarqa, Irbid y Mafraq, Jordania
+        case_years: 2017-2018
+        case_clients: Grupo Banco Mundial y Korean Green Growth Trust Fund
         case_id: ph2
         case_content: "Creamos soluciones para ciudades y edificaciones que reduzcan los costos de inversión y mantenimiento, mejoren la calidad de vida de sus habitantes y tengan un buen desempeño ambiental y energético."
         tab_image: images/specialties/placeholder2.jpg
@@ -36,6 +42,9 @@ specialty:
         case_image_webp: images/specialties/placeholder2.webp
       # casestudy item loop
       - name: "Placeholder 3"
+        case_locations: Amman, Russeifa, Zarqa, Irbid y Mafraq, Jordania
+        case_years: 2017-2018
+        case_clients: Grupo Banco Mundial y Korean Green Growth Trust Fund
         case_id: ph3
         case_content: "Creamos soluciones para ciudades y edificaciones que reduzcan los costos de inversión y mantenimiento, mejoren la calidad de vida de sus habitantes y tengan un buen desempeño ambiental y energético."
         tab_image: images/specialties/placeholder3.jpg
