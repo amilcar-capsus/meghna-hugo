@@ -25,44 +25,46 @@
                       <p>{{ .text | markdownify }}</p>
                     </div>
                   </div>
-                  <div class="col-lg-6" style="background-image: url('{{ .image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
+                  <div class="col-lg-6">
                     <!-- this image is for trigger this section fallback background image -->
-                    <img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
+                    <img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
                     </div>
                 </div>
               </div>
             </section>
         </div>
-        <div class="col-lg-8 offset-lg-2 p-2 section bg-one">
-          <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-            <h1 class="text-center"><span class="color-2">{{ .case_studies1 | markdownify }}</span> <span class="color">{{ .case_studies2 | markdownify }}</span></h1>
-            <div class="border-meghna"></div>
-          </div>
-          <ul class="nav nav-pills nav-justified mb-3" id="pills-specialties" role="tablist">
-            {{ range .casestudy_item }}
-            <li class="nav-item">
-              <a class="nav-link" id="pills-{{ .case_id }}" data-toggle="pill" href="#{{ .case_id }}" role="tab" aria-controls="{{ .case_id }}" aria-selected="false">
-                <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
-                <h3 class="justify-content-center">
-                  {{ .name }}
-                </h3>
-              </a>
-            </li>
-            {{ end }}
-          </ul>
-          <div class="tab-content" id="pills-specContent">
-            {{ range .casestudy_item }}
-            <div class="tab-pane fade content-fluid" id="{{ .case_id }}" role="tabpanel" aria-labelledby="{{ .case_id }}-tab">
-              <div class="row">
-                <div class="col-lg-8">
-                  {{ .case_content | markdownify }}
-                </div>
-                <div class="col-lg-4">
+        <div class="section bg-one">
+          <div class="container">
+            <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+              <h1 class="text-center"><span class="color-2">{{ .case_studies1 | markdownify }}</span> <span class="color">{{ .case_studies2 | markdownify }}</span></h1>
+              <div class="border-meghna"></div>
+            </div>
+            <ul class="nav nav-pills nav-justified mb-3" id="pills-specialties" role="tablist">
+              {{ range .casestudy_item }}
+              <li class="nav-item">
+                <a class="nav-link" id="pills-{{ .case_id }}" data-toggle="pill" href="#{{ .case_id }}" role="tab" aria-controls="{{ .case_id }}" aria-selected="false">
                   <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
+                  <h3 class="justify-content-center">
+                    {{ .name }}
+                  </h3>
+                </a>
+              </li>
+              {{ end }}
+            </ul>
+            <div class="tab-content" id="pills-specContent">
+              {{ range .casestudy_item }}
+              <div class="tab-pane fade content-fluid" id="{{ .case_id }}" role="tabpanel" aria-labelledby="{{ .case_id }}-tab">
+                <div class="row">
+                  <div class="col-lg-8">
+                    {{ .case_content | markdownify }}
+                  </div>
+                  <div class="col-lg-4">
+                    <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
+                  </div>
                 </div>
               </div>
+              {{ end }}
             </div>
-            {{ end }}
           </div>
         </div>
         {{ if .Site.Params.post_share }}
