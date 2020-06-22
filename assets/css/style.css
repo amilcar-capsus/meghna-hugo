@@ -849,13 +849,12 @@ a:hover {
 .counters-item span {
   display: block;
   font-weight: 1000;
-  font-size: 90px;
+  font-size: 7rem;
   line-height: 100px;
   color: white;
 }
 
 .counters-item h3 {
-  font-size: 20px;
   margin: 0;
 }
 

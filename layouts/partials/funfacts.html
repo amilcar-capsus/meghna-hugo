@@ -11,9 +11,9 @@
 			{{ range .counter_item }}
 			<div class="col-lg-4 col-md-6 col-12 text-center wow fadeInDown" data-wow-duration="500ms">
 				<div class="counters-item" style="border-top: 5px solid {{ .color }}; border-bottom: 5px solid {{ .color }};">
-					<h2 style="color: {{ .color }}">{{ .title | markdownify }}</h2>
+					<h3 style="color: {{ .color }}">{{ .title | markdownify }}</h3>
 					<span class="count" data-count="{{ .count }}">0</span>
-					<h2 style="color: {{ .color }}">{{ .subtitle | markdownify }}</h2>
+					<h3 style="color: {{ .color }}">{{ .subtitle | markdownify }}</h3>
 				</div>
 			</div>
 			{{ end }}
