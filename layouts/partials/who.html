@@ -29,10 +29,10 @@
 							</h2>
 							<span>{{ .who_content | markdownify }}</span>
 						</div>
-						<div class="col-lg-1">
+						<div class="col-lg-2">
 							<img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
 						</div>
-						<div class="col-lg-5">
+						<div class="col-lg-4">
 							<h2>
 								{{ .list_title | markdownify }}
 							</h2>
@@ -78,9 +78,9 @@
 				{{ range .button_item }}
 				<button class="btn btn-transparent">
 					<a href="{{ $.Site.BaseURL | relLangURL }}{{ .link }}">
-						<h4>
+						<h5>
 							{{ .label | markdownify }}
-						</h4>
+						</h5>
 					</a>
 				</button>
 				{{ end }}

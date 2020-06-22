@@ -2402,8 +2402,9 @@ figcaption {
 }
 
 .five-c {
-  font-size: 30px;
+  font-size: 2.1rem;
   list-style-type: decimal-leading-zero;
+  margin-top: 2rem;
 }
 
 .five-c li::marker,
