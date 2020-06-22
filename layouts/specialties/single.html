@@ -33,9 +33,9 @@
               </div>
             </section>
         </div>
-        <div class="col-lg-8 offset-lg-2 p-2">
+        <div class="col-lg-8 offset-lg-2 p-2 section bg-one">
           <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-            <h1 class="text-center">{{ i18n "casestudies" }}</h1>
+            <h1 class="text-center"><span class="color-2">{{ .case_studies1 | markdownify }}</span> <span class="color">{{ .case_studies2 | markdownify }}</span></h1>
             <div class="border-meghna"></div>
           </div>
           <ul class="nav nav-pills nav-justified mb-3" id="pills-specialties" role="tablist">

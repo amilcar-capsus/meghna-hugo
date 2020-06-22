@@ -3,10 +3,12 @@ title: "Evaluciones y Estudios sustentables"
 specialty: 
     enable : true
     main_title: "Evaluciones y Estudios sustentables"
+    case_studies1: Casos de
+    case_studies2: Estudio
     main_bg_image_webp: images/backgrounds/Banner-1.webp
     main_bg_image: images/backgrounds/Banner-1.jpg
-    image_webp: images/blog/meghna.webp
-    image: images/blog/meghna.jpg
+    image_webp: images/specialties/Especialidad-2.png
+    image: images/specialties/Especialidad-2.png
     extra_title : Más de 20 proyectos similares
     extra_content : sobre evaluaciones y estudios sustentables en el ámbito nacional e internacional
     bg_image : "images/backgrounds/bg-white-wall.jpg"
