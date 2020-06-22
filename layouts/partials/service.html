@@ -23,7 +23,7 @@
 					<div class="service-icon text-center">
 						<img class="img-fluid" data-src="{{ .image_webp | absURL }}" src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
 					</div>
-					<h3>{{ .name | markdownify }}</h3>
+					<h3 class="color-3">{{ .name | markdownify }}</h3>
 					<p>{{ .content | markdownify }}</p>
 				</div>
 			</article>

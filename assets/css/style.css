@@ -849,7 +849,7 @@ a:hover {
 .counters-item span {
   display: block;
   font-weight: 1000;
-  font-size: 7rem;
+  font-size: 5rem;
   line-height: 100px;
   color: white;
 }
@@ -1018,6 +1018,10 @@ a:hover {
   margin-bottom: 40px;
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 #28c5b9;
   min-height: 416px;
+}
+
+.service-block img {
+  height: 6rem;
 }
 
 .service-block .service-icon {
