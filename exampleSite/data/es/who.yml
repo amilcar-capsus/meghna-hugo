@@ -3,7 +3,7 @@ who:
   enable : true
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
-  title : ¿Quienes Somos?
+  title : ¿Quiénes Somos?
   button_item:
     - enable: true
       label: Descargar brochure
@@ -14,8 +14,8 @@ who:
     - who_title : Somos una empresa internacional con sede en México
       who_id: "who"
       who_content : "Nuestro equipo transdisciplinario cuenta con amplia experiencia en sustentabilidad. Nos caracterizamos por proponer soluciones innovadoras, que esten respaldadas por información técnica sólida, incorparando nuestros valores, el estado del arte y las mejores prácticas en la metaria que trabajemos.\n\nConsideramos a nuestros clientes como socios en un esfuerzo común por mejorar el desempeño ambiental, el rendimiento económico y la responsabilidad social."
-      image : images/about/about-business-man.jpg
-      image_webp : images/about/about-business-man.webp
+      image : images/who/Quienes-somos-1.png
+      image_webp : images/who/Quienes-somos-1.png
       list_title : "CAPSUS es:"
       list_item : 
         - list_content : Corresponsabilidad
@@ -29,8 +29,8 @@ who:
       who_content : "Nuestro equipo transdisciplinario cuenta con amplia experiencia en sustentabilidad. Nos caracterizamos por proponer soluciones innovadoras, que esten respaldadas por información técnica sólida, incorparando nuestros valores, el estado del arte y las mejores prácticas en la metaria que trabajemos.
       
       Consideramos a nuestros clientes como socios en un esfuerzo común por mejorar el desempeño ambiental, el rendimiento económico y la responsabilidad social."
-      image : images/about/about-business-man.jpg
-      image_webp : images/about/about-business-man.webp
+      image : images/who/Mision.png
+      image_webp : images/who/Mision.png
       list_item : 
         - list_content : "A. Hacer de las ciudades espacios que otorguen mejor calidad y nivel de vida, a un menor impacto ambiental."
         - list_content : "B. Asegurarnos de que nuestros proyectos contribuyan al desarrollo sustentable."
@@ -40,8 +40,8 @@ who:
     - who_title : Visión
       who_id: "vision"
       who_content : "Ser la primera referencia mundial en servicios de consultoría de sustentabilidad urbana.\n\nNuestra forma de trabajo: Consideramos a nuestros clientes como socios en un esfuerzo común por mejorar el desempeño ambiental, el rendimiento económico y la responsabilidad social de los proyectos en las regiones donde trabajamos."
-      image : images/about/about-business-man.jpg
-      image_webp : images/about/about-business-man.webp
+      image : images/who/Vision.png
+      image_webp : images/who/Vision.png
       list_item : 
         - list_content : Corresponsabilidad
         - list_content : Compromiso

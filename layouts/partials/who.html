@@ -78,9 +78,9 @@
 				{{ range .button_item }}
 				<button class="btn btn-transparent">
 					<a href="{{ $.Site.BaseURL | relLangURL }}{{ .link }}">
-						<h3>
+						<h4>
 							{{ .label | markdownify }}
-						</h3>
+						</h4>
 					</a>
 				</button>
 				{{ end }}

@@ -689,6 +689,11 @@ a:hover {
   background-attachment: fixed;
 }
 
+#cta h1 {
+  font-size: 3rem;
+  line-height: 0.9;
+}
+
 .call-to-action h1 {
   font-weight: 700;
   color: #00495a;
