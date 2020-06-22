@@ -50,17 +50,13 @@
 
 					{{"<!-- member social profile -->" | safeHTML}}
 					<div class="mask">
-						<ul class="list-inline">
-							<li>
+							<div class="my-auto">
 								<h3>
 									{{ .title }}
 								</h3>
-							</li>
-							<li>
 								<button class="btn btn-transparent page-scroll" data-toggle="modal" data-target="#modalTeam" data-effect="mfp-with-zoom" data-name="{{ .name }}"
-							data-image="{{ .image | absURL }}" data-profile="{{ .member_profile | markdownify }}" data-specialty="{{ .content }}" data-title="{{ .member_title }}">{{ $profile }}</button>
-							</li>
-						</ul>
+								data-image="{{ .image | absURL }}" data-profile="{{ .member_profile | markdownify }}" data-specialty="{{ .content }}" data-title="{{ .member_title }}">{{ $profile }}</button>
+							</div>
 					</div>
 				</div>
 
