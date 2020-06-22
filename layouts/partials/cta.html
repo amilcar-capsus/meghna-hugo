@@ -15,10 +15,13 @@
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 text-right padding-0">
+			<div class="col-lg-12 text-center padding-0">
 				<h1 class="intro-text">{{ .content | markdownify }}</h1>
 			</div>
-			<div class="col-lg-6 text-left">
+		</div>
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<div class="col-lg-6 text-center">
 					<div class="scroll-titles">
 						<ul class="padding-0">
 							{{ range .career_item }}
@@ -30,6 +33,7 @@
 							{{ end }}
 						</ul>
 					</div>
+				</div>
 			</div>
 		</div>
 	</div>

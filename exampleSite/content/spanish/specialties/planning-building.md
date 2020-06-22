@@ -11,8 +11,8 @@ specialty:
     image: images/specialties/Especialidad-1.png
     extra_title : Más de 20 proyectos similares
     extra_content : sobre planificación urbana y edificación sustentable en el ámbito nacional e internacional
-    bg_image : "images/backgrounds/bg-white-wall.jpg"
-    bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+    bg_image : "images/backgrounds/Background-blanco-2.jpg"
+    bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"
     subtitle: "Soluciones para ciudades y edificaciones"
     text: "Creamos soluciones para ciudades y edificaciones que reduzcan los costos de inversión y mantenimiento, mejoren la calidad de vida de sus habitantes y tengan un buen desempeño ambiental y energético."
