@@ -1151,7 +1151,7 @@ a:hover {
 .member-photo .mask ul {
   text-align: center;
   position: relative;
-  top: 125px;
+  top: 5.5rem;
 }
 
 .member-photo .mask ul li h3 {
@@ -1191,7 +1191,7 @@ a:hover {
   min-height: 130px;
 }
 
-.member-meta h4 {
+.member-meta h5 {
   margin: 0 0 5px;
   color: white;
 }
@@ -1202,6 +1202,7 @@ a:hover {
 
 .member-meta p {
   color: #28c5b9;
+  margin: 0;
 }
 
 /*=================================================================
@@ -1634,7 +1635,7 @@ input#e-mail,
 }
 
 .social-icon ul li a:hover {
-  background: #20807b;
+  background: #28c5b9;
 }
 
 .social-icon ul li a:hover i {
@@ -1643,7 +1644,7 @@ input#e-mail,
 }
 
 .social-icon ul li a i {
-  color: #20807b;
+  color: #28c5b9;
   display: inline-block;
   font-size: 32px;
   line-height: 70px;
