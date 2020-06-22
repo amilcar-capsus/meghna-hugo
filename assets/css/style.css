@@ -1213,7 +1213,7 @@ a:hover {
 
 .client-info {
   margin: 0 auto;
-  width: 45%;
+  width: 53%;
 }
 
 @media (max-width: 768px) {
@@ -1229,15 +1229,14 @@ a:hover {
 
 .client-thumb img {
   margin: 0 auto;
-  max-width: 200px;
-  width: 100%;
+  height: 5.5rem;
 }
 
 .client-meta {
   margin: 0 0 10px;
 }
 
-.client-meta h3 {
+.client-meta h2 {
   margin: 15px 0 5px 0;
   color: #bad332;
   font-weight: 800;
