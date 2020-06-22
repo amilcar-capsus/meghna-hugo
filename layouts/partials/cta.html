@@ -1,43 +1,37 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
-
-{{ if $data.cta.cta.enable}}
-{{ with $data.cta.cta}}
-{{"<!-- Start Call To Action -->" | safeHTML}}
-<section id="cta" class="call-to-action section-sm bg-1" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
-	<!-- this image is for trigger this section fallback background image -->
-	<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" src="{{ .bg_image_webp | absURL }}" />
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2>{{ .title | markdownify }}</h2>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center padding-0">
-				<h1 class="intro-text">{{ .content | markdownify }}</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="col-lg-6 text-center">
-					<div class="scroll-titles">
-						<ul class="padding-0">
-							{{ range .career_item }}
-							<li>
-								<h1>
-									{{ .career_title | markdownify }}
-								</h1>
-							</li>
-							{{ end }}
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+{{ $data := index .Site.Data .Site.Language.Lang }} {{ if $data.cta.cta.enable}}
+{{ with $data.cta.cta}} {{"<!-- Start Call To Action -->" | safeHTML}}
+<section
+  id="cta"
+  class="call-to-action section-sm bg-1"
+  style='background-image: url("{{ .bg_image_webp | absURL }}")'
+>
+  <!-- this image is for trigger this section fallback background image -->
+  <img
+    style="display: none;"
+    onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"
+    src="{{ .bg_image_webp | absURL }}"
+  />
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center padding-0">
+        <h1 class="intro-text">{{ .content | markdownify }}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="scroll-titles">
+          <ul class="padding-0">
+            {{ range .career_item }}
+            <li>
+              <h1>
+                {{ .career_title | markdownify }}
+              </h1>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-{{"<!-- Start Services Section -->" | safeHTML}}
-{{ end }}
-{{ end }}
+{{"<!-- Start Services Section -->" | safeHTML}} {{ end }} {{ end }}
