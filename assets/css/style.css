@@ -109,7 +109,8 @@ a:hover {
   color: #00495a;
 }
 
-.btn h3 {
+.btn h3,
+.btn h5 {
   color: #28c5b9;
 }
 
@@ -125,7 +126,9 @@ a:hover {
 }
 
 .btn-transparent:hover h3,
-.btn-transparent:focus h3 {
+.btn-transparent:focus h3,
+.btn-transparent:hover h5,
+.btn-transparent:focus h5 {
   color: #00495a;
 }
 
@@ -145,6 +148,7 @@ a:hover {
   width: 30%;
 }
 
+.border-meghna:before,
 .border-meghna:before {
   background-color: #fff;
   content: "";
