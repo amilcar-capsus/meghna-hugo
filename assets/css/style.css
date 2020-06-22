@@ -149,7 +149,7 @@ a:hover {
 }
 
 .border-meghna:before,
-.border-meghna:before {
+.border-meghna-gray:before {
   background-color: #fff;
   content: "";
   height: 6px;
@@ -1670,7 +1670,7 @@ input#e-mail,
 
 .copyright img {
   margin-bottom: 15px;
-  height: 7rem;
+  height: 5rem;
 }
 
 .copyright p {
