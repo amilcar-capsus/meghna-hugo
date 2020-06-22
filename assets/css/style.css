@@ -612,6 +612,10 @@ a:hover {
   color: #00495a;
 }
 
+.about .block h5 {
+  color: #00495a;
+}
+
 .about .block:hover {
   border-bottom: 5px solid #b2d912;
 }
