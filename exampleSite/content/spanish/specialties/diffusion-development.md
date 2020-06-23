@@ -22,7 +22,7 @@ specialty:
       # casestudy item loop
       - name: "Asesoría Técnica en la Elaboración de Programas de Acción Climática"
         case_locations: Bahía de Banderas (Nayarit), Culiacán (Sinaloa), Juárez (Chihuahua), Ciudad Madero (Tamaulipas) y Zapopan (Jalisco), México.
-        case_years: 22019 - 2020
+        case_years: 2019 - 2020
         case_clients: "La Comisión Europea y los gobiernos municipales de: Bahía de Banderas (Nayarit), Culiacán (Sinaloa), Juárez (Chihuahua), Ciudad Madero (Tamaulipas) y Zapopan (Jalisco)"
         case_id: ph1
         case_content: "Se asesoró y capacitó a cinco municipios mexicanos para la elaboración de sus Planes de Acción Climática locales. El proceso incluyó la compilación de un inventario de emisiones de gases de efecto invernadero, un análisis de riesgos y vulnerabilidades climáticas, la elaboración de medidas y estrategias de mitigación y resiliencia climática, la priorización de las mismas y las estrategias de comunicación e interacción comunitaria. El proyecto se llevó a cabo en colaboración con el Pacto Global de los Alcaldes por el Clima y la Energía (GCoM), y el Programa de Cooperación Urbana Internacional (IUC)."

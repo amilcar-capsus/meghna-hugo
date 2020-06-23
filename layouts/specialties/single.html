@@ -50,7 +50,7 @@
                     <li class="nav-item col-lg-4 col-md-6 col-12">
                       <a id="pills-{{ .case_id }}" data-toggle="pill" href="#{{ .case_id }}" role="tab" aria-controls="{{ .case_id }}" aria-selected="false">
                         <div class="team-member">
-                          <div class="member-photo">
+                          <div class="member-photo section-bg">
                             {{"<!-- member photo -->" | safeHTML}}
                             <img class="img-fluid" data-src="{{ .tab_image_webp | absURL }}" src="{{ .tab_image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .tab_image | absURL }}'" alt="{{ .name }}">
                           </div>
