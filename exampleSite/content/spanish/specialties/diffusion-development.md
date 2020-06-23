@@ -7,8 +7,8 @@ specialty:
     case_studies2: Estudio
     main_bg_image_webp: images/backgrounds/Banner-1.webp
     main_bg_image: images/backgrounds/Banner-1.jpg
-    image_webp: images/specialties/Especialidad-3.png
-    image: images/specialties/Especialidad-3.png
+    image_webp: images/specialties/diffusion-development/Difusion-y-desarrollo-icono-1.png
+    image: images/specialties/diffusion-development/Difusion-y-desarrollo-icono-1.png
     extra_title : Más de 20 proyectos similares
     extra_content : sobre difusión y desarrollo de capacidades sobre sustentabilidad en el ámbito nacional e internacional
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
@@ -25,10 +25,10 @@ specialty:
         case_clients: "La Comisión Europea y los gobiernos municipales de: Bahía de Banderas (Nayarit), Culiacán (Sinaloa), Juárez (Chihuahua), Ciudad Madero (Tamaulipas) y Zapopan (Jalisco)"
         case_id: ph1
         case_content: "Se asesoró y capacitó a cinco municipios mexicanos para la elaboración de sus Planes de Acción Climática locales. El proceso incluyó la compilación de un inventario de emisiones de gases de efecto invernadero, un análisis de riesgos y vulnerabilidades climáticas, la elaboración de medidas y estrategias de mitigación y resiliencia climática, la priorización de las mismas y las estrategias de comunicación e interacción comunitaria. El proyecto se llevó a cabo en colaboración con el Pacto Global de los Alcaldes por el Clima y la Energía (GCoM), y el Programa de Cooperación Urbana Internacional (IUC)."
-        tab_image: images/specialties/placeholder1.jpg
-        tab_image_webp: images/specialties/placeholder1.webp
-        case_image: images/specialities/placeholder1.jpg
-        case_image_webp: images/specialties/placeholder1.webp
+        tab_image: images/specialties/diffusion-development/difusion-caso1.png
+        tab_image_webp: images/specialties/diffusion-development/difusion-caso1.png
+        case_image: images/specialties/diffusion-development/difusion-caso1.png
+        case_image_webp: images/specialties/diffusion-development/difusion-caso1.png
       # casestudy item loop
       - name: "Estrategia de Participación y Comunicación Social para Asunción, Paraguay"
         case_locations: Asunción, Paraguay
@@ -36,10 +36,10 @@ specialty:
         case_clients: Banco Interamericano de Desarrollo (BID) y Gobierno Nacional de Paraguay
         case_id: ph2
         case_content: "Se diseñó e implementó la estrategia de comunicación y participación social para el programa de Rehabilitación y Vivienda del Bañado Sur, Barrio Tacumbú en  Asunción, Paraguay. La estrategia se compone de tres mecanismos 1) Información y comunicación social, 2) Consulta y participación Social, y 3) Atención a quejas y reclamos. Estos mecanismos se apoyan en una plataforma digital llamada “CollabMap”. El objetivo del proyecto es fortalecer la comunicación y gestión de la información, la inclusión social, la atención a quejas y potenciar la participación activa de la población en torno al Programa y los proyectos asociados de consolidación de barrio. De manera adicional y derivado de una extensión del contrato, se adaptaron herramientas digitales para concentrar información proveniente de diversas instituciones, recolectar información en territorio, analizar datos para fomentar la toma de decisiones informadas en relación a grupos vulnerables en el marco del COVID-19."
-        tab_image: images/specialties/placeholder2.jpg
-        tab_image_webp: images/specialties/placeholder2.webp
-        case_image: images/specialities/placeholder2.jpg
-        case_image_webp: images/specialties/placeholder2.webp
+        tab_image: images/specialties/diffusion-development/difusion-caso2.png
+        tab_image_webp: images/specialties/diffusion-development/difusion-caso2.png
+        case_image: images/specialties/diffusion-development/difusion-caso2.png
+        case_image_webp: images/specialties/diffusion-development/difusion-caso2.png
       # casestudy item loop
       - name: "Estrategia de Comunicación y Construcción de Capacidades para la Infraestructura de Datos Espaciales Municipales"
         case_locations: Indonesia
@@ -47,7 +47,8 @@ specialty:
         case_clients: City Planning Labs - Grupo Banco Mundial
         case_id: ph3
         case_content: "Este Proyecto es una asesoría para el desarrollo de una estrategia de comunicación interna, de diseminación e intercambio de conocimiento para City Planning Labs (CPL), asesoría técnica del Grupo Banco Mundial. Con este proyecto CPL contará con el apoyo de CAPSUS en la organización de talleres y grupos de trabajo para crear y mejorar capacidades locales en la infraestructura municipal de datos."
-        tab_image: images/specialties/placeholder3.jpg
-        tab_image_webp: images/specialties/placeholder3.webp
-        case_image: images/specialities/placeholder3.jpg
+        tab_image: images/specialties/diffusion-development/difusion-caso3.png
+        tab_image_webp: images/specialties/diffusion-development/difusion-caso3.png
+        case_image: images/specialties/diffusion-development/difusion-caso3.png
+        case_image_webp: images/specialties/diffusion-development/difusion-caso3.png
 ---

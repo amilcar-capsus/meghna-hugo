@@ -7,8 +7,8 @@ specialty:
     case_studies2: Estudio
     main_bg_image_webp: images/backgrounds/Banner-1.webp
     main_bg_image: images/backgrounds/Banner-1.jpg
-    image_webp: images/specialties/Especialidad-1.png
-    image: images/specialties/Especialidad-1.png
+    image_webp: images/specialties/planning-building/Planificacion-urbana-icono-1.png
+    image: images/specialties/planning-building/Planificacion-urbana-icono-1.png
     extra_title : Más de 20 proyectos similares
     extra_content : sobre planificación urbana y edificación sustentable en el ámbito nacional e internacional
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
@@ -25,10 +25,10 @@ specialty:
         case_clients: Agencia Alemana de Cooperación Internacional (GIZ) y el Gobierno de León, Guanajuato
         case_id: ph1
         case_content: "El proyecto consiste en el desarrollo de una serie de escenarios de crecimiento urbano para analizar los beneficios de la densificación urbana en terrenos baldíos previamente identificados dentro de la ciudad de León, Guanajuato. El proyecto es una colaboración con la Agencia Alemana de Cooperación Internacional (GIZ) para apoyar el proceso de planificación urbana en la ciudad de León, Guanajuato."
-        tab_image: images/specialties/placeholder1.jpg
-        tab_image_webp: images/specialties/placeholder1.webp
-        case_image: images/specialities/placeholder1.jpg
-        case_image_webp: images/specialties/placeholder1.webp
+        tab_image: images/specialties/planning-building/Ilustra-1.png
+        tab_image_webp: images/specialties/planning-building/Ilustra-1.png
+        case_image: images/specialties/planning-building/Ilustra-1.png
+        case_image_webp: images/specialties/planning-building/Ilustra-1.png
       # casestudy item loop
       - name: "Escenarios de Crecimiento Urbano para el Reino Hachemita de Jordania"
         case_locations: Amman, Russeifa, Zarqa, Irbid y Mafraq, Jordania
@@ -36,10 +36,10 @@ specialty:
         case_clients: Grupo Banco Mundial y Korean Green Growth Trust Fund
         case_id: ph2
         case_content: "Mediante la modelación de escenarios urbanos, el gobierno nacional de Jordania y las autoridades locales de Amman, Irbid, Russeifa, Zarqa y Mafraq evaluaron estrategias e inversiones para impulsar un desarrollo urbano sustentable a largo plazo. El estudio compara diferentes alternativas de crecimiento urbano para las cinco ciudades. A través del estudio se comparó cuantitativamente el impacto de diferentes políticas públicas en lo ambiental, social y económico, informando a los tomadores de decisiones y generando consenso sobre las políticas que otorgan mayores beneficios. El proyecto se desarrolló con fondos del Korean Green Growth Trust Fund a través del Grupo Banco Mundial."
-        tab_image: images/specialties/placeholder2.jpg
-        tab_image_webp: images/specialties/placeholder2.webp
-        case_image: images/specialities/placeholder2.jpg
-        case_image_webp: images/specialties/placeholder2.webp
+        tab_image: images/specialties/planning-building/Ilustra-2.png
+        tab_image_webp: images/specialties/planning-building/Ilustra-2.png
+        case_image: images/specialties/planning-building/Ilustra-2.png
+        case_image_webp: images/specialties/planning-building/Ilustra-2.png
       # casestudy item loop
       - name: "Escenarios de Crecimiento Urbano para Indonesia"
         case_locations: Denpasar, Palu y Semarang, Indonesia
@@ -48,8 +48,8 @@ specialty:
         case_id: ph3
         case_content: "n Green Growth Trust Fund a través del Grupo Banco Mundial, el cual tiene como objetivo el evaluar posibles patrones de desarrollo para las ciudades de Denpasar y Semarang. Se adaptaron dos herramientas –Suitability y Urban Performance y se desarrollaron escenarios de crecimiento urbano para visualizar los impactos de diferentes políticas públicas en las dimensiones ambiental, social y económica. Los escenarios evaluaron diferentes políticas urbanas en términos de disponibilidad de vivienda, eficiencia del agua, consumo de energía, balance de costos-ingresos y emisiones de gases de efecto invernadero, estimando así indicadores ambientales, sociales y económicos para cada escenario de crecimiento urbano. Además, se evaluaron los beneficios y las desventajas de diferentes combinaciones de políticas públicas, proyectos y condiciones para llegar a un consenso sobre la mejor ruta de desarrollo. Se instruyó a las partes interesadas sobre el uso de las herramientas de planificación urbana desarrolladas a través de varios talleres de desarrollo de capacidades.\n\n
         Finalmente, como una extensión para Indonesia, se propusieron áreas para la reubicación de asentamientos de población en Palu después del terremoto y tsunami de 2018."
-        tab_image: images/specialties/placeholder3.jpg
-        tab_image_webp: images/specialties/placeholder3.webp
-        case_image: images/specialities/placeholder3.jpg
-        case_image_webp: images/specialties/placeholder3.webp
+        tab_image: images/specialties/planning-building/Ilustra-3.png
+        tab_image_webp: images/specialties/planning-building/Ilustra-3.png
+        case_image: images/specialties/planning-building/Ilustra-3.png
+        case_image_webp: images/specialties/planning-building/Ilustra-3.png
 ---

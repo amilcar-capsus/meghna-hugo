@@ -19,16 +19,18 @@
             <section class="section section-bg about-2 padding-0" id="who">
               <div class="container">
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 my-auto">
                     <div class="content-block">
                       <h2>{{ .subtitle | markdownify }}</h2>
                       <p>{{ .text | markdownify }}</p>
+                      <br>
+                      <i class="fas fa-leaf color"></i>
                     </div>
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 my-auto">
                     <!-- this image is for trigger this section fallback background image -->
                     <img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
-                    </div>
+                  </div>
                 </div>
               </div>
             </section>
@@ -75,7 +77,7 @@
                         {{ .case_content | markdownify }}
                       </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 my-auto">
                       <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
                     </div>
                   </div>
