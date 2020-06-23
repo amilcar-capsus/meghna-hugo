@@ -2,11 +2,12 @@
 title: "Evaluciones y Estudios sustentables"
 specialty: 
     enable : true
-    main_title: "Evaluciones y Estudios sustentables"
+    main_title: "Evaluciones y "
+    color_title: "Estudios Sustentables"
     case_studies1: Casos de
     case_studies2: Estudio
-    main_bg_image_webp: images/backgrounds/Banner-1.webp
-    main_bg_image: images/backgrounds/Banner-1.jpg
+    main_bg_image_webp: images/specialties/evaluations-studies/Evaluaciones-y-estudios-banner.jpg
+    main_bg_image: images/specialties/evaluations-studies/Evaluaciones-y-estudios-banner.jpg
     image_webp: images/specialties/evaluations-studies/Evaluaciones-y-estudios-icono-1.png
     image: images/specialties/evaluations-studies/Evaluaciones-y-estudios-icono-1.png
     extra_title : Más de 20 proyectos similares

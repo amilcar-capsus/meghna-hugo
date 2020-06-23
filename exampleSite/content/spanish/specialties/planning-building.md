@@ -2,11 +2,12 @@
 title: "Planificación Urbana y Edificación Sustentable"
 specialty: 
     enable : true
-    main_title: "Planificación Urbana y Edificación Sustentable"
+    main_title: "Planificación Urbana y "
+    color_title: "Edificación Sustentable"
     case_studies1: Casos de
     case_studies2: Estudio
-    main_bg_image_webp: images/backgrounds/Banner-1.webp
-    main_bg_image: images/backgrounds/Banner-1.jpg
+    main_bg_image_webp: images/specialties/planning-building/Planificacion-urbana-banner.jpg
+    main_bg_image: images/specialties/planning-building/Planificacion-urbana-banner.jpg
     image_webp: images/specialties/planning-building/Planificacion-urbana-icono-1.png
     image: images/specialties/planning-building/Planificacion-urbana-icono-1.png
     extra_title : Más de 20 proyectos similares

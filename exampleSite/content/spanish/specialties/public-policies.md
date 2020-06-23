@@ -2,11 +2,12 @@
 title: "Diseño y Evaluación de políticas públicas"
 specialty: 
     enable : true
-    main_title: "Diseño y Evaluación de políticas públicas"
+    main_title: "Diseño y Evaluación de "
+    color_title: "Políticas Públicas"
     case_studies1: Casos de
     case_studies2: Estudio
-    main_bg_image_webp: images/backgrounds/Banner-1.webp
-    main_bg_image: images/backgrounds/Banner-1.jpg
+    main_bg_image_webp: images/specialties/public-policies/Politicas-publicas-banner.jpg
+    main_bg_image: images/specialties/public-policies/Politicas-publicas-banner.jpg
     image_webp: images/specialties/public-policies/Politicas-publicas-icono-1.png
     image: images/specialties/public-policies/Politicas-publicas-icono-1.png
     extra_title : Más de 20 proyectos similares

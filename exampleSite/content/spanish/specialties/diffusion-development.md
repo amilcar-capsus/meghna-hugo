@@ -2,13 +2,12 @@
 title: "Difusión y Desarrollo de capacidades sobre sustentabilidad"
 specialty: 
     enable : true
-    main_title: "Difusión y Desarrollo de capacidades sobre sustentabilidad"
+    main_title: "Difusión y Desarrollo de capacidades sobre "
+    color_title: "sustentabilidad"
     case_studies1: Casos de
     case_studies2: Estudio
-    main_bg_image_webp: images/backgrounds/Banner-1.webp
-    main_bg_image: images/backgrounds/Banner-1.jpg
-    image_webp: images/specialties/diffusion-development/Difusion-y-desarrollo-icono-1.png
-    image: images/specialties/diffusion-development/Difusion-y-desarrollo-icono-1.png
+    main_bg_image_webp: images/specialties/diffusion-development/Difusion-y-desarrollo-banner.jpg
+    main_bg_image: images/specialties/diffusion-development/Difusion-y-desarrollo-banner.jpg
     extra_title : Más de 20 proyectos similares
     extra_content : sobre difusión y desarrollo de capacidades sobre sustentabilidad en el ámbito nacional e internacional
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
