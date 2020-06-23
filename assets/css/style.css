@@ -2463,11 +2463,11 @@ figcaption {
   font-size: 2rem !important;
 }
 
-.case-studies a {
+.case-studies a .team-member {
   border: #00495a 1px solid
 }
 
-.case-studies a.active {
+.case-studies a.active .team-member {
   border: #28c5b9 1px solid
 }
 
