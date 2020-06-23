@@ -76,7 +76,7 @@
                   {{ range .casestudy_item }}
                   <div class="tab-pane fade content-fluid section" id="{{ .case_id }}" role="tabpanel" aria-labelledby="{{ .case_id }}-tab">
                     <div class="row">
-                      <div class="col-lg-8">
+                      <div class="col-lg-6">
                         <h1 class="color-2 font-weight-bolder">{{ .name | markdownify }}</h1>
                         <h4 class="color font-weight-bolder">{{ .case_locations | markdownify }}</h4>
                         <h4 class="color-2">{{ .case_years | markdownify }}</h4>
@@ -89,7 +89,7 @@
                           {{ .case_content | markdownify }}
                         </div>
                       </div>
-                      <div class="col-lg-4 my-auto">
+                      <div class="col-lg-6 my-auto">
                         <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
                       </div>
                     </div>
