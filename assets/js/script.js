@@ -60,7 +60,7 @@ jQuery(function ($) {
 	/* =========================================================================  */
 
 	$("#capsus-intro").slick({
-		infinite: true,
+		infinite: false,
 		arrows: true,
 		dots: true,
 		autoplay: true,
@@ -72,7 +72,7 @@ jQuery(function ($) {
 	/* =========================================================================  */
 
 	$("#capsus-who").slick({
-		infinite: true,
+		infinite: false,
 		arrows: true,
 		dots: true,
 		autoplay: false
