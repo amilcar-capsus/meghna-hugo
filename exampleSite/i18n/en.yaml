@@ -64,3 +64,7 @@
   translation: Subject
 - id: message
   translation: Message
+- id: clients
+  translation: Client(s)
+- id: about_case
+  translation: ¿What was it about?

@@ -19,7 +19,7 @@ specialty:
     icon: ""
     casestudy_item:
       # casestudy item loop
-      - name: "SEscenarios de crecimiento para evaluar los beneficios de la densificación urbana en la ciudad de León, Guanajuato"
+      - name: "Escenarios de crecimiento para evaluar los beneficios de la densificación urbana en la ciudad de León, Guanajuato"
         case_locations: León, Estado de Guanajuato, México
         case_years: 2019 - 2020
         case_clients: Agencia Alemana de Cooperación Internacional (GIZ) y el Gobierno de León, Guanajuato
