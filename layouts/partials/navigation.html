@@ -43,7 +43,7 @@
 						<li class="nav-item dropdown"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ i18n .Name }}</a>
 							<ul class="dropdown-menu">
 								{{ range .Children }}
-								<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}/{{ .URL }}">{{ i18n .Name }}</a></li>
+								<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | absLangURL }}{{ .URL }}">{{ i18n .Name }}</a></li>
 								{{ end }}
 							</ul>
 						</li>
