@@ -39,7 +39,7 @@
                 </div>
               </div>
               <div class="row section-bg">
-                <div class="container p-2">
+                <div class="container p-2 mb-3">
                   <div class="row justify-content-center">
                     {{ if eq .job_id "jobs" }}
                       <div class="col-lg-5">
@@ -109,7 +109,7 @@
                   <div class="row">
                     <div class="col-lg-12 pt-5">
                       <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-                        <h1 class="text-center">{{ .info4_title | markdownify }}</h1>
+                        <h1 class="text-center color-2">{{ .info4_title | markdownify }}</h1>
                         <div class="border-meghna"></div>
                       </div>
                     </div>
@@ -117,9 +117,21 @@
                   <div class="row">
                     <ul class="nav nav-pills nav-justified mb-3" id="pills-vacancies" role="tablist">
                       {{ range .info4_item }}
-                      <li class="nav-item">
-                        <a class="nav-link" id="pills-{{ .info4_id }}" data-toggle="pill" href="#{{ .info4_id }}" role="tab" aria-controls="{{ .info4_id }}" aria-selected="false">
-                          <img class="img-fluid" alt="{{ .info4_item_name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .info4_image | absURL }})'" src="{{ .info4_image_webp | absURL }}" />
+                      <li class="nav-item col-lg-4 col-md-6 col-12">
+                        <a id="pills-{{ .info4_id }}" data-toggle="pill" href="#{{ .info4_id }}" role="tab" aria-controls="{{ .info4_id }}" aria-selected="false">
+                          <div class="team-member">
+                            <div class="member-photo section-bg">
+                              {{"<!-- member photo -->" | safeHTML}}
+                              <img class="img-fluid" data-src="{{ .info4_image_webp | absURL }}" src="{{ .info4_image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .tab_image | absURL }}'" alt="{{ .info4_item_name }}">
+                            </div>
+                    
+                            {{"<!-- member name & designation -->" | safeHTML}}
+                            <div class="text-left text-justify px-3 pt-2">
+                              <h5 class="color-2">{{ .name }}</h5>
+                              <hr class="profile-hr">
+                              <p class="color">{{ .case_years | markdownify }}</p>
+                            </div>
+                          </div>
                         </a>
                       </li>
                       {{ end }}
