@@ -42,17 +42,17 @@
                 <div class="col-lg-8 offset-lg-2 p-2">
                   <div class="row">
                     {{ if eq .job_id "jobs" }}
-                    <div class="col-lg-5">
-                      <h2>
-                        {{ range .info1 }}
-                          {{ .info1_title | markdownify }}
-                        {{ end }}
-                      </h2>
-                      <span>
-                        {{ range .info1 }}
-                          {{ .info1_content | markdownify }}
-                        {{ end }}
-                      </span>
+                      <div class="col-lg-5">
+                        <h2>
+                          {{ range .info1 }}
+                            {{ .info1_title | markdownify }}
+                          {{ end }}
+                        </h2>
+                        <span>
+                          {{ range .info1 }}
+                            {{ .info1_content | markdownify }}
+                          {{ end }}
+                        </span></div>
                       <div class="col-lg-1 vr"></div>
                       <div class="col-lg-5">
                         <h2>
@@ -81,7 +81,6 @@
                           {{ end }}
                         </span>
                       </div>
-                    </div>
                     {{ end }}
                     {{ if eq .job_id "internships" }}
                     <div class="col-lg-6">
