@@ -70,3 +70,9 @@
   translation: Cliente(s)
 - id: about_case
   translation: ¿En qué consistió?
+- id: aptitudes
+  translation: Aptitudes
+- id: skills
+  translation: Habilidades
+- id: languages
+  translation: Idiomas

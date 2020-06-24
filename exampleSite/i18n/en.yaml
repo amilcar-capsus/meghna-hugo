@@ -68,3 +68,9 @@
   translation: Client(s)
 - id: about_case
   translation: ¿What was it about?
+- id: aptitudes
+  translation: Aptitudes
+- id: skills
+  translation: Skills
+- id: languages
+  translation: Languages

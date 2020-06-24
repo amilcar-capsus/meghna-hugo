@@ -129,7 +129,7 @@
                             <div class="text-left text-justify px-3 pt-2">
                               <h5 class="color-2">{{ .info4_item_title }}</h5>
                               <hr class="profile-hr">
-                              <p class="color">{{ .case_years | markdownify }}</p>
+                              <p class="color font-weight-bold">{{ .info4_status | markdownify }}</p>
                             </div>
                           </div>
                         </a>
@@ -138,17 +138,25 @@
                     </ul>
                   </div>
                   <div class="row">
-                    <div class="tab-content" id="pills-specContent">
-                      {{ range .info4_item }}
-                      <div class="tab-pane fade content-fluid" id="{{ .info4_id }}" role="tabpanel" aria-labelledby="{{ .info4_id }}-tab">
-                          <div>
-                            <h2>{{ .info4_item_title | markdownify }}</h2>
-                            <span>
-                              {{ .info4_item_content | markdownify }}
-                            </span>
-                          </div>
+                    <div class="col-lg-12 ml-3">
+                      <div class="tab-content" id="pills-specContent">
+                        {{ range .info4_item }}
+                        <div class="tab-pane fade content-fluid" id="{{ .info4_id }}" role="tabpanel" aria-labelledby="{{ .info4_id }}-tab">
+                            <div class="row color-2">
+                              <h2>{{ .info4_item_title | markdownify }}</h2>
+                              <span>
+                                {{ .info4_item_content | markdownify }}
+                              </span>
+                              <h5>{{ i18n "aptitudes" }}</h5>
+                              <span>{{ .info4_item_content2 | markdownify }}</span>
+                              <h5>{{ i18n "skills" }}</h5>
+                              <span>{{ .info4_item_content3 }}</span>
+                              <h5>{{ i18n "languages" }}</h5>
+                              <span>{{ .info4_item_content4 }}</span>
+                            </div>
+                        </div>
+                        {{ end }}
                       </div>
-                      {{ end }}
                     </div>
                   </div>
                 </div>
