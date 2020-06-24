@@ -53,8 +53,8 @@ jobs:
         - name: Programa de Becarios
           title: Programa de Becarios
           job_id: internships
-          job_image: images/specialties/placeholder2.jpg
-          job_image_webp: images/specialties/placeholder2.webp
+          job_image: images/jobs/Becarios-icon-1.png
+          job_image_webp: images/jobs/Becarios-icon-1.png
           info1:
             - info1_content: "Por ello, tenemos un programa de becarios para apoyar a los jóvenes profesionistas y fomentar el desarrollo de las nuevas generaciones en profesiones dirigidas a la sustentabilidad, materia que consideramos primordial para el mundo.
             
