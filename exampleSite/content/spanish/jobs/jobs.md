@@ -8,7 +8,8 @@ jobs:
     main_bg_image: images/jobs/Banner-unete.jpg
     job_item:
         - name: Bolsa de trabajo
-          title: ¿Quieres trabajar con nosotros?
+          title: ¿Quieres trabajar
+          subtitle: con nosotros?
           job_id: jobs
           job_image: images/specialties/placeholder1.jpg
           job_image_webp: images/specialties/placeholder1.webp

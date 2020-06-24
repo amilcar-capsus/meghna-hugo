@@ -14,7 +14,7 @@
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-8 offset-lg-2 p-2">
+      <div class="col-lg-8 offset-lg-2 p-5">
         <ul class="nav nav-pills nav-justified mb-3" id="pills-jobs" role="tablist">
           {{ range .job_item }}
           <li class="nav-item">
@@ -30,15 +30,15 @@
           <div class="tab-content" id="pills-jobsContent">
             {{ range .job_item }}
             <div class="tab-pane fade content-fluid" id="{{ .job_id }}" role="tabpanel" aria-labelledby="{{ .job_id }}-tab">
-              <div class="row">
+              <div class="row section-bg">
                 <div class="col-lg-8 offset-lg-2 pt-2">
                   <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-                    <h1 class="text-center">{{ .title }}</h1>
+                    <h1 class="text-center">{{ .title }} <span class="color"> {{ .subtitle}}</span></h1>
                     <div class="border-meghna"></div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-8 offset-lg-2 p-1">
+              <div class="col-lg-8 offset-lg-2 p-1 section-bg">
                 <div class="row m-5">
                   <div class="col-lg-6">
                     <h2>
