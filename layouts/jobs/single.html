@@ -53,14 +53,7 @@
                         {{ end }}
                       </span>
                     </div>
-
-                    {{ if eq .job_id "internships" }}
-                    <div class="col-lg-6">
-                      <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
-                    </div>
-                    {{ end }}
-                  </div>
-                  <div class="row m-5">
+                    {{ if eq .job_id "jobs" }}
                     <div class="col-lg-6">
                       <h2>
                         {{ range .info2 }}
@@ -76,18 +69,30 @@
                           {{ end }}
                         {{ end }}
                       </ol>
-                    </div>
-                    <div class="col-lg-6">
+                      <br>
                       <h2>
-                        {{ range .info1 }}
-                          {{ .info1_title | markdownify }}
+                        {{ range .info3 }}
+                          {{ .info3_title | markdownify }}
                         {{ end }}
                       </h2>
                       <span>
-                        {{ range .info1 }}
-                          {{ .info1_content | markdownify }}
+                        {{ range .info3 }}
+                          {{ .info3_content | markdownify }}
                         {{ end }}
                       </span>
+                    </div>
+                    {{ end }}
+                    {{ if eq .job_id "internships" }}
+                    <div class="col-lg-6">
+                      <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
+                    </div>
+                    {{ end }}
+                  </div>
+                  <div class="row m-5">
+                    <div class="col-lg-6">
+                      
+                    </div>
+                    <div class="col-lg-6">
                     </div>
                   </div>
                 </div>
