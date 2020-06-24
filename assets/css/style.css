@@ -2505,4 +2505,9 @@ figcaption {
   background-color: #28c5b9 !important;
 }
 
+.vr {
+  border-left: 2px solid rgba(128, 128, 128, 0.2);
+  height: 100%;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

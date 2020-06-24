@@ -40,7 +40,50 @@
               </div>
               <div class="row section-bg">
                 <div class="col-lg-8 offset-lg-2 p-2">
-                  <div class="row m-5">
+                  <div class="row">
+                    {{ if eq .job_id "jobs" }}
+                    <div class="col-lg-5">
+                      <h2>
+                        {{ range .info1 }}
+                          {{ .info1_title | markdownify }}
+                        {{ end }}
+                      </h2>
+                      <span>
+                        {{ range .info1 }}
+                          {{ .info1_content | markdownify }}
+                        {{ end }}
+                      </span>
+                      <div class="col-lg-1 vr"></div>
+                      <div class="col-lg-6">
+                        <h2>
+                          {{ range .info2 }}
+                            {{ .info2_title | markdownify }}
+                          {{ end }}
+                        </h2>
+                        <ol>
+                          {{ range .info2 }}
+                            {{ range .info2_item }}
+                              <li>
+                                {{ .info2_content | markdownify }}
+                              </li>
+                            {{ end }}
+                          {{ end }}
+                        </ol>
+                        <br>
+                        <h2>
+                          {{ range .info3 }}
+                            {{ .info3_title | markdownify }}
+                          {{ end }}
+                        </h2>
+                        <span>
+                          {{ range .info3 }}
+                            {{ .info3_content | markdownify }}
+                          {{ end }}
+                        </span>
+                      </div>
+                    </div>
+                    {{ end }}
+                    {{ if eq .job_id "internships" }}
                     <div class="col-lg-6">
                       <h2>
                         {{ range .info1 }}
@@ -53,36 +96,6 @@
                         {{ end }}
                       </span>
                     </div>
-                    {{ if eq .job_id "jobs" }}
-                    <div class="col-lg-6">
-                      <h2>
-                        {{ range .info2 }}
-                          {{ .info2_title | markdownify }}
-                        {{ end }}
-                      </h2>
-                      <ol>
-                        {{ range .info2 }}
-                          {{ range .info2_item }}
-                            <li>
-                              {{ .info2_content | markdownify }}
-                            </li>
-                          {{ end }}
-                        {{ end }}
-                      </ol>
-                      <br>
-                      <h2>
-                        {{ range .info3 }}
-                          {{ .info3_title | markdownify }}
-                        {{ end }}
-                      </h2>
-                      <span>
-                        {{ range .info3 }}
-                          {{ .info3_content | markdownify }}
-                        {{ end }}
-                      </span>
-                    </div>
-                    {{ end }}
-                    {{ if eq .job_id "internships" }}
                     <div class="col-lg-6">
                       <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
                     </div>
