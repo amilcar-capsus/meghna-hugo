@@ -27,69 +27,74 @@
       </div>
       <div class="col-lg-12 padding-0">
         <div class="col-lg-12 padding-0">
-          <div class="tab-content" id="pills-jobsContent">
+          <div class="tab-content section" id="pills-jobsContent">
             {{ range .job_item }}
             <div class="tab-pane fade content-fluid" id="{{ .job_id }}" role="tabpanel" aria-labelledby="{{ .job_id }}-tab">
               <div class="row section-bg">
-                <div class="col-lg-8 offset-lg-2 pt-2">
+                <div class="justify-content-center col-lg-12 pt-5">
                   <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-                    <h1 class="text-center">{{ .title }} <span class="color"> {{ .subtitle}}</span></h1>
-                    <div class="border-meghna"></div>
+                    <h1 class="text-center"><span class="color-3">{{ .title }}</span> <span class="color"> {{ .subtitle}}</span></h1>
+                    <div class="border-meghna-gray"></div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-8 offset-lg-2 p-1 section-bg">
-                <div class="row m-5">
-                  <div class="col-lg-6">
-                    <h2>
-                      {{ range .info1 }}
-                        {{ .info1_title | markdownify }}
-                      {{ end }}
-                    </h2>
-                    <span>
-                      {{ range .info1 }}
-                        {{ .info1_content | markdownify }}
-                      {{ end }}
-                    </span>
-                  </div>
-                  <div class="col-lg-6">
-                    <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
-                  </div>
-                </div>
-                <div class="row m-5">
-                  <div class="col-lg-6">
-                    <h2>
-                      {{ range .info2 }}
-                        {{ .info2_title | markdownify }}
-                      {{ end }}
-                    </h2>
-                    <ol>
-                      {{ range .info2 }}
-                        {{ range .info2_item }}
-                          <li>
-                            {{ .info2_content | markdownify }}
-                          </li>
+              <div class="row section-bg">
+                <div class="col-lg-8 offset-lg-2 p-2">
+                  <div class="row m-5">
+                    <div class="col-lg-6">
+                      <h2>
+                        {{ range .info1 }}
+                          {{ .info1_title | markdownify }}
                         {{ end }}
-                      {{ end }}
-                    </ol>
+                      </h2>
+                      <span>
+                        {{ range .info1 }}
+                          {{ .info1_content | markdownify }}
+                        {{ end }}
+                      </span>
+                    </div>
+
+                    {{ if eq .job_id "internships" }}
+                    <div class="col-lg-6">
+                      <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
+                    </div>
+                    {{ end }}
                   </div>
-                  <div class="col-lg-6">
-                    <h2>
-                      {{ range .info1 }}
-                        {{ .info1_title | markdownify }}
-                      {{ end }}
-                    </h2>
-                    <span>
-                      {{ range .info1 }}
-                        {{ .info1_content | markdownify }}
-                      {{ end }}
-                    </span>
+                  <div class="row m-5">
+                    <div class="col-lg-6">
+                      <h2>
+                        {{ range .info2 }}
+                          {{ .info2_title | markdownify }}
+                        {{ end }}
+                      </h2>
+                      <ol>
+                        {{ range .info2 }}
+                          {{ range .info2_item }}
+                            <li>
+                              {{ .info2_content | markdownify }}
+                            </li>
+                          {{ end }}
+                        {{ end }}
+                      </ol>
+                    </div>
+                    <div class="col-lg-6">
+                      <h2>
+                        {{ range .info1 }}
+                          {{ .info1_title | markdownify }}
+                        {{ end }}
+                      </h2>
+                      <span>
+                        {{ range .info1 }}
+                          {{ .info1_content | markdownify }}
+                        {{ end }}
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
               {{ if eq .job_id "jobs" }}
               {{ range .info4 }}
-              <section class="section section-bg about-2 padding-0" id="who">
+              <section class="section about-2 padding-0" id="who">
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-12 p-2">
