@@ -1,190 +1,231 @@
-{{ define "main" }}
-
-{{ partial "navigation.html" . }}
-
-{{ $data := .Params.jobs }}
-{{ with $data }}
+{{ define "main" }} {{ partial "navigation.html" . }} {{ $data := .Params.jobs
+}} {{ with $data }}
 <section id="jobs-section">
-  <div class="bg-img" style='background-image: url("{{ .main_bg_image | absURL }}"'>
+  <div
+    class="bg-img"
+    style='background-image: url("{{ .main_bg_image | absURL }}"'
+  >
     <div class="container">
       <div class="row">
-        <h1 class="m-5 p-5 text-center text-justify color-3 big-title">{{ i18n "employment" }} <span class="color">{{ i18n "employment2" }}</span></h1>
+        <h1 class="m-5 p-5 text-center text-justify color-3 big-title">
+          {{ i18n "employment" }}
+          <span class="color">{{ i18n "employment2" }}</span>
+        </h1>
       </div>
     </div>
   </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 p-5">
-        <ul class="nav nav-pills nav-justified mb-3" id="pills-jobs" role="tablist">
+        <ul
+          class="nav nav-pills nav-justified mb-3"
+          id="pills-jobs"
+          role="tablist"
+        >
           {{ range .job_item }}
           <li class="nav-item">
-            <a class="btn btn-transparent" id="pills-{{ .job_id }}" data-toggle="pill" href="#{{ .job_id }}" role="tab" aria-controls="{{ .job_id }}" aria-selected="false">
+            <a
+              class="btn btn-transparent"
+              id="pills-{{ .job_id }}"
+              data-toggle="pill"
+              href="#{{ .job_id }}"
+              role="tab"
+              aria-controls="{{ .job_id }}"
+              aria-selected="false"
+            >
               {{ .name | markdownify }}
             </a>
           </li>
           {{ end }}
         </ul>
       </div>
-      <div class="col-lg-12 padding-0">
-        <div class="col-lg-12 padding-0">
-          <div class="tab-content section" id="pills-jobsContent">
-            {{ range .job_item }}
-            <div class="tab-pane fade content-fluid" id="{{ .job_id }}" role="tabpanel" aria-labelledby="{{ .job_id }}-tab">
-              <div class="row section-bg">
-                <div class="justify-content-center container pt-5">
-                  <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-                    <h1 class="text-center"><span class="color-3">{{ .title }}</span> <span class="color"> {{ .subtitle}}</span></h1>
-                    <div class="border-meghna-gray"></div>
-                  </div>
+        <div class="tab-content section" id="pills-jobsContent">
+          {{ range .job_item }}
+          <div
+            class="tab-pane fade content-fluid"
+            id="{{ .job_id }}"
+            role="tabpanel"
+            aria-labelledby="{{ .job_id }}-tab"
+          >
+            <div class="row section-bg">
+              <div class="justify-content-center container pt-5">
+                <div
+                  class="title text-center wow fadeIn"
+                  data-wow-duration="1500ms"
+                >
+                  <h1 class="text-center">
+                    <span class="color-3">{{ .title }}</span>
+                    <span class="color"> {{ .subtitle}}</span>
+                  </h1>
+                  <div class="border-meghna-gray"></div>
                 </div>
               </div>
-              <div class="row section-bg">
-                <div class="container p-2">
-                  <div class="row justify-content-center">
-                    {{ if eq .job_id "jobs" }}
-                      <div class="col-lg-5">
-                        <h2>
-                          {{ range .info1 }}
-                            {{ .info1_title | markdownify }}
-                          {{ end }}
-                        </h2>
+            </div>
+            <div class="row section-bg">
+              <div class="container p-2">
+                <div class="row justify-content-center">
+                  {{ if eq .job_id "jobs" }}
+                  <div class="col-lg-5">
+                    <h2>
+                      {{ range .info1 }} {{ .info1_title | markdownify }} {{ end
+                      }}
+                    </h2>
+                    <span>
+                      {{ range .info1 }} {{ .info1_content | markdownify }} {{
+                      end }}
+                    </span>
+                  </div>
+                  <div class="col-lg-1 vr"></div>
+                  <div class="col-lg-5">
+                    <h2>
+                      {{ range .info2 }} {{ .info2_title | markdownify }} {{ end
+                      }}
+                    </h2>
+                    <ol>
+                      {{ range .info2 }} {{ range .info2_item }}
+                      <li>
+                        {{ .info2_content | markdownify }}
+                      </li>
+                      {{ end }} {{ end }}
+                    </ol>
+                    <br />
+                    <h2>
+                      {{ range .info3 }} {{ .info3_title | markdownify }} {{ end
+                      }}
+                    </h2>
+                    <span>
+                      {{ range .info3 }} {{ .info3_content | markdownify }} {{
+                      end }}
+                    </span>
+                  </div>
+                  {{ end }} {{ if eq .job_id "internships" }}
+                  <div class="col-lg-6">
+                    <h2>
+                      {{ range .info1 }} {{ .info1_title | markdownify }} {{ end
+                      }}
+                    </h2>
+                    <span>
+                      {{ range .info1 }} {{ .info1_content | markdownify }} {{
+                      end }}
+                    </span>
+                  </div>
+                  <div class="col-lg-6">
+                    <img
+                      class="img-fluid"
+                      alt="{{ .name }}"
+                      onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'"
+                      src="{{ .job_image_webp | absURL }}"
+                    />
+                  </div>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+            {{ if eq .job_id "jobs" }} {{ range .info4 }}
+            <section class="section about-2 padding-0" id="who">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12 p-2">
+                    <div
+                      class="title text-center wow fadeIn"
+                      data-wow-duration="1500ms"
+                    >
+                      <h1 class="text-center">
+                        {{ .info4_title | markdownify }}
+                      </h1>
+                      <div class="border-meghna"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <ul
+                    class="nav nav-pills nav-justified mb-3"
+                    id="pills-vacancies"
+                    role="tablist"
+                  >
+                    {{ range .info4_item }}
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        id="pills-{{ .info4_id }}"
+                        data-toggle="pill"
+                        href="#{{ .info4_id }}"
+                        role="tab"
+                        aria-controls="{{ .info4_id }}"
+                        aria-selected="false"
+                      >
+                        <img
+                          class="img-fluid"
+                          alt="{{ .info4_item_name }}"
+                          onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .info4_image | absURL }})'"
+                          src="{{ .info4_image_webp | absURL }}"
+                        />
+                      </a>
+                    </li>
+                    {{ end }}
+                  </ul>
+                </div>
+                <div class="row">
+                  <div class="tab-content" id="pills-specContent">
+                    {{ range .info4_item }}
+                    <div
+                      class="tab-pane fade content-fluid"
+                      id="{{ .info4_id }}"
+                      role="tabpanel"
+                      aria-labelledby="{{ .info4_id }}-tab"
+                    >
+                      <div>
+                        <h2>{{ .info4_item_title | markdownify }}</h2>
                         <span>
-                          {{ range .info1 }}
-                            {{ .info1_content | markdownify }}
-                          {{ end }}
-                        </span></div>
-                      <div class="col-lg-1 vr"></div>
-                      <div class="col-lg-5">
-                        <h2>
-                          {{ range .info2 }}
-                            {{ .info2_title | markdownify }}
-                          {{ end }}
-                        </h2>
-                        <ol>
-                          {{ range .info2 }}
-                            {{ range .info2_item }}
-                              <li>
-                                {{ .info2_content | markdownify }}
-                              </li>
-                            {{ end }}
-                          {{ end }}
-                        </ol>
-                        <br>
-                        <h2>
-                          {{ range .info3 }}
-                            {{ .info3_title | markdownify }}
-                          {{ end }}
-                        </h2>
-                        <span>
-                          {{ range .info3 }}
-                            {{ .info3_content | markdownify }}
-                          {{ end }}
+                          {{ .info4_item_content | markdownify }}
                         </span>
                       </div>
-                    {{ end }}
-                    {{ if eq .job_id "internships" }}
-                    <div class="col-lg-6">
-                      <h2>
-                        {{ range .info1 }}
-                          {{ .info1_title | markdownify }}
-                        {{ end }}
-                      </h2>
-                      <span>
-                        {{ range .info1 }}
-                          {{ .info1_content | markdownify }}
-                        {{ end }}
-                      </span>
-                    </div>
-                    <div class="col-lg-6">
-                      <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
                     </div>
                     {{ end }}
                   </div>
                 </div>
               </div>
-              {{ if eq .job_id "jobs" }}
-              {{ range .info4 }}
-              <section class="section about-2 padding-0" id="who">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-12 p-2">
-                      <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-                        <h1 class="text-center">{{ .info4_title | markdownify }}</h1>
-                        <div class="border-meghna"></div>
-                      </div>
-                    </div>
+            </section>
+            {{ end }} {{ end }} {{ if eq .job_id "internships" }} {{ range
+            .info4 }}
+            <section class="section section-bg about-2 padding-0" id="who">
+              <div class="container">
+                <div class="row">
+                  <div
+                    class="col-lg-6"
+                    style="background-image: url('{{ .info4_image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;"
+                  >
+                    <!-- this image is for trigger this section fallback background image -->
+                    <img
+                      style="display: none;"
+                      onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .info4_image | absURL }})'"
+                      src="{{ .info4_image_webp | absURL }}"
+                    />
                   </div>
-                  <div class="row">
-                    <ul class="nav nav-pills nav-justified mb-3" id="pills-vacancies" role="tablist">
-                      {{ range .info4_item }}
-                      <li class="nav-item">
-                        <a class="nav-link" id="pills-{{ .info4_id }}" data-toggle="pill" href="#{{ .info4_id }}" role="tab" aria-controls="{{ .info4_id }}" aria-selected="false">
-                          <img class="img-fluid" alt="{{ .info4_item_name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .info4_image | absURL }})'" src="{{ .info4_image_webp | absURL }}" />
-                        </a>
-                      </li>
-                      {{ end }}
-                    </ul>
-                  </div>
-                  <div class="row">
-                    <div class="tab-content" id="pills-specContent">
-                      {{ range .info4_item }}
-                      <div class="tab-pane fade content-fluid" id="{{ .info4_id }}" role="tabpanel" aria-labelledby="{{ .info4_id }}-tab">
-                          <div>
-                            <h2>{{ .info4_item_title | markdownify }}</h2>
-                            <span>
-                              {{ .info4_item_content | markdownify }}
-                            </span>
-                          </div>
-                      </div>
-                      {{ end }}
+                  <div class="col-lg-6">
+                    <div class="content-block">
+                      <h2>{{ .info4_title | markdownify }}</h2>
+                      <ul>
+                        {{ range .info4_item }}
+                        <li>{{.info4_content | markdownify }}</li>
+                        {{ end }}
+                      </ul>
                     </div>
                   </div>
                 </div>
-              </section>
-              {{ end }}
-              {{ end }}
-              {{ if eq .job_id "internships" }}
-              {{ range .info4 }}
-              <section class="section section-bg about-2 padding-0" id="who">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-6" style="background-image: url('{{ .info4_image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
-                      <!-- this image is for trigger this section fallback background image -->
-                      <img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .info4_image | absURL }})'" src="{{ .info4_image_webp | absURL }}" />
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="content-block">
-                        <h2>{{ .info4_title | markdownify }}</h2>
-                        <ul>
-                          {{ range .info4_item }}
-                          <li>{{.info4_content | markdownify }}</li>
-                          {{ end }}
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              {{ end }}
-              {{ end }}
-            </div>
-            {{ end }}
+              </div>
+            </section>
+            {{ end }} {{ end }}
           </div>
+          {{ end }}
         </div>
-        {{ if .Site.Params.post_share }}
-        {{ partial "post-share.html" . }}
-        {{ end }}
-        <!-- comments -->
-        <div class="mt-5">
-          {{ template "_internal/disqus.html" . }}
-        </div>
+      {{ if .Site.Params.post_share }} {{ partial "post-share.html" . }} {{ end
+      }}
+      <!-- comments -->
+      <div class="mt-5">
+        {{ template "_internal/disqus.html" . }}
       </div>
-    </div>
-    <div class="row">
-
     </div>
   </div>
 </section>
-{{ end }}
-{{ partial "contact.html" . }}
-{{ end }}
+{{ end }} {{ partial "contact.html" . }} {{ end }}
