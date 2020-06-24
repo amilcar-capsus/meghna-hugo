@@ -4,8 +4,8 @@ jobs:
     image_webp: images/blog/meghna.webp
     image: images/blog/meghna.jpg
     description : "This is meta description"
-    main_bg_image_webp: images/backgrounds/Banner-1.webp
-    main_bg_image: images/backgrounds/Banner-1.jpg
+    main_bg_image_webp: images/jobs/Banner-unete.png
+    main_bg_image: images/jobs/Banner-unete.png
     job_item:
         - name: Bolsa de trabajo
           title: ¿Quieres trabajar con nosotros?

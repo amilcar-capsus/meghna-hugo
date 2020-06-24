@@ -53,7 +53,9 @@
 - id: casestudies
   translation: Casos de Estudio
 - id: employment
-  translation: Únete a Nuestro Equipo
+  translation: Únete a Nuestro
+- id: employment2
+  translation: Equipo
 - id: vacancy
   translation: Vacantes
 - id: name
