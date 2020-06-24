@@ -116,6 +116,7 @@ a:hover {
 
 .btn-transparent {
   border: 1px solid #28c5b9;
+  min-width: 198px;
 }
 
 .btn-transparent:hover,
@@ -1035,7 +1036,7 @@ a:hover {
 }
 
 .service-block img {
-  height: 6rem;
+  height: 4.5rem;
 }
 
 .service-block .service-icon {
@@ -1170,7 +1171,7 @@ a:hover {
 }
 
 .member-photo .mask ul li h3 {
-  color: #00495a;
+  color: #00495a !important;
 }
 
 .member-photo .mask .btn {
@@ -1178,7 +1179,14 @@ a:hover {
 }
 
 .member-photo .mask .btn.btn-transparent {
-  border: 1px solid #00495a;
+  border: 1px solid #00495a !important;
+  min-width: auto !important;
+  color: #00495a !important;
+}
+
+.member-photo .mask .btn.btn-transparent:hover {
+  color: #28c5b9 !important;
+  background-color: #00495a !important;
 }
 
 .member-photo .mask ul li a {
@@ -2422,6 +2430,7 @@ figcaption {
   font-size: 2.1rem;
   list-style-type: decimal-leading-zero;
   margin-top: 2rem;
+  line-height: 1.9;
 }
 
 .five-c li::marker,
@@ -2470,6 +2479,11 @@ figcaption {
 
 .case-studies a.active .team-member {
   border: #28c5b9 1px solid
+}
+
+#specialties h5 {
+  font-size: 1.08rem;
+  line-height: 1.7;
 }
 
 
