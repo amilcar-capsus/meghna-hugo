@@ -35,18 +35,21 @@ jobs:
                 - info4_image: images/specialties/placeholder1.jpg
                   info4_image_webp: images/specialties/placeholder1.webp
                   info4_item_title: Vacante 1
+                  info4_status: Proceso de selección
                   info4_item_content: Ipsum mollit qui eiusmod nostrud culpa. Dolore veniam ipsum dolor fugiat cillum. Mollit minim laborum proident consequat.
                   info4_id: vac-1
                   info4_item_name: Vacante 1
                 - info4_image: images/specialties/placeholder2.jpg
                   info4_image_webp: images/specialties/placeholder2.webp
                   info4_item_title: Vacante 2
+                  info4_status: Proceso de selección
                   info4_item_content: Ipsum mollit qui eiusmod nostrud culpa. Dolore veniam ipsum dolor fugiat cillum. Mollit minim laborum proident consequat.
                   info4_id: vac-2
                   info4_item_name: Vacante 2
                 - info4_image: images/specialties/placeholder3.jpg
                   info4_image_webp: images/specialties/placeholder3.webp
                   info4_item_title: Vacante 3
+                  info4_status: Proceso de selección
                   info4_item_content: Ipsum mollit qui eiusmod nostrud culpa. Dolore veniam ipsum dolor fugiat cillum. Mollit minim laborum proident consequat.
                   info4_id: vac-3
                   info4_item_name: Vacante 3
