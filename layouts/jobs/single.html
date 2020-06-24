@@ -31,7 +31,7 @@
             {{ range .job_item }}
             <div class="tab-pane fade content-fluid" id="{{ .job_id }}" role="tabpanel" aria-labelledby="{{ .job_id }}-tab">
               <div class="row section-bg">
-                <div class="justify-content-center col-lg-12 pt-5">
+                <div class="justify-content-center container pt-5">
                   <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
                     <h1 class="text-center"><span class="color-3">{{ .title }}</span> <span class="color"> {{ .subtitle}}</span></h1>
                     <div class="border-meghna-gray"></div>
@@ -39,8 +39,8 @@
                 </div>
               </div>
               <div class="row section-bg">
-                <div class="col-lg-8 offset-lg-2 p-2">
-                  <div class="row">
+                <div class="container p-2">
+                  <div class="row justify-content-center">
                     {{ if eq .job_id "jobs" }}
                       <div class="col-lg-5">
                         <h2>
@@ -99,13 +99,6 @@
                       <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
                     </div>
                     {{ end }}
-                  </div>
-                  <div class="row m-5">
-                    <div class="col-lg-6">
-                      
-                    </div>
-                    <div class="col-lg-6">
-                    </div>
                   </div>
                 </div>
               </div>

@@ -2507,7 +2507,7 @@ figcaption {
 
 .vr {
   border-left: 2px solid rgba(128, 128, 128, 0.2);
-  height: 100%;
+  left: 53px;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
