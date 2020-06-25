@@ -13,8 +13,8 @@ clients:
       
     # testimonial item loop
     - name : Mark Dinn
-      image : images/client/BN bid.png
-      image_png : images/client/BN bid.png
+      image : images/client/BN-bid.png
+      image_png : images/client/BN-bid.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
       
@@ -27,8 +27,8 @@ clients:
     
     # testimonial item loop
     - name : Lemos Kail
-      image : images/client/BN ESMAP.png
-      image_png : images/client/BN ESMAP.png
+      image : images/client/BN-ESMAP.png
+      image_png : images/client/BN-ESMAP.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
 
@@ -76,8 +76,8 @@ clients:
 
     # testimonial item loop
     - name : Lemos Kail
-      image : images/client/com europ.png
-      image_png : images/client/com europ.png
+      image : images/client/com-europ.png
+      image_png : images/client/com-europ.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
     
@@ -97,8 +97,8 @@ clients:
       
     # testimonial item loop
     - name : Mark Dinn
-      image : images/client/IMPLAN Leon.png
-      image_png : images/client/IMPLAN Leon.png
+      image : images/client/IMPLAN-Leon.png
+      image_png : images/client/IMPLAN-Leon.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
       
