@@ -19,23 +19,23 @@
 			{{ $jobs := "jobs" }}
 			<div class="collapse navbar-collapse" id="navigation">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item home-link"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#body"><i class="ti-home"></i></a></li>
+					<li class="nav-item home-link"><a class="nav-link color-3" href="{{ $.Site.BaseURL | relLangURL }}"><i class="ti-home"></i></a></li>
 					{{ if .IsHome }}
 					{{ range .Site.Menus.main }}
 					{{ if not (eq .Name $jobs) }}
 						{{ if .HasChildren }}
-						<li class="nav-item dropdown"><a class="nav-link" href="#{{ .URL }}">{{ i18n .Name }}</a>
+						<li class="nav-item dropdown"><a class="nav-link color-3" href="#{{ .URL }}">{{ i18n .Name }}</a>
 							<ul class="dropdown-menu">
 								{{ range .Children }}
-								<li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ i18n .Name }}</a></li>
+								<li class="nav-item"><a class="nav-link color-3" href="{{ .URL }}">{{ i18n .Name }}</a></li>
 								{{ end }}
 							</ul>
 						</li>
 						{{ else }}
-						<li class="nav-item"><a class="nav-link" href="#{{ .URL }}">{{ i18n .Name }}</a></li>
+						<li class="nav-item"><a class="nav-link color-3" href="#{{ .URL }}">{{ i18n .Name }}</a></li>
 						{{ end }}
 					{{ else }}
-						<li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ i18n .Name }}</a>
+						<li class="nav-item"><a class="nav-link color-3" href="{{ .URL }}">{{ i18n .Name }}</a>
 						</li>
 					{{ end }}
 					{{ end }}
@@ -44,19 +44,19 @@
 					{{ range .Site.Menus.main }}
 					{{ if not (eq .Name $jobs) }}
 						{{ if .HasChildren }}
-						<li class="nav-item dropdown"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ i18n .Name }}</a>
+						<li class="nav-item dropdown"><a class="nav-link color-3" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ i18n .Name }}</a>
 							<ul class="dropdown-menu">
 								{{ range .Children }}
-								<li class="nav-item"><a class="nav-link" href="{{ .URL | relLangURL }}">{{ i18n .Name }}</a></li>
+								<li class="nav-item"><a class="nav-link color-3" href="{{ .URL | relLangURL }}">{{ i18n .Name }}</a></li>
 								{{ end }}
 							</ul>
 						</li>
 						{{ else }}
-						<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ i18n .Name }}</a>
+						<li class="nav-item"><a class="nav-link color-3" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ i18n .Name }}</a>
 						</li>
 						{{ end }}
 					{{ else }}
-						<li class="nav-item"><a class="nav-link" href="{{ .URL | relLangURL }}">{{ i18n .Name }}</a>
+						<li class="nav-item"><a class="nav-link color-3" href="{{ .URL | relLangURL }}">{{ i18n .Name }}</a>
 						</li>
 					{{ end }}
 					{{ end }}
@@ -64,7 +64,7 @@
 					
 
 					{{ range .Site.Menus.static }}
-					<li class="nav-item"><a class="nav-link" target="_blank" href="{{ .URL }}">{{ i18n .Name }}</a>
+					<li class="nav-item"><a class="nav-link color-3" target="_blank" href="{{ .URL }}">{{ i18n .Name }}</a>
 					</li>
 					{{ end }}
 					
