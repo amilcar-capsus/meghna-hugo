@@ -347,7 +347,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #00495a;
+  background: #00495a !important;
 }
 
 .section-bg h2 {

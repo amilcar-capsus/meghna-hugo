@@ -212,14 +212,4 @@ jQuery(function ($) {
 		  moveTop();
 		}, 3000);
 		});
-	if(document.location.pathname === "/") {
-		var viewportHeight = $(window).height();
-		$(window).scroll(function() {
-			if ($(document).scrollTop() > viewportHeight) {
-			  $('.navigation').addClass('section-bg');
-			} else {
-			  $('.navigation').removeClass('section-bg');
-			}
-		  });
-	}
 });
