@@ -2,7 +2,7 @@
 title: "Evaluciones y Estudios sustentables"
 specialty: 
     enable : true
-    main_title: "Evaluciones y "
+    main_title: "Evalauciones y "
     color_title: "Estudios Sustentables"
     case_studies1: Casos de
     case_studies2: Estudio

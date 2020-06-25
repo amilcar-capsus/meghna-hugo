@@ -2513,8 +2513,8 @@ figcaption {
 }
 
 .box-hr {
-    border-top: 3px solid #00495a;
-    width: 4rem;
+    border-top: 3px dotted #00495a;
+    width: 3rem;
     margin-left: 0px;
 }
 

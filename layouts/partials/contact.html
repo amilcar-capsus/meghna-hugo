@@ -20,11 +20,12 @@
 			{{"<!-- Contact Details -->" | safeHTML}}
 			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
 				<h3>{{ .main_title | markdownify }}</h3>
+				<br>
 				<div class="contact-details">
 					{{ range .contact_details }}
 					<div class="con-info clearfix">
 						{{ if eq .icon "fas fa-map-marker-alt" }}
-						<h4 class="color"><i class="{{ .icon }} color"></i>{{ $subtitle | markdownify }}</h4>
+						<h5 class="color"><i class="{{ .icon }} color"></i>{{ $subtitle | markdownify }}</h5>
 						<span>{{ .info }}</span>
 						{{ else }}
 						<i class="{{ .icon }} color"></i>
