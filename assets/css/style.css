@@ -2526,10 +2526,12 @@ figcaption {
   line-height: 50px;
 }
 
-/* .check-list li::before {
-  font-family: 'FontAwesome';
-  content: '\f058';
-  color: #28c5b9;
-}*/
+.check-list .fa-li {
+  left: 4em;
+}
+
+.check-list li {
+  line-height: 1.7;
+}
 
 /*# sourceMappingURL=maps/style.css.map */
