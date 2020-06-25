@@ -54,11 +54,11 @@
                           {{ end }}
                         </span>
                         {{"<!-- Footer Social Links -->" | safeHTML}}
-                        <div class="social-icon">
+                        <div class="social-icon text-left">
                           <ul class="list-inline">
                             {{ with site.Params }}
                             {{ range .social }}
-                            <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                            <li class="list-inline-item text-center"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
                             {{ end }}
                             {{ end }}
                           </ul>

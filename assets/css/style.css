@@ -2516,4 +2516,13 @@ figcaption {
     margin-left: 0px;
 }
 
+#jobs-section .social-icon ul li a {
+  height: 50px;
+  width: 50px;
+}
+
+#jobs-section .social-icon ul li a i {
+  font-size: 22;
+  line-height: 50px;
+}
 /*# sourceMappingURL=maps/style.css.map */
