@@ -31,43 +31,43 @@ jobs:
               Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."
           info4:
             - info4_title: Vacantes
-              info4_item: 
-              #  - info4_image: images/specialties/placeholder1.jpg
-              #    info4_image_webp: images/specialties/placeholder1.webp
-              #    info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
-              #    info4_item_title1: Licenciado/a en
-              #    info4_item_title2: Comunicación, Educación, Sociología o áreas afines
-              #    info4_status: Proceso de selección
-              #    info4_item_content: Descripción general de la vacante.
-              #    info4_item_content2: Aptitudes de la vacante.
-              #    info4_item_content3: Habilidades de la vacante.
-              #    info4_item_content4: Idiomas de la vacante.
-              #    info4_id: vac-1
-              #    info4_item_name: Vacante 1
-              #  - info4_image: images/specialties/placeholder2.jpg
-              #    info4_image_webp: images/specialties/placeholder2.webp
-              #    info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
-              #    info4_item_title1: Licenciado/a en
-              #    info4_item_title2: Comunicación, Educación, Sociología o áreas afines
-              #    info4_status: Proceso de selección
-              #    info4_item_content: Descripción general de la vacante.
-              #    info4_item_content2: Aptitudes de la vacante.
-              #    info4_item_content3: Habilidades de la vacante.
-              #    info4_item_content4: Idiomas de la vacante.
-              #    info4_id: vac-2
-              #    info4_item_name: Vacante 2
-              #  - info4_image: images/specialties/placeholder3.jpg
-              #    info4_image_webp: images/specialties/placeholder3.webp
-              #    info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
-              #    info4_item_title1: Licenciado/a en
-              #    info4_item_title2: Comunicación, Educación, Sociología o áreas afines
-              #    info4_status: Proceso de selección
-              #    info4_item_content: Descripción general de la vacante.
-              #    info4_item_content2: Aptitudes de la vacante.
-              #    info4_item_content3: Habilidades de la vacante.
-              #    info4_item_content4: Idiomas de la vacante.
-              #    info4_id: vac-3
-              #    info4_item_name: Vacante 3
+              info4_item:
+                - info4_image: images/specialties/placeholder1.jpg
+                  info4_image_webp: images/specialties/placeholder1.webp
+                  info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
+                  info4_item_title1: Licenciado/a en
+                  info4_item_title2: Comunicación, Educación, Sociología o áreas afines
+                  info4_status: Proceso de selección
+                  info4_item_content: Descripción general de la vacante.
+                  info4_item_content2: Aptitudes de la vacante.
+                  info4_item_content3: Habilidades de la vacante.
+                  info4_item_content4: Idiomas de la vacante.
+                  info4_id: vac-1
+                  info4_item_name: Vacante 1
+                - info4_image: images/specialties/placeholder2.jpg
+                  info4_image_webp: images/specialties/placeholder2.webp
+                  info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
+                  info4_item_title1: Licenciado/a en
+                  info4_item_title2: Comunicación, Educación, Sociología o áreas afines
+                  info4_status: Proceso de selección
+                  info4_item_content: Descripción general de la vacante.
+                  info4_item_content2: Aptitudes de la vacante.
+                  info4_item_content3: Habilidades de la vacante.
+                  info4_item_content4: Idiomas de la vacante.
+                  info4_id: vac-2
+                  info4_item_name: Vacante 2
+                - info4_image: images/specialties/placeholder3.jpg
+                  info4_image_webp: images/specialties/placeholder3.webp
+                  info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
+                  info4_item_title1: Licenciado/a en
+                  info4_item_title2: Comunicación, Educación, Sociología o áreas afines
+                  info4_status: Proceso de selección
+                  info4_item_content: Descripción general de la vacante.
+                  info4_item_content2: Aptitudes de la vacante.
+                  info4_item_content3: Habilidades de la vacante.
+                  info4_item_content4: Idiomas de la vacante.
+                  info4_id: vac-3
+                  info4_item_name: Vacante 3
         - name: Programa de Becarios
           title: Programa de Becarios
           job_id: internships
