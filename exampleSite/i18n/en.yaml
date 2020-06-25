@@ -74,3 +74,5 @@
   translation: Skills
 - id: languages
   translation: Languages
+- id: vacancies
+  translation: There are no vacancies at the moment
