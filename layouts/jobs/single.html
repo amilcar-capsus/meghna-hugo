@@ -54,7 +54,7 @@
                           {{ end }}
                         </span>
                         {{"<!-- Footer Social Links -->" | safeHTML}}
-                        <div class="social-icon">
+                        <div class="social-icon py-5">
                           <ul class="list-inline text-center">
                             {{ with site.Params }}
                             {{ range .social }}
@@ -108,6 +108,34 @@
                     </div>
                     <div class="col-lg-6">
                       <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
+                    </div>
+                    <hr>
+                    <div class="col-lg-6"><h2>
+                      {{ range .info2 }}
+                        {{ .info2_title | markdownify }}
+                      {{ end }}
+                    </h2>
+                    <ol>
+                      {{ range .info2 }}
+                        {{ range .info2_item }}
+                          <li>
+                            {{ .info2_content | markdownify }}
+                          </li>
+                        {{ end }}
+                      {{ end }}
+                    </ol>
+                    </div>
+                    <div class="col-lg-6">
+                      <h2>
+                        {{ range .info3 }}
+                          {{ .info3_title | markdownify }}
+                        {{ end }}
+                      </h2>
+                      <span>
+                        {{ range .info3 }}
+                          {{ .info3_content | markdownify }}
+                        {{ end }}
+                      </span>
                     </div>
                     {{ end }}
                   </div>
@@ -189,8 +217,8 @@
               {{ end }}
               {{ if eq .job_id "internships" }}
               {{ range .info4 }}
-              <section class="section section-bg about-2 padding-0" id="who">
-                <div class="container">
+              <section class="bg-one about-2 padding-0" id="who">
+                <div class="container-fluid">
                   <div class="row">
                     <div class="col-lg-6" style="background-image: url('{{ .info4_image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
                       <!-- this image is for trigger this section fallback background image -->
@@ -198,10 +226,10 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="content-block">
-                        <h2>{{ .info4_title | markdownify }}</h2>
-                        <ul>
+                        <h2 class="color">{{ .info4_title | markdownify }}</h2>
+                        <ul class="list-inline">
                           {{ range .info4_item }}
-                          <li>{{.info4_content | markdownify }}</li>
+                          <li><i class="fas fa-check-circle color"></i> <span class="color-2">{{.info4_content | markdownify }}</span></li>
                           {{ end }}
                         </ul>
                       </div>

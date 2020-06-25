@@ -14,7 +14,7 @@ jobs:
           job_image: images/specialties/placeholder1.jpg
           job_image_webp: images/specialties/placeholder1.webp
           info1:
-            - info1_content: "Somos un equipo multidisciplinario de profesionistas que incluye ingenieros, arquitectos, desarrolladores de software, diseñadores, educadores, politólogos, sociólogos y urbanistas.  Cuando estamos en búsqueda de ampliar el equipo, publicamos las características en nuestras redes sociales. 
+            - info1_content: "Somos un equipo multidisciplinario de profesionistas que incluye ingenieros, arquitectos, desarrolladores de software, diseñadores, educadores, politólogos, sociólogos y urbanistas.  Cuando estamos en búsqueda de ampliar el equipo, publicamos las características en nuestras redes sociales. \n\n
 
             Te invitamos a que sigas visitando nuestra página web para que nos conozcas."
               info1_title: Descubre si somos el grupo de personas con quien te gustaría trabajar y crecer profesionalmente.
@@ -26,7 +26,7 @@ jobs:
                 - info2_content: Que su misión en la vida sea promover el desarrollo sustentable.
           info3:
             - info3_title: "¿Cumples con los requisitos? Escríbenos:"
-              info3_content: "Enviar por correo electrónico a: ideas@capsus.mx tu CV, una carta de motivos en español sobre porqué te interesa trabajar en CAPSUS y qué te motiva a perseguir una carrera profesional en el área de sustentabilidad y una carta en inglés donde nos cuentes: ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o). 
+              info3_content: "Enviar por correo electrónico a: ideas@capsus.mx tu CV, una carta de motivos en español sobre porqué te interesa trabajar en CAPSUS y qué te motiva a perseguir una carrera profesional en el área de sustentabilidad y una carta en inglés donde nos cuentes: ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o). \n\n
 
               Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."
           info4:
@@ -74,7 +74,7 @@ jobs:
           job_image: images/jobs/Becarios-icon-1.png
           job_image_webp: images/jobs/Becarios-icon-1.png
           info1:
-            - info1_content: "Por ello, tenemos un programa de becarios para apoyar a los jóvenes profesionistas y fomentar el desarrollo de las nuevas generaciones en profesiones dirigidas a la sustentabilidad, materia que consideramos primordial para el mundo.
+            - info1_content: "Por ello, tenemos un programa de becarios para apoyar a los jóvenes profesionistas y fomentar el desarrollo de las nuevas generaciones en profesiones dirigidas a la sustentabilidad, materia que consideramos primordial para el mundo.\n\n
             
             Mediante este programa conocemos a personas que en un futuro pueden formar parte del equipo permanente de CAPSUS."
               info1_title: Creemos que las primeras experiencias laborales son parte esencial del aprendizaje.
@@ -86,14 +86,14 @@ jobs:
                 - info2_content: Que tus estudios, como tus intereses profesionales estén ligados al desarrollo sustentable en el ámbito urbano.
                 - info2_content: Que tengas un compromiso con nosotros de cuando menos 2 meses de tiempo completo. Si sigues estudiando y tu carga académica es muy baja, podríamos acordar un horario reducido y un periodo de tiempo más largo.
           info3:
-            - info3_title: "¿Cumples con los requisitos? Escríbenos:"
-              info3_content: "Enviar por correo electrónico a: ideas@capsus.mx tu CV, una carta de motivos en español sobre porqué te interesa trabajar en CAPSUS y qué te motiva a perseguir una carrera profesional en el área de sustentabilidad y una carta en inglés donde nos cuentes: ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o).
+            - info3_title: "¿Cumples con los requisitos? \n\nEscríbenos:"
+              info3_content: "Enviar por correo electrónico a: ideas@capsus.mx tu CV, una carta de motivos en español sobre porqué te interesa trabajar en CAPSUS y qué te motiva a perseguir una carrera profesional en el área de sustentabilidad y una carta en inglés donde nos cuentes: ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o).\n\n
               
               Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."
           info4:
             - info4_title: ¿Qué ofrecemos?
-              info4_image: images/about/about-business-man.jpg
-              info4_image_webp: images/about/about-business-man.webp
+              info4_image: images/jobs/Foto-para-becarios.jpg
+              info4_image_webp: images/jobs/Foto-para-becarios.jpg
               info4_item:
                 - info4_content: Te integramos al equipo como un miembro más y tendrás una experiencia profesional real equivalente en responsabilidades y actividades al resto de los miembros del equipo permanente de CAPSUS. 
                 - info4_content: Te integraremos de lleno a nuestras plataformas tecnológicas. 
