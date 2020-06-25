@@ -195,13 +195,6 @@ jQuery(function ($) {
 	/* ========================================================================= */
 	/*	Scrolling text
 	/* ========================================================================= */
-	/* $('.scroll-titles').scrollText({
-		'container': '.scroll-titles',
-		'direction': 'down',
-		'loop': true,
-		'duration': 4000
-	});*/
-
 	$(function(){
 		var tickerLength = $('.scroll-titles ul li').length;
 		var tickerHeight = $('.scroll-titles ul li').outerHeight();
@@ -219,4 +212,14 @@ jQuery(function ($) {
 		  moveTop();
 		}, 3000);
 		});
+	if(document.location.pathname === "/") {
+		var viewportHeight = $(window).height();
+		$(window).scroll(function() {
+			if ($(document).scrollTop() > viewportHeight) {
+			  $('.navigation').addClass('section-bg');
+			} else {
+			  $('.navigation').removeClass('section-bg');
+			}
+		  });
+	}
 });
