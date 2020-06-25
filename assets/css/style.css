@@ -2398,9 +2398,11 @@ figcaption {
 }
 
 #select-language {
-  background: #353b43;
-  color: #ffffff;
-  border: 0;
+  background: #00495a;
+  color: #28c5b9;
+  border: 3px solid #28c5b9;
+  position: relative;
+  font-weight: bold;
 }
 
 .simple-icon {
