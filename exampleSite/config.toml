@@ -96,7 +96,7 @@ post_share = true
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCstAiOx6maCueeXzIrJYWkEy8HVb2hp0k"
 map_latitude = "19.4322445"
-map_longitude = "99.2118159"
+map_longitude = "-99.2118159"
 map_marker = "images/marker.webp"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
