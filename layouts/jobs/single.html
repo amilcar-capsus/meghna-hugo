@@ -114,7 +114,7 @@
                       </div>
                     </div>
                   </div>
-                  {{ if ne .info4_item "0" }}
+                  {{ if isset $data .info4_item }}
                   <div class="row">
                     <ul class="nav nav-pills nav-justified mb-3 case-studies" id="pills-vacancies" role="tablist">
                       {{ range .info4_item }}

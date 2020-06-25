@@ -31,7 +31,7 @@ jobs:
               Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."
           info4:
             - info4_title: Vacantes
-              info4_item: "0"
+              info4_item: 
               #  - info4_image: images/specialties/placeholder1.jpg
               #    info4_image_webp: images/specialties/placeholder1.webp
               #    info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
