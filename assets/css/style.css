@@ -2525,4 +2525,11 @@ figcaption {
   font-size: 22px;
   line-height: 50px;
 }
+
+.check-list li::before {
+  font-family: 'FontAwesome';
+  content: '\f058';
+  color: #28c5b9;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

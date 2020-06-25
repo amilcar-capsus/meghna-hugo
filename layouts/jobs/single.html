@@ -94,7 +94,7 @@
                       </div>
                     {{ end }}
                     {{ if eq .job_id "internships" }}
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                       <h2>
                         {{ range .info1 }}
                           {{ .info1_title | markdownify }}
@@ -106,11 +106,12 @@
                         {{ end }}
                       </span>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5">
                       <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_image | absURL }})'" src="{{ .job_image_webp | absURL }}" />
                     </div>
-                    <hr>
-                    <div class="col-lg-6"><h2>
+                    <hr class="col-lg-11" style="border-top: 2px solid rgba(128, 128, 128, 0.2);">
+                    <div class="col-lg-5"><h2>
                       {{ range .info2 }}
                         {{ .info2_title | markdownify }}
                       {{ end }}
@@ -125,7 +126,8 @@
                       {{ end }}
                     </ol>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5">
                       <h2>
                         {{ range .info3 }}
                           {{ .info3_title | markdownify }}
@@ -227,9 +229,9 @@
                     <div class="col-lg-6">
                       <div class="content-block">
                         <h2 class="color">{{ .info4_title | markdownify }}</h2>
-                        <ul class="list-inline">
+                        <ul class="check-list">
                           {{ range .info4_item }}
-                          <li><i class="fas fa-check-circle color"></i> <span class="color-2">{{.info4_content | markdownify }}</span></li>
+                          <li><span class="color-2">{{.info4_content | markdownify }}</span></li>
                           {{ end }}
                         </ul>
                       </div>
