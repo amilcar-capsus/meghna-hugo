@@ -133,13 +133,13 @@ enable = true
 preloader = "images/Menu-Logo-Capsus.png"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://twitter.com/capsusmx"
 [[params.social]]
 icon = "ti-facebook"
-link = "#"
+link = "https://www.facebook.com/capitalsustentable"
 [[params.social]]
 icon = "ti-linkedin"
-link = "#"
+link = "https://www.linkedin.com/company/capsus-s-c-capital-sustentable-"
 # [[params.social]]
 # icon = "ti-youtube"
 # link = "#"
