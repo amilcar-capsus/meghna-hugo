@@ -41,8 +41,8 @@ clients:
       
     # testimonial item loop
     - name : Mark Dinn
-      image : images/client/BN isla urbana copia.png
-      image_png : images/client/BN isla urbana copia.png
+      image : images/client/BN-isla-urbana-copia.png
+      image_png : images/client/BN-isla-urbana-copia.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
       
