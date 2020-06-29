@@ -449,7 +449,7 @@ a:hover {
   color: white;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  z-index: 9999;
+  z-index: 9900;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link,
