@@ -2563,6 +2563,7 @@ select {
 
 .select-wrapper {
   position: relative;
+  width: 50%;
 }
 
 .select-wrapper.valid + label,
@@ -2574,7 +2575,7 @@ select {
 .select-wrapper input.select-dropdown {
   position: relative;
   cursor: pointer;
-  color: white;
+  color: #28c5b9;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #28c5b9;
