@@ -131,7 +131,7 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 [[params.plugins.js]]
 link = "https://kit.fontawesome.com/c3acc1648f.js"
-[[params.plugins.css]]
+[[params.plugins.js]]
 link = "plugins/materialize/js/materialize.min.js"
 [params.preloader]
 enable = true
