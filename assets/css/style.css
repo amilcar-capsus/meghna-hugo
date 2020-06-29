@@ -2402,6 +2402,7 @@ figcaption {
 #select-language {
   background: transparent;
   color: #28c5b9;
+  border-color: transparent;
   position: relative;
   font-weight: bold;
 }
