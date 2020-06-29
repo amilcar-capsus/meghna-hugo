@@ -212,6 +212,10 @@ jQuery(function ($) {
 		  moveTop();
 		}, 3000);
 		});
+	
+		/* ========================================================================= */
+		/*	Scrolling behaviour
+		/* ========================================================================= */
 	if(document.location.pathname === "/" || document.location.pathname === "/en/") {
 		var viewportHeight = $(window).height();
 		$(window).scroll(function() {
@@ -222,4 +226,11 @@ jQuery(function ($) {
 			}
 		  });
 	}
+	
+	/* ========================================================================= */
+	/*	Scrolling text
+	/* ========================================================================= */
+	$(document).ready(function(){
+		$('select').formSelect();
+	  });
 });

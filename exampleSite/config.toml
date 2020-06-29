@@ -110,6 +110,8 @@ link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick-theme.css"
 [[params.plugins.css]]
+link = "plugins/materialize/css/materialize.min.css"
+[[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
@@ -129,6 +131,8 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 [[params.plugins.js]]
 link = "https://kit.fontawesome.com/c3acc1648f.js"
+[[params.plugins.css]]
+link = "plugins/materialize/js/materialize.min.js"
 [params.preloader]
 enable = true
 preloader = "images/Menu-Logo-Capsus.png"
