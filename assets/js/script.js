@@ -212,7 +212,7 @@ jQuery(function ($) {
 		  moveTop();
 		}, 3000);
 		});
-	if(document.location.pathname === "/") {
+	if(document.location.pathname === "/" || document.location.pathname === "/en/") {
 		var viewportHeight = $(window).height();
 		$(window).scroll(function() {
 			if ($(document).scrollTop() > viewportHeight) {
