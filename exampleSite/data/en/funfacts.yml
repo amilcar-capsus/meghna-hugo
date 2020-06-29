@@ -1,23 +1,26 @@
 ################################# funfacts ##################################
 funfacts:
   enable : true
-  bg_image : "images/backgrounds/bg-white-wall.jpg"
-  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  bg_image : "images/backgrounds/Background-blanco-3.jpg"
+  bg_image_webp : "images/backgrounds/Background-blanco-3.jpg"
   counter_item:
     # counter item loop
     - title : "PROJECTS IN"
       subtitle : "COUNTRIES"
       icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
       count : "9"
+      color : '#bad332'
     
     # counter item loop
     - title : "CLIENTS IN"
       subtitle : "CONTINENTS"
       icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
       count : "4"
+      color : '#28c5b9'
     
     # counter item loop
     - title : "WORK IN MORE THAN"
       subtitle : "CITIES"
       icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
       count : "50"
+      color : '#ffa100'

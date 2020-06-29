@@ -11,8 +11,8 @@ banner:
     label: Test
     link: "#services"
   banner_item:
-    - banner_title: ACCIONES SUSTENTABLES PARA UN MEJOR FUTURO
-      banner_content: TRANSFORMAMOS IDEAS, POLÍTICAS Y PROYECTOS EN BENEFICIOS SOCIALES, AMBIENTALES Y ECONÓMICOS
+    - banner_title: DESIGNING AND PROMOTING SUSTAINABLE DEVELOPMENT
+      banner_content: We promote collaborative, creative and innovative work to build a sustainable future
       banner_id: main
       banner_image: images/banner/Banner-1_Icon1.png
       banner_image_webp: images/banner/Banner-1_Icon1.png
