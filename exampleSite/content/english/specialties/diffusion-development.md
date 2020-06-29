@@ -15,8 +15,8 @@ specialty:
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"
-    subtitle: "Soluciones creativas de entrenamiento en temas de sustentabilidad"
-    text: "Ayudamos a nuestros clientes a crear experiencias de intercambio de conocimientos con la implementación de talleres y entrenamientos integrales, así como la creación de materiales visualmente atractivos."
+    subtitle: "Creative and effective workshops to create sustainable experiences"
+    text: "We help our clients to create experiences of knowledge exchange through the implementation of integral workshops, trainings and the creation of visually attractive materials."
     icon: ""
     casestudy_item:
       # casestudy item loop

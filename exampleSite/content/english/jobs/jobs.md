@@ -1,5 +1,5 @@
 ---
-title: "Únete a nuestro Equipo"
+title: "Join our Team"
 jobs: 
     image_webp: images/blog/meghna.webp
     image: images/blog/meghna.jpg
@@ -7,28 +7,27 @@ jobs:
     main_bg_image_webp: images/jobs/Banner-unete.jpg
     main_bg_image: images/jobs/Banner-unete.jpg
     job_item:
-        - name: Bolsa de trabajo
-          title: ¿Quieres trabajar
-          subtitle: con nosotros?
+        - name: Careers
+          title: Would you like to
+          subtitle: join our team?
           job_id: jobs
           job_image: images/specialties/placeholder1.jpg
           job_image_webp: images/specialties/placeholder1.webp
           info1:
-            - info1_content: "Somos un equipo multidisciplinario de profesionistas que incluye ingenieros, arquitectos, desarrolladores de software, diseñadores, educadores, politólogos, sociólogos y urbanistas.  Cuando estamos en búsqueda de ampliar el equipo, publicamos las características en nuestras redes sociales. \n\n
-
-            Te invitamos a que sigas visitando nuestra página web para que nos conozcas."
-              info1_title: Descubre si somos el grupo de personas con quien te gustaría trabajar y crecer profesionalmente.
+            - info1_content: "We are a multidisciplinary team of professionals that includes engineers, architects, software developers, designers, educators, political analysts, sociologists, and urban planners. When we are looking to expand the team, we post the characteristics on our social networks.\n
+            We invite you to continue visiting our website so that you can learn more about us."
+              info1_title: We collaborate as a team to grow professionally in a multidisciplinary context
           info2: 
-            - info2_title: ¿Qué pedimos a nuestros colegas?
+            - info2_title: What do we ask for?
               info2_item: 
-                - info2_content: Titulación de una licenciatura o ingeniería.
-                - info2_content: Ser 100% bilingüe (español, inglés).
-                - info2_content: Que su misión en la vida sea promover el desarrollo sustentable.
+                - info2_content: Have a bachelor's degree and the respective diploma.
+                - info2_content: 100% bilingual (Spanish, English).
+                - info2_content: Have a mission in life focused on promoting sustainable development.
           info3:
-            - info3_title: "¿Cumples con los requisitos? \nEscríbenos:"
-              info3_content: "Enviar por correo electrónico a: ideas@capsus.mx tu CV, una carta de motivos en español sobre porqué te interesa trabajar en CAPSUS y qué te motiva a perseguir una carrera profesional en el área de sustentabilidad y una carta en inglés donde nos cuentes: ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o). \n\n
+            - info3_title: "Are you interested? \nContact us:"
+              info3_content: "Send an email to ideas@capsus.mx with your CV, a letter of intent in spanish about why are you interested in working at CAPSUS and what motivates you to pursue a professional career in the sustainability area and a letter in English where you can tell us: Who are you?, What are your passions in life?, What do you like to do the most ?, What are your current and future professional objectives?, and some of your achievements or previous projects that you are proud of.\n\n
 
-              Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."
+              After analyzing your documentation we will contact you for an interview where we can clarify the doubts that you and we have."
           info4:
             - info4_title: Vacantes
               info4_item:
@@ -68,7 +67,7 @@ jobs:
               #    info4_item_content4: Idiomas de la vacante.
               #    info4_id: vac-3
               #    info4_item_name: Vacante 3
-        - name: Programa de Becarios
+        - name: Internships
           title: Programa de Becarios
           job_id: internships
           job_image: images/jobs/Becarios-icon-1.png
@@ -86,10 +85,10 @@ jobs:
                 - info2_content: Que tus estudios, como tus intereses profesionales estén ligados al desarrollo sustentable en el ámbito urbano.
                 - info2_content: Que tengas un compromiso con nosotros de cuando menos 2 meses de tiempo completo. Si sigues estudiando y tu carga académica es muy baja, podríamos acordar un horario reducido y un periodo de tiempo más largo.
           info3:
-            - info3_title: "¿Cumples con los requisitos? \n\nEscríbenos:"
-              info3_content: "Enviar por correo electrónico a: ideas@capsus.mx tu CV, una carta de motivos en español sobre porqué te interesa trabajar en CAPSUS y qué te motiva a perseguir una carrera profesional en el área de sustentabilidad y una carta en inglés donde nos cuentes: ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o).\n\n
-              
-              Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."
+            - info3_title: "Are you interested? \nContact us:"
+              info3_content: "Send an email to ideas@capsus.mx with your CV, a letter of intent in spanish about why are you interested in working at CAPSUS and what motivates you to pursue a professional career in the sustainability area and a letter in English where you can tell us: Who are you?, What are your passions in life?, What do you like to do the most ?, What are your current and future professional objectives?, and some of your achievements or previous projects that you are proud of.\n\n
+
+              After analyzing your documentation we will contact you for an interview where we can clarify the doubts that you and we have."
           info4:
             - info4_title: ¿Qué ofrecemos?
               info4_image: images/jobs/Foto-para-becarios.jpg

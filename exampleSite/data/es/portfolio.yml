@@ -102,7 +102,7 @@ portfolio:
                       Arquitectura, Urbanismo y Construcción de la Universidad de
                       Tecnología de Delft, actualmente es candidata a doctora en Geografía
                       Humana del University College London. Tania ha trabajado como
-                      arquitecta y urbanista en México y en los Países Bajos"
+                      arquitecta y urbanista en México y en los Países Bajos."
       
     # portfolio item loop
     - name : Amílcar González
@@ -159,20 +159,20 @@ portfolio:
                       de Morelos enfocado al rescate de barrancas urbanas."
 
     # portfolio item loop
-    - name : José Eduardo Díaz
-      member_title : Ingeniero Químico
-      image : images/portfolio/JD.jpg
-      image_webp : images/portfolio/JD.webp
-      categories : ["consultants"]
-      title : Consultor
-      content : Desarrollo Sustentable
-      link : "#"
-      member_profile: "Cuenta con experiencia
-                      en áreas como análisis de datos y desarrollo sustentable. Ha trabajado en
-                      proyectos para el sector privado, sector público y organizaciones no
-                      gubernamentales. \n\nEntre sus proyectos destacan el desarrollo e
-                      implementación de un programa de reciclaje en vivienda social, así como
-                      el análisis de escenarios de crecimiento urbano para ciudades."
+    #- name : José Eduardo Díaz
+    #  member_title : Ingeniero Químico
+    #  image : images/portfolio/JD.jpg
+    #  image_webp : images/portfolio/JD.webp
+    #  categories : ["consultants"]
+    #  title : Consultor
+    #  content : Desarrollo Sustentable
+    #  link : "#"
+    #  member_profile: "Cuenta con experiencia
+    #                  en áreas como análisis de datos y desarrollo sustentable. Ha trabajado en
+    #                  proyectos para el sector privado, sector público y organizaciones no
+    #                  gubernamentales. \n\nEntre sus proyectos destacan el desarrollo e
+    #                  implementación de un programa de reciclaje en vivienda social, así como
+    #                  el análisis de escenarios de crecimiento urbano para ciudades."
 
     # portfolio item loop
     - name : Judá García
@@ -270,7 +270,7 @@ portfolio:
       member_profile: "Egresada de la Benemérita Universidad de
                       Puebla. Se ha desempeñado en el sector privado en proyectos catastrales
                       y de planeación urbana como analista en SIG, además cuenta con
-                      experiencia en diseño urbano y estudios territoriales.  "   
+                      experiencia en diseño urbano y estudios territoriales."   
 
     # portfolio item loop
     - name : Gerardo Escalona

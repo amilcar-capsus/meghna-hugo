@@ -2515,7 +2515,7 @@ figcaption {
 }
 
 .box-hr {
-    border-top: 3px dashed #00495a;
+    border-top: 3px solid #00495a;
     width: 3rem;
     margin-left: 0px;
 }

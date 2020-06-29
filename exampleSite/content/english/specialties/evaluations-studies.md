@@ -15,8 +15,8 @@ specialty:
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"
-    subtitle: "Soluciones respaldadas por información técnica sólida"
-    text: "Realizamos estudios de campo y gabinete para evaluar y apoyar la implementación de proyectos de infraestructura energética y urbana."
+    subtitle: "Innovative solutions, supported by solid technical information"
+    text: "We carry out cabinet and field studies to evaluate and ensure the successful implementation of energy and urban infrastructure projects."
     icon: ""
     casestudy_item:
       # casestudy item loop

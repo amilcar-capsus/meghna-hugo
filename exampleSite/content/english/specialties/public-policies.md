@@ -3,7 +3,7 @@ title: "Design and Evaluation of public policies"
 specialty: 
     enable : true
     main_title: "Design and Evaluation of "
-    color_title: "public policies"
+    color_title: "Public Policies"
     case_studies1: Case
     case_studies2: Studies
     main_bg_image_webp: images/specialties/public-policies/Politicas-publicas-banner.jpg
@@ -15,8 +15,8 @@ specialty:
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"
-    subtitle: "Soluciones estratégicas que promueven la sustentabilidad urbana"
-    text: "Participamos en la evaluación y diseño de políticas públicas en materia de sustentabilidad urbana, abarcando los temas de cambio climático, calidad del aire, energía, gestión de residuos,medio ambiente, planeación, resilencia, salud, suelos y agua entre otros."
+    subtitle: "Systematic solutions to overcome challenges in different contexts"
+    text: "We participate and assist in the evaluation and design of public policies on urban sustainability, involving climate change, air quality, energy, waste management, environment, planning, resilience, health, soil and water."
     icon: ""
     casestudy_item:
       # casestudy item loop
