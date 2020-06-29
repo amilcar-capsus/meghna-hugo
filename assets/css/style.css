@@ -2400,9 +2400,8 @@ figcaption {
 }
 
 #select-language {
-  background: #00495a;
+  background: transparent;
   color: #28c5b9;
-  border: 3px solid #28c5b9;
   position: relative;
   font-weight: bold;
 }

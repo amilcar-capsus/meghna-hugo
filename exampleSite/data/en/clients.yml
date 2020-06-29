@@ -1,89 +1,152 @@
 ################################# Testimonial #########################
 clients:
   enable : true
-  bg_image : images/backgrounds/bg-testimonial.jpg
-  bg_image_webp : images/backgrounds/bg-testimonial.webp
+  bg_image : images/backgrounds/bg-testimonial.png
+  bg_image_png : images/backgrounds/bg-testimonial.png
   client_item :
     # testimonial item loop
     - name : Jonathon Andrew
-      image : images/portfolio/GV.jpg
-      image_webp : images/portfolio/GV.webp
+      image : images/client/ARA.png
+      image_png : images/client/ARA.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
       
     # testimonial item loop
     - name : Mark Dinn
-      image : images/portfolio/RO.jpg
-      image_webp : images/portfolio/RO.webp
+      image : images/client/BN-bid.png
+      image_png : images/client/BN-bid.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
       
     # testimonial item loop
     - name : Lemos Kail
-      image : images/portfolio/DE.jpg
-      image_webp : images/portfolio/DE.webp
+      image : images/client/BN ecocasa.png
+      image_png : images/client/BN ecocasa.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
     
     # testimonial item loop
     - name : Lemos Kail
-      image : images/portfolio/CV.jpg
-      image_webp : images/portfolio/CV.webp
+      image : images/client/BN-ESMAP.png
+      image_png : images/client/BN-ESMAP.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
 
     # testimonial item loop
     - name : Jonathon Andrew
-      image : images/portfolio/SM.jpg
-      image_webp : images/portfolio/SM.webp
+      image : images/client/BN infonavit logo.png
+      image_png : images/client/BN infonavit logo.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
       
     # testimonial item loop
     - name : Mark Dinn
-      image : images/portfolio/TG.jpg
-      image_webp : images/portfolio/TG.webp
+      image : images/client/BN-isla-urbana-copia.png
+      image_png : images/client/BN-isla-urbana-copia.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
       
     # testimonial item loop
     - name : Lemos Kail
-      image : images/portfolio/AV.jpg
-      image_webp : images/portfolio/AV.webp
+      image : images/client/BN world bank group.png
+      image_png : images/client/BN world bank group.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
     
     # testimonial item loop
     - name : Lemos Kail
-      image : images/portfolio/LA.jpg
-      image_webp : images/portfolio/LA.webp
+      image : images/client/BN-Conavi.png
+      image_png : images/client/BN-Conavi.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
 
     # testimonial item loop
     - name : Lemos Kail
-      image : images/portfolio/JD.jpg
-      image_webp : images/portfolio/JD.webp
+      image : images/client/BN-giz.png
+      image_png : images/client/BN-giz.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
     
     # testimonial item loop
     - name : Lemos Kail
-      image : images/portfolio/JG.jpg
-      image_webp : images/portfolio/JG.webp
+      image : images/client/BN-SEMARNAT.png
+      image_png : images/client/BN-SEMARNAT.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
 
     # testimonial item loop
     - name : Lemos Kail
-      image : images/portfolio/MB.jpg
-      image_webp : images/portfolio/MB.webp
+      image : images/client/com-europ.png
+      image_png : images/client/com-europ.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
     
     # testimonial item loop
     - name : Lemos Kail
-      image : images/portfolio/RG.jpg
-      image_webp : images/portfolio/RG.webp
+      image : images/client/CPL-17.png
+      image_png : images/client/CPL-17.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+
+      # testimonial item loop
+    - name : Jonathon Andrew
+      image : images/client/GOBMEX_CONAGUA.png
+      image_png : images/client/GOBMEZ_CONAGUA.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      
+    # testimonial item loop
+    - name : Mark Dinn
+      image : images/client/IMPLAN-Leon.png
+      image_png : images/client/IMPLAN-Leon.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      
+    # testimonial item loop
+    - name : Lemos Kail
+      image : images/client/Logo_zuma.png
+      image_png : images/client/Logo_zuma.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    
+    # testimonial item loop
+    - name : Lemos Kail
+      image : images/client/Logo-CDMX.png
+      image_png : images/client/Logo-CDMX.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+
+    # testimonial item loop
+    - name : Jonathon Andrew
+      image : images/client/Marsh_Logo.png
+      image_png : images/client/Marsh_Logo.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      
+    # testimonial item loop
+    - name : Mark Dinn
+      image : images/client/MinistryLOGO.png
+      image_png : images/client/MinistryLOGO.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      
+    # testimonial item loop
+    - name : Lemos Kail
+      image : images/client/SADASI.png
+      image_png : images/client/SADASI.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    
+    # testimonial item loop
+    - name : Lemos Kail
+      image : images/client/tec-monterrey.png
+      image_png : images/client/tec-monterrey.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+
+    # testimonial item loop
+    - name : Lemos Kail
+      image : images/client/Vinte.png
+      image_png : images/client/Vinte.png
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
