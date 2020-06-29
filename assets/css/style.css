@@ -2690,7 +2690,7 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
 }
 
 .dropdown-content {
-  background-color: #fff;
+  background-color: #00495a;
   margin: 0;
   display: none;
   min-width: 100px;
@@ -2719,7 +2719,7 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
 }
 
 .dropdown-content li:hover, .dropdown-content li.active {
-  background-color: #eee;
+  background-color: #00495a;
 }
 
 .dropdown-content li:focus {
@@ -2733,7 +2733,7 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #26a69a;
+  color: white;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
