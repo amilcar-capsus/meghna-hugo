@@ -53,7 +53,9 @@
 - id: casestudies
   translation: Case Studies
 - id: employment
-  translation: Join our Team
+  translation: Join our
+- id: employment2
+  translation: Team
 - id: vacancy
   translation: Vacancies
 - id: name
