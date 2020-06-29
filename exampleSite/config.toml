@@ -109,8 +109,8 @@ link = "plugins/magnific-popup/magnific-popup.css"
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick-theme.css"
-[[params.plugins.css]]
-link = "plugins/materialize/css/materialize.min.css"
+#[[params.plugins.css]]
+#link = "plugins/materialize/css/materialize.css"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
 [[params.plugins.js]]
