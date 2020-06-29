@@ -8,7 +8,7 @@
   <div class="bg-img" style='background-image: url("{{ .main_bg_image | absURL }}"'>
     <div class="container">
       <div class="row">
-        <h1 class="m-5 p-5 text-center text-justify color-3 big-title">{{ i18n "employment" }} <span class="color">{{ i18n "employment2" }}</span></h1>
+        <h1 class="m-5 p-5 text-center text-justify color-3 big-title">{{ i18n "employment" | markdownify }} <span class="color">{{ i18n "employment2" | markdownify }}</span></h1>
       </div>
     </div>
   </div>
