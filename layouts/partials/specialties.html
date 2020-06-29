@@ -19,7 +19,7 @@
 			{{ range .specialty_item }}
 			{{"<!-- About item -->" | safeHTML}}
 			<div class="col-lg-3 text-center wow fadeInUp" data-wow-duration="500ms">
-				<a href="{{ $.Site.BaseURL | relLangURL }}{{ .link }}">
+				<a href="{{ .link | relLangURL }}">
 					<div class="block">
 						<div class="icon-box">
 							<img class="img-fluid" data-src="{{ .image_webp | absURL }}" src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .title }}">
