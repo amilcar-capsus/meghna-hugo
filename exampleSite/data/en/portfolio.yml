@@ -6,14 +6,14 @@ portfolio:
   portfolio_item :
     # portfolio item loop
     - name : Guillermo Velasco
-      member_title : Physics Engineer
+      member_title : Engineer in Physics
       image : images/portfolio/GV.jpg
       image_webp : images/portfolio/GV.webp
       categories : ["partners"]
       title : Partner
-      content : PUBLIC POLICY, SUSTAINABLE DEVELOPMENT AND CLIMATE CHANGE
+      content : PUBLIC POLICY, SUSTAINABLE DEVELOPMENT
       link : "#"
-      member_profile: "He has a master’s degree in Public Policy from Harvard University's school of government. Guillermo has more than 20 years of experience in the environmental and urban sectors. As a public official he was Chief of Staff in the Mexican Senate, Federal and Local Congressman for the State of Mexico, as well as Minister of the Environment for the Government of the State of Mexico. He later served for six years as Program Coordinator of the Sustainable Cities Program at the Nobel Laurate Mario Molina Center for Strategic Studies on Energy and Environment. 
+      member_profile: "He has a master’s degree in Public Policy from Harvard University. Guillermo has more than 20 years of experience in the environmental and urban sectors. As a public official he was Chief of Staff in the Mexican Senate, Federal and Local Congressman for the State of Mexico, as well as Minister of the Environment for the Government of the State of Mexico. He later served for six years as Program Coordinator of the Sustainable Cities Program at the Nobel Laurate Mario Molina Center for Strategic Studies on Energy and Environment. 
       \n\nHe is currently the founding partner of CAPSUS S.C., an international sustainability consulting firm."
       
     # portfolio item loop
@@ -23,13 +23,13 @@ portfolio:
       image_webp : images/portfolio/RO.webp
       categories : ["partners"]
       title : Partner
-      content : ENERGY, BUILDING AND SOFTWARE DEVELOPMENT
+      content : ENERGY, HOUSING AND SOFTWARE DEVELOPMENT
       link : "#"
       member_profile: "Mechanical Engineer with a Master of Science in Renewable Energy and PhD candidate in energy in bioclimatic design of buildings. Ricardo has experience in the area of energy simulation in buildings and has specialized in strategies of energy efficiency, adaptation and mitigation to climate change in the built environment and city planning."
       
     # portfolio item loop
     - name : Daniela Evia
-      member_title : Historian and teacher in Educational Innovation
+      member_title : Historian
       image : images/portfolio/DE.jpg
       image_webp : images/portfolio/DE.webp
       categories : ["coordinators"]
@@ -53,7 +53,7 @@ portfolio:
 
     # portfolio item loop
     - name : Leticia Galindo
-      member_title : Certified Public Accountant
+      member_title : Public Accountant
       image : images/portfolio/CV.jpg
       image_webp : images/portfolio/CV.webp
       categories : ["coordinators"]
@@ -91,7 +91,7 @@ portfolio:
       image_webp : images/portfolio/AV.webp
       categories : ["consultants"]
       title : Consultant
-      content : INFORMATION AND GRAPHIC COMMUNICATION DESIGN
+      content : INFORMATION AND EFFECTIVE COMMUNICATION DESIGN
       link : "#"
       member_profile: "Information and Graphic Designer from the Universidad Autónoma Metropolitana at Azcapotzalco. She has experience in the information and graphic communication design to conceptualize technical messages in specialized graphics. She has worked in the health sector developing communication and education campaigns. Her training focuses on the world of communication, strategic planning, visual arts and public relations. 
       \n\nPrior to CAPSUS she worked in Llorente y Cuenca with various brands on aspects related to reputation and public relations. In addition, she has worked in editorial design, digital design, animation, corporate identity, Infographic design, among others."
@@ -105,7 +105,7 @@ portfolio:
       title : Consultant
       content : SUSTAINABLE DEVELOPMENT
       link : "#"
-      member_profile: "Engineer in Sustainable Development by the Tecnológico de Monterrey. He specializes in developing strategies that integrate sustainability pillars and resource management. Prior to CAPSUS he worked in Unilever's environmental department, in research centers in Japan and Canada on water and energy issues and with the Ministry for Sustainable Development of the State of Morelos, Mexico. His work there focused in the rescue of urban ravines."
+      member_profile: "Engineer in Sustainable Development by the Tecnológico de Monterrey. He specializes in developing strategies that integrate sustainability pillars and resource management. Prior to CAPSUS he worked in Unilever's environmental department, in research centers in Japan and Canada on water and energy issues and with the Ministry for Sustainable Development of the State of Morelos, Mexico. His work there focused on the rescue of urban ravines."
 
     # portfolio item loop
     #- name : José Eduardo Díaz
@@ -130,13 +130,13 @@ portfolio:
       image_webp : images/portfolio/JG.webp
       categories : ["consultants"]
       title : Consultant
-      content : URBAN DEVELOPMENT AND GEOGRAPHIC INFORMATION
+      content : URBAN PLANNING AND GEOGRAPHICAL INFORMATION SYSTEMS
       link : "#"
       member_profile: "He has worked in the private sector as a GIS Analyst in the real estate sector, as well as collaborating in the development of the Territorial Strategy of the National Crime Prevention Program."
       
     # portfolio item loop
     - name : Luis Ángel García
-      member_title : Informatic engineer
+      member_title : Informatic Engineer
       image : images/portfolio/LA.jpg
       image_webp : images/portfolio/LA.webp
       categories : ["consultants"]
@@ -147,7 +147,7 @@ portfolio:
       
     # portfolio item loop
     - name : María Blanco
-      member_title : Chemical engineer
+      member_title : Chemical Engineer
       image : images/portfolio/MB.jpg
       image_webp : images/portfolio/MB.webp
       categories : ["consultants"]
@@ -159,7 +159,7 @@ portfolio:
 
     # portfolio item loop
     - name : Ricardo García
-      member_title : Environmental engineer
+      member_title : Environmental Engineer
       image : images/portfolio/RG.jpg
       image_webp : images/portfolio/RG.webp
       categories : ["consultants"]
@@ -181,12 +181,12 @@ portfolio:
       
     # portfolio item loop
     - name : Socorro Román
-      member_title : Urban planner
+      member_title : Urban Planner
       image : images/portfolio/SM.jpg
       image_webp : images/portfolio/SM.webp
       categories : ["consultants"]
       title : Consultant
-      content : URBAN DEVELOPMENT AND GEOGRAPHIC INFORMATION
+      content : URBAN PLANNING AND GEOGRAPHICAL INFORMATION SYSTEMS
       link : "#"
       member_profile: "Urban planner from the Benemérita Universidad de Puebla. She has worked in the private sector in urban planning projects and has experience in urban design and territorial studies."   
 
@@ -197,10 +197,10 @@ portfolio:
       image_webp : images/portfolio/RO.webp
       categories : ["consultants"]
       title : Consultant
-      content : Socio-environmental Psychologist
+      content : ANALYST AND SOCIO-ENVIRONMENTAL PSYCHOLOGIST
       link : "#"
       member_profile: "He has 6 years of experience in the sustainable urban transport sector, designing and implementing survey strategies and interviews with key actors. He has collaborated with Non-Governmental Organizations, Private Initiative, Multilateral Organizations (IDB), Local, State and Federal Governments (Secretariat of Agrarian, Territorial and Urban Development, SEDATU) in the promotion, development and implementation of street design for sustainable transport and institutional communication tools. 
-      \n\nHe has experience in creating dissemination materials and promoting bicycle use in Mexico City and Sinaloa."
+      \n\nHe has experience in creating dissemination materials and promoting sustainable transportation in Mexico."
 
     # portfolio item loop
     - name : Raúl Saucedo
@@ -234,7 +234,7 @@ portfolio:
       image_webp : images/portfolio/GV.webp
       categories : ["associates"]
       title : Associate
-      content : URBAN PLANNING AND ENVIRONMENT
+      content : URBAN ENVIRONMENTAL PLANNING
       link : "#"
       member_profile: "He holds an interdisciplinary degree in the Netherlands with a focus on public policy and human geography. His final thesis was on housing finance in China and its economic and social effects during the transition. After that, Tommaso completed a master's degree in \"Urban and Environmental Planning\" in Cambridge, England. 
 

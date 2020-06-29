@@ -14,7 +14,7 @@ jobs:
           job_image: images/specialties/placeholder1.jpg
           job_image_webp: images/specialties/placeholder1.webp
           info1:
-            - info1_content: "We are a multidisciplinary team of professionals that includes engineers, architects, software developers, designers, educators, political analysts, sociologists, and urban planners. When we are looking to expand the team, we post the characteristics on our social networks.\n
+            - info1_content: "We are a multidisciplinary team of professionals that includes engineers, architects, software developers, designers, educators, political analysts, sociologists, and urban planners. When we are looking to expand the team, we post the characteristics on our social networks and on this website.\n
             We invite you to continue visiting our website so that you can learn more about us."
               info1_title: We collaborate as a team to grow professionally in a multidisciplinary context
           info2: 
@@ -25,9 +25,9 @@ jobs:
                 - info2_content: Have a mission in life focused on promoting sustainable development.
           info3:
             - info3_title: "Are you interested? \nContact us:"
-              info3_content: "Send an email to ideas@capsus.mx with your CV, a letter of intent in spanish about why are you interested in working at CAPSUS and what motivates you to pursue a professional career in the sustainability area and a letter in English where you can tell us: Who are you?, What are your passions in life?, What do you like to do the most ?, What are your current and future professional objectives?, and some of your achievements or previous projects that you are proud of.\n\n
+              info3_content: "Send an email to ideas@capsus.mx with your CV, a cover letter in spanish about why you are interested in working at CAPSUS and what motivates you to pursue a professional career in the sustainability area, and a letter in English where you can tell us: Who are you?, What are your passions in life?, What are your hobbies?, What are your current and future professional objectives?, and some of your achievements or previous projects that you are proud of.\n\n
 
-              After analyzing your documentation we will contact you for an interview where we can clarify the doubts that you and we have."
+              After analyzing your documentation, we will contact you for an interview where we can clarify the doubts that you and we have."
           info4:
             - info4_title: Vacantes
               info4_item:

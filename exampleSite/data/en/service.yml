@@ -13,21 +13,21 @@ service:
     # service item loop
     - name : EXPERIENCE AND SPECIALIZATION
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Our team is constantly building its capacities to be at the forefront of sustainability issues.
+      content : Our team is constantly improving its capacities to be at the forefront of sustainability issues.
       image : images/services/Que-ofrecemos-2.png
       image_webp : images/services/Que-ofrecemos-2.png
       
     # service item loop
     - name : INFORMATION DESIGN
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : We deliver effective and intelligible messages that our recipients can successfully adopt.
+      content : We deliver clear, effective and straightforward messages that our recipients can successfully adopt.
       image : images/services/Que-ofrecemos-3.png
       image_webp : images/services/Que-ofrecemos-3.png
       
     # service item loop
     - name : SOFTWARE DEVELOPMENT
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : We integrate the use of technological innovations in our projects and develop tools to simplify data analysis in urban planning, building water and energy efficiency.
+      content : We integrate the use of technological innovations in our projects and develop tools to simplify data analysis in urban planning, environmental performance, and water and energy efficiency.
       image : images/services/Que-ofrecemos-4.png
       image_webp : images/services/Que-ofrecemos-4.png
       
@@ -41,6 +41,6 @@ service:
     # service item loop
     - name : WORK CULTURE
       icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : We promote collaborative, creative and innovative work. We are committed to our clients goals.
+      content : We commit to our client's goals through multidisciplinar, collaborative, creative and innovative work.
       image : images/services/Que-ofrecemos-6.png
       image_webp : images/services/Que-ofrecemos-6.png

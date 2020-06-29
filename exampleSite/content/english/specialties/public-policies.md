@@ -16,7 +16,7 @@ specialty:
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"
     subtitle: "Systematic solutions to overcome challenges in different contexts"
-    text: "We participate and assist in the evaluation and design of public policies on urban sustainability, involving climate change, air quality, energy, waste management, environment, planning, resilience, health, soil and water."
+    text: "We assist in the evaluation and design of public policies on urban sustainability, involving climate change, air quality, energy, waste management, environment, planning, resilience, public health, soil and water."
     icon: ""
     casestudy_item:
       # casestudy item loop

@@ -15,8 +15,8 @@ specialty:
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"
-    subtitle: "Creative and effective workshops to create sustainable experiences"
-    text: "We help our clients to create experiences of knowledge exchange through the implementation of integral workshops, trainings and the creation of visually attractive materials."
+    subtitle: "Creative and effective workshops to build capacities on sustainable development"
+    text: "We help our clients build capacities and create experiences of knowledge exchange through the implementation of integral workshops, training and visually attractive materials."
     icon: ""
     casestudy_item:
       # casestudy item loop

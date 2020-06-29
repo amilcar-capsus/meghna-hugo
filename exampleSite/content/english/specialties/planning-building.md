@@ -3,7 +3,7 @@ title: "Urban Planning and Sustainable Building"
 specialty: 
     enable : true
     main_title: "Urban Planning and "
-    color_title: "Sustainable Building"
+    color_title: "Sustainable Building Design"
     case_studies1: Case
     case_studies2: Studies
     main_bg_image_webp: images/specialties/planning-building/Planificacion-urbana-banner.jpg
@@ -15,7 +15,8 @@ specialty:
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"
-    subtitle: "We develop solutions for cities and buildings which reduce investment and maintenance costs, improve its inhabitants quality of life and have good environmental and energy performance."
+    subtitle: "An alternative for cities and buildings"
+    text: "We develop solutions for cities and buildings which reduce investment and maintenance costs, improve its inhabitants quality of life and have better environmental and energy performance."
     icon: ""
     casestudy_item:
       # casestudy item loop

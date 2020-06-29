@@ -41,7 +41,7 @@
 - id: jobs
   translation: Join us
 - id: specialties
-  translation: Specialties
+  translation: Expertise
 - id: specialty1
   translation: Planning and Building
 - id: specialty2
@@ -75,4 +75,4 @@
 - id: languages
   translation: Languages
 - id: vacancies
-  translation: No careers requested
+  translation: No available opportunities

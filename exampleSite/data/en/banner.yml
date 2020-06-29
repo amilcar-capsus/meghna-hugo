@@ -4,15 +4,15 @@ banner:
   bg_image_webp: images/backgrounds/Banner-1.webp
   bg_image: images/backgrounds/Banner-1.jpg
   icon: ''
-  title: DESIGNING AND PROMOTING SUSTAINABLE DEVELOPMENT
-  content: We promote collaborative, creative and innovative work to build a sustainable future
+  title: PROMOTING SUSTAINABLE DEVELOPMENT
+  content: We promote collaborative, creative and innovative actions to build a sustainable future
   button:
     enable: true
     label: Test
     link: "#services"
   banner_item:
-    - banner_title: DESIGNING AND PROMOTING SUSTAINABLE DEVELOPMENT
-      banner_content: We promote collaborative, creative and innovative work to build a sustainable future
+    - banner_title: PROMOTING SUSTAINABLE DEVELOPMENT
+      banner_content: We promote collaborative, creative and innovative actions to build a sustainable future
       banner_id: main
       banner_image: images/banner/Banner-1_Icon1.png
       banner_image_webp: images/banner/Banner-1_Icon1.png
@@ -23,7 +23,7 @@ banner:
       banner_image: images/banner/Banner-1_Icon2.png
       banner_image_webp: images/banner/Banner-1_Icon2.png
       color: "#bad332"
-    - banner_title: Cities with a better quality and living standard with a
+    - banner_title: Cities with  better quality of life and
       banner_content: lower environmental impact
       banner_id: other
       banner_image: images/banner/Banner-1_Icon3.png
@@ -41,8 +41,8 @@ banner:
       banner_image: images/banner/Banner-1_Icon5.png
       banner_image_webp: images/banner/Banner-1_Icon5.png
       color: "#17c9b8"
-    - banner_title: Collaboration, creativity and innovation for
-      banner_content: environmental wellness
+    - banner_title: Multidisciplinary collaboration and innovation for improving
+      banner_content: environmental policies
       banner_id: other
       banner_image: images/banner/Banner-1_Icon6.png
       banner_image_webp: images/banner/Banner-1_Icon6.png

@@ -5,7 +5,7 @@ feature:
   image_webp : images/backgrounds/FOTOGRAFIA-2.jpg
   title : Experience on the public, private and international sectors
   content : "We advise international public and private entities, we analyze spatial data and we generate performance indicators.
-  \nFor better and informed decision-making, we develop tools that encourage economic development, social inclusion and environmental wellness."
+  \nWe strive to improve and foster informed decision-making. We develop tools that encourage economic development, social inclusion and environmental wellness."
   feature_item : 
       # feature item loop
     - title : Cities and Governments
