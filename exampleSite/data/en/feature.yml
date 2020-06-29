@@ -1,27 +1,28 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/about-business-man.jpg
-  image_webp : images/about/about-business-man.webp
-  title : Enfocados al sector público, nacional e internacional
-  content : "Asesoramos a entes públicos y privados internacionales, analizamos datos espaciales, generamos indicadores de desempeño y desarrollamos herramientas para facilitar la toma de decisiones informadas que incentiven el desarrollo económico, la inclusión social y la conversación del medio ambiente."
+  image : images/backgrounds/FOTOGRAFIA-2.jpg
+  image_webp : images/backgrounds/FOTOGRAFIA-2.jpg
+  title : Experience on the public, private and international sectors
+  content : "We advise international public and private entities, we analyze spatial data and we generate performance indicators.
+  \nFor better and informed decision-making, we develop tools that encourage economic development, social inclusion and environmental wellness."
   feature_item : 
       # feature item loop
-    - title : Ciudades y Gobiernos
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+    - title : Cities and Governments
+      icon : fas fa-flag-checkered # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
       
       # feature item loop
-    - title : Empresas e Industrias
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+    - title : Companies and Industries
+      icon : fas fa-building # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
 
       # feature item loop
-    - title : Servicios Ambientales 
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+    - title : Environmental services
+      icon : fas fa-leaf # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
       
       # feature item loop
-    - title : Servicios Urbanos y Territoriales
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+    - title : Urban and territorial services
+      icon : fas fa-globe-americas # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

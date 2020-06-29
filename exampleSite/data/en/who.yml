@@ -1,0 +1,49 @@
+############################# feature ###################################
+who:
+  enable : true
+  image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
+  title : About Us
+  button_item:
+    - enable: true
+      label: Download brochure
+      link: "#"
+  content : "Asesoramos a entes públicos y privados internacionales, analizamos datos espaciales, generamos indicadores de desempeño y desarrollamos herramientas para facilitar la toma de decisiones informadas que incentiven el desarrollo económico, la inclusión social y la conversación del medio ambiente."
+  who_item : 
+      # feature item loop
+    - who_title : International firm based in Mexico
+      who_id: "who"
+      who_content : "We are a multidisciplinary team with extensive experience offering effective sustainability strategies. We are known for proposing innovative solutions, supported by solid technical information, incorporating our values, state of the art and best practices in the field that we work on.
+
+      \n\nOur existence and work is based on credibility. We add value to our clients and partners, by improving the economic, social and environmental performance of the activities they carry out."
+      image : images/who/Quienes-somos-1.png
+      image_webp : images/who/Quienes-somos-1.png
+      list_title : "CAPSUS is:"
+      list_item : 
+        - list_content : Responsibility
+        - list_content : Commitment
+        - list_content : Growth
+        - list_content : Creativity
+        - list_content : Credibility
+      
+    - who_title : Mission
+      who_id: "mission"
+      who_content : "Nuestro equipo transdisciplinario cuenta con amplia experiencia en sustentabilidad. Nos caracterizamos por proponer soluciones innovadoras, que esten respaldadas por información técnica sólida, incorparando nuestros valores, el estado del arte y las mejores prácticas en la metaria que trabajemos.
+      
+      Consideramos a nuestros clientes como socios en un esfuerzo común por mejorar el desempeño ambiental, el rendimiento económico y la responsabilidad social."
+      image : images/who/Mision.png
+      image_webp : images/who/Mision.png
+      list_item : 
+        - list_content : Increase and protect the endowment of our clients through sustainability practices that include economic development, social inclusion, efficiency and environmental protection.
+    
+    - who_title : Vision
+      who_id: "vision"
+      who_content : "We consider our clients as partners in a common effort to improve the environmental performance, economic performance and social responsibility of the projects in the regions where we work."
+      image : images/who/Vision.png
+      image_webp : images/who/Vision.png
+      list_item : 
+        - list_content : Corresponsabilidad
+        - list_content : Compromiso
+        - list_content : Crecimiento
+        - list_content : Creatividad
+        - list_content : Credibilidad

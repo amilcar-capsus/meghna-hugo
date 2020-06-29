@@ -5,19 +5,19 @@ funfacts:
   bg_image_webp : "images/backgrounds/bg-white-wall.webp"
   counter_item:
     # counter item loop
-    - title : "PROYECTOS EN"
-      subtitle : "PAISES"
+    - title : "PROJECTS IN"
+      subtitle : "COUNTRIES"
       icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
       count : "9"
     
     # counter item loop
-    - title : "CLIENTES EN"
-      subtitle : "CONTINENTES"
+    - title : "CLIENTS IN"
+      subtitle : "CONTINENTS"
       icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
       count : "4"
     
     # counter item loop
-    - title : "TRABAJO EN MÁS DE"
-      subtitle : "CIUDADES"
+    - title : "WORK IN MORE THAN"
+      subtitle : "CITIES"
       icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
       count : "50"

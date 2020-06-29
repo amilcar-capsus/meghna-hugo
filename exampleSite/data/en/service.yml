@@ -1,34 +1,46 @@
 ################################# Service #################################
 service:
   enable : true
-  title : ¿Qué ofrecemos?
+  title : Our Services
   service_item :
     # service item loop
-    - name : EXPERIENCIA INTERNACIONAL
+    - name : INTERNATIONAL EXPERIENCE
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Siempre que un proyecto involucra una nueva ubicación, aprendemos de su contrato y enriquecemos nuestro trabajo.
+      content : Every time a project involves a new location, we learn from its context and enrich our work.
+      image : images/services/Que-ofrecemos-1.png
+      image_webp : images/services/Que-ofrecemos-1.png
       
     # service item loop
-    - name : EXPERIENCIA Y ESPECIALIZACIÓN
+    - name : EXPERIENCE AND SPECIALIZATION
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Nuestro equipo se capacita constantemente para estar a la vanguardia en los temas de sustentabilidad.
+      content : Our team is constantly building its capacities to be at the forefront of sustainability issues.
+      image : images/services/Que-ofrecemos-2.png
+      image_webp : images/services/Que-ofrecemos-2.png
       
     # service item loop
-    - name : DISEÑO E INFORMACIÓN
+    - name : INFORMATION DESIGN
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Entregamos mensajes claros y efectivos que nuestros receptores pueden adaptar exitosamente.
+      content : We deliver effective and intelligible messages that our recipients can successfully adopt.
+      image : images/services/Que-ofrecemos-3.png
+      image_webp : images/services/Que-ofrecemos-3.png
       
     # service item loop
-    - name : DESARROLLO DE SOFTWARE
+    - name : SOFTWARE DEVELOPMENT
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : Integramos innovaciones tecnológicas en nuestros proyectos y desarrollamos herramientas para simplificar el análisis de datos en la planifiación urbana.
+      content : We integrate the use of technological innovations in our projects and develop tools to simplify data analysis in urban planning, building water and energy efficiency.
+      image : images/services/Que-ofrecemos-4.png
+      image_webp : images/services/Que-ofrecemos-4.png
       
     # service item loop
-    - name : INVESTIGACIÓN DE CALIDAD
+    - name : HIGH QUALITY RESEARCH
       icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      content : Utilizamos tecnología de punta y prácticas vanguardistas para desarrollar aplicaciones y soluciones prácticas.
+      content : We use cutting edge technology and state of the art practices to develop practical applications and solutions.
+      image : images/services/Que-ofrecemos-5.png
+      image_webp : images/services/Que-ofrecemos-5.png
       
     # service item loop
-    - name : CULTURA DE TRABAJO
+    - name : WORK CULTURE
       icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : Promovemos trabajo colaborativo, creativo e innovador. Estamos comprometidos con los objetivos de nuestros clientes.
+      content : We promote collaborative, creative and innovative work. We are committed to our clients goals.
+      image : images/services/Que-ofrecemos-6.png
+      image_webp : images/services/Que-ofrecemos-6.png

@@ -11,14 +11,14 @@ contentDir = "content/spanish"
 copyright = "copyright &copy; 2019 [gethugothemes](https://gethugothemes.com) todos los derechos reservados"
 home = "Principal"
 languageCode = "es-es"
-languageName = "Español"
+languageName = "Esp"
 weight = "1"
 [Languages.en]
 contentDir = "content/english"
 copyright = "copyright &copy; 2019 [gethugothemes](https://gethugothemes.com) all right reserved"
 home = "Home"
 languageCode = "en-us"
-languageName = "English"
+languageName = "Eng"
 weight = "2"
 [Languages.fr]
 contentDir = "content/french"
@@ -91,6 +91,7 @@ description = "Responsive Multipurpose Parallax HTML5 Template"
 google_analytics_id = ""
 logo_nav = "images/Menu-Logo-Capsus.png"
 logo_footer = "images/Footer-Logo-Capsus.png"
+logo_footer_eng = "images/LOGO-ENG.png"
 post_share = true
 [params.map]
 enable = true

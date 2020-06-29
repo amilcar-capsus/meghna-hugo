@@ -16,7 +16,11 @@
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
 					<a href="{{ .Site.BaseURL | absLangURL }}">
+						{{ if eq $.Site.Language.LanguageName "Esp" }}
 						<img src="{{ .Site.Params.logo_footer | absURL }}" alt="{{ .Site.Title }}" />
+						{{ else if eq $.Site.Language.LanguageName "Eng" }}
+						<img src="{{ .Site.Params.logo_footer_eng | absURL }}" alt="{{ .Site.Title }}" />
+						{{ end }}
 					</a>
 					<br>
 					<p>{{ .Site.Params.copyright | markdownify }}</p>
