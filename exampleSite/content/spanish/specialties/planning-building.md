@@ -10,8 +10,8 @@ specialty:
     main_bg_image: images/specialties/planning-building/Planificacion-urbana-banner.jpg
     image_webp: images/specialties/planning-building/Planificacion-urbana-icono-1.png
     image: images/specialties/planning-building/Planificacion-urbana-icono-1.png
-    extra_title : Más de 20 proyectos similares
-    extra_content : sobre planificación urbana y edificación sustentable en el ámbito nacional e internacional
+    extra_title : Ayudamos a diseñar y construir ciudades 
+    extra_content : socialmente justas, económicamente robustas y ambientalmente amigables.
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"

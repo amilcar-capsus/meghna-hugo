@@ -10,8 +10,8 @@ specialty:
     main_bg_image: images/specialties/diffusion-development/Difusion-y-desarrollo-banner.jpg
     image_webp: images/specialties/diffusion-development/Difusion-y-desarrollo-icono-1.png
     image: images/specialties/diffusion-development/Difusion-y-desarrollo-icono-1.png
-    extra_title : Más de 20 proyectos similares
-    extra_content : sobre difusión y desarrollo de capacidades sobre sustentabilidad en el ámbito nacional e internacional
+    extra_title : Creamos capacidades 
+    extra_content : y tendemos puentes para la transferencia de conocimiento y tecnología.
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"

@@ -10,13 +10,13 @@ specialty:
     main_bg_image: images/specialties/public-policies/Politicas-publicas-banner.jpg
     image_webp: images/specialties/public-policies/Politicas-publicas-icono-1.png
     image: images/specialties/public-policies/Politicas-publicas-icono-1.png
-    extra_title : Más de 20 proyectos similares
-    extra_content : sobre diseño y evaluación de políticas públicas en el ámbito nacional e internacional
+    extra_title : Diseñamos políticas públicas con una visión multidisciplinaria
+    extra_content : asegurando resultados que promueven el desarrollo económico y benefician a la sociedad y al medio ambiente.
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"
     subtitle: "Soluciones estratégicas que promueven la sustentabilidad urbana"
-    text: "Participamos en la evaluación y diseño de políticas públicas en materia de sustentabilidad urbana, abarcando los temas de cambio climático, calidad del aire, energía, gestión de residuos,medio ambiente, planeación, resilencia, salud, suelos y agua entre otros."
+    text: "Participamos en la evaluación y diseño de políticas públicas en materia de sustentabilidad urbana, abarcando los temas de cambio climático, calidad del aire, energía, gestión de residuos,medio ambiente, planeación, resiliencia, salud, suelos y agua entre otros."
     icon: ""
     casestudy_item:
       # casestudy item loop

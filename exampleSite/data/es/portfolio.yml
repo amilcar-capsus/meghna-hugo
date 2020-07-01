@@ -34,12 +34,8 @@ portfolio:
       title : Socio
       content : Energía y Edificación
       link : "#"
-      member_profile: "Tiene una Maestría en 
-                      Ciencias en Energía Renovable, actualmente es estudiante del
-                      doctorado en energía en diseño bioclimático de edificaciones. \n\nRicardo
-                      cuenta con experiencia en el área de simulación energética en
-                      edificaciones y se ha especializado en estrategias de eficiencia energética,
-                      adaptación y mitigación al cambio climático en el entorno construido."
+      member_profile: "Ricardo tiene experiencia en ingeniería mecánica y administración, cuenta con una Maestría en Ciencias en Energía Renovable y 15 años de experiencia en energía y desarrollo sustentable.\n\n
+      En los últimos 10 años ha liderado equipos en el desarrollo de herramientas digitales para apoyar a gobiernos locales en la toma de decisiones informadas con un enfoque específico en estrategias de eficiencia energética, adaptación y mitigación al cambio climático en el entorno construido."
       
     # portfolio item loop
     - name : Daniela Evia
@@ -85,7 +81,7 @@ portfolio:
       link : "#"
       member_profile: "Cuenta con más de 20 años de experiencia 
                       en el sector privado enfocada en el área administrativa, finanzas, recursos
-                      humanos y fiscal. \n\nLa mayor parte de su experiencia has sido en el área de
+                      humanos y fiscal. \n\nLa mayor parte de su experiencia ha sido en el área de
                       manufactura donde ha llevado el control de proyectos y establecido
                       mejoras a procesos para incrementar la productividad."
       

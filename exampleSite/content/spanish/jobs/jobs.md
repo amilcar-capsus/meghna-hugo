@@ -75,9 +75,9 @@ jobs:
           job_image_webp: images/jobs/Becarios-icon-1.png
           info1:
             - info1_content: "Por ello, tenemos un programa de becarios para apoyar a los jóvenes profesionistas y fomentar el desarrollo de las nuevas generaciones en profesiones dirigidas a la sustentabilidad, materia que consideramos primordial para el mundo.\n\n
-            
+
             Mediante este programa conocemos a personas que en un futuro pueden formar parte del equipo permanente de CAPSUS."
-              info1_title: Creemos que las primeras experiencias laborales son parte esencial del aprendizaje.
+              info1_title: Creemos que las primeras experiencias laborales son transformacionales y parte esencial del aprendizaje profesional
           info2: 
             - info2_title: ¿Qué pedimos a los interesados?
               info2_item: 

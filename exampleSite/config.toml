@@ -98,7 +98,7 @@ enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCstAiOx6maCueeXzIrJYWkEy8HVb2hp0k"
 map_latitude = "19.432550"
 map_longitude = "-99.209395"
-map_marker = "images/marker.webp"
+map_marker = "images/marker-red.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
