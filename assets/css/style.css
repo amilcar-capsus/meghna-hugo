@@ -116,7 +116,7 @@ a:hover {
 
 .btn-transparent {
   border: 1px solid #28c5b9;
-  min-width: 215;
+  min-width: 215px;
 }
 
 .btn-transparent:hover,
