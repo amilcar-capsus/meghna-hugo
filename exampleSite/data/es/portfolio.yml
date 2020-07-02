@@ -61,14 +61,10 @@ portfolio:
       image_webp : images/portfolio/CV.webp
       categories : ["coordinators"]
       title : Coordinadora
-      content : Desarrollo Urbano y Diseño Bioclimático
+      content : Desarrollo Sustentable y Diseño Bioclimático
       link : "#"
-      member_profile: "Tiene una Maestría en Ingeniería en 
-                      Sistemas Ambientales en la University College London y un Máster
-                      en Arquitectura Sustentable en la Universidad Politécnica de Cataluña.
-                      Carmen se ha especializado en análisis urbanos con un enfoque sistémico,
-                      principalmente sobre vivienda, crecimiento sustentable y el nexo energía-
-                      agua-emisiones."
+      member_profile: "Arquitecta con una Maestría en Ingeniería en Sistemas Ambientales en la University College London y un Máster en Arquitectura Sustentable en la Universidad Politécnica de Cataluña. Carmen se ha especializado en análisis urbano con un enfoque sistémico, principalmente sobre desarrollo sustentable y resiliente, vivienda y el nexo energía-agua-emisiones. 
+      \n\nCuenta con amplia experiencia en el análisis cuantitativo de políticas públicas así como el desarrollo de herramientas tecnológicas que facilitan su análisis, comunicación y la toma de decisiones informadas. Ha coordinado proyectos de sustentabilidad en Latinoamérica, Medio Oriente y Asia."
 
     # portfolio item loop
     - name : Leticia Galindo

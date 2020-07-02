@@ -78,7 +78,7 @@
 			<div class="col-lg-6 text-center wow fadeInUp" data-wow-duration="500ms">
 				{{ range .button_item }}
 				<button class="btn btn-transparent">
-					<a href="{{ $.Site.BaseURL | relLangURL }}{{ .link }}">
+					<a href="{{ $.Site.BaseURL | relLangURL }}{{ .link }}" download>
 						<h5 class="my-auto">
 							{{ .label | markdownify }}
 						</h5>

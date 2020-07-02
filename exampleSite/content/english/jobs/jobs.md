@@ -6,6 +6,9 @@ jobs:
     description : "This is meta description"
     main_bg_image_webp: images/jobs/Banner-unete.jpg
     main_bg_image: images/jobs/Banner-unete.jpg
+    job_intro_title : SOMOS UN EQUIPO TRANSDISCIPLINARIO
+    job_intro_content : Superamos desafíos en diferentes contextos gracias a nuestra experiencia y profunda comprensión de las necesidades de los clientes.
+    job_intro_image : images/jobs/Mapa-mundo.png
     job_item:
         - name: Careers
           title: Would you like to

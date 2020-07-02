@@ -7,7 +7,7 @@ who:
   button_item:
     - enable: true
       label: Download brochure
-      link: "#"
+      link: "documents/Brochure2020-ENG.pdf"
   content : "Asesoramos a entes públicos y privados internacionales, analizamos datos espaciales, generamos indicadores de desempeño y desarrollamos herramientas para facilitar la toma de decisiones informadas que incentiven el desarrollo económico, la inclusión social y la conversación del medio ambiente."
   who_item : 
       # feature item loop
