@@ -18,17 +18,21 @@
         <ul class="nav nav-pills nav-justified mb-3" id="pills-jobs" role="tablist">
           {{ range .job_item }}
           <li class="nav-item">
-            <a class="btn btn-transparent" id="pills-{{ .job_id }}" data-toggle="pill" href="#{{ .job_id }}" role="tab" aria-controls="{{ .job_id }}" aria-selected="false">
+            <a class="btn btn-transparent" onclick="$('jobs-intro').hide();" id="pills-{{ .job_id }}" data-toggle="pill" href="#{{ .job_id }}" role="tab" aria-controls="{{ .job_id }}" aria-selected="false">
               {{ .name | markdownify }}
             </a>
           </li>
           {{ end }}
         </ul>
       </div>
-      <div class="col-lg-12 section-bg justify-content-center p-5">
-        <h3 class="color">{{ .job_intro_title | markdownify }}</h3>
-        <h5 class="color-3">{{ .job_intro_content | markdownify }}</h5>
-        <img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_intro_image | absURL }})'" src="{{ .job_intro_image | absURL }}" />
+      <div class="col-lg-12" id="jobs-intro">
+        <div class="row section-bg justify-content-center">
+          <div class="container">
+            <h3 class="color">{{ .job_intro_title | markdownify }}</h3>
+            <h5 class="color-3">{{ .job_intro_content | markdownify }}</h5>
+            <img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .job_intro_image | absURL }})'" src="{{ .job_intro_image | absURL }}" />
+          </div>
+        </div>
       </div>
       <div class="col-lg-12">
         <div class="col-lg-12 padding-0">
