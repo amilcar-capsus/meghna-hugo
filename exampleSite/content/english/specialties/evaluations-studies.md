@@ -10,8 +10,8 @@ specialty:
     main_bg_image: images/specialties/evaluations-studies/Evaluaciones-y-estudios-banner.jpg
     image_webp: images/specialties/evaluations-studies/Evaluaciones-y-estudios-icono-1.png
     image: images/specialties/evaluations-studies/Evaluaciones-y-estudios-icono-1.png
-    extra_title : Más de 20 proyectos similares
-    extra_content : sobre evaluaciones y estudios sustentables en el ámbito nacional e internacional
+    extra_title : We provide the evidence needed 
+    extra_content : to inform and support capital investment planning and the design of public policies.
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"

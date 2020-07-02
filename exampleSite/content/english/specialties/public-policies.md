@@ -10,8 +10,8 @@ specialty:
     main_bg_image: images/specialties/public-policies/Politicas-publicas-banner.jpg
     image_webp: images/specialties/public-policies/Politicas-publicas-icono-1.png
     image: images/specialties/public-policies/Politicas-publicas-icono-1.png
-    extra_title : Más de 20 proyectos similares
-    extra_content : sobre diseño y evaluación de políticas públicas en el ámbito nacional e internacional
+    extra_title : We design public policies through a multidisciplinary approach 
+    extra_content : that ensures long term results that benefit society, environment and the economy.
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"

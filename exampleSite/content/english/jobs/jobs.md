@@ -6,8 +6,8 @@ jobs:
     description : "This is meta description"
     main_bg_image_webp: images/jobs/Banner-unete.jpg
     main_bg_image: images/jobs/Banner-unete.jpg
-    job_intro_title : SOMOS UN EQUIPO TRANSDISCIPLINARIO
-    job_intro_content : Superamos desafíos en diferentes contextos gracias a nuestra experiencia y profunda comprensión de las necesidades de los clientes.
+    job_intro_title : TRANSDISCIPLINARY TEAMWORK
+    job_intro_content : We overcome challenges in different contexts thanks to our experience and deep understanding of the client's needs.
     job_intro_image : images/jobs/Mapa-mundo.png
     job_item:
         - name: Careers
@@ -76,29 +76,27 @@ jobs:
           job_image: images/jobs/Becarios-icon-1.png
           job_image_webp: images/jobs/Becarios-icon-1.png
           info1:
-            - info1_content: "Por ello, tenemos un programa de becarios para apoyar a los jóvenes profesionistas y fomentar el desarrollo de las nuevas generaciones en profesiones dirigidas a la sustentabilidad, materia que consideramos primordial para el mundo.\n\n
-            
-            Mediante este programa conocemos a personas que en un futuro pueden formar parte del equipo permanente de CAPSUS."
-              info1_title: Creemos que las primeras experiencias laborales son parte esencial del aprendizaje.
+            - info1_content: "Therefore, we have an internship program that helps young professionals get embedded in professional work in the sustainability sector. Through this program we help build promoters of sustainable development and we also identify future members of our team."
+              info1_title: We believe that the first professional experience of a person is transformational and can set out a path towards working in sustainability.
           info2: 
-            - info2_title: ¿Qué pedimos a los interesados?
+            - info2_title: What do we ask for?
               info2_item: 
-                - info2_content: Que te hayas graduado recientemente o estés por terminar (último semestre o año) tus estudios de licenciatura o de posgrado.
-                - info2_content: Ser 100% bilingüe (español, inglés). Al trabajar en proyectos nacionales e internacionales, ambos idiomas son fundamentales.
-                - info2_content: Que tus estudios, como tus intereses profesionales estén ligados al desarrollo sustentable en el ámbito urbano.
-                - info2_content: Que tengas un compromiso con nosotros de cuando menos 2 meses de tiempo completo. Si sigues estudiando y tu carga académica es muy baja, podríamos acordar un horario reducido y un periodo de tiempo más largo.
+                - info2_content: That you have graduated from your bachelor'sor are about to finish it (last term) or are in the middle of your master's degree.
+                - info2_content: That you are 100% bilingual in spanish and english.
+                - info2_content: That your interests and studies are aligned with our mission of promoting sustainable development.
+                - info2_content: That you can dedicate at least two month fulltime to work with us.
           info3:
             - info3_title: "Are you interested? \nContact us:"
               info3_content: "Send an email to ideas@capsus.mx with your CV, a letter of intent in spanish about why are you interested in working at CAPSUS and what motivates you to pursue a professional career in the sustainability area and a letter in English where you can tell us: Who are you?, What are your passions in life?, What do you like to do the most ?, What are your current and future professional objectives?, and some of your achievements or previous projects that you are proud of.\n\n
 
               After analyzing your documentation we will contact you for an interview where we can clarify the doubts that you and we have."
           info4:
-            - info4_title: ¿Qué ofrecemos?
+            - info4_title: What do we offer?
               info4_image: images/jobs/Foto-para-becarios.jpg
               info4_image_webp: images/jobs/Foto-para-becarios.jpg
               info4_item:
-                - info4_content: Te integramos al equipo como un miembro más y tendrás una experiencia profesional real equivalente en responsabilidades y actividades al resto de los miembros del equipo permanente de CAPSUS. 
-                - info4_content: Te integraremos de lleno a nuestras plataformas tecnológicas. 
-                - info4_content: Podrás participar de manera directa en proyectos que se desarrollan en México o en algún otro país.
-                - info4_content: Ofrecemos un apoyo de transporte de $3,200 pesos mexicanos al mes.  
+                - info4_content: We will integrate you to our team as an active member and you will experience a true professional life equal to any other member at the company. 
+                - info4_content: You will have complete access to our technological platforms and knowledge database to use while you work with us.
+                - info4_content: You will be engaged in a project that promotes sustainable development either in Mexico or internationally.
+                - info4_content: If needed, we offer a stipend to cover your transportation costs.
 ---

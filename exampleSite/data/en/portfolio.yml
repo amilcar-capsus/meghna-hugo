@@ -48,8 +48,7 @@ portfolio:
       title : Coordinator
       content : Urban Development and bioclimatic design
       link : "#"
-      member_profile: "Architect with a master’s degree in Engineering in Environmental Systems from University College London and a master’s degree in Sustainable Architecture from the Polytechnic University of Catalonia. 
-      \n\nCarmen specializes in urban analysis with a systemic approach, mainly on housing, sustainable growth and the energy-water nexus."
+      member_profile: "Architect with a master’s degree in Environmental Systems Engineering from University College London and a master’s degree in Sustainable Architecture from the Polytechnic University of Catalonia. Carmen specializes in urban analysis with a systemic approach, mainly on sustainable and resilient development, housing, and the energy-water nexus. She has vast experience in the quantitative analysis of public policies, as well as in developing innovative tools that facilitate their analysis, communication and an informed decision making process. She has led projects in Latin America, Middle East and Asia."
 
     # portfolio item loop
     - name : Leticia Galindo

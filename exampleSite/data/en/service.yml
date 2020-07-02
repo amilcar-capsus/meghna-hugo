@@ -27,7 +27,7 @@ service:
     # service item loop
     - name : SOFTWARE DEVELOPMENT
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : We integrate the use of technological innovations in our projects and develop tools to simplify data analysis in urban planning, environmental performance, and water and energy efficiency.
+      content : We integrate the use of technological innovations in our projects and develop tools to simplify data analysis in urban planning, environmental performance, and water and energy efficiency for buildings.
       image : images/services/Que-ofrecemos-4.png
       image_webp : images/services/Que-ofrecemos-4.png
       

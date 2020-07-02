@@ -43,11 +43,11 @@
 - id: specialties
   translation: Expertise
 - id: specialty1
-  translation: Planning and Building
+  translation: Urban Planning
 - id: specialty2
-  translation: Evaluations and Studies
+  translation: Environmental Studies
 - id: specialty3
-  translation: Diffusion and Development
+  translation: Dissemination and Capacities
 - id: specialty4
   translation: Public Policies
 - id: casestudies
