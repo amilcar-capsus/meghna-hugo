@@ -61,7 +61,7 @@ jQuery(function ($) {
 
 	$("#capsus-intro").slick({
 		infinite: true,
-		arrows: true,
+		arrows: false,
 		dots: true,
 		autoplay: true,
 		autoplaySpeed: 4000
