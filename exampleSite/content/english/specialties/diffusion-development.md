@@ -11,7 +11,7 @@ specialty:
     image_webp: images/specialties/diffusion-development/Difusion-y-desarrollo-icono-1.png
     image: images/specialties/diffusion-development/Difusion-y-desarrollo-icono-1.png
     extra_title : We create capacities
-    extra_content : and build bridges that help transfer know-how and technology.
+    extra_content : and build bridges to promote exchanging knowledge and technology.
     bg_image : "images/backgrounds/Background-blanco-2.jpg"
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"

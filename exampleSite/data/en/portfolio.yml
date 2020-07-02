@@ -29,15 +29,14 @@ portfolio:
       
     # portfolio item loop
     - name : Daniela Evia
-      member_title : Historian
+      member_title : Art Historian
       image : images/portfolio/DE.jpg
       image_webp : images/portfolio/DE.webp
       categories : ["coordinators"]
       title : Coordinator
       content : EDUCATIONAL INNOVATION AND PARTICIPATION
       link : "#"
-      member_profile: "She has experience as a university professor and as an academic coordinator at the Yucatan School of Arts and the National Center for the Arts. Daniela has worked on the design and development of programs and educational materials on climate change, as well as in the drafting and editing of scientific dissemination documents. 
-      \n\nShe has vast experience in the design and coordination of workshops and training courses around the world."
+      member_profile: "Daniela has a minor in Art History where she understood the power of discourses and narratives to understand and transform our living environment. She has a master’s degree in pedagogic innovation, and she has specialized in the design, implementation and assessment of educational programs and materials. Daniela has designed several knowledge exchange and social participatory processes on climate change, urban planning and spatial data infrastructure for decision making. She has vast experience in the design and coordination of workshops and training courses around the world, including countries as Jordan, Côte d’Ivoire, Indonesia, Paraguay, United States, and Mexico."
 
     # portfolio item loop
     - name : Carmen Valdez

@@ -7,7 +7,7 @@ jobs:
     main_bg_image_webp: images/jobs/Banner-unete.jpg
     main_bg_image: images/jobs/Banner-unete.jpg
     job_intro_title : TRANSDISCIPLINARY TEAMWORK
-    job_intro_content : We overcome challenges in different contexts thanks to our experience and deep understanding of the client's needs.
+    job_intro_content : We overcome challenges in different contexts thanks to our multidisciplinary team, our experience and deep understanding of our client's needs.
     job_intro_image : images/jobs/Mapa-mundo.png
     job_item:
         - name: Careers
