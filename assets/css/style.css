@@ -2464,9 +2464,8 @@ figcaption {
 }
 
 @media (max-width: 480px) {
-  .five-c-container h2,
-  .five-c-container .five-c li {
-    font-size: 1rem;
+  .five-c-image {
+    display: none;
   }
 }
 
@@ -2527,6 +2526,12 @@ figcaption {
 #specialties h5 {
   font-size: 1.08rem;
   line-height: 1.7;
+}
+
+@media (max-width: 480px) {
+  #specialties h5 {
+    font-size: 1.58rem;
+  }
 }
 
 #jobs-section .btn.btn-transparent {
