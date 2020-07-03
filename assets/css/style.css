@@ -704,7 +704,13 @@ a:hover {
   About us 2 section
 ==================================================================*/
 .about-2 .content-block {
-  padding: 40px 0;
+  padding: 40px;
+}
+
+@media (max-width: 480px) {
+  .about-2 .content-block {
+    padding: 40px 0 !important;
+  }
 }
 
 .about-2 .content-block .media {
@@ -2601,7 +2607,7 @@ figcaption {
   display: inline-block;
 }
 
-#modalTeeam {
+#modalTeam {
   z-index: 9950 !important;
 }
 
