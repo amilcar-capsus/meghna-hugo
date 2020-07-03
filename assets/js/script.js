@@ -73,8 +73,8 @@ jQuery(function ($) {
 
 	$("#capsus-who").slick({
 		infinite: true,
-		arrows: true,
-		dots: false,
+		arrows: false,
+		dots: true,
 		autoplay: true,
 		autoplaySpeed : 9000
 	});
