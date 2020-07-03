@@ -2473,6 +2473,7 @@ figcaption {
     text-align: left !important;
     margin-top: 0 !important;
     margin-left: -0.5rem !important;
+  }
 }
 
 .five-c li::marker,
