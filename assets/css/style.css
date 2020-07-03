@@ -2465,7 +2465,7 @@ figcaption {
 
 @media (max-width: 480px) {
   .five-c-container h2,
-  .five-c-container {
+  .five-c-container .five-c li {
     font-size: 1rem;
   }
 }
