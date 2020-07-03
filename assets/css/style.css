@@ -704,7 +704,7 @@ a:hover {
   About us 2 section
 ==================================================================*/
 .about-2 .content-block {
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .about-2 .content-block .media {
@@ -2469,7 +2469,7 @@ figcaption {
   }
   
   .five-c {
-    font-size: 1.1rem !important;
+    font-size: 1.47rem !important;
     text-align: left !important;
     margin-top: 0 !important;
     margin-left: -0.5rem !important;
