@@ -62,12 +62,6 @@
 					{{ end }}
 					{{ end }}
 					
-
-					{{ range .Site.Menus.static }}
-					<li class="nav-item"><a class="nav-link color-3" target="_blank" href="{{ .URL }}">{{ i18n .Name }}</a>
-					</li>
-					{{ end }}
-					
 				</ul>
 				<!-- Language List -->
 				{{- if .Site.IsMultiLingual }}
