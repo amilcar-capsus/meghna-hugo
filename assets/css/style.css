@@ -2467,6 +2467,12 @@ figcaption {
   .five-c-image {
     display: none !important;
   }
+  
+  .five-c {
+    font-size: 1.1rem !important;
+    text-align: center !important;
+    margin-top: 0 !important;
+    margin-left: -0.5rem !important;
 }
 
 .five-c li::marker,
