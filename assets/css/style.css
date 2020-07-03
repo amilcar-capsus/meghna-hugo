@@ -2465,7 +2465,7 @@ figcaption {
 
 @media (max-width: 480px) {
   .five-c-image {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -2582,6 +2582,12 @@ figcaption {
 
 .check-list li {
   line-height: 1.7;
+}
+
+@media (max-width: 480px) {
+  .who-text {
+    text-align: center !important;
+  }
 }
 
 select {
