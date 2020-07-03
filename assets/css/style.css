@@ -2597,7 +2597,7 @@ figcaption {
   }
 }
 
-.row:before, .row:after {
+.row::before, .row::after {
   display: inline-block;
 }
 
