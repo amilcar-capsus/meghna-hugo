@@ -2520,7 +2520,7 @@ figcaption {
   background-color: #28c5b9 !important;
 }
 
-#jobs-section .recruitment p:first {
+#jobs-section .recruitment:first-child {
   margin-bottom: 0 !important;
 }
 
