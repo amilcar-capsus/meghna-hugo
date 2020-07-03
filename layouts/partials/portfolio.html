@@ -31,7 +31,7 @@
 					{{ end }}
 					{{ end }}
 					{{ range ( $categories | uniq ) }}
-					<label class="btn col-12">
+					<label class="btn col-6">
 						<input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ i18n . }}
 					</label>
 					{{ end }}
