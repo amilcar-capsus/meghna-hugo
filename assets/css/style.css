@@ -465,7 +465,11 @@ a:hover {
   }
   
   .navigation .navbar-collapse > * {
-    margin-left: 30px;
+    margin-left: 30px !important;
+  }
+
+  .navigation .input-field {
+    margin-bottom: 10px !important;
   }
 }
 
