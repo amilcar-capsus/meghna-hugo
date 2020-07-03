@@ -566,7 +566,7 @@ a:hover {
     margin-right: auto !important
   }
   .hero-area .block h2 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: center;
   }
 }
@@ -2649,10 +2649,10 @@ select {
   color: #28c5b9;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid #28c5b9;
+  border-bottom: 1px transparent;
   outline: none;
   line-height: 3rem;
-  height: 2.4rem;
+  height: 3rem;
   width: 100%;
   font-size: 16px;
   margin: 0 0 0 0;
