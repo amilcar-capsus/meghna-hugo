@@ -74,8 +74,9 @@ jQuery(function ($) {
 	$("#capsus-who").slick({
 		infinite: true,
 		arrows: true,
-		dots: true,
-		autoplay: false
+		dots: false,
+		autoplay: true,
+		autoplaySpeed : 9000
 	});
 
 	/* ========================================================================= */
