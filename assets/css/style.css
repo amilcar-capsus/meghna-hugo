@@ -2672,7 +2672,7 @@ select {
 }
 
 .select-wrapper input.select-dropdown:focus {
-  border-bottom: 1px solid #28c5b9;
+  border-bottom: 1px transparent;
 }
 
 .select-wrapper .caret {
