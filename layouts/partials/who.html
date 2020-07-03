@@ -30,21 +30,23 @@
 							<span>{{ .who_content | markdownify }}</span>
 						</div>
 						<div class="col-lg-6 padding-0">
-							<div class="row">
-								<div class="col-lg-4">
-									<img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
-								</div>
-								<div class="col-lg-8">
-									<h2 class="mr-2">
-										{{ .list_title | markdownify }}
-									</h2>
-									<ol class="five-c ml-3">
-										{{ range .list_item }}
-										<li>
-											{{ .list_content | markdownify }}
-										</li>
-										{{ end }}
-									</ol>
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-lg-4">
+										<img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
+									</div>
+									<div class="col-lg-8">
+										<h2 class="mr-2">
+											{{ .list_title | markdownify }}
+										</h2>
+										<ol class="five-c ml-3">
+											{{ range .list_item }}
+											<li>
+												{{ .list_content | markdownify }}
+											</li>
+											{{ end }}
+										</ol>
+									</div>
 								</div>
 							</div>
 						</div>
