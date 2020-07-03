@@ -4,7 +4,7 @@
 {{ with $data.who.who }}
 {{"<!-- feature -->" | safeHTML}}
 <section class="section section-bg about-2" id="who">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-12">
 				{{"<!-- section title -->" | safeHTML}}
@@ -21,7 +21,7 @@
 			{{"<!-- testimonial single -->" | safeHTML}}
 			<div class="item text-center">
 				<div class="container-fluid">
-					<div class="row justify-text text-left m-4 who-text">
+					<div class="row justify-text text-left who-text">
 						{{ if eq .who_id "who" }}
 						<div class="col-lg-6 my-auto">
 							<h2>
