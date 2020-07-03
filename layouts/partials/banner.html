@@ -31,8 +31,8 @@
 										</h1>
 									</div>
 									{{ end }}
-									<div class="col-lg-4 my-auto" style='background-image: url("{{ .banner_image | absURL }}"); background-size: cover; background-position: top center; background-repeat: no-repeat;'>
-										<img style="display: none;" class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .banner_image | absURL }})'" src="{{ .banner_image_webp | absURL }}" />
+									<div class="col-lg-4 my-auto">
+										<img class="img-fluid" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .banner_image | absURL }})'" src="{{ .banner_image_webp | absURL }}" />
 									</div>
 								</div>
 							</div>
