@@ -31,7 +31,9 @@
 						</div>
 						<div class="col-lg-6 my-auto">
 								<div class="row">
-									<img class="img-fluid col-lg-3 col-md-3 col-sm-3 col-3" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
+									<div class="col-lg-3 col-md-3 col-sm-3 col-3" style="background-image: url('{{ .image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat;">
+										<img style="display: none;" class="img-fluid col-lg-3 col-md-3 col-sm-3 col-3" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
+									</div>
 									<div class="text-left col-lg-9 col-md-9 col-sm-9 col-9 five-c-container">
 										<h2 class="mr-2">
 											{{ .list_title | markdownify }}
