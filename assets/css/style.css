@@ -543,7 +543,18 @@ a:hover {
 
 @media (max-width: 480px) {
   .hero-area .block h1 {
-    font-size: 60px;
+    font-size: 2rem;
+    padding-top: 7rem;
+    text-align: center;
+  }
+  
+  .hero-area .block img {
+    width: 75%;
+    margin-left: auto !important;
+    margin-right: auto !important
+  }
+  .hero-area .block h2 {
+    font-size: 1.3rem;
   }
 }
 
@@ -2507,6 +2518,10 @@ figcaption {
 #jobs-section #pills-jobs .btn.btn-transparent.active {
   color: #00495a !important;
   background-color: #28c5b9 !important;
+}
+
+#jobs-section .recruitment p:first {
+  margin-bottom: 0 !important;
 }
 
 .vr {

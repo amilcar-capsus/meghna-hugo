@@ -27,7 +27,7 @@ jobs:
                 - info2_content: 100% bilingual (Spanish, English).
                 - info2_content: Have a mission in life focused on promoting sustainable development.
           info3:
-            - info3_title: "Are you interested? \nContact us:"
+            - info3_title: "Are you interested? \n\nContact us:"
               info3_content: "Send an email to ideas@capsus.mx with your CV, a cover letter in spanish about why you are interested in working at CAPSUS and what motivates you to pursue a professional career in the sustainability area, and a letter in English where you can tell us: Who are you?, What are your passions in life?, What are your hobbies?, What are your current and future professional objectives?, and some of your achievements or previous projects that you are proud of.\n\n
 
               After analyzing your documentation, we will contact you for an interview where we can clarify the doubts that you and we have."
@@ -86,7 +86,7 @@ jobs:
                 - info2_content: That your interests and studies are aligned with our mission of promoting sustainable development.
                 - info2_content: That you can dedicate at least two month fulltime to work with us.
           info3:
-            - info3_title: "Are you interested? \nContact us:"
+            - info3_title: "Are you interested? \n\nContact us:"
               info3_content: "Send an email to ideas@capsus.mx with your CV, a letter of intent in spanish about why are you interested in working at CAPSUS and what motivates you to pursue a professional career in the sustainability area and a letter in English where you can tell us: Who are you?, What are your passions in life?, What do you like to do the most ?, What are your current and future professional objectives?, and some of your achievements or previous projects that you are proud of.\n\n
 
               After analyzing your documentation we will contact you for an interview where we can clarify the doubts that you and we have."
