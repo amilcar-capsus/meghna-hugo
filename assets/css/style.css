@@ -2597,6 +2597,14 @@ figcaption {
   }
 }
 
+.row:before, .row:after {
+  display: inline-block;
+}
+
+#modal-team {
+  z-index: 9950 !important;
+}
+
 select {
   display: none;
 }
