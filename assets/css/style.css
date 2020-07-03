@@ -2463,6 +2463,13 @@ figcaption {
   line-height: 1.9;
 }
 
+@media (max-width: 480px) {
+  .five-c-container h2,
+  .five-c-container {
+    font-size: 1rem;
+  }
+}
+
 .five-c li::marker,
 .five-c li::before {
   color: #28c5b9;
