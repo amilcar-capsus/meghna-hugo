@@ -283,6 +283,12 @@ a:hover {
   }
 }
 
+@media (max-width: 812px) {
+  .section {
+    padding: 80px 0;
+  }
+}
+
 .section-sm {
   padding: 70px 0;
 }
@@ -495,6 +501,20 @@ a:hover {
   }
 }
 
+@media (max-width: 812px) {
+  .navigation .navbar-collapse {
+    background-color: #00495a !important;
+  }
+  
+  .navigation .navbar-collapse > * {
+    margin-left: 30px !important;
+  }
+
+  .navigation .input-field {
+    margin-bottom: 10px !important;
+  }
+}
+
 .navbar-toggler:focus {
   outline: 0;
 }
@@ -606,6 +626,23 @@ a:hover {
   }
   .hero-area .block h2 {
     font-size: 1.7rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 812px) {
+  .hero-area .block h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .hero-area .block img {
+    width: 60%;
+    margin-left: auto !important;
+    margin-right: auto !important
+  }
+  .hero-area .block h2 {
+    font-size: 1.1rem;
     text-align: center;
   }
 }
@@ -753,6 +790,12 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .about-2 .content-block {
+    padding: 40px 0 !important;
+  }
+}
+
+@media (max-width: 812px) {
   .about-2 .content-block {
     padding: 40px 0 !important;
   }
@@ -1224,6 +1267,12 @@ a:hover {
 @media (max-width: 768px) {
   .member-photo img {
     display: inline-block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .team-member p {
+    font-size: 0.8rem;
   }
 }
 
@@ -2528,6 +2577,19 @@ figcaption {
 }
 
 @media (max-width: 768px) {
+  .five-c-image {
+    display: none !important;
+  }
+  
+  .five-c {
+    font-size: 1.47rem !important;
+    text-align: left !important;
+    margin-top: 0 !important;
+    margin-left: -0.5rem !important;
+  }
+}
+
+@media (max-width: 812px) {
   .five-c-image {
     display: none !important;
   }
