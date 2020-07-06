@@ -8,7 +8,7 @@ portfolio:
     - name : Guillermo Velasco
       member_title : Engineer in Physics
       image : images/portfolio/GV.jpg
-      image_webp : images/portfolio/GV.webp
+      image_webp : images/portfolio/GV.jpg
       categories : ["partners"]
       title : Partner
       content : PUBLIC POLICY, SUSTAINABLE DEVELOPMENT
@@ -20,21 +20,21 @@ portfolio:
     - name : Ricardo Ochoa
       member_title : Mechanical Engineer
       image : images/portfolio/RO.jpg
-      image_webp : images/portfolio/RO.webp
+      image_webp : images/portfolio/RO.jpg
       categories : ["partners"]
       title : Partner
-      content : ENERGY, HOUSING AND SOFTWARE DEVELOPMENT
+      content : ENERGY, CLIMATE CHANGE AND URBAN PLANNING
       link : "#"
-      member_profile: "Mechanical Engineer with a Master of Science in Renewable Energy and PhD candidate in energy in bioclimatic design of buildings. Ricardo has experience in the area of energy simulation in buildings and has specialized in strategies of energy efficiency, adaptation and mitigation to climate change in the built environment and city planning."
+      member_profile: "Ricardo has a background in mechanical engineering and administration, a Master in Science in renewable energy and 15-years’ experience in energy and sustainable development. For the last 10 years Ricardo has led teams in the development of digital tools to support local governments in making informed choices, with specific focus on integrated climate change mitigation and adaptation models and energy in the built environment."
       
     # portfolio item loop
     - name : Daniela Evia
       member_title : Art Historian
       image : images/portfolio/DE.jpg
-      image_webp : images/portfolio/DE.webp
+      image_webp : images/portfolio/DE.jpg
       categories : ["coordinators"]
       title : Coordinator
-      content : EDUCATIONAL INNOVATION AND PARTICIPATION
+      content : EDUCATION AND SOCIA PROCESSES
       link : "#"
       member_profile: "Daniela has a minor in Art History where she understood the power of discourses and narratives to understand and transform our living environment. She has a master’s degree in pedagogic innovation, and she has specialized in the design, implementation and assessment of educational programs and materials. Daniela has designed several knowledge exchange and social participatory processes on climate change, urban planning and spatial data infrastructure for decision making. She has vast experience in the design and coordination of workshops and training courses around the world, including countries as Jordan, Côte d’Ivoire, Indonesia, Paraguay, United States, and Mexico."
 
@@ -42,7 +42,7 @@ portfolio:
     - name : Carmen Valdez
       member_title : Architect
       image : images/portfolio/CV.jpg
-      image_webp : images/portfolio/CV.webp
+      image_webp : images/portfolio/CV.jpg
       categories : ["coordinators"]
       title : Coordinator
       content : Urban Development and bioclimatic design
@@ -52,8 +52,8 @@ portfolio:
     # portfolio item loop
     - name : Leticia Galindo
       member_title : Public Accountant
-      image : images/portfolio/CV.jpg
-      image_webp : images/portfolio/CV.webp
+      image : images/portfolio/LG.jpg
+      image_webp : images/portfolio/LG.jpg
       categories : ["coordinators"]
       title : Coordinator
       content : ADMINISTRATIVE AND FINANCES
@@ -64,7 +64,7 @@ portfolio:
     - name : Tania Guerrero
       member_title : Architect
       image : images/portfolio/TG.jpg
-      image_webp : images/portfolio/TG.webp
+      image_webp : images/portfolio/TG.jpg
       categories : ["coordinators"]
       title : Coordinator
       content : URBAN DEVELOPMENT AND HOUSING
@@ -74,8 +74,8 @@ portfolio:
     # portfolio item loop
     - name : Amílcar González
       member_title : Engineer in Computer Systems
-      image : images/portfolio/RO.jpg
-      image_webp : images/portfolio/RO.webp
+      image : images/portfolio/AG.jpg
+      image_webp : images/portfolio/AG.jpg
       categories : ["consultants"]
       title : Consultant
       content : SOFTWARE DEVELOPMENT
@@ -86,7 +86,7 @@ portfolio:
     - name : Antares Velázquez
       member_title : Graphic Communication Designer
       image : images/portfolio/AV.jpg
-      image_webp : images/portfolio/AV.webp
+      image_webp : images/portfolio/AV.jpg
       categories : ["consultants"]
       title : Consultant
       content : INFORMATION AND EFFECTIVE COMMUNICATION DESIGN
@@ -97,8 +97,8 @@ portfolio:
     # portfolio item loop
     - name : Dante Zayas
       member_title : Engineer in Sustainable Development
-      image : images/portfolio/LA.jpg
-      image_webp : images/portfolio/LA.webp
+      image : images/portfolio/DZ.jpg
+      image_webp : images/portfolio/DZ.jpg
       categories : ["consultants"]
       title : Consultant
       content : SUSTAINABLE DEVELOPMENT
@@ -109,7 +109,7 @@ portfolio:
     #- name : José Eduardo Díaz
     #  member_title : Ingeniero Químico
     #  image : images/portfolio/JD.jpg
-    #  image_webp : images/portfolio/JD.webp
+    #  image_webp : images/portfolio/JD.jpg
     #  categories : ["consultants"]
     #  title : Consultant
     #  content : SUSTAINABLE DEVELOPMENT
@@ -125,7 +125,7 @@ portfolio:
     - name : Judá García
       member_title : Urbanism
       image : images/portfolio/JG.jpg
-      image_webp : images/portfolio/JG.webp
+      image_webp : images/portfolio/JG.jpg
       categories : ["consultants"]
       title : Consultant
       content : URBAN PLANNING AND GEOGRAPHICAL INFORMATION SYSTEMS
@@ -133,10 +133,10 @@ portfolio:
       member_profile: "He has worked in the private sector as a GIS Analyst in the real estate sector, as well as collaborating in the development of the Territorial Strategy of the National Crime Prevention Program."
       
     # portfolio item loop
-    - name : Luis Ángel García
+    - name : Luis Alfredo García
       member_title : Informatic Engineer
       image : images/portfolio/LA.jpg
-      image_webp : images/portfolio/LA.webp
+      image_webp : images/portfolio/LA.jpg
       categories : ["consultants"]
       title : Consultant
       content : SOFTWARE DEVELOPMENT
@@ -147,7 +147,7 @@ portfolio:
     - name : María Blanco
       member_title : Chemical Engineer
       image : images/portfolio/MB.jpg
-      image_webp : images/portfolio/MB.webp
+      image_webp : images/portfolio/MB.jpg
       categories : ["consultants"]
       title : Consultant
       content : SUSTAINABLE DEVELOPMENT
@@ -159,7 +159,7 @@ portfolio:
     - name : Ricardo García
       member_title : Environmental Engineer
       image : images/portfolio/RG.jpg
-      image_webp : images/portfolio/RG.webp
+      image_webp : images/portfolio/RG.jpg
       categories : ["consultants"]
       title : Consultant
       content : SUSTAINABLE DEVELOPMENT
@@ -170,7 +170,7 @@ portfolio:
     - name : Sebastián Reyes
       member_title : Environmental Chemical Engineer
       image : images/portfolio/SR.jpg
-      image_webp : images/portfolio/SR.webp
+      image_webp : images/portfolio/SR.jpg
       categories : ["consultants"]
       title : Consultant
       content : SUSTAINABLE DEVELOPMENT
@@ -181,7 +181,7 @@ portfolio:
     - name : Socorro Román
       member_title : Urban Planner
       image : images/portfolio/SM.jpg
-      image_webp : images/portfolio/SM.webp
+      image_webp : images/portfolio/SM.jpg
       categories : ["consultants"]
       title : Consultant
       content : URBAN PLANNING AND GEOGRAPHICAL INFORMATION SYSTEMS
@@ -191,8 +191,8 @@ portfolio:
     # portfolio item loop
     - name : Gerardo Escalona
       member_title : Analyst and Socio-environmental Psychologist
-      image : images/portfolio/RO.jpg
-      image_webp : images/portfolio/RO.webp
+      image : images/portfolio/GE.jpg
+      image_webp : images/portfolio/GE.jpg
       categories : ["consultants"]
       title : Consultant
       content : ANALYST AND SOCIO-ENVIRONMENTAL PSYCHOLOGIST
@@ -203,8 +203,8 @@ portfolio:
     # portfolio item loop
     - name : Raúl Saucedo
       member_title : International Relations
-      image : images/portfolio/GV.jpg
-      image_webp : images/portfolio/GV.webp
+      image : images/portfolio/RS.jpg
+      image_webp : images/portfolio/RS.jpg
       categories : ["associates"]
       title : Associate
       content : INTERNATIONAL RELATIONS AND SUSTAINABILITY
@@ -216,8 +216,8 @@ portfolio:
     # portfolio item loop
     - name : Juan Manuel Gómez
       member_title : Applied Mathematics
-      image : images/portfolio/RO.jpg
-      image_webp : images/portfolio/RO.webp
+      image : images/portfolio/JMG copia.jpg
+      image_webp : images/portfolio/JMG copia.jpg
       categories : ["associates"]
       title : Associate
       content : MATHEMATICS AND SOFTWARE DEVELOPMENT
@@ -228,8 +228,8 @@ portfolio:
     # portfolio item loop
     - name : Tommaso Bassetti
       member_title : Public Policy and Human Geography
-      image : images/portfolio/GV.jpg
-      image_webp : images/portfolio/GV.webp
+      image : images/portfolio/TB.jpg
+      image_webp : images/portfolio/TB.jpg
       categories : ["associates"]
       title : Associate
       content : URBAN ENVIRONMENTAL PLANNING

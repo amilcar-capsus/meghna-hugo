@@ -8,7 +8,7 @@ portfolio:
     - name : Guillermo Velasco
       member_title : Ingeniero Físico
       image : images/portfolio/GV.jpg
-      image_webp : images/portfolio/GV.webp
+      image_webp : images/portfolio/GV.jpg
       categories : ["partners"]
       title : Socio
       content : Política Pública y Desarrollo Sustentable
@@ -29,7 +29,7 @@ portfolio:
     - name : Ricardo Ochoa
       member_title : Ingeniero Mecánico
       image : images/portfolio/RO.jpg
-      image_webp : images/portfolio/RO.webp
+      image_webp : images/portfolio/RO.jpg
       categories : ["partners"]
       title : Socio
       content : Energía y Edificación
@@ -41,24 +41,18 @@ portfolio:
     - name : Daniela Evia
       member_title : Historiadora y maestra en Innovación Educativa
       image : images/portfolio/DE.jpg
-      image_webp : images/portfolio/DE.webp
+      image_webp : images/portfolio/DE.jpg
       categories : ["coordinators"]
       title : Coordinadora
       content : Educación y Procesos Participativos
       link : "#"
-      member_profile: "Tiene experiencia como profesora universitaria y como coordinadora 
-                      académica en la Escuela Superior de Artes de Yucatán y en el Centro
-                      Nacional de las Artes. Daniela ha trabajado en el diseño y desarrollo de
-                      programas y materiales educativos sobre el cambio climático, así como en
-                      la redacción y edición de documentos de divulgación científica. \n\nEntre sus
-                      proyectos, destacan el diseño y coordinación de talleres y cursos de
-                      capacitación."
+      member_profile: "Daniela realizó su licenciatura en Historia del Arte, donde aprendió la importancia del discurso y la narrativa para la transformación de nuestro entorno.Tiene una maestría en innovación pedagógica y se ha especializado en el diseño, implementación y evaluación de programas y materiales educativos. Daniela ha diseñado diversos procesos de participación social e intercambio de conocimiento sobre cambio climático, planeación urbana e infraestructura de datos geoespaciales para la toma de decisiones informadas. Tiene amplia experiencia en el diseño y coordinación de talleres y cursos de capacitación en diferentes países, tales como México, Jordania, Côte d’Ivoire, Indonesia, Paraguay, y Estados Unidos."
 
     # portfolio item loop
     - name : Carmen Valdez
       member_title : Arquitecta
       image : images/portfolio/CV.jpg
-      image_webp : images/portfolio/CV.webp
+      image_webp : images/portfolio/CV.jpg
       categories : ["coordinators"]
       title : Coordinadora
       content : Desarrollo Sustentable y Diseño Bioclimático
@@ -69,8 +63,8 @@ portfolio:
     # portfolio item loop
     - name : Leticia Galindo
       member_title : Contadora Pública
-      image : images/portfolio/CV.jpg
-      image_webp : images/portfolio/CV.webp
+      image : images/portfolio/LG.jpg
+      image_webp : images/portfolio/LG.jpg
       categories : ["coordinators"]
       title : Coordinador
       content : Administración y Finanzas
@@ -85,7 +79,7 @@ portfolio:
     - name : Tania Guerrero
       member_title : Arquitecta
       image : images/portfolio/TG.jpg
-      image_webp : images/portfolio/TG.webp
+      image_webp : images/portfolio/TG.jpg
       categories : ["coordinators"]
       title : Coordinador
       content : Desarrollo Urbano y Vivienda
@@ -99,8 +93,8 @@ portfolio:
     # portfolio item loop
     - name : Amílcar González
       member_title : Ingeniero en Sistemas Computacionales
-      image : images/portfolio/RO.jpg
-      image_webp : images/portfolio/RO.webp
+      image : images/portfolio/AG.jpg
+      image_webp : images/portfolio/AG.jpg
       categories : ["consultants"]
       title : Consultor
       content : Tecnologías de la Información
@@ -116,7 +110,7 @@ portfolio:
     - name : Antares Velázquez
       member_title : Diseñadora de la Comunicación Gráfica
       image : images/portfolio/AV.jpg
-      image_webp : images/portfolio/AV.webp
+      image_webp : images/portfolio/AV.jpg
       categories : ["consultants"]
       title : Consultora
       content : Diseño de la Comunicación Gráfica e Información
@@ -136,8 +130,8 @@ portfolio:
     # portfolio item loop
     - name : Dante Zayas
       member_title : Ingeniero en Desarrollo Sustentable
-      image : images/portfolio/LA.jpg
-      image_webp : images/portfolio/LA.webp
+      image : images/portfolio/DZ.jpg
+      image_webp : images/portfolio/DZ.jpg
       categories : ["consultants"]
       title : Consultor
       content : Desarrollo Sustentable
@@ -154,7 +148,7 @@ portfolio:
     #- name : José Eduardo Díaz
     #  member_title : Ingeniero Químico
     #  image : images/portfolio/JD.jpg
-    #  image_webp : images/portfolio/JD.webp
+    #  image_webp : images/portfolio/JD.jpg
     #  categories : ["consultants"]
     #  title : Consultor
     #  content : Desarrollo Sustentable
@@ -170,7 +164,7 @@ portfolio:
     - name : Judá García
       member_title : Urbanismo
       image : images/portfolio/JG.jpg
-      image_webp : images/portfolio/JG.webp
+      image_webp : images/portfolio/JG.jpg
       categories : ["consultants"]
       title : Consultor
       content : Desarrollo Urbano y Sistemas de Información Geográfica
@@ -182,10 +176,10 @@ portfolio:
                       Nacional de Prevención del Delito como Jefe de Analistas SIG."
       
     # portfolio item loop
-    - name : Luis Ángel García
+    - name : Luis Alfredo García
       member_title : Ingeniero en Informática
       image : images/portfolio/LA.jpg
-      image_webp : images/portfolio/LA.webp
+      image_webp : images/portfolio/LA.jpg
       categories : ["consultants"]
       title : Consultor
       content : Tecnologías de la Información
@@ -201,7 +195,7 @@ portfolio:
     - name : María Blanco
       member_title : Ingeniera Química
       image : images/portfolio/MB.jpg
-      image_webp : images/portfolio/MB.webp
+      image_webp : images/portfolio/MB.jpg
       categories : ["consultants"]
       title : Consultora
       content : Desarrollo Sustentable
@@ -219,7 +213,7 @@ portfolio:
     - name : Ricardo García
       member_title : Ingeniero Ambiental
       image : images/portfolio/RG.jpg
-      image_webp : images/portfolio/RG.webp
+      image_webp : images/portfolio/RG.jpg
       categories : ["consultants"]
       title : Consultor
       content : Desarrollo Sustentable
@@ -235,7 +229,7 @@ portfolio:
     - name : Sebastián Reyes
       member_title : Ingeniero Químico Ambiental
       image : images/portfolio/SR.jpg
-      image_webp : images/portfolio/SR.webp
+      image_webp : images/portfolio/SR.jpg
       categories : ["consultants"]
       title : Consultor
       content : Desarrollo Sustentable
@@ -254,7 +248,7 @@ portfolio:
     - name : Socorro Román
       member_title : Urbanista
       image : images/portfolio/SM.jpg
-      image_webp : images/portfolio/SM.webp
+      image_webp : images/portfolio/SM.jpg
       categories : ["consultants"]
       title : Consultora
       content : Desarrollo Urbano y Sistemas de Información Geográfica
@@ -267,8 +261,8 @@ portfolio:
     # portfolio item loop
     - name : Gerardo Escalona
       member_title : Analista y Psicólogo Socio-ambiental
-      image : images/portfolio/RO.jpg
-      image_webp : images/portfolio/RO.webp
+      image : images/portfolio/GE.jpg
+      image_webp : images/portfolio/GE.jpg
       categories : ["consultants"]
       title : Consultor
       content : Psicología Socio-ambiental
@@ -290,8 +284,8 @@ portfolio:
     # portfolio item loop
     - name : Raúl Saucedo
       member_title : Internacionalista
-      image : images/portfolio/GV.jpg
-      image_webp : images/portfolio/GV.webp
+      image : images/portfolio/RS.jpg
+      image_webp : images/portfolio/RS.jpg
       categories : ["associates"]
       title : Asociado
       content : Relaciones Internacionales y Sustentabilidad
@@ -305,8 +299,8 @@ portfolio:
     # portfolio item loop
     - name : Juan Manuel Gómez
       member_title : Matemáticas Aplicadas
-      image : images/portfolio/RO.jpg
-      image_webp : images/portfolio/RO.webp
+      image : images/portfolio/JMG copia.jpg
+      image_webp : images/portfolio/JMG copia.jpg
       categories : ["associates"]
       title : Asociado
       content : Matemático y Tecnologías de la Información
@@ -339,8 +333,8 @@ portfolio:
     # portfolio item loop
     - name : Tommaso Bassetti
       member_title : Políticas Públicas y Geografía Humana
-      image : images/portfolio/GV.jpg
-      image_webp : images/portfolio/GV.webp
+      image : images/portfolio/TB.jpg
+      image_webp : images/portfolio/TB.jpg
       categories : ["associates"]
       title : Asociado
       content : Planeación Urbana y Medio Ambiente
