@@ -15,8 +15,8 @@ who:
       who_id: "who"
       who_content : "Nuestro equipo transdisciplinario cuenta con amplia experiencia en sustentabilidad. Nos caracterizamos por proponer soluciones innovadoras, que estén respaldadas por información técnica sólida, incorporando nuestros valores, el estado del arte y las mejores prácticas en la materia que trabajemos.\n\n
       Consideramos a nuestros clientes como socios en un esfuerzo común por mejorar el desempeño ambiental, el rendimiento económico y la responsabilidad social."
-      image : images/who/Quienes-somos-1.png
-      image_webp : images/who/Quienes-somos-1.png
+      image : images/who/CAPSUS-ES-graph.png
+      image_webp : images/who/CAPSUS-ES-graph.png
       list_title : "CAPSUS es:"
       list_item : 
         - list_content : Corresponsabilidad

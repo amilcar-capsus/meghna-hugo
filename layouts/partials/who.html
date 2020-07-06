@@ -29,8 +29,8 @@
 							</h2>
 							<span>{{ .who_content | markdownify }}</span>
 						</div>
-						<div class="col-lg-6 my-auto">
-								<div class="row">
+						<div class="col-lg-6 my-auto" style="background-image: url('{{ .image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat;">
+								<!--<div class="row">
 									<div class="col-lg-3 col-md-3 col-sm-3 col-3" style="background-image: url('{{ .image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat;">
 										<img style="display: none;" class="img-fluid col-lg-3 col-md-3 col-sm-3 col-3" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'" src="{{ .image_webp | absURL }}" />
 									</div>
@@ -46,7 +46,7 @@
 											{{ end }}
 										</ol>
 									</div>
-								</div>
+								</div>-->
 						</div>
 						{{ else if eq .who_id "mission" }}
 						<div class="col-lg-6 my-auto">

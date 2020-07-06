@@ -595,17 +595,17 @@ a:hover {
 
 @media (max-width: 768px) {
   .hero-area .block h1 {
-    font-size: 2rem;
+    font-size: 3.5rem;
     text-align: center;
   }
   
   .hero-area .block img {
-    width: 60%;
+    width: 50%;
     margin-left: auto !important;
     margin-right: auto !important
   }
   .hero-area .block h2 {
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     text-align: center;
   }
 }
@@ -2613,7 +2613,7 @@ figcaption {
 
 @media (max-width: 768px) {
   #specialties h5 {
-    font-size: 1.58rem;
+    font-size: 1.47rem;
   }
 }
 
