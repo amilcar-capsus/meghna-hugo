@@ -452,6 +452,13 @@ a:hover {
   z-index: 9900;
 }
 
+@media (max-width: 1024px) {
+  .navigation li,
+  .navigation .select-wrapper input.select-dropdown {
+    font-size: 0.85px !important;
+  }
+}
+
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
@@ -459,7 +466,7 @@ a:hover {
   color: #28c5b9;
   background-color: inherit !important;
 }
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-width: 768px) {
   .navigation .navbar-collapse {
     background-color: #00495a !important;
   }
@@ -554,7 +561,7 @@ a:hover {
   margin-bottom: 20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-width: 768px) {
   .hero-area .block h1 {
     font-size: 2rem;
     text-align: center;
@@ -707,7 +714,7 @@ a:hover {
   padding: 40px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-width: 768px) {
   .about-2 .content-block {
     padding: 40px 0 !important;
   }
@@ -2469,7 +2476,7 @@ figcaption {
   line-height: 1.9;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-width: 768px) {
   .five-c-image {
     display: none !important;
   }
@@ -2500,7 +2507,7 @@ figcaption {
   font-weight: 1000;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-width: 768px) {
   .big-title {
     font-size: 2.5rem;
   }
@@ -2541,7 +2548,7 @@ figcaption {
   line-height: 1.7;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-width: 768px) {
   #specialties h5 {
     font-size: 1.58rem;
   }
@@ -2593,7 +2600,7 @@ figcaption {
   left: 4em;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-width: 768px) {
   .check-list .fa-li {
     left: 2em;
   }
@@ -2603,7 +2610,7 @@ figcaption {
   line-height: 1.7;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-width: 768px) {
   .who-text {
     text-align: center !important;
   }
