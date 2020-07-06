@@ -466,7 +466,22 @@ a:hover {
   color: #28c5b9;
   background-color: inherit !important;
 }
-@media (max-width: 480px) and (max-width: 768px) {
+
+@media (max-width: 480px) {
+  .navigation .navbar-collapse {
+    background-color: #00495a !important;
+  }
+  
+  .navigation .navbar-collapse > * {
+    margin-left: 30px !important;
+  }
+
+  .navigation .input-field {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 768px) {
   .navigation .navbar-collapse {
     background-color: #00495a !important;
   }
@@ -561,7 +576,24 @@ a:hover {
   margin-bottom: 20px;
 }
 
-@media (max-width: 480px) and (max-width: 768px) {
+@media (max-width: 480px) {
+  .hero-area .block h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .hero-area .block img {
+    width: 60%;
+    margin-left: auto !important;
+    margin-right: auto !important
+  }
+  .hero-area .block h2 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
   .hero-area .block h1 {
     font-size: 2rem;
     text-align: center;
@@ -714,7 +746,13 @@ a:hover {
   padding: 40px;
 }
 
-@media (max-width: 480px) and (max-width: 768px) {
+@media (max-width: 480px) {
+  .about-2 .content-block {
+    padding: 40px 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
   .about-2 .content-block {
     padding: 40px 0 !important;
   }
@@ -2476,7 +2514,20 @@ figcaption {
   line-height: 1.9;
 }
 
-@media (max-width: 480px) and (max-width: 768px) {
+@media (max-width: 480px) {
+  .five-c-image {
+    display: none !important;
+  }
+  
+  .five-c {
+    font-size: 1.47rem !important;
+    text-align: left !important;
+    margin-top: 0 !important;
+    margin-left: -0.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
   .five-c-image {
     display: none !important;
   }
@@ -2507,7 +2558,13 @@ figcaption {
   font-weight: 1000;
 }
 
-@media (max-width: 480px) and (max-width: 768px) {
+@media (max-width: 480px) {
+  .big-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
   .big-title {
     font-size: 2.5rem;
   }
@@ -2548,7 +2605,13 @@ figcaption {
   line-height: 1.7;
 }
 
-@media (max-width: 480px) and (max-width: 768px) {
+@media (max-width: 480px) {
+  #specialties h5 {
+    font-size: 1.58rem;
+  }
+}
+
+@media (max-width: 768px) {
   #specialties h5 {
     font-size: 1.58rem;
   }
@@ -2600,7 +2663,13 @@ figcaption {
   left: 4em;
 }
 
-@media (max-width: 480px) and (max-width: 768px) {
+@media (max-width: 480px) {
+  .check-list .fa-li {
+    left: 2em;
+  }
+}
+
+@media (max-width: 768px) {
   .check-list .fa-li {
     left: 2em;
   }
@@ -2610,7 +2679,13 @@ figcaption {
   line-height: 1.7;
 }
 
-@media (max-width: 480px) and (max-width: 768px) {
+@media (max-width: 480px) {
+  .who-text {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 768px) {
   .who-text {
     text-align: center !important;
   }
