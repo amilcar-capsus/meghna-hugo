@@ -10,9 +10,13 @@
         <h3 class="color-3">No se Encontró la Página / Page Not Found</h3>
       </div>
       <div class="col-12">
-        <div class="row">
-          <a class="btn btn-transparent" onclick="history.back()">Regresar / Back</a>
-          <a class="btn btn-transparent" href="{{ .Site.BaseURL | relLangURL }}">Home</a>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+            <a class="btn btn-transparent" onclick="history.back()">Regresar / Back</a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+            <a class="btn btn-transparent" href="{{ .Site.BaseURL | relLangURL }}">Home</a>
+          </div>
         </div>
       </div>
     </div>
