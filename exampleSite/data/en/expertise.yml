@@ -6,27 +6,27 @@ expertise:
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
     title : SUSTAINABLE URBAN PLANNING
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
-    link : "specialties/planning-building"
+    link : "expertise/urban-planning"
     image : images/expertise/Especialidad-1.png
     image_webp : images/expertise/Especialidad-1.png
 
   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
     title : ENVIRONMENTAL STUDIES AND ASSESSMENTS
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
-    link : "specialties/evaluations-studies"
+    link : "expertise/environmental-studies"
     image : images/expertise/Especialidad-2.png
     image_webp : images/expertise/Especialidad-2.png
 
   - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
     title : DISSEMINATION AND CAPACITY DEVELOPMENT ON SUSTAINABILITY
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
-    link : "specialties/diffusion-development"
+    link : "expertise/dissemination-capacity"
     image : images/expertise/Especialidad-3.png
     image_webp : images/expertise/Especialidad-3.png
 
   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
     title : DESIGN AND EVALUATION OF PUBLIC POLICIES
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
-    link : "specialties/public-policies"
+    link : "expertise/public-policies"
     image : images/expertise/Especialidad-4.png
     image_webp : images/expertise/Especialidad-4.png
