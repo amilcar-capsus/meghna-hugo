@@ -8,7 +8,7 @@
       <div class="col-12 text-center mb-5">
         <h1 class="color">404</h1>
         <h3 class="color-3">No se Encontró la Página / Page Not Found</h3>
-        <img src="{{ .Site.Params.not_found }}" alt="404 Error!" class="img-fluid mx-auto" style="width: 40%;">
+        <img src="{{ .Site.Params.not_found | absURL }}" alt="404 Error!" class="img-fluid mx-auto" style="width: 40%;">
       </div>
       <div class="col-12 text-center mt-5">
         <div class="row">
