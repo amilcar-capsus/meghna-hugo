@@ -1,6 +1,6 @@
 ---
 title: "Design and Evaluation of public policies"
-specialty: 
+expertise: 
     enable : true
     main_title: "Design and Evaluation of "
     color_title: "Public Policies"

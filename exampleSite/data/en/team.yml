@@ -1,5 +1,5 @@
 #################################### portfolio ###############################
-portfolio:
+team:
   enable : true
   title : Nuestro Equipo
   profile: Profile

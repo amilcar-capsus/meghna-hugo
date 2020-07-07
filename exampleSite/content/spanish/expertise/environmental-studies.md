@@ -1,6 +1,6 @@
 ---
 title: "Evaluciones y Estudios sustentables"
-specialty: 
+expertise: 
     enable : true
     main_title: "Evaluaciones y "
     color_title: "Estudios Sustentables"

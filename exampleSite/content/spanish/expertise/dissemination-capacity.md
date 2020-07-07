@@ -1,6 +1,6 @@
 ---
 title: "Difusión y Desarrollo de capacidades sobre sustentabilidad"
-specialty: 
+expertise: 
     enable : true
     main_title: "Difusión y Desarrollo de capacidades sobre "
     color_title: "sustentabilidad"

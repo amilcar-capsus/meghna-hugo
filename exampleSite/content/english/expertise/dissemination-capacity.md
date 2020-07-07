@@ -1,6 +1,6 @@
 ---
 title: "Dissemination and Capacity Development on Sustainability"
-specialty: 
+expertise: 
     enable : true
     main_title: "Dissemination and Capacity development on "
     color_title: "sustainability"

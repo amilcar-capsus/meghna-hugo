@@ -1,6 +1,6 @@
 ---
 title: "Environmental Studies and Assessments"
-specialty: 
+expertise: 
     enable : true
     main_title: "Environmental "
     color_title: "Studies and Assessments"

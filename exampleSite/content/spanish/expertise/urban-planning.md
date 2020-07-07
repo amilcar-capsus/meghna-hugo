@@ -1,6 +1,6 @@
 ---
 title: "Planificación Urbana y Edificación Sustentable"
-specialty: 
+expertise: 
     enable : true
     main_title: "Planificación Urbana y "
     color_title: "Edificación Sustentable"

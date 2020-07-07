@@ -1,6 +1,6 @@
 ---
 title: "Urban Planning and Sustainable Building"
-specialty: 
+expertise: 
     enable : true
     main_title: "Urban Planning and "
     color_title: "Sustainable Building Design"
