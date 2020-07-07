@@ -2,9 +2,9 @@
 
 {{ partial "navigation.html" . }}
 
-{{ $data := .Params.specialty }}
+{{ $data := .Params.expertise }}
 {{ with $data }}
-<section id="specialties">
+<section id="expertise">
   <div class="bg-img" style='background-image: url("{{ .main_bg_image | absURL }}"'>
     <div class="container">
       <div class="row">
