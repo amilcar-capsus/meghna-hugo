@@ -1,31 +1,31 @@
 ############################# About ###################################
-specialties:
+expertise:
   enable : true
-  title : Our Expertise
+  title : Nuestras Especialidades
   specialty_item :
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
-    title : SUSTAINABLE URBAN PLANNING
+    title : PLANIFICACIÓN URBANA Y EDIFICACIÓN SUSTENTABLE
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
     link : "specialties/planning-building"
     image : images/expertise/Especialidad-1.png
     image_webp : images/expertise/Especialidad-1.png
 
   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : ENVIRONMENTAL STUDIES AND ASSESSMENTS
+    title : EVALUACIONES Y ESTUDIOS SUSTENTABLES
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
     link : "specialties/evaluations-studies"
     image : images/expertise/Especialidad-2.png
     image_webp : images/expertise/Especialidad-2.png
 
   - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
-    title : DISSEMINATION AND CAPACITY DEVELOPMENT ON SUSTAINABILITY
+    title : DIFUSIÓN Y DESARROLLO DE CAPACIDADES SOBRE SUSTENTABILIDAD
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
     link : "specialties/diffusion-development"
     image : images/expertise/Especialidad-3.png
     image_webp : images/expertise/Especialidad-3.png
 
   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : DESIGN AND EVALUATION OF PUBLIC POLICIES
+    title : DISEÑO Y EVALUACIÓN DE POLÍTICAS PÚBLICAS
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
     link : "specialties/public-policies"
     image : images/expertise/Especialidad-4.png
