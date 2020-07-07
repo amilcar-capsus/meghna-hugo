@@ -32,37 +32,37 @@ URL = "who"
 name = "who"
 weight = 1
 [[menu.main]]
-name = "specialties"
+name = "expertise"
 weight = 2
-URL = "specialties"
+URL = "expertise"
 hasChildren = true
     [[menu.main]]
-    parent = "specialties"
-    URL = "specialties/planning-building"
-    name = "specialty1"
+    parent = "expertise"
+    URL = "expertise/urban-planning"
+    name = "expertise1"
     [[menu.main]]
-    parent = "specialties"
-    URL = "specialties/evaluations-studies"
-    name = "specialty2"
+    parent = "expertise"
+    URL = "expertise/environmental-studies"
+    name = "expertise2"
     [[menu.main]]
-    parent = "specialties"
-    URL = "specialties/diffusion-development"
-    name = "specialty3"
+    parent = "expertise"
+    URL = "expertise/dissemination-capacity"
+    name = "expertise3"
     [[menu.main]]
-    parent = "specialties"
-    URL = "specialties/public-policies"
-    name = "specialty4"
+    parent = "expertise"
+    URL = "expertise/public-policies"
+    name = "expertise4"
 [[menu.main]]
 URL = "services"
-name = "about"
+name = "services"
 weight = 3
 # [menu.main]]
 # URL = "portfolio"
 # name = "portfolio"
 # weight = 3
 [[menu.main]]
-URL = "portfolio"
-name = "portfolio"
+URL = "team"
+name = "team"
 weight = 4
 # [[menu.main]]
 # URL = "pricing"
@@ -73,9 +73,9 @@ weight = 4
 # name = "blog"
 # weight = 6
 [[menu.main]]
-identifier = "jobs"
-URL = "jobs/jobs"
-name = "jobs"
+identifier = "careers"
+URL = "careers/careers"
+name = "careers"
 weight = 5
 [[menu.main]]
 URL = "contact"

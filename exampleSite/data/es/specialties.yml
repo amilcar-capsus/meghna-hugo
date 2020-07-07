@@ -7,26 +7,26 @@ specialties:
     title : PLANIFICACIÓN URBANA Y EDIFICACIÓN SUSTENTABLE
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
     link : "specialties/planning-building"
-    image : images/specialties/Especialidad-1.png
-    image_webp : images/specialties/Especialidad-1.png
+    image : images/expertise/Especialidad-1.png
+    image_webp : images/expertise/Especialidad-1.png
 
   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
     title : EVALUACIONES Y ESTUDIOS SUSTENTABLES
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
     link : "specialties/evaluations-studies"
-    image : images/specialties/Especialidad-2.png
-    image_webp : images/specialties/Especialidad-2.png
+    image : images/expertise/Especialidad-2.png
+    image_webp : images/expertise/Especialidad-2.png
 
   - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
     title : DIFUSIÓN Y DESARROLLO DE CAPACIDADES SOBRE SUSTENTABILIDAD
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
     link : "specialties/diffusion-development"
-    image : images/specialties/Especialidad-3.png
-    image_webp : images/specialties/Especialidad-3.png
+    image : images/expertise/Especialidad-3.png
+    image_webp : images/expertise/Especialidad-3.png
 
   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
     title : DISEÑO Y EVALUACIÓN DE POLÍTICAS PÚBLICAS
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
     link : "specialties/public-policies"
-    image : images/specialties/Especialidad-4.png
-    image_webp : images/specialties/Especialidad-4.png
+    image : images/expertise/Especialidad-4.png
+    image_webp : images/expertise/Especialidad-4.png

@@ -4,18 +4,18 @@ jobs:
     image_webp: images/blog/meghna.webp
     image: images/blog/meghna.jpg
     description : "This is meta description"
-    main_bg_image_webp: images/jobs/Banner-unete.jpg
-    main_bg_image: images/jobs/Banner-unete.jpg
+    main_bg_image_webp: images/careers/Banner-unete.jpg
+    main_bg_image: images/careers/Banner-unete.jpg
     job_intro_title : TRANSDISCIPLINARY TEAMWORK
     job_intro_content : We overcome challenges in different contexts thanks to our multidisciplinary team, our experience and deep understanding of our client's needs.
-    job_intro_image : images/jobs/Mapa-mundo.png
+    job_intro_image : images/careers/Mapa-mundo.png
     job_item:
         - name: Careers
           title: Would you like to
           subtitle: join our team?
           job_id: jobs
-          job_image: images/specialties/placeholder1.jpg
-          job_image_webp: images/specialties/placeholder1.webp
+          job_image: images/expertise/placeholder1.jpg
+          job_image_webp: images/expertise/placeholder1.webp
           info1:
             - info1_content: "We are a multidisciplinary team of professionals that includes engineers, architects, software developers, designers, educators, political analysts, sociologists, and urban planners. When we are looking to expand the team, we post the characteristics on our social networks and on this website.\n
             We invite you to continue visiting our website so that you can learn more about us."
@@ -34,8 +34,8 @@ jobs:
           info4:
             - info4_title: Vacantes
               info4_item:
-              #  - info4_image: images/specialties/placeholder1.jpg
-              #    info4_image_webp: images/specialties/placeholder1.webp
+              #  - info4_image: images/expertise/placeholder1.jpg
+              #    info4_image_webp: images/expertise/placeholder1.webp
               #    info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
               #    info4_item_title1: Licenciado/a en
               #    info4_item_title2: Comunicación, Educación, Sociología o áreas afines
@@ -46,8 +46,8 @@ jobs:
               #    info4_item_content4: Idiomas de la vacante.
               #    info4_id: vac-1
               #    info4_item_name: Vacante 1
-              #  - info4_image: images/specialties/placeholder2.jpg
-              #    info4_image_webp: images/specialties/placeholder2.webp
+              #  - info4_image: images/expertise/placeholder2.jpg
+              #    info4_image_webp: images/expertise/placeholder2.webp
               #    info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
               #    info4_item_title1: Licenciado/a en
               #    info4_item_title2: Comunicación, Educación, Sociología o áreas afines
@@ -58,8 +58,8 @@ jobs:
               #    info4_item_content4: Idiomas de la vacante.
               #    info4_id: vac-2
               #    info4_item_name: Vacante 2
-              #  - info4_image: images/specialties/placeholder3.jpg
-              #    info4_image_webp: images/specialties/placeholder3.webp
+              #  - info4_image: images/expertise/placeholder3.jpg
+              #    info4_image_webp: images/expertise/placeholder3.webp
               #    info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
               #    info4_item_title1: Licenciado/a en
               #    info4_item_title2: Comunicación, Educación, Sociología o áreas afines
@@ -73,8 +73,8 @@ jobs:
         - name: Internships
           title: Programa de Becarios
           job_id: internships
-          job_image: images/jobs/Becarios-icon-1.png
-          job_image_webp: images/jobs/Becarios-icon-1.png
+          job_image: images/careers/Becarios-icon-1.png
+          job_image_webp: images/careers/Becarios-icon-1.png
           info1:
             - info1_content: "Therefore, we have an internship program that helps young professionals get embedded in professional work in the sustainability sector. Through this program we help build promoters of sustainable development and we also identify future members of our team."
               info1_title: We believe that the first professional experience of a person is transformational and can set out a path towards working in sustainability.
@@ -92,8 +92,8 @@ jobs:
               After analyzing your documentation we will contact you for an interview where we can clarify the doubts that you and we have."
           info4:
             - info4_title: What do we offer?
-              info4_image: images/jobs/Foto-para-becarios.jpg
-              info4_image_webp: images/jobs/Foto-para-becarios.jpg
+              info4_image: images/careers/Foto-para-becarios.jpg
+              info4_image_webp: images/careers/Foto-para-becarios.jpg
               info4_item:
                 - info4_content: We will integrate you to our team as an active member and you will experience a true professional life equal to any other member at the company. 
                 - info4_content: You will have complete access to our technological platforms and knowledge database to use while you work with us.

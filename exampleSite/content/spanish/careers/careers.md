@@ -4,18 +4,18 @@ jobs:
     image_webp: images/blog/meghna.webp
     image: images/blog/meghna.jpg
     description : "This is meta description"
-    main_bg_image_webp: images/jobs/Banner-unete.jpg
-    main_bg_image: images/jobs/Banner-unete.jpg
+    main_bg_image_webp: images/careers/Banner-unete.jpg
+    main_bg_image: images/careers/Banner-unete.jpg
     job_intro_title : SOMOS UN EQUIPO TRANSDISCIPLINARIO
     job_intro_content : Superamos desafíos en diferentes contextos gracias a nuestra experiencia y profunda comprensión de las necesidades de los clientes.
-    job_intro_image : images/jobs/Mapa-mundo.png
+    job_intro_image : images/careers/Mapa-mundo.png
     job_item:
         - name: Bolsa de trabajo
-          title: ¿Quieres trabajar
+          title: ¿Quiéres trabajar
           subtitle: con nosotros?
           job_id: jobs
-          job_image: images/specialties/placeholder1.jpg
-          job_image_webp: images/specialties/placeholder1.webp
+          job_image: images/expertise/placeholder1.jpg
+          job_image_webp: images/expertise/placeholder1.webp
           info1:
             - info1_content: "Somos un equipo multidisciplinario de profesionistas que incluye ingenieros, arquitectos, desarrolladores de software, diseñadores, educadores, politólogos, sociólogos y urbanistas.  Cuando estamos en búsqueda de ampliar el equipo, publicamos las características en nuestras redes sociales. \n\n
 
@@ -35,8 +35,8 @@ jobs:
           info4:
             - info4_title: Vacantes
               info4_item:
-              #  - info4_image: images/specialties/placeholder1.jpg
-              #    info4_image_webp: images/specialties/placeholder1.webp
+              #  - info4_image: images/expertise/placeholder1.jpg
+              #    info4_image_webp: images/expertise/placeholder1.webp
               #    info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
               #    info4_item_title1: Licenciado/a en
               #    info4_item_title2: Comunicación, Educación, Sociología o áreas afines
@@ -47,8 +47,8 @@ jobs:
               #    info4_item_content4: Idiomas de la vacante.
               #    info4_id: vac-1
               #    info4_item_name: Vacante 1
-              #  - info4_image: images/specialties/placeholder2.jpg
-              #    info4_image_webp: images/specialties/placeholder2.webp
+              #  - info4_image: images/expertise/placeholder2.jpg
+              #    info4_image_webp: images/expertise/placeholder2.webp
               #    info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
               #    info4_item_title1: Licenciado/a en
               #    info4_item_title2: Comunicación, Educación, Sociología o áreas afines
@@ -59,8 +59,8 @@ jobs:
               #    info4_item_content4: Idiomas de la vacante.
               #    info4_id: vac-2
               #    info4_item_name: Vacante 2
-              #  - info4_image: images/specialties/placeholder3.jpg
-              #    info4_image_webp: images/specialties/placeholder3.webp
+              #  - info4_image: images/expertise/placeholder3.jpg
+              #    info4_image_webp: images/expertise/placeholder3.webp
               #    info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
               #    info4_item_title1: Licenciado/a en
               #    info4_item_title2: Comunicación, Educación, Sociología o áreas afines
@@ -74,8 +74,8 @@ jobs:
         - name: Programa de Becarios
           title: Programa de Becarios
           job_id: internships
-          job_image: images/jobs/Becarios-icon-1.png
-          job_image_webp: images/jobs/Becarios-icon-1.png
+          job_image: images/careers/Becarios-icon-1.png
+          job_image_webp: images/careers/Becarios-icon-1.png
           info1:
             - info1_content: "Por ello, tenemos un programa de becarios para apoyar a los jóvenes profesionistas y fomentar el desarrollo de las nuevas generaciones en profesiones dirigidas a la sustentabilidad, materia que consideramos primordial para el mundo.\n\n
 
@@ -95,8 +95,8 @@ jobs:
               Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."
           info4:
             - info4_title: ¿Qué ofrecemos?
-              info4_image: images/jobs/Foto-para-becarios.jpg
-              info4_image_webp: images/jobs/Foto-para-becarios.jpg
+              info4_image: images/careers/Foto-para-becarios.jpg
+              info4_image_webp: images/careers/Foto-para-becarios.jpg
               info4_item:
                 - info4_content: Te integramos al equipo como un miembro más y tendrás una experiencia profesional real equivalente en responsabilidades y actividades al resto de los miembros del equipo permanente de CAPSUS. 
                 - info4_content: Te integraremos de lleno a nuestras plataformas tecnológicas. 

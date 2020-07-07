@@ -28,10 +28,8 @@
   translation: About us
 - id: services
   translation: Our services
-- id: portfolio
-  translation: Our team
 - id: team
-  translation: Team
+  translation: Our team
 - id: pricing
   translation: Pricing
 - id: blog
@@ -40,15 +38,15 @@
   translation: Contact
 - id: jobs
   translation: Join us
-- id: specialties
+- id: expertise
   translation: Expertise
-- id: specialty1
+- id: expertise1
   translation: Urban Planning
-- id: specialty2
+- id: expertise2
   translation: Environmental Studies
-- id: specialty3
+- id: expertise3
   translation: Dissemination and Capacities
-- id: specialty4
+- id: expertise4
   translation: Public Policies
 - id: casestudies
   translation: Case Studies

@@ -28,8 +28,6 @@
   translation: Quienes somos
 - id: services
   translation: Nuestro trabajo
-- id: portfolio
-  translation: Nuestro equipo
 - id: team
   translation: Nuestro equipo
 - id: pricing
@@ -40,15 +38,15 @@
   translation: Contacto
 - id: jobs
   translation: Únete
-- id: specialties
+- id: expertise
   translation: Especialidades
-- id: specialty1
+- id: expertise1
   translation: Planificación y Edificación
-- id: specialty2
+- id: expertise2
   translation: Evaluaciones y Estudios
-- id: specialty3
+- id: expertise3
   translation: Difusión y Desarrollo
-- id: specialty4
+- id: expertise4
   translation: Políticas Públicas
 - id: casestudies
   translation: Casos de Estudio

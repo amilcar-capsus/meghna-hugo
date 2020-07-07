@@ -1,68 +1,350 @@
-############################### team ############################
-team:
+#################################### portfolio ###############################
+portfolio:
   enable : true
-  title : Our Team
-  team_member :
-    # team member loop
-    - name : Abul Mal Muhit
-      image_webp : images/team/team-1.webp
-      image : images/team/team-1.jpg
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        
-    # team member loop
-    - name : Frank Miller
-      image_webp : images/team/team-2.webp
-      image : images/team/team-2.jpg
-      designation : Manager
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        
-    # team member loop
-    - name : Michael Jonson
-      image_webp : images/team/team-3.webp
-      image : images/team/team-3.jpg
-      designation : Web Developer
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        
-    # team member loop
-    - name : Mo. Kha. Alamgir
-      image_webp : images/team/team-4.webp
-      image : images/team/team-4.jpg
-      designation : SEO Specialist
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+  title : Nuestro Equipo
+  profile: Semblanza
+  portfolio_item :
+    # portfolio item loop
+    - name : Guillermo Velasco
+      member_title : Ingeniero Físico
+      image : images/team/GV.jpg
+      image_webp : images/team/GV.jpg
+      categories : ["partners"]
+      title : Socio
+      content : Política Pública y Desarrollo Sustentable
+      link : "#"
+      member_profile: "Tiene una Maestría en Políticas Públicas por la escuela de gobierno de la Universidad de
+                      Harvard. Guillermo tiene más de 20 años de trayectoria en el sector
+                      ambiental y el sector urbano. \n\nComo funcionario público fue Coordinador
+                      de Asesores en el Senado de la República, Diputado Federal y Local por
+                      el Estado de México, así como Secretario de Medio Ambiente para el
+                      Gobierno del Estado de México. Posteriormente fungió por seis años como
+                      Coordinador del Programa de Ciudades Sustentables del Centro Mario
+                      Molina para Estudios Estratégicos sobre Energía y Medio Ambiente, donde
+                      llevó esa línea de investigación aplicada para el Premio Nobel de Química
+                      de 1995. \n\nActualmente es socio fundador de CAPSUS S.C. empresa
+                      internacional de consultoría en sustentabilidad."
+      
+    # portfolio item loop
+    - name : Ricardo Ochoa
+      member_title : Ingeniero Mecánico
+      image : images/team/RO.jpg
+      image_webp : images/team/RO.jpg
+      categories : ["partners"]
+      title : Socio
+      content : Energía y Edificación
+      link : "#"
+      member_profile: "Ricardo tiene experiencia en ingeniería mecánica y administración, cuenta con una Maestría en Ciencias en Energía Renovable y 15 años de experiencia en energía y desarrollo sustentable.\n\n
+      En los últimos 10 años ha liderado equipos en el desarrollo de herramientas digitales para apoyar a gobiernos locales en la toma de decisiones informadas con un enfoque específico en estrategias de eficiencia energética, adaptación y mitigación al cambio climático en el entorno construido."
+      
+    # portfolio item loop
+    - name : Daniela Evia
+      member_title : Historiadora y maestra en Innovación Educativa
+      image : images/team/DE.jpg
+      image_webp : images/team/DE.jpg
+      categories : ["coordinators"]
+      title : Coordinadora
+      content : Educación y Procesos Participativos
+      link : "#"
+      member_profile: "Daniela realizó su licenciatura en Historia del Arte, donde aprendió la importancia del discurso y la narrativa para la transformación de nuestro entorno.Tiene una maestría en innovación pedagógica y se ha especializado en el diseño, implementación y evaluación de programas y materiales educativos. Daniela ha diseñado diversos procesos de participación social e intercambio de conocimiento sobre cambio climático, planeación urbana e infraestructura de datos geoespaciales para la toma de decisiones informadas. Tiene amplia experiencia en el diseño y coordinación de talleres y cursos de capacitación en diferentes países, tales como México, Jordania, Côte d’Ivoire, Indonesia, Paraguay, y Estados Unidos."
+
+    # portfolio item loop
+    - name : Carmen Valdez
+      member_title : Arquitecta
+      image : images/team/CV.jpg
+      image_webp : images/team/CV.jpg
+      categories : ["coordinators"]
+      title : Coordinadora
+      content : Desarrollo Sustentable y Diseño Bioclimático
+      link : "#"
+      member_profile: "Arquitecta con una Maestría en Ingeniería en Sistemas Ambientales en la University College London y un Máster en Arquitectura Sustentable en la Universidad Politécnica de Cataluña. Carmen se ha especializado en análisis urbano con un enfoque sistémico, principalmente sobre desarrollo sustentable y resiliente, vivienda y el nexo energía-agua-emisiones. 
+      \n\nCuenta con amplia experiencia en el análisis cuantitativo de políticas públicas así como el desarrollo de herramientas tecnológicas que facilitan su análisis, comunicación y la toma de decisiones informadas. Ha coordinado proyectos de sustentabilidad en Latinoamérica, Medio Oriente y Asia."
+
+    # portfolio item loop
+    - name : Leticia Galindo
+      member_title : Contadora Pública
+      image : images/team/LG.jpg
+      image_webp : images/team/LG.jpg
+      categories : ["coordinators"]
+      title : Coordinador
+      content : Administración y Finanzas
+      link : "#"
+      member_profile: "Cuenta con más de 20 años de experiencia 
+                      en el sector privado enfocada en el área administrativa, finanzas, recursos
+                      humanos y fiscal. \n\nLa mayor parte de su experiencia ha sido en el área de
+                      manufactura donde ha llevado el control de proyectos y establecido
+                      mejoras a procesos para incrementar la productividad."
+      
+    # portfolio item loop
+    - name : Tania Guerrero
+      member_title : Arquitecta
+      image : images/team/TG.jpg
+      image_webp : images/team/TG.jpg
+      categories : ["coordinators"]
+      title : Coordinador
+      content : Desarrollo Urbano y Vivienda
+      link : "#"
+      member_profile: "Tiene una Maestría en Ciencias en 
+                      Arquitectura, Urbanismo y Construcción de la Universidad de
+                      Tecnología de Delft, actualmente es candidata a doctora en Geografía
+                      Humana del University College London. Tania ha trabajado como
+                      arquitecta y urbanista en México y en los Países Bajos."
+      
+    # portfolio item loop
+    - name : Amílcar González
+      member_title : Ingeniero en Sistemas Computacionales
+      image : images/team/AG.jpg
+      image_webp : images/team/AG.jpg
+      categories : ["consultants"]
+      title : Consultor
+      content : Tecnologías de la Información
+      link : "#"
+      member_profile: "Ha 
+                      trabajado en el sector público para adaptar herramientas de accesibilidad
+                      web a los portales de la CDMX. Cuenta con experiencia en desarrollo web
+                      utilizando JavaScript/jQuery, CSS, Java y manejo del framework Angular.
+                      Ha utilizado las bibliotecas de Bootstrap y Primefaces (versión Angular)
+                      para desarrollar interfaces de usuario."
+      
+    # portfolio item loop
+    - name : Antares Velázquez
+      member_title : Diseñadora de la Comunicación Gráfica
+      image : images/team/AV.jpg
+      image_webp : images/team/AV.jpg
+      categories : ["consultants"]
+      title : Consultora
+      content : Diseño de la Comunicación Gráfica e Información
+      link : "#"
+      member_profile: "Es Diseñadora de la Comunicación Gráfica 
+                      egresada de la Universidad Autónoma Metropolitana unidad
+                      Azcapotzalco. Cuenta con experiencia en el diseño de información y
+                      comunicación gráfica para conceptualizar mensajes técnicos en gráficos
+                      especializados. Ha trabajado en el sector salud elaborando campañas de
+                      comunicación y educación. Su formación se centra en el mundo de la
+                      comunicación, planeación estratégica y las artes visuales. \n\nPrevio a
+                      CAPSUS laboró en Llorente y Cuenca trabajando con diversas marcas
+                      en aspectos relacionados con reputación y relaciones públicas. Además,
+                      ha trabajado en el mundo del diseño editorial, diseño digital para eventos,
+                      animación, identidad corporativa, diseño UX, entre otros."
+      
+    # portfolio item loop
+    - name : Dante Zayas
+      member_title : Ingeniero en Desarrollo Sustentable
+      image : images/team/DZ.jpg
+      image_webp : images/team/DZ.jpg
+      categories : ["consultants"]
+      title : Consultor
+      content : Desarrollo Sustentable
+      link : "#"
+      member_profile: "Egresado del 
+                      Tecnológico de Monterrey. Se especializa en el desarrollo de estrategias
+                      que integren los pilares de sostenibilidad y el manejo adecuado de
+                      recursos. \n\nPrevio a CAPSUS trabajó en el departamento de medio
+                      ambiente de Unilever, en centros de investigación de Japón y Canadá en
+                      temas de agua y energía y con la Secretaría de Desarrollo Sustentable
+                      de Morelos enfocado al rescate de barrancas urbanas."
+
+    # portfolio item loop
+    #- name : José Eduardo Díaz
+    #  member_title : Ingeniero Químico
+    #  image : images/team/JD.jpg
+    #  image_webp : images/team/JD.jpg
+    #  categories : ["consultants"]
+    #  title : Consultor
+    #  content : Desarrollo Sustentable
+    #  link : "#"
+    #  member_profile: "Cuenta con experiencia
+    #                  en áreas como análisis de datos y desarrollo sustentable. Ha trabajado en
+    #                  proyectos para el sector privado, sector público y organizaciones no
+    #                  gubernamentales. \n\nEntre sus proyectos destacan el desarrollo e
+    #                  implementación de un programa de reciclaje en vivienda social, así como
+    #                  el análisis de escenarios de crecimiento urbano para ciudades."
+
+    # portfolio item loop
+    - name : Judá García
+      member_title : Urbanismo
+      image : images/team/JG.jpg
+      image_webp : images/team/JG.jpg
+      categories : ["consultants"]
+      title : Consultor
+      content : Desarrollo Urbano y Sistemas de Información Geográfica
+      link : "#"
+      member_profile: "Estudió Urbanismo por parte de la Universidad Nacional
+                      Autónoma de México. Ha trabajado en el sector privado como Analista SIG
+                      en el sector inmobiliario, así mismo colaboró con la Secretaria de
+                      Gobernación en el desarrollo de la Estrategia Territorial del Programa
+                      Nacional de Prevención del Delito como Jefe de Analistas SIG."
+      
+    # portfolio item loop
+    #- name : Luis Alfredo García
+    #  member_title : Ingeniero en Informática
+    #  image : images/team/LA.jpg
+    #  image_webp : images/team/LA.jpg
+    #  categories : ["consultants"]
+    #  title : Consultor
+    #  content : Tecnologías de la Información
+    #  link : "#"
+    #  member_profile: "Egresado de la Universidad
+    #                  Veracruzana. Tiene experiencia en desarrollo de ERP en entornos web
+    #                  desarrollados en PHP, Jquery y base de datos MySQL. Además, cuenta
+    #                  con experiencia en manejo de equipos de videoconferencias Polycom y
+    #                  soporte a usuarios. Ha manejado también lenguajes como Python, C y C++
+    #                  y utilizado el entorno MySQL Workbench."
+      
+    # portfolio item loop
+    - name : María Blanco
+      member_title : Ingeniera Química
+      image : images/team/MB.jpg
+      image_webp : images/team/MB.jpg
+      categories : ["consultants"]
+      title : Consultora
+      content : Desarrollo Sustentable
+      link : "#"
+      member_profile: "Se ha desempeñado
+                      profesionalmente en México y cuenta con experiencia en el sector
+                      académico y privado específicamente en el área ambiental. \n\nDentro de sus
+                      proyectos destaca la asesoría a ciudades para el desarrollo de sus
+                      inventarios de emisiones, análisis de riesgos y vulnerabilidades climáticas
+                      y desarrollo de acciones climáticas. Además, ha realizado investigación
+                      sobre el aprovechamiento del sargazo, los eco-materiales y las
+                      ecotecnologías."
+
+    # portfolio item loop
+    - name : Ricardo García
+      member_title : Ingeniero Ambiental
+      image : images/team/RG.jpg
+      image_webp : images/team/RG.jpg
+      categories : ["consultants"]
+      title : Consultor
+      content : Desarrollo Sustentable
+      link : "#"
+      member_profile: "Tiene experiencia en temas
+                      de desarrollo sustentable, cambio climático y eficiencia energética. Ricardo
+                      ha trabajado en proyectos para el sector privado, sector público y
+                      organizaciones no gubernamentales. \n\nEntre sus proyectos destaca la
+                      evaluación de tecnologías eficientes que signifiquen una mejora en temas
+                      energéticos y ambientales."
+
+    # portfolio item loop
+    - name : Sebastián Reyes
+      member_title : Ingeniero Químico Ambiental
+      image : images/team/SR.jpg
+      image_webp : images/team/SR.jpg
+      categories : ["consultants"]
+      title : Consultor
+      content : Desarrollo Sustentable
+      link : "#"
+      member_profile: "Egresado de la
+                      Universidad Autónoma de Querétaro. Tiene diversas capacitaciones en
+                      materia de elaboración y análisis de inventarios de emisiones, cuenta con
+                      experiencia en el análisis e implementación de política pública ambiental,
+                      y es especialista en calidad del aire dentro de CAPSUS. \n\nHa colaborado en
+                      el Programa para Mejorar la Calidad del Aire del Estado de México (2018-
+                      2030), donde colaboró en el diagnóstico de la calidad del aire, el inventario
+                      de emisiones, el análisis de la relación salud y calidad del aire, y las
+                      estrategias para reducir la emisión de contaminantes atmosféricos locales."
+      
+    # portfolio item loop
+    - name : Socorro Román
+      member_title : Urbanista
+      image : images/team/SM.jpg
+      image_webp : images/team/SM.jpg
+      categories : ["consultants"]
+      title : Consultora
+      content : Desarrollo Urbano y Sistemas de Información Geográfica
+      link : "#"
+      member_profile: "Egresada de la Benemérita Universidad de
+                      Puebla. Se ha desempeñado en el sector privado en proyectos catastrales
+                      y de planeación urbana como analista en SIG, además cuenta con
+                      experiencia en diseño urbano y estudios territoriales."   
+
+    # portfolio item loop
+    - name : Gerardo Escalona
+      member_title : Analista y Psicólogo Socio-ambiental
+      image : images/team/GE.jpg
+      image_webp : images/team/GE.jpg
+      categories : ["consultants"]
+      title : Consultor
+      content : Psicología Socio-ambiental
+      link : "#"
+      member_profile: "Cuenta con 6 años de trayectoria en el sector de transporte urbano
+                      sustentable diseñando e implementando estrategias de encuestas y
+                      entrevistas a actores clave. Ha colaborado con Organizaciones No
+                      Gubernamentales, Iniciativa Privada, Organismos Multilaterales (BID)
+                      Gobiernos Locales, Estatales y Federales (Secretaría de Desarrollo
+                      Agrario, Territorial y Urbano, SEDATU) en la promoción, desarrollo e
+                      implementación de capacitación sobre diseño de calles para modos de
+                      transporte sustentables y herramientas de comunicación asertiva
+                      institucional para funcionarios de la presente y pasada administración.\n\n
+                      Cuenta con experiencia en creación de materiales de difusión y
+                      capacitación de temas como seguridad vial, caminabilidad y promoción del
+                      uso de la bicicleta en la Ciudad de México y en ciudades del estado de
+                      Sinaloa."
+
+    # portfolio item loop
+    - name : Raúl Saucedo
+      member_title : Internacionalista
+      image : images/team/RS.jpg
+      image_webp : images/team/RS.jpg
+      categories : ["associates"]
+      title : Asociado
+      content : Relaciones Internacionales y Sustentabilidad
+      link : "#"
+      member_profile: "Actualmente está cursando una Maestría en Innovación, Desarrollo
+                      Humano y Sostenibilidad en la Universidad de Ginebra, Suiza. \n\nRaúl tiene
+                      experiencia en espacios de negociaciones multilaterales como Naciones
+                      Unidas y ha trabajado para el sector privado en el desarrollo de negocios
+                      para América del Norte."
+      
+    # portfolio item loop
+    - name : Juan Manuel Gómez
+      member_title : Matemáticas Aplicadas
+      image : images/team/JMG copia.jpg
+      image_webp : images/team/JMG copia.jpg
+      categories : ["associates"]
+      title : Asociado
+      content : Matemático y Tecnologías de la Información
+      link : "#"
+      member_profile: "Egresado de la
+                      Universidad Nacional Autónoma de México. Juan Manuel trabaja en el
+                      diseño y desarrollo de sistemas desde 2007, ha colaborado en el desarrollo
+                      de plataformas de información para la Universidad Nacional Autónoma de
+                      México en el proyecto “Voto Informado” y “Diagnóstico Nacional con
+                      perspectiva de género sobre todas las formas de violencia contra las
+                      mujeres y las niñas y anteproyecto del programa integral para prevenir,
+                      atener, sancionar y erradicar la violencia contra las mujeres”, participó en
+                      el equipo de desarrollo del Sistema de Información de la Agenda de
+                      Transversalidad del Programa especial de cambio climático (SIAT-PECC),
+                      colaboró en la programación del Sistema de Seguimiento del Programa de
+                      Acción Climática de la Ciudad de México (SS-PACCM) y en el Sistema de
+                      Seguimiento del PROAIRE de la Ciudad de México (SS-PROAIRE),
+                      también colaboró en el desarrollo del Sistema Nacional de Información de
+                      la Calidad del Aire (SINAICA) para el INECC.\n\n
+                      Es cofundador de NotLand, empresa establecida en 2013 especializada en
+                      el desarrollo de sistemas de recopilación y manejo de información, con
+                      NotLand ha colaborado en el desarrollo de proyectos con la GIZ, BID y
+                      entidades gubernamentales. Con la iniciativa privada ha participado en la
+                      coordinación y desarrollo de aplicaciones web y móviles para el
+                      levantamiento en línea de encuestas con la empresa Shoppers Consulting
+                      y en el sistema de seguimiento de instalaciones para Isla Urbana. Apoyó
+                      en el desarrollo visual de la herramienta Perfil Metropolitano y coordinó la
+                      adaptación de mapas de entrada y salida del módulo LULCC para lenguaje R."
+
+    # portfolio item loop
+    - name : Tommaso Bassetti
+      member_title : Políticas Públicas y Geografía Humana
+      image : images/team/TB.jpg
+      image_webp : images/team/TB.jpg
+      categories : ["associates"]
+      title : Asociado
+      content : Planeación Urbana y Medio Ambiente
+      link : "#"
+      member_profile: "Cuenta con una licenciatura interdisciplinaria en
+                      los Países Bajos con un enfoque en políticas públicas y geografía
+                      humana. Su tesis final fue sobre el financiamiento de la vivienda en China
+                      y sus efectos económicos y sociales durante la transición. Posterior a ello,
+                      Tommaso realizó una maestría en “Planeación urbana y de medio
+                      ambiente” en Cambridge (Inglaterra). \n\nDurante sus estudios de maestría se
+                      especializó en la relación ciudad-cambio climático. Antes de llegar a
+                      CAPSUS trabajó un año en las Naciones Unidas en proyectos de vivienda
+                      asequible y eficiencia energética."
