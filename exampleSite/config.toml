@@ -93,6 +93,7 @@ logo_nav = "images/Menu-Logo-Capsus.png"
 logo_footer = "images/Footer-Logo-Capsus.png"
 logo_footer_eng = "images/LOGO-ENG.png"
 post_share = true
+not_found = "images/sad face-07.png"
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCstAiOx6maCueeXzIrJYWkEy8HVb2hp0k"
