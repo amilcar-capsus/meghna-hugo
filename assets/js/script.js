@@ -236,9 +236,8 @@ jQuery(function ($) {
 	  });
 
 	function changeCase() {
-		this = $(this);
-		this.find('h5').toggleClass('color-2').toggleClass('color');
-		this.find('hr').toggleClass('box-hr').toggleClass('box-hr-green');
-		this.find('p').toggleClass('color-2').toggleClass('color');
+		$(this).find('h5').toggleClass('color-2').toggleClass('color');
+		$(this).find('hr').toggleClass('box-hr').toggleClass('box-hr-green');
+		$(this).find('p').toggleClass('color-2').toggleClass('color');
 	}
 });
