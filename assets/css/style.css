@@ -2658,9 +2658,9 @@ figcaption {
   min-height: 470px;
 }
 
-/* .case-studies a.active .team-member {
-  border: #28c5b9 1px solid
-}*/
+.case-studies a.active .team-member {
+  border: #28c5b9 1px solid !important;
+}
 
 #expertise h5 {
   font-size: 1.08rem;
