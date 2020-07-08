@@ -2,8 +2,8 @@
 title: "Dissemination and Capacity Development on Sustainability"
 expertise: 
     enable : true
-    main_title: "Dissemination and Capacity development on "
-    color_title: "sustainability"
+    main_title: "Dissemination and Capacity Development on "
+    color_title: "Sustainability"
     case_studies1: Case
     case_studies2: Studies
     main_bg_image_webp: images/expertise/diffusion-development/Difusion-y-desarrollo-banner.jpg

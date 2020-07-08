@@ -11,4 +11,4 @@ joinus:
   button_item:
     - enable: true
       label: How?
-      link: "jobs/jobs"
+      link: "careers/careers"

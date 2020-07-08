@@ -11,4 +11,4 @@ joinus:
   button_item:
     - enable: true
       label: Únete
-      link: "jobs/jobs"
+      link: "careers/careers"
