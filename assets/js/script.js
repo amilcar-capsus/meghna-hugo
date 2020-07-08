@@ -4,11 +4,6 @@
 
 $(window).on('load', function () {
 	$('.preloader').fadeOut(100);
-	var changeCase = function () {
-		$(this).find('h5').toggleClass('color-2').toggleClass('color');
-		$(this).find('hr').toggleClass('box-hr').toggleClass('box-hr-green');
-		$(this).find('p').toggleClass('color-2').toggleClass('color');
-	}
 });
 
 jQuery(function ($) {
@@ -20,6 +15,13 @@ jQuery(function ($) {
 
 	const observer = lozad(); // lazy loads elements with default selector as ".lozad"
 	observer.observe();
+	function changeCase() {
+		$(this).find('h5').toggleClass('color-2').toggleClass('color');
+		$(this).find('hr').toggleClass('box-hr').toggleClass('box-hr-green');
+		$(this).find('p').toggleClass('color-2').toggleClass('color');
+	}
+
+	console.log(changeCase);
 
 	/* ========================================================================= */
 	/*	Magnific popup
