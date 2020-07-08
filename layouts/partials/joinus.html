@@ -22,7 +22,7 @@
 			{{"<!-- About item -->" | safeHTML}}
 			<div class="col-lg-6 text-center wow fadeInUp" data-wow-duration="500ms">
 				<button class="btn btn-transparent">
-					<a href="{{ $.Site.BaseURL | relLangURL }}{{ .link }}">
+					<a href="{{ .link | relLangURL }}">
 						<h5 class="my-auto">
 							{{ .label | markdownify }}
 						</h5>
