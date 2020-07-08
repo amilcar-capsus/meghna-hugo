@@ -2658,8 +2658,8 @@ figcaption {
   min-height: 470px;
 }
 
-.case-studies a.active .team-member {
-  border: #28c5b9 1px solid !important;
+.case-studies a.active .team-member .member-photo {
+  border: #28c5b9 3px solid !important;
 }
 
 #expertise h5 {
