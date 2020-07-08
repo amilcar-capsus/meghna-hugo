@@ -2658,6 +2658,10 @@ figcaption {
   min-height: 470px;
 }
 
+.case-studies a .team-member:hover {
+  color: #28c5b9 !important;
+}
+
 .case-studies a.active .team-member {
   border: #28c5b9 1px solid
 }
