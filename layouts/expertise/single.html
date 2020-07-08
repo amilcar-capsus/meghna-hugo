@@ -51,7 +51,7 @@
                   {{ range .casestudy_item }}
                     <li class="nav-item col-lg-4 col-md-6 col-12">
                       <a id="pills-{{ .case_id }}" data-toggle="pill" href="#{{ .case_id }}" role="tab" aria-controls="{{ .case_id }}" aria-selected="false">
-                        <div class="team-member" onmouseover="changeCase();" onmouseout="changeCase();">
+                        <div class="team-member" onmouseover="changeCase($(this));" onmouseout="changeCase($(this));">
                           <div class="member-photo section-bg">
                             {{"<!-- member photo -->" | safeHTML}}
                             <img class="img-fluid" data-src="{{ .tab_image_webp | absURL }}" src="{{ .tab_image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .tab_image | absURL }}'" alt="{{ .name }}">
@@ -127,10 +127,12 @@
 	</div>
 </section>
 <script>
-  function changeCase() {
-		$(this).find('h5').toggleClass('color-2').toggleClass('color');
-		$(this).find('hr').toggleClass('box-hr').toggleClass('box-hr-green');
-		$(this).find('p').toggleClass('color-2').toggleClass('color');
+  function changeCase(x) {
+    console.log(x);
+		x.find('h5').toggleClass('color-2').toggleClass('color');
+		x.find('hr').toggleClass('box-hr').toggleClass('box-hr-green');
+    x.find('p').toggleClass('color-2').toggleClass('color');
+    console.log('works?');
 	}
 </script>
 {{ end }}
