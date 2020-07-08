@@ -1,5 +1,5 @@
 ---
-title: "Evaluciones y Estudios sustentables"
+title: "Evaluaciones y Estudios sustentables"
 expertise: 
     enable : true
     main_title: "Evaluaciones y "
