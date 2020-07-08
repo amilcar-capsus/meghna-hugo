@@ -235,7 +235,7 @@ jQuery(function ($) {
 		$('select').formSelect();
 	  });
 
-	function changeCase() {
+	var changeCase = function () {
 		$(this).find('h5').toggleClass('color-2').toggleClass('color');
 		$(this).find('hr').toggleClass('box-hr').toggleClass('box-hr-green');
 		$(this).find('p').toggleClass('color-2').toggleClass('color');
