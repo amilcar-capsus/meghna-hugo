@@ -59,9 +59,9 @@
                   
                           {{"<!-- member name & designation -->" | safeHTML}}
                           <div class="text-left text-justify pt-2">
-                            <h5 class="color-2">{{ .name }}</h5>
+                            <h5 class="color-2 font-weight-bold">{{ .case_years | markdownify }}</h5>
                             <hr class="box-hr">
-                            <p class="color-2 font-weight-bold">{{ .case_years | markdownify }}</p>
+                            <h5 class="color-2">{{ .name }}</h5>
                           </div>
                         </div>
                       </a>
