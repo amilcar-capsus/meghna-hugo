@@ -48,9 +48,9 @@
             </div>
             <div class="row justify-content-center">
               <div class="col-lg-12">
-                <ul class="nav nav-pills nav-justified mb-3 case-studies" id="pills-specialties" role="tablist">
-                  {{ range .casestudy_item }}
-                    <div class="row">
+                <div class="row">
+                  <ul class="nav nav-pills nav-justified mb-3 case-studies" id="pills-specialties" role="tablist">
+                    {{ range .casestudy_item }}
                       <li class="nav-item col-lg-4 col-md-12 col-sm-12 col-12">
                         <a id="pills-{{ .case_id }}" data-toggle="pill" href="#{{ .case_id }}" role="tab" aria-controls="{{ .case_id }}" aria-selected="false">
                           <div class="team-member" onmouseover="changeCase($(this));" onmouseout="changeCase($(this));">
@@ -68,8 +68,8 @@
                           </div>
                         </a>
                       </li>
-                    </div>
-                  {{ end }}
+                    {{ end }}
+                </div>
                 </ul>
               </div>
             </div>
