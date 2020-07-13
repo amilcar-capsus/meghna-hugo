@@ -9,8 +9,8 @@ builds
 package-lock.json
 public
 resources
-exampleSite/content/english/author
-exampleSite/content/spanish/author
-exampleSite/content/english/blog
-exampleSite/content/spanish/blog
-exampleSite/content/french
+exampleSite/content/english/author/
+exampleSite/content/spanish/author/
+exampleSite/content/english/blog/
+exampleSite/content/spanish/blog/
+exampleSite/content/french/
