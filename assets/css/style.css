@@ -623,7 +623,7 @@ h3.key-message {
 
 @media (max-width: 768px) {
   .hero-area .block h1 {
-    font-size: 2.35rem;
+    font-size: 2rem;
     text-align: center;
   }
   
@@ -633,7 +633,7 @@ h3.key-message {
     margin-right: auto !important
   }
   .hero-area .block h2 {
-    font-size: 1.24rem;
+    font-size: 1rem;
     text-align: center;
   }
 }
@@ -2729,6 +2729,14 @@ figcaption {
 
 #jobs-section .recruitment p:first-child {
   margin-bottom: 0 !important;
+}
+
+.jobs-intro h2 {
+  font-size: 1.75rem;
+}
+
+.jobs-intro h3 {
+  font-size: 1.5rem
 }
 
 .vr {
