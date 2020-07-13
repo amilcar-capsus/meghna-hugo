@@ -606,7 +606,7 @@ h3.key-message {
 
 @media (max-width: 480px) {
   .hero-area .block h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
   }
   
@@ -616,7 +616,7 @@ h3.key-message {
     margin-right: auto !important
   }
   .hero-area .block h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;
   }
 }
@@ -2653,13 +2653,13 @@ figcaption {
 
 @media (max-width: 480px) {
   .big-title {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 }
 
 @media (max-width: 768px) {
   .big-title {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 }
 
