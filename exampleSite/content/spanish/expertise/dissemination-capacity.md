@@ -4,8 +4,8 @@ expertise:
     enable : true
     main_title: "Difusión y Desarrollo de capacidades sobre "
     color_title: "sustentabilidad"
-    case_studies1: Casos de
-    case_studies2: Estudio
+    case_studies1: Algunos de
+    case_studies2: Nuestros Proyectos
     main_bg_image_webp: images/expertise/diffusion-development/Difusion-y-desarrollo-banner.jpg
     main_bg_image: images/expertise/diffusion-development/Difusion-y-desarrollo-banner.jpg
     image_webp: images/expertise/diffusion-development/Difusion-y-desarrollo-icono-1.png
@@ -16,8 +16,9 @@ expertise:
     bg_image_webp : "images/backgrounds/Background-blanco-2.jpg"
     description : "This is meta description"
     subtitle: "Soluciones creativas de entrenamiento en temas de sustentabilidad"
-    text: "Ayudamos a nuestros clientes a crear experiencias de intercambio de conocimientos con la implementación de talleres y entrenamientos integrales, así como la creación de materiales visualmente atractivos."
+    text: "Ayudamos a nuestros clientes a crear experiencias de intercambio de conocimientos con la implementación de talleres y capacitaciones integrales en temas de sustentabilidad urbana y cambio climático, así como la creación de materiales visualmente atractivos."
     icon: ""
+    key_message: "Hemos realizado más de 20 proyectos de procesos de intercambio de conocimiento y creación de capacidades en 7 países"
     casestudy_item:
       # casestudy item loop
       - name: "Asesoría Técnica en la Elaboración de Programas de Acción Climática"

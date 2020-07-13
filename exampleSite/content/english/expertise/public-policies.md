@@ -4,8 +4,8 @@ expertise:
     enable : true
     main_title: "Design and Evaluation of "
     color_title: "Public Policies"
-    case_studies1: Case
-    case_studies2: Studies
+    case_studies1: Some of
+    case_studies2: Our Projects
     main_bg_image_webp: images/expertise/public-policies/Politicas-publicas-banner.jpg
     main_bg_image: images/expertise/public-policies/Politicas-publicas-banner.jpg
     image_webp: images/expertise/public-policies/Politicas-publicas-icono-1.png
@@ -18,6 +18,7 @@ expertise:
     subtitle: "Systematic solutions to overcome challenges in different contexts"
     text: "We assist in the evaluation and design of public policies on urban sustainability, involving climate change, air quality, energy, waste management, environment, planning, resilience, public health, soil and water."
     icon: ""
+    key_message: More than 30 projects implemented internationally 
     casestudy_item:
       # casestudy item loop
       - name: "Air Quality Program for the State of Mexico 2018-2030"

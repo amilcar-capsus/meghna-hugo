@@ -24,6 +24,7 @@
                       <h2>{{ .subtitle | markdownify }}</h2>
                       <p>{{ .text | markdownify }}</p>
                       <br>
+                      <h3 class="color-4">{{ .key_message | markdownify }}</h3>
                       <i class="fas fa-leaf color"></i>
                     </div>
                   </div>
@@ -49,7 +50,7 @@
               <div class="col-lg-12">
                 <ul class="nav nav-pills nav-justified mb-3 case-studies" id="pills-specialties" role="tablist">
                   {{ range .casestudy_item }}
-                    <li class="nav-item col-lg-4 col-md-6 col-12">
+                    <li class="nav-item col-lg-4 col-md-6 col-sm-12 col-12">
                       <a id="pills-{{ .case_id }}" data-toggle="pill" href="#{{ .case_id }}" role="tab" aria-controls="{{ .case_id }}" aria-selected="false">
                         <div class="team-member" onmouseover="changeCase($(this));" onmouseout="changeCase($(this));">
                           <div class="member-photo section-bg">
@@ -60,7 +61,7 @@
                           {{"<!-- member name & designation -->" | safeHTML}}
                           <div class="text-left text-justify pt-2">
                             <h5 class="color-2 font-weight-bold">{{ .case_years | markdownify }}</h5>
-                            <hr class="box-hr">
+                            <!--<hr class="box-hr">-->
                             <h5 class="color-2">{{ .name }}</h5>
                           </div>
                         </div>

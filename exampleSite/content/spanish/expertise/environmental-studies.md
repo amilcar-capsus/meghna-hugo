@@ -4,8 +4,8 @@ expertise:
     enable : true
     main_title: "Evaluaciones y "
     color_title: "Estudios Sustentables"
-    case_studies1: Casos de
-    case_studies2: Estudio
+    case_studies1: Algunos de
+    case_studies2: Nuestros Proyectos
     main_bg_image_webp: images/expertise/evaluations-studies/Evaluaciones-y-estudios-banner.jpg
     main_bg_image: images/expertise/evaluations-studies/Evaluaciones-y-estudios-banner.jpg
     image_webp: images/expertise/evaluations-studies/Evaluaciones-y-estudios-icono-1.png
@@ -18,6 +18,7 @@ expertise:
     subtitle: "Soluciones respaldadas por información técnica sólida"
     text: "Realizamos estudios de campo y gabinete para evaluar y apoyar la implementación de proyectos de infraestructura energética y urbana."
     icon: ""
+    key_message: Hemos elaborado diversos estudios ambientales beneficiando a cerca de 1000 MW de capacidad instalada en el sector de generación limpia de electricidad
     casestudy_item:
       # casestudy item loop
       - name: "Factibilidad de Aprovechamiento Energético y Material de Residuos Sólidos Urbanos (RSU)"

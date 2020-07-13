@@ -4,8 +4,8 @@ expertise:
     enable : true
     main_title: "Planificación Urbana y "
     color_title: "Edificación Sustentable"
-    case_studies1: Casos de
-    case_studies2: Estudio
+    case_studies1: Algunos de
+    case_studies2: Nuestros Proyectos
     main_bg_image_webp: images/expertise/planning-building/Planificacion-urbana-banner.jpg
     main_bg_image: images/expertise/planning-building/Planificacion-urbana-banner.jpg
     image_webp: images/expertise/planning-building/Planificacion-urbana-icono-1.png
@@ -18,6 +18,7 @@ expertise:
     subtitle: "Soluciones para ciudades y edificaciones"
     text: "Creamos soluciones para ciudades y edificaciones que reduzcan los costos de inversión y mantenimiento, mejoren la calidad de vida de sus habitantes y tengan un buen desempeño ambiental y energético."
     icon: ""
+    key_message: Más de 50 ciudades beneficiadas con nuestro trabajo
     casestudy_item:
       # casestudy item loop
       - name: "Escenarios de crecimiento para evaluar los beneficios de la densificación urbana en la ciudad de León, Guanajuato"
