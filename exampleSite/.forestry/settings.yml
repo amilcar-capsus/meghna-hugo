@@ -74,6 +74,7 @@ sections:
   label: i18n
   create: documents
   match: "**/*"
+  exclude: fr/*
 - type: heading
   label: Configuration
 - type: directory
