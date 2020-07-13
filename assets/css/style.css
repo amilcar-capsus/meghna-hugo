@@ -634,7 +634,7 @@ a:hover {
   }
 }
 
-@media (max-width: 812px) {
+/* @media (max-width: 812px) {
   .hero-area .block h1 {
     font-size: 1.6rem;
     text-align: center;
@@ -649,7 +649,7 @@ a:hover {
     font-size: 0.8rem;
     text-align: center;
   }
-}
+}*/
 
 .hero-area .block p {
   color: #fff;
