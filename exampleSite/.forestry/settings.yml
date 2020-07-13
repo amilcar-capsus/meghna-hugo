@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Expertise
 - type: directory
   path: exampleSite/content/english/expertise
   label: Expertise (en)
@@ -14,6 +16,8 @@ sections:
   label: Expertise (es)
   create: all
   match: "**/*"
+- type: heading
+  label: Careers
 - type: directory
   path: exampleSite/content/english/careers
   label: Careers (en)
