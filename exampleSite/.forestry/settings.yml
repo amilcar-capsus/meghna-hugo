@@ -68,6 +68,7 @@ sections:
   label: Homepage
   create: all
   match: "**/*"
+  exclude: fr/*
 - type: directory
   path: exampleSite/i18n
   label: i18n
