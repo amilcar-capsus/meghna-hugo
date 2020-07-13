@@ -1,5 +1,5 @@
 ---
-title: "Urban Planning and Sustainable Building"
+title: "Urban Planning and Sustainable Building Design"
 expertise: 
     enable : true
     main_title: "Urban Planning and "

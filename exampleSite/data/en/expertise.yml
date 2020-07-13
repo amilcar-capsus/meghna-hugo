@@ -2,7 +2,7 @@
 expertise:
   enable : true
   title : Our Expertise
-  specialty_item :
+  expertise :
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
     title : SUSTAINABLE URBAN PLANNING
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
