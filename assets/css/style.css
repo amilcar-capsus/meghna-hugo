@@ -1841,6 +1841,7 @@ input#e-mail,
 
 .copyright p {
   margin-top: 10px;
+  font-size: 0.85rem !important;
 }
 
 .copyright p a {
