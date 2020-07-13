@@ -1,7 +1,7 @@
 ---
-  title: Aviso de Privacidad
+  title: Privacy Notice
   privacy_notice:
-    main_title: Aviso de Privacidad
+    main_title: Privacy Notice
     main_bg_image: images/expertise/Planificacion-urbana-banner.jpg
     table_item:
         - table_title: ""
