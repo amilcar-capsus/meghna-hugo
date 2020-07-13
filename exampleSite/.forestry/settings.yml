@@ -4,44 +4,30 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Expertise
+- type: directory
+  path: exampleSite/content/english/expertise
+  label: Expertise (en)
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/content/spanish/expertise
+  label: Expertise (es)
+  create: all
+  match: "**/*"
+- type: heading
+  label: Careers
+- type: directory
+  path: exampleSite/content/english/careers
+  label: Careers (en)
+  create: all
+  match: "**/*"
 - type: directory
   path: exampleSite/content/spanish/careers
   label: Careers (es)
   create: all
   match: "**/*"
-- type: heading
-  label: Blog Post
-- type: directory
-  path: exampleSite/content/english/blog
-  label: Post (en)
-  create: documents
-  match: "**/*"
-  new_doc_ext: '20191203072044'
-  templates:
-  - post
-- type: directory
-  path: exampleSite/content/french/blog
-  label: Post (fr)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: heading
-  label: Author
-- type: directory
-  path: exampleSite/content/english/author
-  label: Author (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
 - type: heading
   label: Data
 - type: directory
@@ -49,11 +35,13 @@ sections:
   label: Homepage
   create: all
   match: "**/*"
+  exclude: fr/*
 - type: directory
   path: exampleSite/i18n
   label: i18n
   create: documents
   match: "**/*"
+  exclude: fr/*
 - type: heading
   label: Configuration
 - type: directory
