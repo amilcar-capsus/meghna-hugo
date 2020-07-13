@@ -2748,6 +2748,10 @@ figcaption {
   margin-left: 0px;
 }
 
+h5.case-year {
+  margin-bottom: -0.5rem !important
+}
+
 #jobs-section .social-icon ul li a {
   height: 50px;
   width: 50px;
