@@ -3,6 +3,7 @@ title: Privacy Notice
 privacy_notice:
     main_title: Privacy Notice
     main_bg_image: images/expertise/planning-building/Planificacion-urbana-banner.jpg
+    last_update: "Last update: July 14th, 2020"
     table_item:
         - table_title: ""
           table_content: "Responsabilidad. CAPSUS, SC. con domicilio en Boulevard Manuel Ávila Camacho 118, int 1604 Lomas de Chapultepec, delegación Miguel Hidalgo, c.p. 11000, en la entidad de Ciudad de México, país México, y portal de internet www.capsus.mx, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:"

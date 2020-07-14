@@ -3,9 +3,11 @@ title: Aviso de Privacidad
 privacy_notice:
     main_title: Aviso de Privacidad
     main_bg_image: images/expertise/planning-building/Planificacion-urbana-banner.jpg
+    last_update: "Fecha de actualización: 14 de julio 2020"
     table_item:
         - table_title: ""
-          table_content: "Responsabilidad. CAPSUS, SC. con domicilio en Boulevard Manuel Ávila Camacho 118, int 1604 Lomas de Chapultepec, Alcaldía Miguel Hidalgo, c.p. 11000, en la entidad de Ciudad de México, país México, y portal de internet www.capsus.mx, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:"
+          table_content: |
+            Responsabilidad. CAPSUS, SC. con domicilio en Boulevard Manuel Ávila Camacho 118, int 1604 Lomas de Chapultepec, Alcaldía Miguel Hidalgo, c.p. 11000, en la entidad de Ciudad de México, país México, y portal de internet www.capsus.mx, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:
         - table_title: Primera
           table_content: |
             Finalidad del uso de datos personales. Los datos personales que recabamos de usted, los utilizaremos para las siguientes finalidades que están relacionadas con nuestro objeto social. 
