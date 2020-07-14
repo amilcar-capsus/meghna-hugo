@@ -200,6 +200,10 @@ a:hover {
   background-color: #fbfafa;
 }
 
+.bg-two {
+  background-color: !ededed;
+}
+
 .bg-dark {
   background: #242930;
 }

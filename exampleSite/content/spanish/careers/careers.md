@@ -28,7 +28,7 @@ jobs:
                 - info2_content: Ser 100% bilingüe (español, inglés).
                 - info2_content: Que su misión en la vida sea promover el desarrollo sustentable.
           info3:
-            - info3_title: "¿Cumples con los requisitos\n\nEscríbenos:"
+            - info3_title: "¿Cumples con los requisitos?\n\nEscríbenos:"
               info3_content: "Enviar por correo electrónico a: ideas@capsus.mx tu CV, una carta de motivos en español sobre porqué te interesa trabajar en CAPSUS y qué te motiva a perseguir una carrera profesional en el área de sustentabilidad y una carta en inglés donde nos cuentes: ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o). \n\n
 
               Tras analizar tu documentación te contactaremos para una entrevista en donde podremos aclarar las dudas que tengas tu y nosotros."

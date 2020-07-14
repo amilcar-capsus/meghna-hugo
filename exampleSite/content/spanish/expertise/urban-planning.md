@@ -29,8 +29,8 @@ expertise:
         case_content: "El proyecto consiste en el desarrollo de una serie de escenarios de crecimiento urbano para analizar los beneficios de la densificación urbana en terrenos baldíos previamente identificados dentro de la ciudad de León, Guanajuato. El proyecto es una colaboración con la Agencia Alemana de Cooperación Internacional (GIZ) para apoyar el proceso de planificación urbana en la ciudad de León, Guanajuato."
         tab_image: images/expertise/planning-building/Ilustra-1.png
         tab_image_webp: images/expertise/planning-building/Ilustra-1.png
-        case_image: images/expertise/planning-building/Ilustra-1.png
-        case_image_webp: images/expertise/planning-building/Ilustra-1.png
+        case_image: images/expertise/planning-building/P1_Leon_Gto.jpg
+        case_image_webp: images/expertise/planning-building/P1_Leon_Gto.jpg
       # casestudy item loop
       - name: "Escenarios de Crecimiento Urbano para el Reino Hachemita de Jordania"
         case_locations: Amman, Russeifa, Zarqa, Irbid y Mafraq, Jordania
