@@ -21,9 +21,9 @@
                     <table class="table privacy-table">
                         <tbody>
                             {{ range .table_item }}
-                            <tr>
-                                <th scope="row">{{ .table_title | markdownify }}</th>
-                                <td>{{ .table_content | markdownify}}</td>
+                            <tr class="row">
+                                <th scope="row" class="col-lg-4">{{ .table_title | markdownify }}</th>
+                                <td class="col-lg-8">{{ .table_content | markdownify}}</td>
                             </tr>
                             {{ end}}
                         </tbody>
