@@ -45,9 +45,9 @@ jobs:
                   #### PERFIL
                   Buscamos una persona convencida y comprometida con el desarrollo sustentable, idealmente que tenga entrenamiento académico y experiencia profesional en áreas de **ingeniería, economía o política pública** relacionadas al **desarrollo sustentable**, el medio ambiente, y/o la estructura urbana. Debes ser una persona totalmente **bilingüe en español e inglés**, con **excelente redacción**, dinámica, motivada, creativa, multidisciplinaria y muy buena con los números. Buscamos alguien que resuelva problemas y busque formas de lograr sus objetivos, no que encuentre razones por las cuales no se pueden alcanzar. 
 
-                  > Tu compromiso profesional debe estar en la sustentabilidad.
-                  > 
-                  > Necesitas disponer de un horario de tiempo completo en un horario de 9 a 18 horas.
+                    > Tu compromiso profesional debe estar en la sustentabilidad.
+                    > 
+                    > Necesitas disponer de un horario de tiempo completo en un horario de 9 a 18 horas.
                   
                   #### EXPERIENCIA LABORAL
                   Aunque este podría ser tu primer empleo, **debes estar titulada(o)** e idealmente buscamos alguien que tenga más de 2 años de experiencia laboral.
