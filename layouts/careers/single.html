@@ -15,7 +15,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 p-5">
-        <ul class="nav nav-pills nav nav-pills nav-justified mb-3" id="pills-jobs" role="tablist">
+        <ul class="nav nav-pills nav-justified mb-3" id="pills-jobs" role="tablist">
           {{ range .job_item }}
           <li class="nav-item">
             <a class="btn btn-transparent" onclick="$('#jobs-intro').hide();" id="pills-{{ .job_id }}" data-toggle="pill" href="#{{ .job_id }}" role="tab" aria-controls="{{ .job_id }}" aria-selected="false">
@@ -165,7 +165,7 @@
                     </div>
                   </div>
                   {{ if .info4_item }}
-                  <ul class="row justify-content-center mb-5" id="pills-vacancies" role="tablist">
+                  <ul class="nav nav-pills row justify-content-center mb-5" id="pills-vacancies" role="tablist">
                       {{ range .info4_item }}
                       <li class="nav-item col-lg-4 col-md-6 col-sm-12 col-12">
                         <a id="pills-{{ .info4_id }}" data-toggle="pill" href="#{{ .info4_id }}" role="tab" aria-controls="{{ .info4_id }}" aria-selected="false">
