@@ -1844,7 +1844,8 @@ input#e-mail,
   font-size: 0.85rem !important;
 }
 
-.copyright p a {
+.copyright p a,
+#vacants-section a {
   color: #28c5b9
 }
 
@@ -2828,10 +2829,12 @@ h5.case-years {
   border-bottom: 1px solid #28c5b9 !important;
 }
 
-#vacants-section h5 {
+#vacants-section h4 {
   color: #00495a !important;
   font-weight: 650 !important;
 }
+
+
 
 select {
   display: none;
