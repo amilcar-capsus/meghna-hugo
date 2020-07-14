@@ -100,7 +100,8 @@ jobs:
                   6. Comunicación de resultados a los participantes
                   
                   \* Dado que nuestra principal fortaleza son las personas que forman nuestro equipo, el proceso de búsqueda tiene una amplia duración, por lo que te pedimos tu paciencia.
-
+                info4_id: vac-1
+                info4_item_name: Ingeniería, Economía o Política Pública enfocado al desarrollo sustentable
               #  - info4_image: images/expertise/placeholder2.jpg
               #    info4_image_webp: images/expertise/placeholder2.webp
               #    info4_item_fulltitle: Licenciado/a en Comunicación, Educación, Sociología o áreas afines
