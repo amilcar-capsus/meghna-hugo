@@ -67,7 +67,7 @@
                 </div>
               {{ end }}
             </div>
-            <div class="row">
+            <div class="row bg-two">
               <div class="col-lg-12 ml-3">
                 <div class="tab-content" id="pills-specContent">
                   {{ range .casestudy_item }}
@@ -89,7 +89,7 @@
                         </div>
                       </div>
                       <div class="col-lg-6 my-auto">
-                        <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .tab_image | absURL }})'" src="{{ .tab_image_webp | absURL }}" />
+                        <img class="img-fluid" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .case_image | absURL }})'" src="{{ .case_image_webp | absURL }}" />
                       </div>
                     </div>
                   </div>
