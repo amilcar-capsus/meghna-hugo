@@ -14,8 +14,8 @@ jobs:
           title: ¿Quiéres trabajar
           subtitle: con nosotros?
           job_id: jobs
-          job_image: images/careers/Vacante-1.png
-          job_image_webp: images/careers/Vacante-1.png
+          job_image: images/expertise/placeholder1.jpg
+          job_image_webp: images/expertise/placeholder1.webp
           info1:
             - info1_content: "Somos un equipo multidisciplinario de profesionistas que incluye ingenieros, arquitectos, desarrolladores de software, diseñadores, educadores, politólogos, sociólogos y urbanistas.  Cuando estamos en búsqueda de ampliar el equipo, publicamos las características en nuestras redes sociales. \n\n
 
@@ -35,8 +35,8 @@ jobs:
           info4:
             - info4_title: Vacantes
               info4_item:
-              - info4_image: images/expertise/placeholder1.jpg
-                info4_image_webp: images/expertise/placeholder1.webp
+              - info4_image: images/careers/Vacante-1.png
+                info4_image_webp: images/careers/Vacante-1.png
                 info4_item_fulltitle: Ingeniería, Economía o Política Pública enfocado al desarrollo sustentable
                 info4_item_title1: ¿Quiéres dejar tu marca en el mundo?
                 info4_item_title2:  Estamos en búsqueda de nuevos integrantes para nuestro equipo en la Ciudad de México
