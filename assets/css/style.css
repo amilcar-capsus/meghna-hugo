@@ -2815,9 +2815,10 @@ h5.case-years {
   color: white !important;
 }
 
-.table.privacy-table th {
+.table.privacy-table th,
+.table.privacy-table td {
   border-top: none !important;
-  border-bottom: 1px solid #28c5b9;
+  border-bottom: 1px solid #28c5b9 !important;
 }
 
 select {
