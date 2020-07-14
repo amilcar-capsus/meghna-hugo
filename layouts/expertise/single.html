@@ -48,7 +48,7 @@
             </div>
             <div class="row justify-content-center mb-3 case-studies" id="pills-specialties" role="tablist">
               {{ range .casestudy_item }}
-                <div class="nav-item col-lg-4 col-md-6 col-sm-12 col-12">
+                <li class="nav-item col-lg-4 col-md-6 col-sm-12 col-12">
                   <a id="pills-{{ .case_id }}" data-toggle="pill" href="#{{ .case_id }}" role="tab" aria-controls="{{ .case_id }}" aria-selected="false">
                     <div class="team-member" onmouseover="changeCase($(this));" onmouseout="changeCase($(this));">
                       <div class="member-photo section-bg">
@@ -64,7 +64,7 @@
                       </div>
                     </div>
                   </a>
-                </div>
+                </li>
               {{ end }}
             </div>
           </div>
@@ -131,8 +131,6 @@
 <script>
   function changeCase(x) {
 		x.find('h5').toggleClass('color-2').toggleClass('color');
-		x.find('hr').toggleClass('box-hr').toggleClass('box-hr-green');
-    x.find('p').toggleClass('color-2').toggleClass('color');
 	}
 </script>
 {{ end }}

@@ -167,7 +167,7 @@
                   {{ if .info4_item }}
                   <div class="row justify-content-center mb-5" id="pills-vacancies" role="tablist">
                       {{ range .info4_item }}
-                      <div class="nav-item col-lg-4 col-md-6 col-sm-12 col-12">
+                      <li class="nav-item col-lg-4 col-md-6 col-sm-12 col-12">
                         <a id="pills-{{ .info4_id }}" data-toggle="pill" href="#{{ .info4_id }}" role="tab" aria-controls="{{ .info4_id }}" aria-selected="false">
                           <div class="team-member">
                             <div class="member-photo section-bg">
@@ -182,7 +182,7 @@
                             </div>
                           </div>
                         </a>
-                      </div>
+                      </li>
                       {{ end }}
                   </div>
                   {{ else }}
@@ -265,8 +265,6 @@
 <script>
   function changeCase() {
 		x.find('h5').toggleClass('color-2').toggleClass('color');
-		x.find('hr').toggleClass('box-hr').toggleClass('box-hr-green');
-		x.find('p').toggleClass('color-2').toggleClass('color');
 	}
 </script>
 {{ end }}
