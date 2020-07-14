@@ -84,7 +84,7 @@
                           <h4 class="color-2">{{ .case_years | markdownify }}</h4>
                           <img class="img-fluid" style="max-width: 60%;" alt="{{ .name }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .case_image | absURL }})'" src="{{ .case_image_webp | absURL }}" />
                         </div>
-                        <div class="text-left p-5">
+                        <div class="text-left px-5 pb-5">
                           <h4 class="color text-uppercase">{{ i18n "clients" }}</h4>
                           <div class="color-2">{{ .case_clients | markdownify }}</div>
                           <br>
