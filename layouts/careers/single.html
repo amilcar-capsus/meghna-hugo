@@ -15,7 +15,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 p-5">
-        <ul class="nav nav-pills nav-justified mb-3" id="pills-jobs" role="tablist">
+        <ul class="nav nav-pills nav nav-pills nav-justified mb-3" id="pills-jobs" role="tablist">
           {{ range .job_item }}
           <li class="nav-item">
             <a class="btn btn-transparent" onclick="$('#jobs-intro').hide();" id="pills-{{ .job_id }}" data-toggle="pill" href="#{{ .job_id }}" role="tab" aria-controls="{{ .job_id }}" aria-selected="false">
