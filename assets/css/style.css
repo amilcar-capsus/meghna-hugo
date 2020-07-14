@@ -2810,6 +2810,16 @@ h5.case-years {
   z-index: 9950 !important;
 }
 
+.table.privacy-table {
+  margin-bottom: 0 !important;
+  color: white !important;
+}
+
+.table.privacy-table th {
+  border-top: none !important;
+  border-bottom: 1px solid #28c5b9;
+}
+
 select {
   display: none;
 }
