@@ -14,8 +14,8 @@ jobs:
           title: ¿Quiéres trabajar
           subtitle: con nosotros?
           job_id: jobs
-          job_image: images/expertise/placeholder1.jpg
-          job_image_webp: images/expertise/placeholder1.webp
+          job_image: images/careers/Vacante-1.png
+          job_image_webp: images/careers/Vacante-1.png
           info1:
             - info1_content: "Somos un equipo multidisciplinario de profesionistas que incluye ingenieros, arquitectos, desarrolladores de software, diseñadores, educadores, politólogos, sociólogos y urbanistas.  Cuando estamos en búsqueda de ampliar el equipo, publicamos las características en nuestras redes sociales. \n\n
 
