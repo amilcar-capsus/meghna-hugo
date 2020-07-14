@@ -54,12 +54,12 @@ privacy_notice:
         - table_title: Sexta
           table_content: |
             Limitar el uso o divulgación de su información personal. Con objeto de que usted pueda limitar el uso y divulgación de su información personal, le ofrecemos los siguientes medios.
-            - Correo electrónico. ideas@capsus.mx
-            - Sitio web. www.capsus.mx
+            - Correo electrónico: ideas@capsus.mx
+            - Sitio web: www.capsus.mx
         - table_title: Séptima
           table_content: |
             Modificaciones al aviso de privacidad. Usted puede conocer los cambios en este aviso de privacidad. El presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones derivadas de nuevo requerimientos legales, de nuestras propias necesidades por los productos o servicios que ofrecemos de nuestras prácticas de privacidad; de cambios en nuestro modelo de negocio o por otras causas.
-            
+
             Nos comprometemos a mantenerlo informado sobre los cambios que pueda sufrir el presente aviso de privacidad, a través de nuestra página web. www.capsus.mx
 
 ---
