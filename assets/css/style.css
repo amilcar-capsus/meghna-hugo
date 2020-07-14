@@ -2693,19 +2693,22 @@ figcaption {
   border: #28c5b9 5px solid !important;
 }
 
-#expertise h5 {
+#expertise h5,
+#jobs-section h5 {
   font-size: 0.95rem;
   line-height: 1.7;
 }
 
 @media (max-width: 480px) {
-  #expertise h5 {
+  #expertise h5,
+  #jobs-section h5 {
     font-size: 1.58rem;
   }
 }
 
 @media (max-width: 768px) {
-  #expertise h5 {
+  #expertise h5,
+  #jobs-section h5 {
     font-size: 1.47rem;
   }
 }
@@ -2729,6 +2732,10 @@ figcaption {
 
 #jobs-section .recruitment p:first-child {
   margin-bottom: 0 !important;
+}
+
+#jobs-section #vacants-section a {
+  color: #28c5b9 !important;
 }
 
 .jobs-intro h2 {
@@ -2823,6 +2830,7 @@ h5.case-years {
 
 #vacants-section h5 {
   color: #00495a !important;
+  font-weight: 650 !important;
 }
 
 select {
