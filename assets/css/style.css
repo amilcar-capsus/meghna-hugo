@@ -201,7 +201,7 @@ a:hover {
 }
 
 .bg-two {
-  background-color: !ededed;
+  background-color: #ededed;
 }
 
 .bg-dark {
@@ -2701,7 +2701,7 @@ figcaption {
 #expertise h5,
 #jobs-section h5 {
   font-size: 0.95rem;
-  line-height: 1.7;
+  line-height: 1.2;
 }
 
 @media (max-width: 480px) {
