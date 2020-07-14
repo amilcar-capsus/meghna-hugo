@@ -5,6 +5,18 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Privacy Notice
+- type: directory
+  path: exampleSite/content/english/privacy
+  label: Privacy Notice (en)
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/content/spanish/privacy
+  label: Privacy Notice (es)
+  create: all
+  match: "**/*"
+- type: heading
   label: Expertise
 - type: directory
   path: exampleSite/content/english/expertise
