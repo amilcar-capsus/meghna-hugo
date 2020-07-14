@@ -43,12 +43,12 @@ jobs:
                 info4_status: Proceso de selección
                 info4_item_content: |
                   #### PERFIL
-                  Buscamos una persona convencida y comprometida con el desarrollo sustentable, idealmente que tenga entrenamiento académico y experiencia profesional en áreas de ingeniería, economía o política pública relacionadas al desarrollo sustentable, el medio ambiente, y/o la estructura urbana. Debes ser una persona totalmente bilingüe en español e inglés, con excelente redacción, dinámica, motivada, creativa, multidisciplinaria y muy buena con los números. Buscamos alguien que resuelva problemas y busque formas de lograr sus objetivos, no que encuentre razones por las cuales no se pueden alcanzar. 
+                  Buscamos una persona convencida y comprometida con el desarrollo sustentable, idealmente que tenga entrenamiento académico y experiencia profesional en áreas de **ingeniería, economía o política pública** relacionadas al **desarrollo sustentable**, el medio ambiente, y/o la estructura urbana. Debes ser una persona totalmente **bilingüe en español e inglés**, con **excelente redacción**, dinámica, motivada, creativa, multidisciplinaria y muy buena con los números. Buscamos alguien que resuelva problemas y busque formas de lograr sus objetivos, no que encuentre razones por las cuales no se pueden alcanzar. 
                   Tu compromiso profesional debe estar en la sustentabilidad.
                   Necesitas disponer de un horario de tiempo completo en un horario de 9 a 18 horas.
                   
                   #### EXPERIENCIA LABORAL
-                  Aunque este podría ser tu primer empleo, debes estar titulada(o) e idealmente buscamos alguien que tenga más de 2 años de experiencia laboral.
+                  Aunque este podría ser tu primer empleo, **debes estar titulada(o)** e idealmente buscamos alguien que tenga más de 2 años de experiencia laboral.
                   
                   #### HABILIDADES
                   - Excelente redacción profesional
@@ -89,7 +89,7 @@ jobs:
                   - Trabajo nacional e internacional.
                   
                   #### PROCESO
-                  Enviar por correo electrónico a: ideas@capsus.mx tu CV, una carta de motivos en español que explique por qué te interesa trabajar en CAPSUS y por qué crees que cumples con los requisitos qué publicamos. Además, te pedimos una carta en inglés donde nos cuentes: ¿qué te motiva a perseguir una carrera profesional en el área de sustentabilidad?, ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o). 
+                  Enviar por correo electrónico a: ideas@capsus.mx tu **CV, una carta de motivos en español** que explique por qué te interesa trabajar en CAPSUS y por qué crees que cumples con los requisitos qué publicamos. Además, te pedimos **una carta en inglés** donde nos cuentes: ¿qué te motiva a perseguir una carrera profesional en el área de sustentabilidad?, ¿Quién eres?, ¿Qué te apasiona?, ¿Qué es lo que más te gusta hacer?, ¿Cuáles son tus objetivos profesionales actuales y futuros?, y alguno(s) de tus logros o proyectos anteriores de los cuales estés orgullosa(o). 
                   
                   El proceso de selección normalmente toma entre 1 y 3 meses en concluir dependiendo del volumen de propuestas (revisamos todas las aplicaciones) y las propuestas recibidas.
                   1. Recepción de aplicaciones y CV por correo electrónico (2 ~ 6 semanas)

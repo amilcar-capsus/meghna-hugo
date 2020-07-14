@@ -14,10 +14,10 @@ contact:
       Ciudad de México, 11000"
       
     - icon : fas fa-phone-alt # themify icon pack : https://themify.me/themify-icons
-      info : "+52 1 (55) 44 31 29 27"
+      info : +52 1 (55) 44 31 29 27
       
     #- icon : ti-printer # themify icon pack : https://themify.me/themify-icons
     #  info : "Fax: +880-31-000-000"
       
     - icon : fas fa-envelope # themify icon pack : https://themify.me/themify-icons
-      info : "ideas@capsus.mx"
+      info : ideas@capsus.mx
