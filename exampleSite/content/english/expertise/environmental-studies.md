@@ -51,6 +51,6 @@ expertise:
         case_content: "Various support services for the establishment of a 400 MW wind farm and its transmission lines were carried out. Some of services performed were environmental feasibility studies, environmental Due Diligence, flora and fauna field studies, Environmental Impact Assessment, Technical Justification Study for Land Use change. The project was conducted jointly with ENVIROSENSE."
         tab_image: images/expertise/evaluations-studies/Evaluacion-caso3.png
         tab_image_webp: images/expertise/evaluations-studies/Evaluacion-caso3.png
-        case_image: images/expertise/evaluations-studies/P3_Indonesia.jpg
-        case_image_webp: images/expertise/evaluations-studies/P3_Indonesia.jpg
+        case_image: images/expertise/evaluations-studies/P3_Eolico.jpg
+        case_image_webp: images/expertise/evaluations-studies/P3_Eolico.jpg
 ---

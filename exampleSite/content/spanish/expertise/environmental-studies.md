@@ -51,6 +51,6 @@ expertise:
         case_content: "Se elaboraron diversos servicios de apoyo para el establecimiento de un parque eólico y sus líneas de transmisión, con una capacidad instalada mayor a los 400 MW. Para alcanzar el desarrollo de este proyecto, se realizaron varios servicios, como: analizar factibilidades ambientales de otras opciones, auditoría ambiental (Due Diligence), estudios de flora y fauna, Manifestación de Impacto Ambiental, Estudios Técnico Justificativo para cambio de Uso de Suelo, entre otros. Para el desarrollo del proyecto se propusieron estrategias y conductas que sirvieran para mantener en buen estatus el medio ambiente circundante."
         tab_image: images/expertise/evaluations-studies/Evaluacion-caso3.png
         tab_image_webp: images/expertise/evaluations-studies/Evaluacion-caso3.png
-        case_image: images/expertise/evaluations-studies/P3_Indonesia.jpg
-        case_image_webp: images/expertise/evaluations-studies/P3_Indonesia.jpg
+        case_image: images/expertise/evaluations-studies/P3_Eolico.jpg
+        case_image_webp: images/expertise/evaluations-studies/P3_Eolico.jpg
 ---
