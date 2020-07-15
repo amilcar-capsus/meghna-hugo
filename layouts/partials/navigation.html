@@ -44,7 +44,7 @@
 					{{ range .Site.Menus.main }}
 					{{ if not (eq .Name $jobs) }}
 						{{ if .HasChildren }}
-						<li class="nav-item dropdown"><a class="nav-link color-3" href="#">{{ i18n .Name }}</a>
+						<li class="nav-item dropdown"><a class="nav-link color-3" href="javascript:void(0);">{{ i18n .Name }}</a>
 							<ul class="dropdown-menu">
 								{{ range .Children }}
 								<li class="nav-item"><a class="nav-link color-3" href="{{ .URL | relLangURL }}">{{ i18n .Name }}</a></li>
