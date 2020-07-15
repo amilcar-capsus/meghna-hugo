@@ -76,3 +76,11 @@
   translation: Languages
 - id: vacancies
   translation: No available opportunities
+- id: success
+  translation: Thank you!
+- id: success_content
+  translation: Your communication has been successfully sent! We will email you shortly.
+- id: error
+  translation: Sorry!
+- id: error_content
+  translation: There was an error while sending your communication! If the issue persists, please contact us through other means.

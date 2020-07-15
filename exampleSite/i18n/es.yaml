@@ -76,3 +76,11 @@
   translation: Idiomas
 - id: vacancies
   translation: No hay vacantes por el momento
+- id: success
+  translation: ¡Gracias!
+- id: success_content
+  translation: ¡Tu comunicación ha sido enviada exitosamente! Nos comunicaremos a la brevedad por correo.
+- id: error
+  translation: ¡Lo sentimos!
+- id: error_content
+  translation: ¡Hubo un error al mandar tu comunicación! Si el problema persiste, comunícate con nosotros por otros medios.
