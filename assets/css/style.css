@@ -2782,6 +2782,14 @@ h5.case-years {
   line-height: 50px;
 }
 
+#intro-header {
+  font-size: 1.65rem;
+}
+
+#intro-content {
+  font-size: 1.35rem;
+}
+
 .check-list .fa-li {
   left: 4em;
 }
