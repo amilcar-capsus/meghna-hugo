@@ -2695,6 +2695,10 @@ figcaption {
   min-height: 375px;
 }
 
+.case-studies .member-photo img {
+  width: 80%;
+}
+
 .case-studies a.active .team-member .member-photo {
   border: #28c5b9 5px solid !important;
 }

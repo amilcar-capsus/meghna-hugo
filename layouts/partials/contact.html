@@ -38,7 +38,10 @@
 
 			{{"<!-- Contact Form -->" | safeHTML}}
 			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-				<form id="contact-form" data-success="{{ i18n "success" }}" data-success-msg="{{ i18n "success_content" }}" data-error="{{ i18n "error" }}" data-error-msg="{{ i18n "error_content" }}" action="/#contact" class="form-meghna" method="POST" role="form" name="contact-us" netlify>
+				<form id="contact-form" netlify-honeypot="capsussec" data-success="{{ i18n "success" }}" data-success-msg="{{ i18n "success_content" }}" data-error="{{ i18n "error" }}" data-error-msg="{{ i18n "error_content" }}" action="/#contact" class="form-meghna" method="POST" role="form" name="contact-us" netlify>
+					<p class="d-none">
+						<label>Don’t fill this out if you're human: <input name="capsussec" /></label>
+					</p>
 					<input name="e-mail" type="text" id="e-mail" autocomplete="off">
 					<div class="form-group">
 						<input type="text" placeholder="{{ i18n "name" }}" class="form-control" name="name" id="name">

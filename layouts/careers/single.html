@@ -170,7 +170,7 @@
                       <li class="nav-item col-lg-4 col-md-6 col-sm-12 col-12">
                         <a id="pills-{{ .info4_id }}" data-toggle="pill" href="#{{ .info4_id }}" role="tab" aria-controls="{{ .info4_id }}" aria-selected="false">
                           <div class="team-member" onmouseover="changeCase($(this));" onmouseout="changeCase($(this));">
-                            <div class="member-photo section-bg">
+                            <div class="member-photo section-bg text-center">
                               {{"<!-- member photo -->" | safeHTML}}
                               <img class="img-fluid" data-src="{{ .info4_image_webp | absURL }}" src="{{ .info4_image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .tab_image | absURL }}'" alt="{{ .info4_item_name }}">
                             </div>
