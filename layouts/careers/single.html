@@ -205,10 +205,10 @@
                         <div class="tab-pane fade content-fluid" id="{{ .info4_id }}" role="tabpanel" aria-labelledby="{{ .info4_id }}-tab">
                             <div class="row color-2">
                               <div class="col-lg-12">
-                                <div class="justify-content-center text-center p-5">
+                                <div class="justify-content-center text-center">
                                   <i class="fas fa-chevron-up color-2" onclick="hideCSTab();" style="cursor: pointer;" aria-hidden="true"></i>
                                 </div>
-                                <div class="justify-content-center text-center">
+                                <div class="justify-content-center text-center p-5">
                                   <h3 class="color-2 font-weight-bold">{{ .info4_item_title1 | markdownify }}</h3>
                                   <h4 class="color-2 font-weight-bolder">{{ .info4_item_title2 | markdownify }}</h4>
                                 </div>
@@ -271,7 +271,7 @@
   }
 
   function hideCSTab() {
-    $('#pills-specContent .tab-pane.active').toggleClass('active');
+    $('#pills-specContent .tab-pane.active, #pills-vacancies a.active').toggleClass('active');
   }
 </script>
 {{ end }}
