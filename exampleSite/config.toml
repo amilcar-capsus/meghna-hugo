@@ -112,6 +112,8 @@ link = "plugins/magnific-popup/magnific-popup.css"
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick-theme.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
 #[[params.plugins.css]]
 #link = "plugins/materialize/css/materialize.css"
 [[params.plugins.css]]
@@ -132,6 +134,8 @@ link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
+[[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"
 [[params.plugins.js]]
 link = "https://kit.fontawesome.com/c3acc1648f.js"
 [[params.plugins.js]]

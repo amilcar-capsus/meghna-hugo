@@ -20,7 +20,7 @@ jobs:
             - info1_content: "Somos un equipo multidisciplinario de profesionistas que incluye ingenieros, arquitectos, desarrolladores de software, diseñadores, educadores, politólogos, sociólogos y urbanistas.  Cuando estamos en búsqueda de ampliar el equipo, publicamos las características en nuestras redes sociales. \n\n
 
             Te invitamos a que sigas visitando nuestra página web para que nos conozcas."
-              info1_title: Descubre si somos el grupo de personas con quien te gustaría trabajar y crecer profesionalmente.
+              info1_title: Descubre si somos el grupo de personas con quien te gustaría trabajar y crecer profesionalmente
           info2: 
             - info2_title: ¿Qué pedimos a nuestros colegas?
               info2_item: 
@@ -47,7 +47,7 @@ jobs:
 
                     > Tu compromiso profesional debe estar en la sustentabilidad.
                     > 
-                    > Necesitas disponer de un horario de tiempo completo en un horario de 9 a 18 horas.
+                    > Tu disponibilidad debe ser de tiempo completo en un horario de 9 a 18 horas.
                   
                   #### EXPERIENCIA LABORAL
                   Aunque este podría ser tu primer empleo, **debes estar titulada(o)** e idealmente buscamos alguien que tenga más de 2 años de experiencia laboral.

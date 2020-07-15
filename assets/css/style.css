@@ -1846,9 +1846,10 @@ input#e-mail,
 .copyright p {
   margin-top: 10px;
   font-size: 0.85rem !important;
+  margin-bottom: 0 !important
 }
 
-.copyright p a,
+#privacy-link a,
 #vacants-section a {
   color: #28c5b9
 }
@@ -2698,7 +2699,7 @@ figcaption {
   border: #28c5b9 5px solid !important;
 }
 
-#expertise h5,
+#expertise-section h5,
 #jobs-section h5 {
   font-size: 0.95rem;
   line-height: 1.2;
