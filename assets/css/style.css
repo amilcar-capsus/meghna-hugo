@@ -2692,7 +2692,7 @@ figcaption {
 
 .case-studies a .team-member {
   border: none;
-  min-height: 375px;
+  min-height: 320px;
 }
 
 .case-studies .member-photo img {

@@ -247,9 +247,9 @@ jQuery(function ($) {
 		var errorTitle = $form.data('error');
 		var errorContent = $form.data('error-msg');
 		$.post($form.attr("action"), $form.serialize()).then(function() {
-		  toastr.success(successContent);
+		  toastr.success(success + " " + successContent);
 		}, function() {
-			toastr.error(errorContent);
+			toastr.error(errorTitle + " " + errorContent);
 		});
 	  });
 });
