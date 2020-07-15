@@ -29,8 +29,8 @@ expertise:
         case_content: "Se asesoró y capacitó a cinco municipios mexicanos para la elaboración de sus Planes de Acción Climática locales. El proceso incluyó la compilación de un inventario de emisiones de gases de efecto invernadero, un análisis de riesgos y vulnerabilidades climáticas, la elaboración de medidas y estrategias de mitigación y resiliencia climática, la priorización de las mismas y las estrategias de comunicación e interacción comunitaria. El proyecto se llevó a cabo en colaboración con el Pacto Global de los Alcaldes por el Clima y la Energía (GCoM), y el Programa de Cooperación Urbana Internacional (IUC)."
         tab_image: images/expertise/diffusion-development/difusion-caso1.png
         tab_image_webp: images/expertise/diffusion-development/difusion-caso1.png
-        case_image: images/expertise/diffusion-development/difusion-caso1.png
-        case_image_webp: images/expertise/diffusion-development/difusion-caso1.png
+        case_image: images/expertise/diffusion-development/P1_accion-climatica.jpg
+        case_image_webp: images/expertise/diffusion-development/P1_accion-climatica.jpg
       # casestudy item loop
       - name: "Estrategia de Participación y Comunicación Social para Asunción, Paraguay"
         case_locations: Asunción, Paraguay
@@ -40,8 +40,8 @@ expertise:
         case_content: "Se diseñó e implementó la estrategia de comunicación y participación social para el programa de Rehabilitación y Vivienda del Bañado Sur, Barrio Tacumbú en  Asunción, Paraguay. La estrategia se compone de tres mecanismos 1) Información y comunicación social, 2) Consulta y participación Social, y 3) Atención a quejas y reclamos. Estos mecanismos se apoyan en una plataforma digital llamada “CollabMap”. El objetivo del proyecto es fortalecer la comunicación y gestión de la información, la inclusión social, la atención a quejas y potenciar la participación activa de la población en torno al Programa y los proyectos asociados de consolidación de barrio. De manera adicional y derivado de una extensión del contrato, se adaptaron herramientas digitales para concentrar información proveniente de diversas instituciones, recolectar información en territorio, analizar datos para fomentar la toma de decisiones informadas en relación a grupos vulnerables en el marco del COVID-19."
         tab_image: images/expertise/diffusion-development/difusion-caso2.png
         tab_image_webp: images/expertise/diffusion-development/difusion-caso2.png
-        case_image: images/expertise/diffusion-development/difusion-caso2.png
-        case_image_webp: images/expertise/diffusion-development/difusion-caso2.png
+        case_image: images/expertise/diffusion-development/P2_paraguay.jpg
+        case_image_webp: images/expertise/diffusion-development/P2_paraguay.jpg
       # casestudy item loop
       - name: "Estrategia de Comunicación y Construcción de Capacidades para la Infraestructura de Datos Espaciales Municipales"
         case_locations: Indonesia
@@ -51,6 +51,6 @@ expertise:
         case_content: "Este Proyecto es una asesoría para el desarrollo de una estrategia de comunicación interna, de diseminación e intercambio de conocimiento para City Planning Labs (CPL), asesoría técnica del Grupo Banco Mundial. Con este proyecto CPL contará con el apoyo de CAPSUS en la organización de talleres y grupos de trabajo para crear y mejorar capacidades locales en la infraestructura municipal de datos."
         tab_image: images/expertise/diffusion-development/difusion-caso3.png
         tab_image_webp: images/expertise/diffusion-development/difusion-caso3.png
-        case_image: images/expertise/diffusion-development/difusion-caso3.png
-        case_image_webp: images/expertise/diffusion-development/difusion-caso3.png
+        case_image: images/expertise/diffusion-development/P3_CPL.jpg
+        case_image_webp: images/expertise/diffusion-development/P3_CPL.jpg
 ---

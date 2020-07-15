@@ -29,8 +29,8 @@ expertise:
         case_content: "Five Mexican cities were trained in the preparation of their local Climate Action Plans. The process included the compilation of a greenhouse gas emissions inventory, climate risks and vulnerabilities analysis, the development of climate mitigation and resilience measures and strategies, their prioritization and communication and community interaction strategies. The project was carried out in collaboration with the Global Covenant of Mayors for Climate and Energy (GCoM), and the International Urban Cooperation Program (IUC)."
         tab_image: images/expertise/diffusion-development/difusion-caso1.png
         tab_image_webp: images/expertise/diffusion-development/difusion-caso1.png
-        case_image: images/expertise/diffusion-development/difusion-caso1.png
-        case_image_webp: images/expertise/diffusion-development/difusion-caso1.png
+        case_image: images/expertise/diffusion-development/P1_accion-climatica.jpg
+        case_image_webp: images/expertise/diffusion-development/P1_accion-climatica.jpg
       # casestudy item loop
       - name: "Social Communication and Participation Strategy for Asunción, Paraguay"
         case_locations: Asuncion, Paraguay
@@ -41,8 +41,8 @@ expertise:
         Derived from a contract extension, additional urban planning tools are being implemented to gather field and institutional information, which will advance informed decision making for vulnerable groups during the COVID-19 crisis and recovery stage."
         tab_image: images/expertise/diffusion-development/difusion-caso2.png
         tab_image_webp: images/expertise/diffusion-development/difusion-caso2.png
-        case_image: images/expertise/diffusion-development/difusion-caso2.png
-        case_image_webp: images/expertise/diffusion-development/difusion-caso2.png
+        case_image: images/expertise/diffusion-development/P2_paraguay.jpg
+        case_image_webp: images/expertise/diffusion-development/P2_paraguay.jpg
       # casestudy item loop
       - name: "Communication Strategy and Capacity Building for Municipal Spatial Data Infrastructure"
         case_locations: Indonesia
@@ -52,6 +52,6 @@ expertise:
         case_content: "Development of an internal communication, dissemination and knowledge exchange strategy for City Planning Labs (CPL), which is a World Bank Group technical assistance initiative. CAPSUS assistance consisted in organizing workshops and working groups to improve local capacities in data management."
         tab_image: images/expertise/diffusion-development/difusion-caso3.png
         tab_image_webp: images/expertise/diffusion-development/difusion-caso3.png
-        case_image: images/expertise/diffusion-development/difusion-caso3.png
-        case_image_webp: images/expertise/diffusion-development/difusion-caso3.png
+        case_image: images/expertise/diffusion-development/P3_CPL.jpg
+        case_image_webp: images/expertise/diffusion-development/P3_CPL.jpg
 ---

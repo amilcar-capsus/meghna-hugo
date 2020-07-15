@@ -40,8 +40,8 @@ expertise:
         case_content: "Mediante la modelación de escenarios urbanos, el gobierno nacional de Jordania y las autoridades locales de Amman, Irbid, Russeifa, Zarqa y Mafraq evaluaron estrategias e inversiones para impulsar un desarrollo urbano sustentable a largo plazo. El estudio compara diferentes alternativas de crecimiento urbano para las cinco ciudades. A través del estudio se comparó cuantitativamente el impacto de diferentes políticas públicas en lo ambiental, social y económico, informando a los tomadores de decisiones y generando consenso sobre las políticas que otorgan mayores beneficios. El proyecto se desarrolló con fondos del Korean Green Growth Trust Fund a través del Grupo Banco Mundial."
         tab_image: images/expertise/planning-building/Ilustra-2.png
         tab_image_webp: images/expertise/planning-building/Ilustra-2.png
-        case_image: images/expertise/planning-building/Ilustra-2.png
-        case_image_webp: images/expertise/planning-building/Ilustra-2.png
+        case_image: images/expertise/planning-building/P2_Jordania.jpg
+        case_image_webp: images/expertise/planning-building/P2_Jordania.jpg
       # casestudy item loop
       - name: "Escenarios de Crecimiento Urbano para Indonesia"
         case_locations: Denpasar, Palu y Semarang, Indonesia
@@ -52,6 +52,6 @@ expertise:
         Finalmente, como una extensión para Indonesia, se propusieron áreas para la reubicación de asentamientos de población en Palu después del terremoto y tsunami de 2018."
         tab_image: images/expertise/planning-building/Ilustra-3.png
         tab_image_webp: images/expertise/planning-building/Ilustra-3.png
-        case_image: images/expertise/planning-building/Ilustra-3.png
-        case_image_webp: images/expertise/planning-building/Ilustra-3.png
+        case_image: images/expertise/planning-building/P3_Indonesia.jpg
+        case_image_webp: images/expertise/planning-building/P3_Indonesia.jpg
 ---

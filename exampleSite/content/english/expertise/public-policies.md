@@ -29,8 +29,8 @@ expertise:
         case_content: "The Program to Improve the Air Quality of the State of Mexico was developed. To this end, an air quality diagnosis was carried out in the State of Mexico that included the development of the emissions inventory, institutional analysis, budget and operational capacities, as well as the results of atmospheric monitoring stations. Based on the diagnosis, the state strategy was developed to reduce the emission of local air pollutants, reverse deterioration trends, protect public health and strengthen monitoring. A list of public policy strategies and actions was developed, where the policy actions were prioritized, assessed in terms of their reduction of air contaminants and their cost of implementation was estimated."
         tab_image: images/expertise/public-policies/politicas-caso1.png
         tab_image_webp: images/expertise/public-policies/politicas-caso1.png
-        case_image: images/specialities/public-policies/politicas-caso1.png
-        case_image_webp: images/expertise/public-policies/politicas-caso1.png
+        case_image: images/expertise/public-policies/P1_EDOMEX.jpg
+        case_image_webp: images/expertise/public-policies/P1_EDOMEX.jpg
       # casestudy item loop
       - name: "Review of the Mexico City Climate Action Plan"
         case_locations: Mexico City, Mexico
@@ -40,8 +40,8 @@ expertise:
         case_content: "Based on the C40 guidelines and The Paris commitments, the Climate Action Plan (PAC) of Mexico City 2020 to 2050 was revised. Following the review, a technical opinion was issued to C40 on the process of developing the CAP, the content, the goals and the general consistency with the commitment of mayors of the cities that are part of the C40. The review covered the areas of participatory processes, integration of vulnerable groups, emissions inventory, climate vulnerability analysis, measures, prioritization, costs and financing."
         tab_image: images/expertise/public-policies/politicas-caso2.png
         tab_image_webp: images/expertise/public-policies/politicas-caso2.png
-        case_image: images/specialities/public-policies/politicas-caso2.png
-        case_image_webp: images/expertise/public-policies/politicas-caso2.png
+        case_image: images/expertise/public-policies/P2_CDMX.jpg
+        case_image_webp: images/expertise/public-policies/P2_CDMX.jpg
       # casestudy item loop
       - name: "Sustainable Strategy for the Social Housing Sector of Mexico"
         case_locations: Mexico
@@ -51,6 +51,6 @@ expertise:
         case_content: "Work was carried out with several developers of social housing in Mexico, with the dual purpose of: (1) propose a sustainability scheme in housing that is cost-effective for businesses and its people, achieving high energy efficiency and improving environmental performance; and (2) quantify the benefits in terms of energy savings and mitigation of greenhouse gases that the sector’s actions have had and will have in the future."
         tab_image: images/expertise/public-policies/politicas-caso3.png
         tab_image_webp: images/expertise/public-policies/politicas-caso3.png
-        case_image: images/specialities/public-policies/politicas-caso3.png
-        case_image_webp: images/expertise/public-policies/politicas-caso3.png
+        case_image: images/expertise/public-policies/P3_vivienda.jpg
+        case_image_webp: images/expertise/public-policies/P3_vivienda.jpg
 ---
