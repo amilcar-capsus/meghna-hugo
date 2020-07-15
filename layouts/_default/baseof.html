@@ -3,6 +3,32 @@
 {{ partial "head.html" . }}
 
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
+  <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+    <div class="toast" id="success-toast" style="position: absolute; top: 0; right: 0;">
+      <div class="toast-header">
+        <strong class="mr-auto">{{ i18n "success_title" }}</strong>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="toast-body">
+        {{ i18n "success_content" }}
+      </div>
+    </div>
+  </div>
+  <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+    <div class="toast" id="error-toast" style="position: absolute; top: 0; right: 0;">
+      <div class="toast-header">
+        <strong class="mr-auto">{{ i18n "error_title" }}</strong>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="toast-body">
+        {{ i18n "error_content" }}
+      </div>
+    </div>
+  </div>
   <div id="content">
     {{ partial "preloader.html" . }}
     {{- block "main" . }}{{- end }}

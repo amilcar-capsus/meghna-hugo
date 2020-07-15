@@ -234,4 +234,18 @@ jQuery(function ($) {
 	$(document).ready(function(){
 		$('select').formSelect();
 	  });
+
+	/* ========================================================================= */
+	/*	Scrolling text
+	/* ========================================================================= */
+	$("#contact-form").submit(function(e) {
+		e.preventDefault();
+	  
+		var $form = $(this);
+		$.post($form.attr("action"), $form.serialize()).then(function() {
+		  $('success-toast').toast('show');
+		}, function() {
+			$('error-toast').toast('show');
+		});
+	  });
 });
